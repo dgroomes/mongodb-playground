@@ -64,3 +64,9 @@ General clean-ups, TODOs and things I wish to implement for this project:
 * [MongoDB: run the `mongod` process](https://docs.mongodb.com/manual/tutorial/manage-mongodb-processes/)
 * [MongoDB: *Aggregation with the Zip Code Data Set* tutorial](https://docs.mongodb.com/manual/tutorial/aggregation-zip-code-data-set/)
 * [MongoDB: *Write Scripts for the `mongo` Shell*`](https://docs.mongodb.com/manual/tutorial/write-scripts-for-the-mongo-shell/)
+* [MongoDB: *Data Model Design*](https://docs.mongodb.com/manual/core/data-model-design)
+  * Are you coming from a traditional SQL and relational background which favors a normalized data model? This page is
+    an important one to read. It describes how idiomatic data model designs in Mongo are usually purposely de-normalized.
+    In practice, this means "Store your data as embedded data in an existing document. Don't make a new collection!" (at
+    least, that's my understanding so far).
+    
