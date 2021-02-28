@@ -8,7 +8,7 @@ Note: this was developed on macOS.
 
 As a pre-requisite, you must install Mongo. See the [Installing Mongo](#installing-mongo) section for options.
 
-1. Start Mongo
+1. Start the MongoDB server
 1. Load the database with Zip Code test data (this is from the official Mongo site):
    * `mongoimport data/zips.json`
 1. Start a shell session:
@@ -18,7 +18,17 @@ As a pre-requisite, you must install Mongo. See the [Installing Mongo](#installi
 1. Query the size of the `zips` collection:
    * `db.zips.find().size()`
    * Success, you've done it!
-1. Stop Mongo
+1. Stop the MongoDB server
+
+### Queries
+
+There are pre-written queries in the `queries/` directory. They can be executed via the `mongo` shell. For example:
+
+```
+mongo --quiet queries/zips-size.js
+```
+
+It should print `29353` in the terminal.
 
 ### Installing Mongo
 
@@ -44,7 +54,7 @@ accomplish that. Using the Docker option, you can do the following:
 General clean-ups, TODOs and things I wish to implement for this project:
 
 * DONE Create test data and load it into Mongo
-* Create some test queries
+* DONE Create some test queries
 * Do something with "aggregation pipelines"
 
 ## Referenced materials
@@ -53,3 +63,4 @@ General clean-ups, TODOs and things I wish to implement for this project:
 * [MongoDB: *Installing the Database Tools on macOS*](https://docs.mongodb.com/database-tools/installation/installation-macos/)
 * [MongoDB: run the `mongod` process](https://docs.mongodb.com/manual/tutorial/manage-mongodb-processes/)
 * [MongoDB: *Aggregation with the Zip Code Data Set* tutorial](https://docs.mongodb.com/manual/tutorial/aggregation-zip-code-data-set/)
+* [MongoDB: *Write Scripts for the `mongo` Shell*`](https://docs.mongodb.com/manual/tutorial/write-scripts-for-the-mongo-shell/)
