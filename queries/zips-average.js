@@ -1,7 +1,7 @@
-// NOT YET IMPLEMENTED
+// IN PROGRESS
 // Compute multiple averages across the Zip code data. Features of this include:
 //
-//   * (NOT IMPLEMENTED) Average population of the Zip areas for each city
+//   * Average population of the Zip areas for each city
 //   * (NOT IMPLEMENTED) Average population of the Zip areas for each state
 //   * (NOT IMPLEMENTED) Incremental updates for "Average population of the Zip areas for each city" when new Zip areas
 //     are added
@@ -12,3 +12,28 @@
 //     actually replace old data. So, I think this will be an interesting example to see how it can actually be implemented.
 //     Will it require an awkward implementation? Note: this could be considered a de-duplication example because we have
 //     to de-duplicate the two data points for 01001: we have to toss the old population data and use the new data.
+
+let cursor = db.zips.aggregate([
+  {
+    $group: {
+      "_id": { city: "$city", state: "$state" },
+      zip_areas: { $sum: 1 },
+      population: { $sum: "$pop" }
+    }
+  },
+  {
+    $set: {
+      average_population: {
+        "$divide": ["$population", "$zip_areas"]
+      }
+    }
+  },
+  { $sort: { zip_areas: -1 } }
+])
+
+print("Average population of the Zip areas for each city")
+for (let i = 0; i < 3; i++) {
+  printjson(cursor.next())
+}
+print()
+

@@ -1,0 +1,9 @@
+# https://EditorConfig.org
+
+# Restrict editorconfig from looking upwards in containing directories.
+root = true
+
+# 4 space indentation
+[*.js]
+indent_style = space
+indent_size = 2
