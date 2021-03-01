@@ -30,6 +30,14 @@ mongo --quiet queries/zips-size.js
 
 It should print `635` in the terminal.
 
+### Notes
+
+Import all of the Zip code data files with this command:
+
+```
+mongoimport --db test --collection zips <(cat data/zips_*)
+```
+
 ### Installing Mongo
 
 There are various options for getting up and running with MongoDB locally. The most direct way is to download MongoDB
