@@ -1,0 +1,243 @@
+{"_id":"05001","city":"WHITE RIVER JUNC","loc":[-72.350351,43.663431],"pop":9500,"state":"VT"}
+{"_id":"05032","city":"BETHEL","loc":[-72.652807,43.819464],"pop":2725,"state":"VT"}
+{"_id":"05033","city":"BRADFORD","loc":[-72.140638,44.0006],"pop":2480,"state":"VT"}
+{"_id":"05034","city":"BRIDGEWATER","loc":[-72.646704,43.580428],"pop":130,"state":"VT"}
+{"_id":"05035","city":"BRIDGEWATER CORN","loc":[-72.682212,43.602147],"pop":662,"state":"VT"}
+{"_id":"05036","city":"BROOKFIELD","loc":[-72.595259,44.032083],"pop":453,"state":"VT"}
+{"_id":"05037","city":"BROWNSVILLE","loc":[-72.494405,43.464584],"pop":415,"state":"VT"}
+{"_id":"05038","city":"CHELSEA","loc":[-72.479303,44.003931],"pop":1022,"state":"VT"}
+{"_id":"05039","city":"CORINTH","loc":[-72.282241,44.032533],"pop":1035,"state":"VT"}
+{"_id":"05040","city":"EAST CORINTH","loc":[-72.215144,44.061851],"pop":279,"state":"VT"}
+{"_id":"05041","city":"EAST RANDOLPH","loc":[-72.548746,43.955297],"pop":322,"state":"VT"}
+{"_id":"05042","city":"RYEGATE","loc":[-72.072669,44.193453],"pop":328,"state":"VT"}
+{"_id":"05043","city":"EAST THETFORD","loc":[-72.19668,43.825757],"pop":657,"state":"VT"}
+{"_id":"05045","city":"FAIRLEE","loc":[-72.190214,43.90105],"pop":1631,"state":"VT"}
+{"_id":"05046","city":"GROTON","loc":[-72.217548,44.220435],"pop":862,"state":"VT"}
+{"_id":"05048","city":"HARTLAND","loc":[-72.413103,43.570764],"pop":1730,"state":"VT"}
+{"_id":"05051","city":"NEWBURY","loc":[-72.107231,44.096555],"pop":1488,"state":"VT"}
+{"_id":"05052","city":"NORTH HARTLAND","loc":[-72.352591,43.596721],"pop":429,"state":"VT"}
+{"_id":"05053","city":"NORTH POMFRET","loc":[-72.494287,43.720401],"pop":254,"state":"VT"}
+{"_id":"05055","city":"NORWICH","loc":[-72.30162,43.740373],"pop":2969,"state":"VT"}
+{"_id":"05056","city":"PLYMOUTH","loc":[-72.710655,43.498653],"pop":319,"state":"VT"}
+{"_id":"05058","city":"POST MILLS","loc":[-72.262031,43.893288],"pop":511,"state":"VT"}
+{"_id":"05060","city":"RANDOLPH","loc":[-72.67258,43.944399],"pop":4421,"state":"VT"}
+{"_id":"05061","city":"RANDOLPH CENTER","loc":[-72.596975,43.9379],"pop":1567,"state":"VT"}
+{"_id":"05062","city":"READING","loc":[-72.570446,43.47935],"pop":614,"state":"VT"}
+{"_id":"05065","city":"SHARON","loc":[-72.424283,43.774843],"pop":599,"state":"VT"}
+{"_id":"05067","city":"SOUTH POMFRET","loc":[-72.534907,43.679665],"pop":281,"state":"VT"}
+{"_id":"05068","city":"SOUTH ROYALTON","loc":[-72.523228,43.808931],"pop":3169,"state":"VT"}
+{"_id":"05069","city":"SOUTH RYEGATE","loc":[-72.129558,44.211075],"pop":730,"state":"VT"}
+{"_id":"05070","city":"SOUTH STRAFFORD","loc":[-72.369959,43.828238],"pop":331,"state":"VT"}
+{"_id":"05071","city":"SOUTH WOODSTOCK","loc":[-72.538383,43.560137],"pop":406,"state":"VT"}
+{"_id":"05072","city":"STRAFFORD","loc":[-72.36363,43.872306],"pop":554,"state":"VT"}
+{"_id":"05073","city":"TAFTSVILLE","loc":[-72.467331,43.629819],"pop":35,"state":"VT"}
+{"_id":"05075","city":"THETFORD CENTER","loc":[-72.266204,43.814883],"pop":1014,"state":"VT"}
+{"_id":"05077","city":"TUNBRIDGE","loc":[-72.478578,43.9169],"pop":1352,"state":"VT"}
+{"_id":"05079","city":"VERSHIRE","loc":[-72.319015,43.961811],"pop":565,"state":"VT"}
+{"_id":"05081","city":"WELLS RIVER","loc":[-72.052958,44.152438],"pop":473,"state":"VT"}
+{"_id":"05083","city":"WEST FAIRLEE","loc":[-72.26163,43.92232],"pop":153,"state":"VT"}
+{"_id":"05084","city":"WEST HARTFORD","loc":[-72.444618,43.716068],"pop":135,"state":"VT"}
+{"_id":"05086","city":"WEST TOPSHAM","loc":[-72.270051,44.119925],"pop":1050,"state":"VT"}
+{"_id":"05089","city":"WINDSOR","loc":[-72.410998,43.476032],"pop":5406,"state":"VT"}
+{"_id":"05091","city":"WOODSTOCK","loc":[-72.538455,43.62482],"pop":3742,"state":"VT"}
+{"_id":"05101","city":"BELLOWS FALLS","loc":[-72.466373,43.148198],"pop":5433,"state":"VT"}
+{"_id":"05141","city":"CAMBRIDGEPORT","loc":[-72.565511,43.153363],"pop":118,"state":"VT"}
+{"_id":"05142","city":"CAVENDISH","loc":[-72.609247,43.376621],"pop":258,"state":"VT"}
+{"_id":"05143","city":"CHESTER","loc":[-72.603125,43.283124],"pop":3449,"state":"VT"}
+{"_id":"05146","city":"GRAFTON","loc":[-72.597229,43.160095],"pop":823,"state":"VT"}
+{"_id":"05148","city":"BROMLEY MTN","loc":[-72.801756,43.223961],"pop":986,"state":"VT"}
+{"_id":"05149","city":"LUDLOW","loc":[-72.700184,43.392909],"pop":2420,"state":"VT"}
+{"_id":"05150","city":"NORTH SPRINGFIEL","loc":[-72.529096,43.335452],"pop":824,"state":"VT"}
+{"_id":"05151","city":"PERKINSVILLE","loc":[-72.503813,43.387885],"pop":1181,"state":"VT"}
+{"_id":"05152","city":"PERU","loc":[-72.886797,43.256532],"pop":458,"state":"VT"}
+{"_id":"05153","city":"PROCTORSVILLE","loc":[-72.61962,43.4005],"pop":1065,"state":"VT"}
+{"_id":"05154","city":"SAXTONS RIVER","loc":[-72.508107,43.137861],"pop":681,"state":"VT"}
+{"_id":"05155","city":"SOUTH LONDONDERR","loc":[-72.811787,43.183082],"pop":546,"state":"VT"}
+{"_id":"05156","city":"SPRINGFIELD","loc":[-72.477769,43.303433],"pop":9231,"state":"VT"}
+{"_id":"05161","city":"WESTON","loc":[-72.793523,43.29409],"pop":488,"state":"VT"}
+{"_id":"05201","city":"BENNINGTON","loc":[-73.192321,42.882658],"pop":14757,"state":"VT"}
+{"_id":"05250","city":"ARLINGTON","loc":[-73.159364,43.085681],"pop":3006,"state":"VT"}
+{"_id":"05251","city":"DORSET","loc":[-73.076603,43.263561],"pop":1402,"state":"VT"}
+{"_id":"05252","city":"EAST ARLINGTON","loc":[-73.138904,43.063801],"pop":443,"state":"VT"}
+{"_id":"05253","city":"EAST DORSET","loc":[-73.008146,43.236982],"pop":516,"state":"VT"}
+{"_id":"05255","city":"MANCHESTER CENTE","loc":[-73.052313,43.175223],"pop":3622,"state":"VT"}
+{"_id":"05257","city":"NORTH BENNINGTON","loc":[-73.237531,42.92385],"pop":2037,"state":"VT"}
+{"_id":"05260","city":"NORTH POWNAL","loc":[-73.25343,42.809775],"pop":523,"state":"VT"}
+{"_id":"05261","city":"POWNAL","loc":[-73.21624,42.787955],"pop":2962,"state":"VT"}
+{"_id":"05262","city":"SHAFTSBURY","loc":[-73.216591,42.96144],"pop":3363,"state":"VT"}
+{"_id":"05301","city":"BRATTLEBORO","loc":[-72.593322,42.857353],"pop":17522,"state":"VT"}
+{"_id":"05340","city":"BONDVILLE","loc":[-72.912768,43.161831],"pop":482,"state":"VT"}
+{"_id":"05341","city":"EAST DOVER","loc":[-72.783032,42.950508],"pop":253,"state":"VT"}
+{"_id":"05342","city":"JACKSONVILLE","loc":[-72.807121,42.777752],"pop":406,"state":"VT"}
+{"_id":"05343","city":"JAMAICA","loc":[-72.794409,43.104235],"pop":603,"state":"VT"}
+{"_id":"05345","city":"NEWFANE","loc":[-72.678078,42.97043],"pop":1389,"state":"VT"}
+{"_id":"05346","city":"PUTNEY","loc":[-72.512272,43.035561],"pop":4971,"state":"VT"}
+{"_id":"05350","city":"READSBORO","loc":[-72.960886,42.78367],"pop":762,"state":"VT"}
+{"_id":"05352","city":"STAMFORD","loc":[-73.069068,42.76962],"pop":773,"state":"VT"}
+{"_id":"05353","city":"TOWNSHEND","loc":[-72.668676,43.062174],"pop":920,"state":"VT"}
+{"_id":"05354","city":"VERNON","loc":[-72.511547,42.756468],"pop":1850,"state":"VT"}
+{"_id":"05355","city":"WARDSBORO","loc":[-72.807687,43.032649],"pop":573,"state":"VT"}
+{"_id":"05356","city":"MOUNT SNOW","loc":[-72.854235,42.956029],"pop":743,"state":"VT"}
+{"_id":"05358","city":"WEST HALIFAX","loc":[-72.750142,42.776103],"pop":202,"state":"VT"}
+{"_id":"05359","city":"WEST TOWNSHEND","loc":[-72.720985,43.130044],"pop":402,"state":"VT"}
+{"_id":"05360","city":"WEST WARDSBORO","loc":[-72.880537,43.047221],"pop":228,"state":"VT"}
+{"_id":"05361","city":"WHITINGHAM","loc":[-72.856001,42.790071],"pop":921,"state":"VT"}
+{"_id":"05362","city":"WILLIAMSVILLE","loc":[-72.658406,42.948151],"pop":166,"state":"VT"}
+{"_id":"05363","city":"WILMINGTON","loc":[-72.861316,42.881216],"pop":2053,"state":"VT"}
+{"_id":"05401","city":"BURLINGTON","loc":[-73.219875,44.484023],"pop":39127,"state":"VT"}
+{"_id":"05403","city":"SOUTH BURLINGTON","loc":[-73.179617,44.451324],"pop":12809,"state":"VT"}
+{"_id":"05404","city":"WINOOSKI","loc":[-73.187413,44.494898],"pop":6649,"state":"VT"}
+{"_id":"05405","city":"UNIV OF VERMONT","loc":[-73.2002,44.477733],"pop":0,"state":"VT"}
+{"_id":"05440","city":"ALBURG","loc":[-73.280963,44.968454],"pop":1362,"state":"VT"}
+{"_id":"05441","city":"BAKERSFIELD","loc":[-72.796834,44.790518],"pop":973,"state":"VT"}
+{"_id":"05443","city":"BRISTOL","loc":[-73.071742,44.146031],"pop":6685,"state":"VT"}
+{"_id":"05444","city":"CAMBRIDGE","loc":[-72.865728,44.651013],"pop":3491,"state":"VT"}
+{"_id":"05445","city":"CHARLOTTE","loc":[-73.227969,44.311277],"pop":3009,"state":"VT"}
+{"_id":"05446","city":"COLCHESTER","loc":[-73.202216,44.535956],"pop":14731,"state":"VT"}
+{"_id":"05447","city":"EAST BERKSHIRE","loc":[-72.706564,44.929798],"pop":94,"state":"VT"}
+{"_id":"05448","city":"EAST FAIRFIELD","loc":[-72.910995,44.801805],"pop":1076,"state":"VT"}
+{"_id":"05450","city":"ENOSBURG FALLS","loc":[-72.791037,44.898491],"pop":2268,"state":"VT"}
+{"_id":"05452","city":"ESSEX JUNCTION","loc":[-73.090644,44.503466],"pop":17050,"state":"VT"}
+{"_id":"05454","city":"FAIRFAX","loc":[-73.024078,44.692387],"pop":2990,"state":"VT"}
+{"_id":"05455","city":"FAIRFIELD","loc":[-73.022187,44.784087],"pop":359,"state":"VT"}
+{"_id":"05456","city":"FERRISBURG","loc":[-73.258575,44.212822],"pop":951,"state":"VT"}
+{"_id":"05457","city":"FRANKLIN","loc":[-72.903694,44.961408],"pop":1475,"state":"VT"}
+{"_id":"05458","city":"GRAND ISLE","loc":[-73.30561,44.719711],"pop":1590,"state":"VT"}
+{"_id":"05459","city":"HIGHGATE CENTER","loc":[-73.015468,44.940395],"pop":1567,"state":"VT"}
+{"_id":"05461","city":"HINESBURG","loc":[-73.097955,44.334621],"pop":3187,"state":"VT"}
+{"_id":"05462","city":"HUNTINGTON","loc":[-72.996432,44.322655],"pop":2223,"state":"VT"}
+{"_id":"05463","city":"ISLE LA MOTTE","loc":[-73.339095,44.874829],"pop":408,"state":"VT"}
+{"_id":"05464","city":"SMUGGLERS NOTCH","loc":[-72.780577,44.662499],"pop":300,"state":"VT"}
+{"_id":"05465","city":"JERICHO CENTER","loc":[-72.979398,44.484318],"pop":3449,"state":"VT"}
+{"_id":"05468","city":"MILTON","loc":[-73.131692,44.648275],"pop":10627,"state":"VT"}
+{"_id":"05471","city":"MONTGOMERY CENTE","loc":[-72.599352,44.874606],"pop":603,"state":"VT"}
+{"_id":"05472","city":"NEW HAVEN","loc":[-73.17347,44.112575],"pop":858,"state":"VT"}
+{"_id":"05473","city":"NORTH FERRISBURG","loc":[-73.203254,44.251461],"pop":1126,"state":"VT"}
+{"_id":"05474","city":"NORTH HERO","loc":[-73.284169,44.829392],"pop":502,"state":"VT"}
+{"_id":"05476","city":"RICHFORD","loc":[-72.690472,44.971453],"pop":3794,"state":"VT"}
+{"_id":"05477","city":"BOLTON VALLEY","loc":[-72.993256,44.399846],"pop":3758,"state":"VT"}
+{"_id":"05478","city":"SAINT ALBANS","loc":[-73.089025,44.811138],"pop":13555,"state":"VT"}
+{"_id":"05482","city":"SHELBURNE","loc":[-73.217124,44.389967],"pop":5871,"state":"VT"}
+{"_id":"05483","city":"SHELDON","loc":[-72.952989,44.887167],"pop":1556,"state":"VT"}
+{"_id":"05486","city":"SOUTH HERO","loc":[-73.311344,44.640044],"pop":1456,"state":"VT"}
+{"_id":"05487","city":"STARKSBORO","loc":[-73.0157,44.2261],"pop":1020,"state":"VT"}
+{"_id":"05488","city":"SWANTON","loc":[-73.121124,44.916754],"pop":6570,"state":"VT"}
+{"_id":"05489","city":"UNDERHILL","loc":[-72.925845,44.539069],"pop":3637,"state":"VT"}
+{"_id":"05491","city":"VERGENNES","loc":[-73.279293,44.132569],"pop":6041,"state":"VT"}
+{"_id":"05492","city":"WATERVILLE","loc":[-72.759557,44.712375],"pop":532,"state":"VT"}
+{"_id":"05494","city":"WESTFORD","loc":[-73.006021,44.618191],"pop":1102,"state":"VT"}
+{"_id":"05495","city":"WILLISTON","loc":[-73.095704,44.436745],"pop":5592,"state":"VT"}
+{"_id":"05602","city":"MONTPELIER","loc":[-72.576992,44.264082],"pop":12475,"state":"VT"}
+{"_id":"05640","city":"ADAMANT","loc":[-72.504649,44.35747],"pop":456,"state":"VT"}
+{"_id":"05641","city":"BARRE","loc":[-72.493619,44.194522],"pop":14994,"state":"VT"}
+{"_id":"05647","city":"CABOT","loc":[-72.306443,44.404215],"pop":1043,"state":"VT"}
+{"_id":"05648","city":"CALAIS","loc":[-72.474113,44.393438],"pop":319,"state":"VT"}
+{"_id":"05649","city":"EAST BARRE","loc":[-72.446003,44.158277],"pop":381,"state":"VT"}
+{"_id":"05650","city":"EAST CALAIS","loc":[-72.439829,44.355599],"pop":746,"state":"VT"}
+{"_id":"05651","city":"EAST MONTPELIER","loc":[-72.492636,44.282844],"pop":1018,"state":"VT"}
+{"_id":"05652","city":"EDEN","loc":[-72.5863,44.734267],"pop":913,"state":"VT"}
+{"_id":"05653","city":"EDEN MILLS","loc":[-72.513447,44.693123],"pop":155,"state":"VT"}
+{"_id":"05654","city":"GRANITEVILLE","loc":[-72.484529,44.157326],"pop":2321,"state":"VT"}
+{"_id":"05655","city":"HYDE PARK","loc":[-72.594971,44.622453],"pop":2094,"state":"VT"}
+{"_id":"05656","city":"JOHNSON","loc":[-72.671154,44.64204],"pop":3156,"state":"VT"}
+{"_id":"05658","city":"MARSHFIELD","loc":[-72.374994,44.321841],"pop":1331,"state":"VT"}
+{"_id":"05660","city":"MORETOWN","loc":[-72.749395,44.259602],"pop":1896,"state":"VT"}
+{"_id":"05661","city":"MORRISVILLE","loc":[-72.602625,44.554335],"pop":4935,"state":"VT"}
+{"_id":"05663","city":"RIVERTON","loc":[-72.659795,44.149961],"pop":6245,"state":"VT"}
+{"_id":"05666","city":"NORTH MONTPELIER","loc":[-72.482119,44.256612],"pop":469,"state":"VT"}
+{"_id":"05667","city":"PLAINFIELD","loc":[-72.42243,44.262164],"pop":1304,"state":"VT"}
+{"_id":"05669","city":"ROXBURY","loc":[-72.720151,44.084571],"pop":575,"state":"VT"}
+{"_id":"05672","city":"STOWE","loc":[-72.692282,44.469512],"pop":3433,"state":"VT"}
+{"_id":"05673","city":"WAITSFIELD","loc":[-72.828321,44.188917],"pop":1751,"state":"VT"}
+{"_id":"05674","city":"SUGARBUSH VALLEY","loc":[-72.848179,44.114222],"pop":1172,"state":"VT"}
+{"_id":"05675","city":"WASHGTIN","loc":[-72.430002,44.086448],"pop":1022,"state":"VT"}
+{"_id":"05676","city":"WATERBURY","loc":[-72.779768,44.345103],"pop":4751,"state":"VT"}
+{"_id":"05677","city":"WATERBURY CENTER","loc":[-72.708006,44.382797],"pop":1645,"state":"VT"}
+{"_id":"05679","city":"WILLIAMSTOWN","loc":[-72.53811,44.118191],"pop":2964,"state":"VT"}
+{"_id":"05680","city":"WOLCOTT","loc":[-72.484416,44.555753],"pop":1850,"state":"VT"}
+{"_id":"05681","city":"WOODBURY","loc":[-72.417766,44.432507],"pop":766,"state":"VT"}
+{"_id":"05682","city":"WORCESTER","loc":[-72.560925,44.394389],"pop":906,"state":"VT"}
+{"_id":"05701","city":"RUTLAND","loc":[-72.970773,43.614131],"pop":22576,"state":"VT"}
+{"_id":"05730","city":"BELMONT","loc":[-72.825701,43.428441],"pop":223,"state":"VT"}
+{"_id":"05732","city":"HUBBARDTON","loc":[-73.206424,43.622413],"pop":914,"state":"VT"}
+{"_id":"05733","city":"BRANDON","loc":[-73.088182,43.806467],"pop":5027,"state":"VT"}
+{"_id":"05734","city":"BRIDPORT","loc":[-73.347557,43.95383],"pop":641,"state":"VT"}
+{"_id":"05735","city":"CASTLETON","loc":[-73.170797,43.622312],"pop":2897,"state":"VT"}
+{"_id":"05736","city":"CENTER RUTLAND","loc":[-73.016986,43.602345],"pop":299,"state":"VT"}
+{"_id":"05737","city":"CHITTENDEN","loc":[-72.936001,43.703382],"pop":526,"state":"VT"}
+{"_id":"05738","city":"CUTTINGSVILLE","loc":[-72.869089,43.522084],"pop":1101,"state":"VT"}
+{"_id":"05739","city":"DANBY","loc":[-73.01285,43.358341],"pop":1170,"state":"VT"}
+{"_id":"05742","city":"EAST WALLINGFORD","loc":[-72.884375,43.446063],"pop":588,"state":"VT"}
+{"_id":"05743","city":"FAIR HAVEN","loc":[-73.270068,43.62345],"pop":4283,"state":"VT"}
+{"_id":"05744","city":"FLORENCE","loc":[-73.078988,43.709294],"pop":257,"state":"VT"}
+{"_id":"05746","city":"GAYSVILLE","loc":[-72.731149,43.752912],"pop":198,"state":"VT"}
+{"_id":"05747","city":"GRANVILLE","loc":[-72.8245,43.984912],"pop":309,"state":"VT"}
+{"_id":"05748","city":"HANCOCK","loc":[-72.913285,43.912525],"pop":98,"state":"VT"}
+{"_id":"05751","city":"KILLINGTON","loc":[-72.79631,43.663364],"pop":738,"state":"VT"}
+{"_id":"05753","city":"BREAD LOAF","loc":[-73.16613,44.007042],"pop":9990,"state":"VT"}
+{"_id":"05757","city":"MIDDLETOWN SPRIN","loc":[-73.11452,43.484864],"pop":966,"state":"VT"}
+{"_id":"05758","city":"MOUNT HOLLY","loc":[-72.795562,43.44865],"pop":693,"state":"VT"}
+{"_id":"05759","city":"NORTH CLARENDON","loc":[-72.956096,43.552208],"pop":2517,"state":"VT"}
+{"_id":"05760","city":"ORWELL","loc":[-73.294855,43.783722],"pop":1315,"state":"VT"}
+{"_id":"05761","city":"PAWLET","loc":[-73.144404,43.358679],"pop":935,"state":"VT"}
+{"_id":"05762","city":"PITTSFIELD","loc":[-72.853376,43.753823],"pop":450,"state":"VT"}
+{"_id":"05763","city":"PITTSFORD","loc":[-73.013492,43.71524],"pop":2864,"state":"VT"}
+{"_id":"05764","city":"POULTNEY","loc":[-73.225281,43.53321],"pop":4012,"state":"VT"}
+{"_id":"05765","city":"PROCTOR","loc":[-73.034816,43.657951],"pop":1868,"state":"VT"}
+{"_id":"05766","city":"RIPTON","loc":[-73.01874,43.992862],"pop":433,"state":"VT"}
+{"_id":"05767","city":"ROCHESTER","loc":[-72.815917,43.880382],"pop":1551,"state":"VT"}
+{"_id":"05769","city":"SALISBURY","loc":[-73.100793,43.90172],"pop":1885,"state":"VT"}
+{"_id":"05770","city":"SHOREHAM","loc":[-73.305385,43.886214],"pop":946,"state":"VT"}
+{"_id":"05772","city":"STOCKBRIDGE","loc":[-72.781394,43.773808],"pop":124,"state":"VT"}
+{"_id":"05773","city":"WALLINGFORD","loc":[-72.987722,43.4573],"pop":2172,"state":"VT"}
+{"_id":"05774","city":"WELLS","loc":[-73.202684,43.430456],"pop":837,"state":"VT"}
+{"_id":"05775","city":"WEST PAWLET","loc":[-73.231327,43.36673],"pop":604,"state":"VT"}
+{"_id":"05776","city":"WEST RUPERT","loc":[-73.202847,43.261792],"pop":654,"state":"VT"}
+{"_id":"05777","city":"WEST RUTLAND","loc":[-73.04242,43.578072],"pop":3415,"state":"VT"}
+{"_id":"05778","city":"LEICESTER JUNCTI","loc":[-73.213312,43.874972],"pop":615,"state":"VT"}
+{"_id":"05819","city":"SAINT JOHNSBURY","loc":[-72.005062,44.427195],"pop":8797,"state":"VT"}
+{"_id":"05820","city":"ALBANY","loc":[-72.34181,44.734427],"pop":782,"state":"VT"}
+{"_id":"05821","city":"BARNET","loc":[-72.078326,44.317923],"pop":1415,"state":"VT"}
+{"_id":"05822","city":"BARTON","loc":[-72.160005,44.739465],"pop":1270,"state":"VT"}
+{"_id":"05824","city":"CONCORD","loc":[-71.867554,44.446055],"pop":1242,"state":"VT"}
+{"_id":"05825","city":"COVENTRY","loc":[-72.254471,44.880853],"pop":722,"state":"VT"}
+{"_id":"05826","city":"CRAFTSBURY","loc":[-72.366007,44.64341],"pop":623,"state":"VT"}
+{"_id":"05827","city":"CRAFTSBURY COMMO","loc":[-72.414578,44.652917],"pop":399,"state":"VT"}
+{"_id":"05828","city":"DANVILLE","loc":[-72.113319,44.433241],"pop":1482,"state":"VT"}
+{"_id":"05829","city":"DERBY","loc":[-72.137555,44.950182],"pop":2607,"state":"VT"}
+{"_id":"05830","city":"DERBY LINE","loc":[-72.082367,44.990183],"pop":2040,"state":"VT"}
+{"_id":"05832","city":"EAST BURKE","loc":[-71.935674,44.607849],"pop":875,"state":"VT"}
+{"_id":"05833","city":"EAST CHARLESTON","loc":[-71.97627,44.829896],"pop":246,"state":"VT"}
+{"_id":"05836","city":"EAST HARDWICK","loc":[-72.303351,44.528833],"pop":493,"state":"VT"}
+{"_id":"05837","city":"EAST HAVEN","loc":[-71.867491,44.651724],"pop":269,"state":"VT"}
+{"_id":"05839","city":"GLOVER","loc":[-72.203819,44.719979],"pop":795,"state":"VT"}
+{"_id":"05841","city":"GREENSBORO","loc":[-72.285017,44.595069],"pop":461,"state":"VT"}
+{"_id":"05842","city":"GREENSBORO BEND","loc":[-72.252478,44.548488],"pop":405,"state":"VT"}
+{"_id":"05843","city":"HARDWICK","loc":[-72.363818,44.507026],"pop":2450,"state":"VT"}
+{"_id":"05845","city":"IRASBURG","loc":[-72.276269,44.808056],"pop":907,"state":"VT"}
+{"_id":"05846","city":"ISLAND POND","loc":[-71.883964,44.809452],"pop":1585,"state":"VT"}
+{"_id":"05847","city":"LOWELL","loc":[-72.450132,44.796107],"pop":594,"state":"VT"}
+{"_id":"05850","city":"LYNDON CENTER","loc":[-72.031062,44.54719],"pop":519,"state":"VT"}
+{"_id":"05851","city":"LYNDONVILLE","loc":[-72.009168,44.540766],"pop":5417,"state":"VT"}
+{"_id":"05853","city":"MORGAN CTR","loc":[-71.994052,44.90659],"pop":497,"state":"VT"}
+{"_id":"05855","city":"NEWPORT","loc":[-72.206505,44.939344],"pop":4773,"state":"VT"}
+{"_id":"05857","city":"NEWPORT CENTER","loc":[-72.297412,44.944175],"pop":1367,"state":"VT"}
+{"_id":"05858","city":"NORTH CONCORD","loc":[-71.786662,44.550099],"pop":191,"state":"VT"}
+{"_id":"05859","city":"JAY PEAK","loc":[-72.457231,44.961861],"pop":370,"state":"VT"}
+{"_id":"05860","city":"ORLEANS","loc":[-72.165328,44.80544],"pop":2467,"state":"VT"}
+{"_id":"05862","city":"PEACHAM","loc":[-72.177039,44.335563],"pop":627,"state":"VT"}
+{"_id":"05866","city":"SHEFFIELD","loc":[-72.123927,44.61784],"pop":600,"state":"VT"}
+{"_id":"05867","city":"SUTTON","loc":[-72.021133,44.646543],"pop":854,"state":"VT"}
+{"_id":"05868","city":"TROY","loc":[-72.393808,44.959381],"pop":1609,"state":"VT"}
+{"_id":"05871","city":"WEST BURKE","loc":[-71.95718,44.663647],"pop":885,"state":"VT"}
+{"_id":"05872","city":"WEST CHARLESTON","loc":[-72.05209,44.872894],"pop":598,"state":"VT"}
+{"_id":"05873","city":"WEST DANVILLE","loc":[-72.219771,44.446509],"pop":1130,"state":"VT"}
+{"_id":"05874","city":"WESTFIELD","loc":[-72.439628,44.882457],"pop":398,"state":"VT"}
+{"_id":"05875","city":"WEST GLOVER","loc":[-72.259936,44.703145],"pop":265,"state":"VT"}
+{"_id":"05901","city":"AVERILL","loc":[-71.700268,44.992304],"pop":7,"state":"VT"}
+{"_id":"05902","city":"BEECHER FALLS","loc":[-71.519901,45.006103],"pop":579,"state":"VT"}
+{"_id":"05903","city":"CANAAN","loc":[-71.560214,44.976439],"pop":542,"state":"VT"}
+{"_id":"05904","city":"GILMAN","loc":[-71.71786,44.413985],"pop":322,"state":"VT"}
+{"_id":"05905","city":"GUILDHALL","loc":[-71.599057,44.690218],"pop":848,"state":"VT"}
+{"_id":"05906","city":"LUNENBURG","loc":[-71.69304,44.466262],"pop":854,"state":"VT"}
+{"_id":"05907","city":"NORTON","loc":[-71.78844,44.988781],"pop":171,"state":"VT"}

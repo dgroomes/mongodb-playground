@@ -1,0 +1,484 @@
+{"_id":"98001","city":"ALGONA","loc":[-122.270057,47.316339],"pop":22846,"state":"WA"}
+{"_id":"98002","city":"AUBURN","loc":[-122.206741,47.30503],"pop":38163,"state":"WA"}
+{"_id":"98003","city":"FEDERAL WAY","loc":[-122.311726,47.3203],"pop":34573,"state":"WA"}
+{"_id":"98004","city":"BEAUX ARTS","loc":[-122.207371,47.619899],"pop":23724,"state":"WA"}
+{"_id":"98005","city":"BELLEVUE","loc":[-122.166288,47.614961],"pop":14297,"state":"WA"}
+{"_id":"98006","city":"BELLEVUE","loc":[-122.155179,47.561425],"pop":26775,"state":"WA"}
+{"_id":"98007","city":"BELLEVUE","loc":[-122.142572,47.617443],"pop":21887,"state":"WA"}
+{"_id":"98008","city":"BELLEVUE","loc":[-122.116173,47.611468],"pop":24046,"state":"WA"}
+{"_id":"98010","city":"BLACK DIAMOND","loc":[-122.005265,47.311372],"pop":1817,"state":"WA"}
+{"_id":"98011","city":"BOTHELL","loc":[-122.2159,47.749692],"pop":32985,"state":"WA"}
+{"_id":"98012","city":"MILL CREEK","loc":[-122.206981,47.848941],"pop":19247,"state":"WA"}
+{"_id":"98014","city":"CARNATION","loc":[-121.911095,47.638007],"pop":2808,"state":"WA"}
+{"_id":"98019","city":"DUVALL","loc":[-121.936906,47.724987],"pop":7866,"state":"WA"}
+{"_id":"98020","city":"WOODWAY","loc":[-122.366949,47.800693],"pop":17396,"state":"WA"}
+{"_id":"98021","city":"BOTHELL","loc":[-122.224339,47.791806],"pop":18013,"state":"WA"}
+{"_id":"98022","city":"ENUMCLAW","loc":[-122.031429,47.266545],"pop":34850,"state":"WA"}
+{"_id":"98023","city":"FEDERAL WAY","loc":[-122.36123,47.310358],"pop":38292,"state":"WA"}
+{"_id":"98024","city":"FALL CITY","loc":[-121.889646,47.568233],"pop":3213,"state":"WA"}
+{"_id":"98026","city":"EDMONDS","loc":[-122.334463,47.823324],"pop":33385,"state":"WA"}
+{"_id":"98027","city":"ISSAQUAH","loc":[-122.033517,47.550911],"pop":37255,"state":"WA"}
+{"_id":"98031","city":"KENT","loc":[-122.193184,47.388004],"pop":50515,"state":"WA"}
+{"_id":"98032","city":"KENT","loc":[-122.285362,47.377633],"pop":31379,"state":"WA"}
+{"_id":"98033","city":"KIRKLAND","loc":[-122.189442,47.678597],"pop":28211,"state":"WA"}
+{"_id":"98034","city":"KIRKLAND","loc":[-122.196571,47.718777],"pop":38266,"state":"WA"}
+{"_id":"98036","city":"BRIER","loc":[-122.287789,47.811825],"pop":28602,"state":"WA"}
+{"_id":"98037","city":"LYNNWOOD","loc":[-122.282139,47.850532],"pop":36995,"state":"WA"}
+{"_id":"98038","city":"MAPLE VALLEY","loc":[-122.057413,47.384526],"pop":13768,"state":"WA"}
+{"_id":"98040","city":"MERCER ISLAND","loc":[-122.226562,47.563149],"pop":20816,"state":"WA"}
+{"_id":"98042","city":"KENT","loc":[-122.120615,47.368044],"pop":22576,"state":"WA"}
+{"_id":"98043","city":"MOUNTLAKE TERRAC","loc":[-122.304036,47.793061],"pop":20059,"state":"WA"}
+{"_id":"98045","city":"NORTH BEND","loc":[-121.757142,47.475546],"pop":10083,"state":"WA"}
+{"_id":"98047","city":"PACIFIC","loc":[-122.243481,47.266605],"pop":3902,"state":"WA"}
+{"_id":"98051","city":"RAVENSDALE","loc":[-121.987897,47.415476],"pop":3778,"state":"WA"}
+{"_id":"98052","city":"REDMOND","loc":[-122.123242,47.671796],"pop":37639,"state":"WA"}
+{"_id":"98053","city":"REDMOND","loc":[-122.038578,47.646238],"pop":22112,"state":"WA"}
+{"_id":"98055","city":"RENTON","loc":[-122.207484,47.464759],"pop":17902,"state":"WA"}
+{"_id":"98056","city":"RENTON","loc":[-122.181942,47.507336],"pop":23790,"state":"WA"}
+{"_id":"98058","city":"RENTON","loc":[-122.121586,47.446507],"pop":10153,"state":"WA"}
+{"_id":"98059","city":"RENTON","loc":[-122.151178,47.467383],"pop":48197,"state":"WA"}
+{"_id":"98065","city":"SNOQUALMIE","loc":[-121.822533,47.529286],"pop":3913,"state":"WA"}
+{"_id":"98070","city":"VASHON","loc":[-122.464415,47.425949],"pop":9309,"state":"WA"}
+{"_id":"98072","city":"WOODINVILLE","loc":[-122.127087,47.768384],"pop":40666,"state":"WA"}
+{"_id":"98101","city":"SEATTLE","loc":[-122.330456,47.611435],"pop":5801,"state":"WA"}
+{"_id":"98102","city":"SEATTLE","loc":[-122.320993,47.63025],"pop":19000,"state":"WA"}
+{"_id":"98103","city":"SEATTLE","loc":[-122.342621,47.67335],"pop":39491,"state":"WA"}
+{"_id":"98104","city":"SEATTLE","loc":[-122.325644,47.603631],"pop":9680,"state":"WA"}
+{"_id":"98105","city":"SEATTLE","loc":[-122.302236,47.663266],"pop":37120,"state":"WA"}
+{"_id":"98106","city":"SEATTLE","loc":[-122.354688,47.534362],"pop":17510,"state":"WA"}
+{"_id":"98107","city":"SEATTLE","loc":[-122.37626,47.67012],"pop":18288,"state":"WA"}
+{"_id":"98108","city":"TUKWILA","loc":[-122.306823,47.547448],"pop":18776,"state":"WA"}
+{"_id":"98109","city":"SEATTLE","loc":[-122.347615,47.633875],"pop":13401,"state":"WA"}
+{"_id":"98110","city":"BAINBRIDGE ISLAN","loc":[-122.531297,47.645048],"pop":15846,"state":"WA"}
+{"_id":"98112","city":"SEATTLE","loc":[-122.297157,47.630115],"pop":19760,"state":"WA"}
+{"_id":"98115","city":"SEATTLE","loc":[-122.296828,47.684918],"pop":40454,"state":"WA"}
+{"_id":"98116","city":"SEATTLE","loc":[-122.393445,47.574591],"pop":20408,"state":"WA"}
+{"_id":"98117","city":"SEATTLE","loc":[-122.377223,47.687263],"pop":28572,"state":"WA"}
+{"_id":"98118","city":"SEATTLE","loc":[-122.275021,47.541234],"pop":36684,"state":"WA"}
+{"_id":"98119","city":"SEATTLE","loc":[-122.364272,47.637917],"pop":19064,"state":"WA"}
+{"_id":"98121","city":"SEATTLE","loc":[-122.344696,47.615135],"pop":4091,"state":"WA"}
+{"_id":"98122","city":"SEATTLE","loc":[-122.305608,47.611633],"pop":25105,"state":"WA"}
+{"_id":"98125","city":"SEATTLE","loc":[-122.301546,47.717002],"pop":31928,"state":"WA"}
+{"_id":"98126","city":"SEATTLE","loc":[-122.373458,47.544361],"pop":18627,"state":"WA"}
+{"_id":"98133","city":"SEATTLE","loc":[-122.343132,47.737717],"pop":39634,"state":"WA"}
+{"_id":"98134","city":"SEATTLE","loc":[-122.326346,47.590276],"pop":1437,"state":"WA"}
+{"_id":"98136","city":"SEATTLE","loc":[-122.387768,47.539769],"pop":13816,"state":"WA"}
+{"_id":"98144","city":"SEATTLE","loc":[-122.300457,47.584624],"pop":23333,"state":"WA"}
+{"_id":"98146","city":"BURIEN","loc":[-122.353989,47.501069],"pop":25963,"state":"WA"}
+{"_id":"98148","city":"NORMANDY PARK","loc":[-122.326112,47.450209],"pop":8818,"state":"WA"}
+{"_id":"98155","city":"LK FOREST PARK","loc":[-122.296305,47.758161],"pop":38296,"state":"WA"}
+{"_id":"98158","city":"SEATAC","loc":[-122.318454,47.442739],"pop":97,"state":"WA"}
+{"_id":"98166","city":"NORMANDY PARK","loc":[-122.347392,47.455052],"pop":19331,"state":"WA"}
+{"_id":"98168","city":"TUKWILA","loc":[-122.302376,47.48851],"pop":27990,"state":"WA"}
+{"_id":"98177","city":"SEATTLE","loc":[-122.368585,47.746678],"pop":18532,"state":"WA"}
+{"_id":"98178","city":"TUKWILA","loc":[-122.247366,47.499489],"pop":19522,"state":"WA"}
+{"_id":"98188","city":"TUKWILA","loc":[-122.281159,47.449808],"pop":18001,"state":"WA"}
+{"_id":"98198","city":"DES MOINES","loc":[-122.309559,47.407286],"pop":20550,"state":"WA"}
+{"_id":"98199","city":"SEATTLE","loc":[-122.396357,47.648845],"pop":18360,"state":"WA"}
+{"_id":"98201","city":"EVERETT","loc":[-122.200571,47.988431],"pop":26440,"state":"WA"}
+{"_id":"98203","city":"EVERETT","loc":[-122.221846,47.941937],"pop":26506,"state":"WA"}
+{"_id":"98204","city":"EVERETT","loc":[-122.247217,47.901659],"pop":20496,"state":"WA"}
+{"_id":"98205","city":"EVERETT","loc":[-122.115759,47.990065],"pop":10083,"state":"WA"}
+{"_id":"98208","city":"EVERETT","loc":[-122.198722,47.894822],"pop":32818,"state":"WA"}
+{"_id":"98220","city":"ACME","loc":[-122.191391,48.675248],"pop":471,"state":"WA"}
+{"_id":"98221","city":"ANACORTES","loc":[-122.630873,48.500438],"pop":12986,"state":"WA"}
+{"_id":"98223","city":"ARLINGTON","loc":[-122.112126,48.18293],"pop":24435,"state":"WA"}
+{"_id":"98224","city":"BARING","loc":[-121.44757,47.757787],"pop":210,"state":"WA"}
+{"_id":"98225","city":"BELLINGHAM","loc":[-122.488676,48.748957],"pop":38415,"state":"WA"}
+{"_id":"98226","city":"BELLINGHAM","loc":[-122.441457,48.762763],"pop":38518,"state":"WA"}
+{"_id":"98230","city":"BLAINE","loc":[-122.732327,48.963572],"pop":7057,"state":"WA"}
+{"_id":"98232","city":"BOW","loc":[-122.413438,48.562037],"pop":3245,"state":"WA"}
+{"_id":"98233","city":"BURLINGTON","loc":[-122.33449,48.478577],"pop":9113,"state":"WA"}
+{"_id":"98236","city":"CLINTON","loc":[-122.391588,47.950845],"pop":3242,"state":"WA"}
+{"_id":"98237","city":"CONCRETE","loc":[-121.664294,48.530962],"pop":3217,"state":"WA"}
+{"_id":"98239","city":"COUPEVILLE","loc":[-122.682346,48.218911],"pop":5753,"state":"WA"}
+{"_id":"98240","city":"CUSTER","loc":[-122.622571,48.937412],"pop":2791,"state":"WA"}
+{"_id":"98241","city":"DARRINGTON","loc":[-121.591807,48.249285],"pop":1761,"state":"WA"}
+{"_id":"98244","city":"GLACIER","loc":[-122.153957,48.803366],"pop":2110,"state":"WA"}
+{"_id":"98245","city":"EASTSOUND","loc":[-122.937045,48.665554],"pop":2259,"state":"WA"}
+{"_id":"98247","city":"EVERSON","loc":[-122.332474,48.90447],"pop":6986,"state":"WA"}
+{"_id":"98248","city":"FERNDALE","loc":[-122.595293,48.862531],"pop":13697,"state":"WA"}
+{"_id":"98249","city":"FREELAND","loc":[-122.564086,48.03417],"pop":2321,"state":"WA"}
+{"_id":"98250","city":"FRIDAY HARBOR","loc":[-123.094717,48.545416],"pop":2508,"state":"WA"}
+{"_id":"98252","city":"GRANITE FALLS","loc":[-121.942752,48.078977],"pop":3634,"state":"WA"}
+{"_id":"98253","city":"GREENBANK","loc":[-122.587086,48.124432],"pop":926,"state":"WA"}
+{"_id":"98257","city":"LA CONNER","loc":[-122.53134,48.409306],"pop":3154,"state":"WA"}
+{"_id":"98258","city":"LAKE STEVENS","loc":[-122.067153,48.017103],"pop":12728,"state":"WA"}
+{"_id":"98260","city":"LANGLEY","loc":[-122.452992,48.018672],"pop":6036,"state":"WA"}
+{"_id":"98261","city":"LOPEZ","loc":[-122.967434,48.520804],"pop":4147,"state":"WA"}
+{"_id":"98262","city":"LUMMI ISLAND","loc":[-122.682285,48.712765],"pop":628,"state":"WA"}
+{"_id":"98263","city":"LYMAN","loc":[-122.016183,48.525744],"pop":1887,"state":"WA"}
+{"_id":"98264","city":"LYNDEN","loc":[-122.459153,48.937225],"pop":12896,"state":"WA"}
+{"_id":"98270","city":"MARYSVILLE","loc":[-122.156168,48.065639],"pop":19966,"state":"WA"}
+{"_id":"98271","city":"MARYSVILLE","loc":[-122.197956,48.096572],"pop":19743,"state":"WA"}
+{"_id":"98272","city":"MONROE","loc":[-121.947376,47.85853],"pop":14143,"state":"WA"}
+{"_id":"98273","city":"MOUNT VERNON","loc":[-122.326548,48.416427],"pop":30295,"state":"WA"}
+{"_id":"98275","city":"MUKILTEO","loc":[-122.301906,47.919896],"pop":10373,"state":"WA"}
+{"_id":"98277","city":"OAK HARBOR","loc":[-122.637439,48.315096],"pop":32450,"state":"WA"}
+{"_id":"98278","city":"WHIDBEY ISLAND N","loc":[-122.69005,48.295271],"pop":3434,"state":"WA"}
+{"_id":"98279","city":"OLGA","loc":[-122.836224,48.655526],"pop":1029,"state":"WA"}
+{"_id":"98281","city":"POINT ROBERTS","loc":[-123.055474,48.987876],"pop":923,"state":"WA"}
+{"_id":"98283","city":"ROCKPORT","loc":[-121.555352,48.470388],"pop":157,"state":"WA"}
+{"_id":"98284","city":"SEDRO WOOLLEY","loc":[-122.232943,48.527405],"pop":14902,"state":"WA"}
+{"_id":"98288","city":"SKYKOMISH","loc":[-121.371297,47.692158],"pop":388,"state":"WA"}
+{"_id":"98290","city":"SNOHOMISH","loc":[-122.071562,47.895381],"pop":37327,"state":"WA"}
+{"_id":"98292","city":"STANWOOD","loc":[-122.377978,48.201067],"pop":19288,"state":"WA"}
+{"_id":"98294","city":"SULTAN","loc":[-121.736869,47.858942],"pop":7010,"state":"WA"}
+{"_id":"98295","city":"SUMAS","loc":[-122.207425,48.970763],"pop":2537,"state":"WA"}
+{"_id":"98303","city":"ANDERSON ISLAND","loc":[-122.696025,47.15872],"pop":548,"state":"WA"}
+{"_id":"98304","city":"ASHFORD","loc":[-121.989791,46.753121],"pop":339,"state":"WA"}
+{"_id":"98305","city":"BEAVER","loc":[-124.305424,48.067263],"pop":695,"state":"WA"}
+{"_id":"98310","city":"BREMERTON","loc":[-122.629913,47.601916],"pop":49057,"state":"WA"}
+{"_id":"98312","city":"BREMERTON","loc":[-122.695786,47.575424],"pop":28858,"state":"WA"}
+{"_id":"98314","city":"PUGET SOUND NAVA","loc":[-122.724354,47.746255],"pop":708,"state":"WA"}
+{"_id":"98315","city":"SILVERDALE","loc":[-122.716106,47.692017],"pop":3702,"state":"WA"}
+{"_id":"98320","city":"BRINNON","loc":[-122.937509,47.677596],"pop":1049,"state":"WA"}
+{"_id":"98321","city":"BUCKLEY","loc":[-122.062098,47.152449],"pop":10153,"state":"WA"}
+{"_id":"98323","city":"CARBONADO","loc":[-122.051339,47.080242],"pop":495,"state":"WA"}
+{"_id":"98325","city":"CHIMACUM","loc":[-122.788323,47.98607],"pop":1191,"state":"WA"}
+{"_id":"98326","city":"CLALLAM BAY","loc":[-124.201512,48.225486],"pop":384,"state":"WA"}
+{"_id":"98328","city":"EATONVILLE","loc":[-122.269626,46.870778],"pop":3972,"state":"WA"}
+{"_id":"98329","city":"GIG HARBOR","loc":[-122.7,47.378579],"pop":6678,"state":"WA"}
+{"_id":"98330","city":"ELBE","loc":[-122.150344,46.766607],"pop":103,"state":"WA"}
+{"_id":"98331","city":"FORKS","loc":[-124.398949,47.928732],"pop":6657,"state":"WA"}
+{"_id":"98332","city":"GIG HARBOR","loc":[-122.600144,47.3607],"pop":9138,"state":"WA"}
+{"_id":"98333","city":"FOX ISLAND","loc":[-122.628579,47.25238],"pop":2017,"state":"WA"}
+{"_id":"98335","city":"GIG HARBOR","loc":[-122.608377,47.300154],"pop":17299,"state":"WA"}
+{"_id":"98336","city":"GLENOMA","loc":[-122.099014,46.528266],"pop":657,"state":"WA"}
+{"_id":"98338","city":"GRAHAM","loc":[-122.293648,47.024575],"pop":11136,"state":"WA"}
+{"_id":"98339","city":"PORT HADLOCK","loc":[-122.768151,48.034531],"pop":2574,"state":"WA"}
+{"_id":"98340","city":"HANSVILLE","loc":[-122.565509,47.906143],"pop":1256,"state":"WA"}
+{"_id":"98346","city":"KINGSTON","loc":[-122.525503,47.810844],"pop":5507,"state":"WA"}
+{"_id":"98349","city":"HOME","loc":[-122.74273,47.247366],"pop":3373,"state":"WA"}
+{"_id":"98351","city":"LONGBRANCH","loc":[-122.756126,47.200737],"pop":733,"state":"WA"}
+{"_id":"98354","city":"MILTON","loc":[-122.315514,47.24827],"pop":3562,"state":"WA"}
+{"_id":"98355","city":"MINERAL","loc":[-122.186056,46.709635],"pop":814,"state":"WA"}
+{"_id":"98356","city":"MORTON","loc":[-122.249573,46.558056],"pop":2530,"state":"WA"}
+{"_id":"98358","city":"NORDLAND","loc":[-122.692553,48.04321],"pop":738,"state":"WA"}
+{"_id":"98359","city":"OLALLA","loc":[-122.574512,47.424088],"pop":3173,"state":"WA"}
+{"_id":"98360","city":"ORTING","loc":[-122.185978,47.082206],"pop":4493,"state":"WA"}
+{"_id":"98361","city":"PACKWOOD","loc":[-121.655254,46.650038],"pop":495,"state":"WA"}
+{"_id":"98362","city":"PORT ANGELES","loc":[-123.438442,48.106489],"pop":30373,"state":"WA"}
+{"_id":"98365","city":"PORT LUDLOW","loc":[-122.689615,47.922192],"pop":2229,"state":"WA"}
+{"_id":"98366","city":"SOUTH PARK VILLA","loc":[-122.615276,47.504838],"pop":44359,"state":"WA"}
+{"_id":"98368","city":"PORT TOWNSEND","loc":[-122.794457,48.104012],"pop":9870,"state":"WA"}
+{"_id":"98370","city":"POULSBO","loc":[-122.627721,47.742278],"pop":20554,"state":"WA"}
+{"_id":"98371","city":"PUYALLUP","loc":[-122.315097,47.199123],"pop":18207,"state":"WA"}
+{"_id":"98372","city":"PUYALLUP","loc":[-122.273415,47.204202],"pop":17053,"state":"WA"}
+{"_id":"98373","city":"PUYALLUP","loc":[-122.321868,47.128363],"pop":23219,"state":"WA"}
+{"_id":"98374","city":"PUYALLUP","loc":[-122.265248,47.142427],"pop":21982,"state":"WA"}
+{"_id":"98376","city":"QUILCENE","loc":[-122.858304,47.832429],"pop":1592,"state":"WA"}
+{"_id":"98377","city":"RANDLE","loc":[-121.855533,46.549195],"pop":2620,"state":"WA"}
+{"_id":"98380","city":"SEABECK","loc":[-122.822685,47.625497],"pop":2555,"state":"WA"}
+{"_id":"98381","city":"SEKIU","loc":[-124.468467,48.303166],"pop":2582,"state":"WA"}
+{"_id":"98382","city":"SEQUIM","loc":[-123.119814,48.088136],"pop":16523,"state":"WA"}
+{"_id":"98383","city":"SILVERDALE","loc":[-122.698054,47.662139],"pop":12276,"state":"WA"}
+{"_id":"98387","city":"SPANAWAY","loc":[-122.394336,47.073218],"pop":24035,"state":"WA"}
+{"_id":"98388","city":"STEILACOOM","loc":[-122.588837,47.170369],"pop":6099,"state":"WA"}
+{"_id":"98390","city":"BONNEY LAKE","loc":[-122.180275,47.188801],"pop":35436,"state":"WA"}
+{"_id":"98392","city":"SUQUAMISH","loc":[-122.557295,47.734303],"pop":1880,"state":"WA"}
+{"_id":"98394","city":"VAUGHN","loc":[-122.773598,47.330921],"pop":804,"state":"WA"}
+{"_id":"98402","city":"TACOMA","loc":[-122.440536,47.254508],"pop":2994,"state":"WA"}
+{"_id":"98403","city":"TACOMA","loc":[-122.457538,47.26428],"pop":7493,"state":"WA"}
+{"_id":"98404","city":"TACOMA","loc":[-122.412625,47.211312],"pop":27135,"state":"WA"}
+{"_id":"98405","city":"TACOMA","loc":[-122.46435,47.248351],"pop":23918,"state":"WA"}
+{"_id":"98406","city":"TACOMA","loc":[-122.499349,47.26325],"pop":22971,"state":"WA"}
+{"_id":"98407","city":"TACOMA","loc":[-122.503881,47.282479],"pop":19881,"state":"WA"}
+{"_id":"98408","city":"TACOMA","loc":[-122.444381,47.207267],"pop":28753,"state":"WA"}
+{"_id":"98409","city":"TACOMA","loc":[-122.482503,47.20381],"pop":25045,"state":"WA"}
+{"_id":"98421","city":"TACOMA","loc":[-122.401457,47.266373],"pop":508,"state":"WA"}
+{"_id":"98422","city":"TACOMA","loc":[-122.398349,47.294805],"pop":10385,"state":"WA"}
+{"_id":"98424","city":"FIFE","loc":[-122.350962,47.243632],"pop":5626,"state":"WA"}
+{"_id":"98433","city":"FORT LEWIS","loc":[-122.583486,47.100864],"pop":27463,"state":"WA"}
+{"_id":"98439","city":"LAKEWOOD CENTER","loc":[-122.529326,47.122905],"pop":3064,"state":"WA"}
+{"_id":"98443","city":"TACOMA","loc":[-122.372815,47.204369],"pop":5457,"state":"WA"}
+{"_id":"98444","city":"PARKLAND","loc":[-122.448842,47.156553],"pop":27406,"state":"WA"}
+{"_id":"98445","city":"PARKLAND","loc":[-122.411614,47.133967],"pop":20298,"state":"WA"}
+{"_id":"98446","city":"PARKLAND","loc":[-122.37189,47.14041],"pop":7156,"state":"WA"}
+{"_id":"98465","city":"TACOMA","loc":[-122.527272,47.249139],"pop":6919,"state":"WA"}
+{"_id":"98466","city":"FIRCREST","loc":[-122.53503,47.22788],"pop":22719,"state":"WA"}
+{"_id":"98467","city":"TACOMA","loc":[-122.533562,47.205395],"pop":12823,"state":"WA"}
+{"_id":"98498","city":"LAKEWOOD CENTER","loc":[-122.555357,47.164269],"pop":28193,"state":"WA"}
+{"_id":"98499","city":"LAKEWOOD CENTER","loc":[-122.509074,47.160786],"pop":20970,"state":"WA"}
+{"_id":"98501","city":"OLYMPIA","loc":[-122.876311,47.012906],"pop":25979,"state":"WA"}
+{"_id":"98502","city":"OLYMPIA","loc":[-122.95214,47.029828],"pop":40246,"state":"WA"}
+{"_id":"98503","city":"LACEY","loc":[-122.782665,47.023967],"pop":43492,"state":"WA"}
+{"_id":"98506","city":"LACEY","loc":[-122.832844,47.076259],"pop":24889,"state":"WA"}
+{"_id":"98520","city":"ABERDEEN","loc":[-123.79629,46.984293],"pop":22346,"state":"WA"}
+{"_id":"98524","city":"ALLYN","loc":[-122.853571,47.385004],"pop":2049,"state":"WA"}
+{"_id":"98526","city":"AMANDA PARK","loc":[-123.907375,47.470579],"pop":470,"state":"WA"}
+{"_id":"98528","city":"BEAR CREEK","loc":[-122.822381,47.454956],"pop":2351,"state":"WA"}
+{"_id":"98531","city":"CENTRALIA","loc":[-122.967068,46.724635],"pop":17633,"state":"WA"}
+{"_id":"98532","city":"CHEHALIS","loc":[-122.965764,46.638193],"pop":18065,"state":"WA"}
+{"_id":"98533","city":"CINEBAR","loc":[-122.566005,46.567131],"pop":796,"state":"WA"}
+{"_id":"98535","city":"COPALIS BEACH","loc":[-124.135881,47.065044],"pop":703,"state":"WA"}
+{"_id":"98536","city":"COPALIS CROSSING","loc":[-124.13471,47.12535],"pop":685,"state":"WA"}
+{"_id":"98537","city":"COSMOPOLIS","loc":[-123.77394,46.953789],"pop":1424,"state":"WA"}
+{"_id":"98538","city":"CURTIS","loc":[-123.156974,46.558372],"pop":449,"state":"WA"}
+{"_id":"98541","city":"ELMA","loc":[-123.39969,47.005813],"pop":7356,"state":"WA"}
+{"_id":"98542","city":"ETHEL","loc":[-122.776009,46.53581],"pop":320,"state":"WA"}
+{"_id":"98546","city":"GRAPEVIEW","loc":[-122.949742,47.305783],"pop":3234,"state":"WA"}
+{"_id":"98547","city":"GRAYLAND","loc":[-124.056194,46.853201],"pop":1677,"state":"WA"}
+{"_id":"98548","city":"HOODSPORT","loc":[-123.173932,47.423526],"pop":1165,"state":"WA"}
+{"_id":"98550","city":"HOQUIAM","loc":[-123.884169,46.982269],"pop":9597,"state":"WA"}
+{"_id":"98552","city":"HUMPTULIPS","loc":[-123.971695,47.135632],"pop":1301,"state":"WA"}
+{"_id":"98555","city":"LILLIWAUP","loc":[-123.063119,47.512773],"pop":635,"state":"WA"}
+{"_id":"98557","city":"MC CLEARY","loc":[-123.273301,47.053987],"pop":2644,"state":"WA"}
+{"_id":"98560","city":"MATLOCK","loc":[-123.337638,47.177545],"pop":1716,"state":"WA"}
+{"_id":"98562","city":"MOCLIPS","loc":[-124.20438,47.222619],"pop":574,"state":"WA"}
+{"_id":"98563","city":"MONTESANO","loc":[-123.500584,47.09013],"pop":10079,"state":"WA"}
+{"_id":"98564","city":"MOSSYROCK","loc":[-122.478935,46.513136],"pop":1390,"state":"WA"}
+{"_id":"98568","city":"OAKVILLE","loc":[-123.249329,46.843366],"pop":1915,"state":"WA"}
+{"_id":"98569","city":"OCEAN CITY","loc":[-124.15323,46.982905],"pop":2307,"state":"WA"}
+{"_id":"98570","city":"ONALASKA","loc":[-122.707503,46.573016],"pop":3077,"state":"WA"}
+{"_id":"98571","city":"PACIFIC BEACH","loc":[-124.158833,47.198144],"pop":122,"state":"WA"}
+{"_id":"98572","city":"PE ELL","loc":[-123.285244,46.56558],"pop":921,"state":"WA"}
+{"_id":"98575","city":"QUINAULT","loc":[-123.803744,47.448505],"pop":545,"state":"WA"}
+{"_id":"98576","city":"RAINIER","loc":[-122.679468,46.882942],"pop":2397,"state":"WA"}
+{"_id":"98577","city":"RAYMOND","loc":[-123.692889,46.671046],"pop":6144,"state":"WA"}
+{"_id":"98579","city":"ROCHESTER","loc":[-123.040634,46.819295],"pop":8231,"state":"WA"}
+{"_id":"98580","city":"ROY","loc":[-122.448271,46.956048],"pop":7730,"state":"WA"}
+{"_id":"98581","city":"RYDERWOOD","loc":[-123.043134,46.375176],"pop":330,"state":"WA"}
+{"_id":"98582","city":"SALKUM","loc":[-122.645364,46.515059],"pop":336,"state":"WA"}
+{"_id":"98584","city":"SHELTON","loc":[-123.072862,47.20863],"pop":19074,"state":"WA"}
+{"_id":"98585","city":"SILVER CREEK","loc":[-122.475716,46.549077],"pop":697,"state":"WA"}
+{"_id":"98586","city":"SOUTH BEND","loc":[-123.820315,46.6544],"pop":2575,"state":"WA"}
+{"_id":"98587","city":"TAHOLAH","loc":[-124.2827,47.340711],"pop":851,"state":"WA"}
+{"_id":"98588","city":"TAHUYA","loc":[-122.921126,47.435618],"pop":3794,"state":"WA"}
+{"_id":"98589","city":"TENINO","loc":[-122.849269,46.864119],"pop":6451,"state":"WA"}
+{"_id":"98590","city":"TOKELAND","loc":[-124.046008,46.746874],"pop":891,"state":"WA"}
+{"_id":"98591","city":"TOLEDO","loc":[-122.826559,46.439552],"pop":2829,"state":"WA"}
+{"_id":"98592","city":"UNION","loc":[-123.034364,47.351305],"pop":1592,"state":"WA"}
+{"_id":"98593","city":"VADER","loc":[-122.958493,46.398505],"pop":523,"state":"WA"}
+{"_id":"98595","city":"WESTPORT","loc":[-124.106055,46.883619],"pop":2463,"state":"WA"}
+{"_id":"98596","city":"WINLOCK","loc":[-122.915806,46.494014],"pop":5206,"state":"WA"}
+{"_id":"98597","city":"YELM","loc":[-122.588049,46.920589],"pop":9553,"state":"WA"}
+{"_id":"98601","city":"AMBOY","loc":[-122.457418,45.9195],"pop":1910,"state":"WA"}
+{"_id":"98602","city":"APPLETON","loc":[-121.148618,45.909041],"pop":13,"state":"WA"}
+{"_id":"98603","city":"ARIEL","loc":[-122.46769,45.995154],"pop":735,"state":"WA"}
+{"_id":"98604","city":"BATTLE GROUND","loc":[-122.531845,45.790667],"pop":16072,"state":"WA"}
+{"_id":"98605","city":"COOK","loc":[-121.175778,45.6341],"pop":954,"state":"WA"}
+{"_id":"98606","city":"BRUSH PRAIRIE","loc":[-122.484342,45.730432],"pop":6663,"state":"WA"}
+{"_id":"98607","city":"CAMAS","loc":[-122.414231,45.605772],"pop":12058,"state":"WA"}
+{"_id":"98610","city":"CARSON","loc":[-121.835138,45.749332],"pop":2009,"state":"WA"}
+{"_id":"98611","city":"CASTLE ROCK","loc":[-122.9139,46.278291],"pop":8455,"state":"WA"}
+{"_id":"98612","city":"CATHLAMET","loc":[-123.362716,46.195383],"pop":2114,"state":"WA"}
+{"_id":"98613","city":"CENTERVILLE","loc":[-120.945973,45.703183],"pop":681,"state":"WA"}
+{"_id":"98616","city":"COUGAR","loc":[-122.294186,46.069012],"pop":122,"state":"WA"}
+{"_id":"98619","city":"GLENWOOD","loc":[-121.28849,46.007104],"pop":549,"state":"WA"}
+{"_id":"98620","city":"GOLDENDALE","loc":[-120.812981,45.832021],"pop":5761,"state":"WA"}
+{"_id":"98621","city":"GRAYS RIVER","loc":[-123.588845,46.353481],"pop":209,"state":"WA"}
+{"_id":"98624","city":"ILWACO","loc":[-124.02822,46.314214],"pop":1210,"state":"WA"}
+{"_id":"98625","city":"KALAMA","loc":[-122.816588,46.011229],"pop":3627,"state":"WA"}
+{"_id":"98626","city":"KELSO","loc":[-122.886994,46.148491],"pop":20593,"state":"WA"}
+{"_id":"98628","city":"KLICKITAT","loc":[-121.229231,45.751534],"pop":23,"state":"WA"}
+{"_id":"98629","city":"LA CENTER","loc":[-122.623972,45.880587],"pop":3969,"state":"WA"}
+{"_id":"98631","city":"LONG BEACH","loc":[-124.047041,46.377369],"pop":3648,"state":"WA"}
+{"_id":"98632","city":"LONGVIEW","loc":[-122.963421,46.151354],"pop":42028,"state":"WA"}
+{"_id":"98635","city":"LYLE","loc":[-121.250112,45.74495],"pop":1583,"state":"WA"}
+{"_id":"98638","city":"NASELLE","loc":[-123.804381,46.352758],"pop":2177,"state":"WA"}
+{"_id":"98640","city":"OCEAN PARK","loc":[-124.043582,46.502867],"pop":2601,"state":"WA"}
+{"_id":"98642","city":"RIDGEFIELD","loc":[-122.693354,45.784634],"pop":7845,"state":"WA"}
+{"_id":"98643","city":"ROSBURG","loc":[-123.657105,46.307076],"pop":279,"state":"WA"}
+{"_id":"98645","city":"SILVERLAKE","loc":[-122.764886,46.316322],"pop":927,"state":"WA"}
+{"_id":"98647","city":"SKAMOKAWA","loc":[-123.43316,46.295186],"pop":361,"state":"WA"}
+{"_id":"98648","city":"STEVENSON","loc":[-121.909346,45.688173],"pop":3203,"state":"WA"}
+{"_id":"98649","city":"TOUTLE","loc":[-122.647696,46.295605],"pop":599,"state":"WA"}
+{"_id":"98650","city":"TROUT LAKE","loc":[-121.516272,45.982789],"pop":766,"state":"WA"}
+{"_id":"98651","city":"UNDERWOOD","loc":[-121.597408,45.740872],"pop":1161,"state":"WA"}
+{"_id":"98660","city":"VANCOUVER","loc":[-122.68014,45.64183],"pop":10432,"state":"WA"}
+{"_id":"98661","city":"VANCOUVER","loc":[-122.625146,45.641807],"pop":28837,"state":"WA"}
+{"_id":"98662","city":"ORCHARDS","loc":[-122.576182,45.674519],"pop":17842,"state":"WA"}
+{"_id":"98663","city":"VANCOUVER","loc":[-122.660385,45.6514],"pop":13198,"state":"WA"}
+{"_id":"98664","city":"VANCOUVER","loc":[-122.576741,45.623086],"pop":17179,"state":"WA"}
+{"_id":"98665","city":"HAZEL DELL","loc":[-122.664223,45.68217],"pop":16488,"state":"WA"}
+{"_id":"98670","city":"WAHKIACUS","loc":[-121.148586,45.815567],"pop":442,"state":"WA"}
+{"_id":"98671","city":"WASHOUGAL","loc":[-122.310396,45.595921],"pop":10873,"state":"WA"}
+{"_id":"98672","city":"WHITE SALMON","loc":[-121.479459,45.755142],"pop":5396,"state":"WA"}
+{"_id":"98674","city":"WOODLAND","loc":[-122.71256,45.921859],"pop":6266,"state":"WA"}
+{"_id":"98675","city":"YACOLT","loc":[-122.427545,45.862247],"pop":3295,"state":"WA"}
+{"_id":"98682","city":"VANCOUVER","loc":[-122.521224,45.664399],"pop":21359,"state":"WA"}
+{"_id":"98684","city":"CASCADE PARK","loc":[-122.524969,45.617522],"pop":26400,"state":"WA"}
+{"_id":"98685","city":"FELIDA","loc":[-122.682474,45.707313],"pop":13972,"state":"WA"}
+{"_id":"98686","city":"VANCOUVER","loc":[-122.632226,45.712017],"pop":9966,"state":"WA"}
+{"_id":"98801","city":"WENATCHEE","loc":[-120.327345,47.425269],"pop":28906,"state":"WA"}
+{"_id":"98802","city":"EAST WENATCHEE","loc":[-120.273136,47.418596],"pop":17975,"state":"WA"}
+{"_id":"98812","city":"BREWSTER","loc":[-119.771999,48.120641],"pop":3177,"state":"WA"}
+{"_id":"98813","city":"BRIDGEPORT","loc":[-119.702772,48.016083],"pop":2757,"state":"WA"}
+{"_id":"98814","city":"CARLTON","loc":[-120.10551,48.252615],"pop":332,"state":"WA"}
+{"_id":"98815","city":"CASHMERE","loc":[-120.503274,47.517293],"pop":7504,"state":"WA"}
+{"_id":"98816","city":"CHELAN","loc":[-120.027306,47.848263],"pop":4949,"state":"WA"}
+{"_id":"98822","city":"ENTIAT","loc":[-120.276031,47.705653],"pop":1507,"state":"WA"}
+{"_id":"98823","city":"EPHRATA","loc":[-119.533582,47.277051],"pop":8779,"state":"WA"}
+{"_id":"98826","city":"LEAVENWORTH","loc":[-120.674792,47.6438],"pop":4288,"state":"WA"}
+{"_id":"98827","city":"LOOMIS","loc":[-119.642675,48.869627],"pop":329,"state":"WA"}
+{"_id":"98828","city":"MALAGA","loc":[-120.208562,47.355306],"pop":1633,"state":"WA"}
+{"_id":"98830","city":"MANSFIELD","loc":[-119.405315,47.902136],"pop":960,"state":"WA"}
+{"_id":"98831","city":"MANSON","loc":[-120.148963,47.895764],"pop":2309,"state":"WA"}
+{"_id":"98832","city":"MARLIN","loc":[-119.090897,47.320929],"pop":856,"state":"WA"}
+{"_id":"98833","city":"MAZAMA","loc":[-120.38796,48.597728],"pop":115,"state":"WA"}
+{"_id":"98834","city":"METHOW","loc":[-120.0059,48.09001],"pop":623,"state":"WA"}
+{"_id":"98837","city":"MOSES LAKE","loc":[-119.289149,47.137363],"pop":22935,"state":"WA"}
+{"_id":"98840","city":"OKANOGAN","loc":[-119.604563,48.351328],"pop":3782,"state":"WA"}
+{"_id":"98841","city":"OMAK","loc":[-119.527156,48.414347],"pop":6059,"state":"WA"}
+{"_id":"98843","city":"ORONDO","loc":[-120.172143,47.696928],"pop":1424,"state":"WA"}
+{"_id":"98844","city":"OROVILLE","loc":[-119.403236,48.939681],"pop":3283,"state":"WA"}
+{"_id":"98845","city":"PALISADES","loc":[-119.802264,47.469367],"pop":36,"state":"WA"}
+{"_id":"98846","city":"PATEROS","loc":[-119.913322,48.059147],"pop":696,"state":"WA"}
+{"_id":"98847","city":"PESHASTIN","loc":[-120.613928,47.581294],"pop":1030,"state":"WA"}
+{"_id":"98848","city":"QUINCY","loc":[-119.845922,47.197574],"pop":7429,"state":"WA"}
+{"_id":"98849","city":"RIVERSIDE","loc":[-119.580316,48.487567],"pop":1871,"state":"WA"}
+{"_id":"98850","city":"ROCK ISLAND","loc":[-120.137794,47.370558],"pop":1336,"state":"WA"}
+{"_id":"98851","city":"SOAP LAKE","loc":[-119.485962,47.383034],"pop":2482,"state":"WA"}
+{"_id":"98852","city":"STEHEKIN","loc":[-120.755185,48.298034],"pop":124,"state":"WA"}
+{"_id":"98855","city":"TONASKET","loc":[-119.394252,48.71944],"pop":4921,"state":"WA"}
+{"_id":"98856","city":"TWISP","loc":[-120.135035,48.363231],"pop":1938,"state":"WA"}
+{"_id":"98857","city":"WARDEN","loc":[-119.053932,46.97697],"pop":2678,"state":"WA"}
+{"_id":"98858","city":"WATERVILLE","loc":[-119.988743,47.62951],"pop":1717,"state":"WA"}
+{"_id":"98859","city":"WAUCONDA","loc":[-118.946947,48.822449],"pop":325,"state":"WA"}
+{"_id":"98862","city":"WINTHROP","loc":[-120.180468,48.475607],"pop":1263,"state":"WA"}
+{"_id":"98901","city":"TERRACE HEIGHTS","loc":[-120.477336,46.606991],"pop":22057,"state":"WA"}
+{"_id":"98902","city":"YAKIMA","loc":[-120.531084,46.593393],"pop":39091,"state":"WA"}
+{"_id":"98903","city":"UNION GAP","loc":[-120.556587,46.5572],"pop":10498,"state":"WA"}
+{"_id":"98908","city":"WIDE HOLLOW","loc":[-120.605175,46.605865],"pop":27078,"state":"WA"}
+{"_id":"98922","city":"CLE ELUM","loc":[-120.968505,47.206319],"pop":5299,"state":"WA"}
+{"_id":"98923","city":"COWICHE","loc":[-120.714893,46.66611],"pop":920,"state":"WA"}
+{"_id":"98926","city":"ELLENSBURG","loc":[-120.516274,46.999632],"pop":20344,"state":"WA"}
+{"_id":"98930","city":"GRANDVIEW","loc":[-119.915734,46.253846],"pop":10558,"state":"WA"}
+{"_id":"98932","city":"GRANGER","loc":[-120.181848,46.348045],"pop":3562,"state":"WA"}
+{"_id":"98933","city":"HARRAH","loc":[-120.573606,46.410383],"pop":2643,"state":"WA"}
+{"_id":"98935","city":"MABTON","loc":[-120.015141,46.212082],"pop":3586,"state":"WA"}
+{"_id":"98936","city":"MOXEE","loc":[-120.368463,46.554205],"pop":4194,"state":"WA"}
+{"_id":"98937","city":"WHITE PASS","loc":[-120.826699,46.735335],"pop":2996,"state":"WA"}
+{"_id":"98938","city":"OUTLOOK","loc":[-120.097005,46.352497],"pop":1705,"state":"WA"}
+{"_id":"98942","city":"SELAH","loc":[-120.540813,46.67671],"pop":12507,"state":"WA"}
+{"_id":"98944","city":"SUNNYSIDE","loc":[-120.012631,46.321273],"pop":16774,"state":"WA"}
+{"_id":"98946","city":"THORP","loc":[-120.678557,47.017785],"pop":1082,"state":"WA"}
+{"_id":"98947","city":"TIETON","loc":[-120.747275,46.706331],"pop":2079,"state":"WA"}
+{"_id":"98948","city":"TOPPENISH","loc":[-120.330534,46.375123],"pop":11101,"state":"WA"}
+{"_id":"98951","city":"WAPATO","loc":[-120.426484,46.45066],"pop":10262,"state":"WA"}
+{"_id":"98952","city":"WHITE SWAN","loc":[-120.745317,46.371558],"pop":1941,"state":"WA"}
+{"_id":"98953","city":"ZILLAH","loc":[-120.266161,46.415777],"pop":5266,"state":"WA"}
+{"_id":"99003","city":"CHATTAROY","loc":[-117.29209,47.919178],"pop":1991,"state":"WA"}
+{"_id":"99004","city":"CHENEY","loc":[-117.583372,47.494257],"pop":12257,"state":"WA"}
+{"_id":"99005","city":"COLBERT","loc":[-117.375895,47.841093],"pop":3926,"state":"WA"}
+{"_id":"99006","city":"DEER PARK","loc":[-117.443559,47.948615],"pop":7287,"state":"WA"}
+{"_id":"99008","city":"EDWALL","loc":[-117.907095,47.537896],"pop":379,"state":"WA"}
+{"_id":"99009","city":"ELK","loc":[-117.296253,48.020523],"pop":2386,"state":"WA"}
+{"_id":"99011","city":"FAIRCHILD AIR FO","loc":[-117.643746,47.613068],"pop":4854,"state":"WA"}
+{"_id":"99012","city":"FAIRFIELD","loc":[-117.192054,47.398726],"pop":641,"state":"WA"}
+{"_id":"99013","city":"FORD","loc":[-117.811858,47.916873],"pop":790,"state":"WA"}
+{"_id":"99016","city":"GREENACRES","loc":[-117.156801,47.658357],"pop":5312,"state":"WA"}
+{"_id":"99017","city":"LAMONT","loc":[-117.830239,47.17304],"pop":317,"state":"WA"}
+{"_id":"99018","city":"LATAH","loc":[-117.16884,47.303815],"pop":477,"state":"WA"}
+{"_id":"99019","city":"LIBERTY LAKE","loc":[-117.083808,47.651672],"pop":2372,"state":"WA"}
+{"_id":"99021","city":"MEAD","loc":[-117.311716,47.793268],"pop":5903,"state":"WA"}
+{"_id":"99022","city":"ESPANOLA","loc":[-117.679351,47.583696],"pop":6436,"state":"WA"}
+{"_id":"99023","city":"MICA","loc":[-117.163711,47.553814],"pop":921,"state":"WA"}
+{"_id":"99025","city":"NEWMAN LAKE","loc":[-117.064041,47.727371],"pop":3092,"state":"WA"}
+{"_id":"99026","city":"NINE MILE FALLS","loc":[-117.589359,47.801945],"pop":4872,"state":"WA"}
+{"_id":"99027","city":"OTIS ORCHARDS","loc":[-117.11209,47.70273],"pop":5922,"state":"WA"}
+{"_id":"99029","city":"REARDAN","loc":[-117.866264,47.705407],"pop":1072,"state":"WA"}
+{"_id":"99030","city":"ROCKFORD","loc":[-117.131842,47.452804],"pop":844,"state":"WA"}
+{"_id":"99031","city":"SPANGLE","loc":[-117.382696,47.4338],"pop":1434,"state":"WA"}
+{"_id":"99032","city":"SPRAGUE","loc":[-117.989684,47.324725],"pop":672,"state":"WA"}
+{"_id":"99033","city":"TEKOA","loc":[-117.081919,47.227081],"pop":950,"state":"WA"}
+{"_id":"99034","city":"TUMTUM","loc":[-117.698996,47.898173],"pop":312,"state":"WA"}
+{"_id":"99036","city":"VALLEYFORD","loc":[-117.268601,47.529176],"pop":698,"state":"WA"}
+{"_id":"99037","city":"VERADALE","loc":[-117.197706,47.642103],"pop":8397,"state":"WA"}
+{"_id":"99039","city":"WAVERLY","loc":[-117.233108,47.335393],"pop":166,"state":"WA"}
+{"_id":"99040","city":"WELLPINIT","loc":[-117.985646,47.86974],"pop":488,"state":"WA"}
+{"_id":"99101","city":"ADDY","loc":[-117.892383,48.44769],"pop":1226,"state":"WA"}
+{"_id":"99103","city":"ALMIRA","loc":[-118.91225,47.763175],"pop":646,"state":"WA"}
+{"_id":"99105","city":"BENGE","loc":[-117.969895,46.867636],"pop":2,"state":"WA"}
+{"_id":"99107","city":"BOYDS","loc":[-118.19906,48.691919],"pop":782,"state":"WA"}
+{"_id":"99109","city":"CHEWELAH","loc":[-117.77539,48.287585],"pop":5239,"state":"WA"}
+{"_id":"99110","city":"CLAYTON","loc":[-117.574021,47.955206],"pop":1621,"state":"WA"}
+{"_id":"99111","city":"COLFAX","loc":[-117.366975,46.879996],"pop":3592,"state":"WA"}
+{"_id":"99113","city":"COLTON","loc":[-117.169243,46.590098],"pop":650,"state":"WA"}
+{"_id":"99114","city":"COLVILLE","loc":[-117.864463,48.57799],"pop":8805,"state":"WA"}
+{"_id":"99115","city":"COULEE CITY","loc":[-119.27582,47.596571],"pop":1013,"state":"WA"}
+{"_id":"99116","city":"COULEE DAM","loc":[-119.180907,48.173861],"pop":4636,"state":"WA"}
+{"_id":"99117","city":"CRESTON","loc":[-118.530656,47.797681],"pop":527,"state":"WA"}
+{"_id":"99118","city":"CURLEW","loc":[-118.645182,48.910775],"pop":986,"state":"WA"}
+{"_id":"99119","city":"CUSICK","loc":[-117.329464,48.391513],"pop":439,"state":"WA"}
+{"_id":"99121","city":"DANVILLE","loc":[-118.488408,48.972524],"pop":48,"state":"WA"}
+{"_id":"99122","city":"DAVENPORT","loc":[-118.166657,47.680855],"pop":2383,"state":"WA"}
+{"_id":"99123","city":"ELECTRIC CITY","loc":[-119.036728,47.926446],"pop":1152,"state":"WA"}
+{"_id":"99125","city":"ENDICOTT","loc":[-117.723005,46.936407],"pop":673,"state":"WA"}
+{"_id":"99126","city":"EVANS","loc":[-118.00012,48.745787],"pop":350,"state":"WA"}
+{"_id":"99128","city":"FARMINGTON","loc":[-117.076327,47.084742],"pop":355,"state":"WA"}
+{"_id":"99129","city":"FRUITLAND","loc":[-118.215906,47.979746],"pop":515,"state":"WA"}
+{"_id":"99130","city":"GARFIELD","loc":[-117.152293,46.994639],"pop":795,"state":"WA"}
+{"_id":"99131","city":"GIFFORD","loc":[-118.12989,48.22287],"pop":60,"state":"WA"}
+{"_id":"99133","city":"GRAND COULEE","loc":[-118.997835,47.938511],"pop":1073,"state":"WA"}
+{"_id":"99134","city":"HARRINGTON","loc":[-118.277793,47.4555],"pop":786,"state":"WA"}
+{"_id":"99135","city":"HARTLINE","loc":[-119.104467,47.725631],"pop":315,"state":"WA"}
+{"_id":"99137","city":"HUNTERS","loc":[-118.152491,48.133261],"pop":349,"state":"WA"}
+{"_id":"99138","city":"INCHELIUM","loc":[-118.355166,48.292411],"pop":1297,"state":"WA"}
+{"_id":"99139","city":"IONE","loc":[-117.404859,48.713023],"pop":1204,"state":"WA"}
+{"_id":"99140","city":"KELLER","loc":[-118.654731,48.023594],"pop":255,"state":"WA"}
+{"_id":"99141","city":"KETTLE FALLS","loc":[-118.054801,48.636375],"pop":3668,"state":"WA"}
+{"_id":"99143","city":"LACROSSE","loc":[-117.770277,46.771684],"pop":1066,"state":"WA"}
+{"_id":"99147","city":"LINCOLN","loc":[-118.481012,47.78204],"pop":31,"state":"WA"}
+{"_id":"99148","city":"LOON LAKE","loc":[-117.632496,48.078393],"pop":1885,"state":"WA"}
+{"_id":"99150","city":"MALO","loc":[-118.623712,48.81862],"pop":396,"state":"WA"}
+{"_id":"99153","city":"METALINE FALLS","loc":[-117.36332,48.859747],"pop":729,"state":"WA"}
+{"_id":"99156","city":"NEWPORT","loc":[-117.150784,48.169465],"pop":5881,"state":"WA"}
+{"_id":"99157","city":"NORTHPORT","loc":[-117.793052,48.924663],"pop":462,"state":"WA"}
+{"_id":"99158","city":"OAKESDALE","loc":[-117.280326,47.080556],"pop":764,"state":"WA"}
+{"_id":"99159","city":"ODESSA","loc":[-118.698316,47.339491],"pop":1324,"state":"WA"}
+{"_id":"99161","city":"PALOUSE","loc":[-117.085475,46.907555],"pop":1270,"state":"WA"}
+{"_id":"99163","city":"PULLMAN","loc":[-117.172936,46.735247],"pop":25909,"state":"WA"}
+{"_id":"99166","city":"REPUBLIC","loc":[-118.699942,48.670366],"pop":2531,"state":"WA"}
+{"_id":"99167","city":"RICE","loc":[-118.124865,48.406169],"pop":615,"state":"WA"}
+{"_id":"99169","city":"RITZVILLE","loc":[-118.395812,47.131528],"pop":2472,"state":"WA"}
+{"_id":"99170","city":"ROSALIA","loc":[-117.41468,47.221777],"pop":1081,"state":"WA"}
+{"_id":"99171","city":"SAINT JOHN","loc":[-117.573002,47.075539],"pop":765,"state":"WA"}
+{"_id":"99173","city":"SPRINGDALE","loc":[-117.873273,47.992737],"pop":361,"state":"WA"}
+{"_id":"99176","city":"THORNTON","loc":[-117.386416,47.12525],"pop":186,"state":"WA"}
+{"_id":"99179","city":"UNIONTOWN","loc":[-117.090756,46.525818],"pop":433,"state":"WA"}
+{"_id":"99180","city":"USK","loc":[-117.318947,48.295969],"pop":501,"state":"WA"}
+{"_id":"99181","city":"VALLEY","loc":[-117.760967,48.135114],"pop":1328,"state":"WA"}
+{"_id":"99185","city":"WILBUR","loc":[-118.706271,47.741012],"pop":1238,"state":"WA"}
+{"_id":"99201","city":"SPOKANE","loc":[-117.436527,47.666485],"pop":9599,"state":"WA"}
+{"_id":"99202","city":"SPOKANE","loc":[-117.380972,47.654741],"pop":17424,"state":"WA"}
+{"_id":"99203","city":"SPOKANE","loc":[-117.404121,47.629443],"pop":20454,"state":"WA"}
+{"_id":"99204","city":"SPOKANE","loc":[-117.471896,47.640682],"pop":24611,"state":"WA"}
+{"_id":"99205","city":"SPOKANE","loc":[-117.439912,47.69641],"pop":42032,"state":"WA"}
+{"_id":"99206","city":"SPOKANE","loc":[-117.258126,47.649588],"pop":29077,"state":"WA"}
+{"_id":"99207","city":"SPOKANE","loc":[-117.374565,47.697712],"pop":46237,"state":"WA"}
+{"_id":"99208","city":"SPOKANE","loc":[-117.435207,47.737434],"pop":27989,"state":"WA"}
+{"_id":"99212","city":"SPOKANE","loc":[-117.304853,47.668598],"pop":16771,"state":"WA"}
+{"_id":"99216","city":"SPOKANE","loc":[-117.219307,47.663389],"pop":18834,"state":"WA"}
+{"_id":"99218","city":"SPOKANE","loc":[-117.4146,47.755648],"pop":11902,"state":"WA"}
+{"_id":"99223","city":"SPOKANE","loc":[-117.362215,47.61558],"pop":19056,"state":"WA"}
+{"_id":"99301","city":"PASCO","loc":[-119.104387,46.249183],"pop":33988,"state":"WA"}
+{"_id":"99320","city":"BENTON CITY","loc":[-119.491349,46.280624],"pop":5047,"state":"WA"}
+{"_id":"99321","city":"BEVERLY","loc":[-119.912074,46.848429],"pop":315,"state":"WA"}
+{"_id":"99322","city":"BICKLETON","loc":[-120.104223,45.959687],"pop":329,"state":"WA"}
+{"_id":"99324","city":"COLLEGE PLACE","loc":[-118.385338,46.045723],"pop":6904,"state":"WA"}
+{"_id":"99326","city":"CONNELL","loc":[-118.85454,46.66426],"pop":2699,"state":"WA"}
+{"_id":"99327","city":"CUNNINGHAM","loc":[-119.107604,46.757333],"pop":511,"state":"WA"}
+{"_id":"99328","city":"DAYTON","loc":[-117.973791,46.307459],"pop":3373,"state":"WA"}
+{"_id":"99330","city":"ELTOPIA","loc":[-119.101333,46.474996],"pop":758,"state":"WA"}
+{"_id":"99336","city":"KENNEWICK","loc":[-119.167951,46.210913],"pop":33860,"state":"WA"}
+{"_id":"99337","city":"KENNEWICK","loc":[-119.138289,46.181387],"pop":25962,"state":"WA"}
+{"_id":"99341","city":"LIND","loc":[-118.706057,46.955954],"pop":1134,"state":"WA"}
+{"_id":"99343","city":"MESA","loc":[-119.137324,46.578223],"pop":2382,"state":"WA"}
+{"_id":"99344","city":"MATTAWA","loc":[-119.316405,46.792518],"pop":11812,"state":"WA"}
+{"_id":"99345","city":"PATERSON","loc":[-119.755873,45.991139],"pop":94,"state":"WA"}
+{"_id":"99346","city":"PLYMOUTH","loc":[-119.502998,46.038184],"pop":219,"state":"WA"}
+{"_id":"99347","city":"POMEROY","loc":[-117.599282,46.469838],"pop":2467,"state":"WA"}
+{"_id":"99348","city":"PRESCOTT","loc":[-118.409663,46.353879],"pop":638,"state":"WA"}
+{"_id":"99350","city":"PROSSER","loc":[-119.771014,46.223183],"pop":9714,"state":"WA"}
+{"_id":"99352","city":"RICHLAND","loc":[-119.289201,46.283265],"pop":37664,"state":"WA"}
+{"_id":"99356","city":"ROOSEVELT","loc":[-120.356611,45.82962],"pop":172,"state":"WA"}
+{"_id":"99357","city":"ROYAL CITY","loc":[-119.581473,46.91557],"pop":3388,"state":"WA"}
+{"_id":"99360","city":"LOWDEN","loc":[-118.655411,46.04851],"pop":1234,"state":"WA"}
+{"_id":"99361","city":"WAITSBURG","loc":[-118.144734,46.269092],"pop":2138,"state":"WA"}
+{"_id":"99362","city":"WALLA WALLA","loc":[-118.331544,46.061373],"pop":34993,"state":"WA"}
+{"_id":"99371","city":"WASHTUCNA","loc":[-118.286203,46.820912],"pop":625,"state":"WA"}
+{"_id":"99401","city":"ANATONE","loc":[-117.088316,46.128466],"pop":141,"state":"WA"}
+{"_id":"99402","city":"ASOTIN","loc":[-117.001548,46.134318],"pop":89,"state":"WA"}
+{"_id":"99403","city":"CLARKSTON","loc":[-117.064457,46.394622],"pop":17375,"state":"WA"}

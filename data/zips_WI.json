@@ -1,0 +1,716 @@
+{"_id":"53001","city":"ADELL","loc":[-88.025394,43.615071],"pop":1221,"state":"WI"}
+{"_id":"53002","city":"ALLENTON","loc":[-88.353901,43.468065],"pop":1449,"state":"WI"}
+{"_id":"53004","city":"BELGIUM","loc":[-87.850908,43.499465],"pop":2333,"state":"WI"}
+{"_id":"53005","city":"BROOKFIELD","loc":[-88.098,43.062173],"pop":19793,"state":"WI"}
+{"_id":"53006","city":"SOUTH BYRON","loc":[-88.509729,43.610934],"pop":1842,"state":"WI"}
+{"_id":"53007","city":"BUTLER","loc":[-88.071043,43.105405],"pop":2079,"state":"WI"}
+{"_id":"53010","city":"CAMPBELLSPORT","loc":[-88.272855,43.604183],"pop":6057,"state":"WI"}
+{"_id":"53011","city":"CASCADE","loc":[-88.094658,43.659106],"pop":632,"state":"WI"}
+{"_id":"53012","city":"CEDARBURG","loc":[-88.002867,43.303413],"pop":17552,"state":"WI"}
+{"_id":"53013","city":"CEDAR GROVE","loc":[-87.840108,43.575076],"pop":2656,"state":"WI"}
+{"_id":"53014","city":"CHILTON","loc":[-88.182689,44.024242],"pop":7495,"state":"WI"}
+{"_id":"53015","city":"CLEVELAND","loc":[-87.767314,43.921732],"pop":2490,"state":"WI"}
+{"_id":"53017","city":"COLGATE","loc":[-88.240614,43.199767],"pop":4155,"state":"WI"}
+{"_id":"53018","city":"DELAFIELD","loc":[-88.397248,43.050019],"pop":4837,"state":"WI"}
+{"_id":"53019","city":"EDEN","loc":[-88.326607,43.695878],"pop":1874,"state":"WI"}
+{"_id":"53020","city":"ELKHART LAKE","loc":[-87.97667,43.843553],"pop":4665,"state":"WI"}
+{"_id":"53021","city":"WAUBEKA","loc":[-87.982243,43.484319],"pop":3942,"state":"WI"}
+{"_id":"53022","city":"GERMANTOWN","loc":[-88.116508,43.218871],"pop":13053,"state":"WI"}
+{"_id":"53023","city":"GLENBEULAH","loc":[-88.104886,43.766611],"pop":1965,"state":"WI"}
+{"_id":"53024","city":"GRAFTON","loc":[-87.952087,43.323146],"pop":12526,"state":"WI"}
+{"_id":"53027","city":"HARTFORD","loc":[-88.370727,43.315749],"pop":15889,"state":"WI"}
+{"_id":"53029","city":"HARTLAND","loc":[-88.344572,43.117153],"pop":14530,"state":"WI"}
+{"_id":"53032","city":"HORICON","loc":[-88.631049,43.446859],"pop":4724,"state":"WI"}
+{"_id":"53033","city":"HUBERTUS","loc":[-88.231147,43.234269],"pop":4823,"state":"WI"}
+{"_id":"53035","city":"IRON RIDGE","loc":[-88.544072,43.393415],"pop":2504,"state":"WI"}
+{"_id":"53036","city":"IXONIA","loc":[-88.580567,43.170667],"pop":2454,"state":"WI"}
+{"_id":"53037","city":"JACKSON","loc":[-88.162592,43.325243],"pop":3999,"state":"WI"}
+{"_id":"53038","city":"JOHNSON CREEK","loc":[-88.783602,43.075051],"pop":2469,"state":"WI"}
+{"_id":"53039","city":"JUNEAU","loc":[-88.684517,43.379199],"pop":5857,"state":"WI"}
+{"_id":"53040","city":"KEWASKUM","loc":[-88.19253,43.521446],"pop":6394,"state":"WI"}
+{"_id":"53042","city":"KIEL","loc":[-87.995644,43.934105],"pop":5345,"state":"WI"}
+{"_id":"53044","city":"KOHLER","loc":[-87.78673,43.738096],"pop":1900,"state":"WI"}
+{"_id":"53045","city":"BROOKFIELD","loc":[-88.146946,43.066791],"pop":15412,"state":"WI"}
+{"_id":"53046","city":"LANNON","loc":[-88.163863,43.149651],"pop":924,"state":"WI"}
+{"_id":"53048","city":"KNOWLES","loc":[-88.441309,43.588489],"pop":2101,"state":"WI"}
+{"_id":"53049","city":"MALONE","loc":[-88.307289,43.869002],"pop":3453,"state":"WI"}
+{"_id":"53050","city":"MAYVILLE","loc":[-88.545084,43.504496],"pop":6394,"state":"WI"}
+{"_id":"53051","city":"MENOMONEE FALLS","loc":[-88.112774,43.160174],"pop":26840,"state":"WI"}
+{"_id":"53057","city":"MOUNT CALVARY","loc":[-88.239922,43.814211],"pop":1403,"state":"WI"}
+{"_id":"53058","city":"NASHOTAH","loc":[-88.408913,43.111791],"pop":2996,"state":"WI"}
+{"_id":"53059","city":"NEOSHO","loc":[-88.520482,43.297841],"pop":2051,"state":"WI"}
+{"_id":"53061","city":"NEW HOLSTEIN","loc":[-88.091083,43.944639],"pop":5536,"state":"WI"}
+{"_id":"53063","city":"NEWTON","loc":[-87.784764,43.983621],"pop":1394,"state":"WI"}
+{"_id":"53065","city":"OAKFIELD","loc":[-88.556919,43.686371],"pop":2377,"state":"WI"}
+{"_id":"53066","city":"OCONOMOWOC","loc":[-88.486229,43.109497],"pop":24795,"state":"WI"}
+{"_id":"53069","city":"OKAUCHEE","loc":[-88.432287,43.113011],"pop":848,"state":"WI"}
+{"_id":"53070","city":"OOSTBURG","loc":[-87.796955,43.622939],"pop":3916,"state":"WI"}
+{"_id":"53072","city":"PEWAUKEE","loc":[-88.272922,43.078777],"pop":13337,"state":"WI"}
+{"_id":"53073","city":"PLYMOUTH","loc":[-87.977906,43.75258],"pop":11811,"state":"WI"}
+{"_id":"53074","city":"PORT WASHINGTON","loc":[-87.879659,43.395463],"pop":10829,"state":"WI"}
+{"_id":"53075","city":"RANDOM LAKE","loc":[-87.981553,43.567206],"pop":3299,"state":"WI"}
+{"_id":"53076","city":"RICHFIELD","loc":[-88.215467,43.273925],"pop":2810,"state":"WI"}
+{"_id":"53078","city":"RUBICON","loc":[-88.452793,43.312144],"pop":1023,"state":"WI"}
+{"_id":"53079","city":"SAINT CLOUD","loc":[-88.184482,43.807431],"pop":1524,"state":"WI"}
+{"_id":"53080","city":"SAUKVILLE","loc":[-87.956765,43.391265],"pop":5460,"state":"WI"}
+{"_id":"53081","city":"SHEBOYGAN","loc":[-87.724667,43.740981],"pop":42246,"state":"WI"}
+{"_id":"53083","city":"HOWARDS GROVE","loc":[-87.748552,43.788609],"pop":17004,"state":"WI"}
+{"_id":"53085","city":"SHEBOYGAN FALLS","loc":[-87.824228,43.726598],"pop":9457,"state":"WI"}
+{"_id":"53086","city":"SLINGER","loc":[-88.282377,43.332211],"pop":4671,"state":"WI"}
+{"_id":"53089","city":"SUSSEX","loc":[-88.227064,43.144059],"pop":11913,"state":"WI"}
+{"_id":"53091","city":"THERESA","loc":[-88.447766,43.504477],"pop":1555,"state":"WI"}
+{"_id":"53092","city":"MEQUON","loc":[-87.959357,43.225145],"pop":22294,"state":"WI"}
+{"_id":"53093","city":"WALDO","loc":[-87.97217,43.657087],"pop":2471,"state":"WI"}
+{"_id":"53094","city":"WATERTOWN","loc":[-88.71851,43.192971],"pop":25240,"state":"WI"}
+{"_id":"53095","city":"WEST BEND","loc":[-88.184549,43.422444],"pop":38743,"state":"WI"}
+{"_id":"53103","city":"BIG BEND","loc":[-88.212182,42.888463],"pop":4274,"state":"WI"}
+{"_id":"53104","city":"BRISTOL","loc":[-88.047779,42.532525],"pop":4514,"state":"WI"}
+{"_id":"53105","city":"BURLINGTON","loc":[-88.274886,42.666034],"pop":23978,"state":"WI"}
+{"_id":"53108","city":"CALEDONIA","loc":[-87.92278,42.829473],"pop":2453,"state":"WI"}
+{"_id":"53110","city":"CUDAHY","loc":[-87.861983,42.948976],"pop":18659,"state":"WI"}
+{"_id":"53114","city":"DARIEN","loc":[-88.714217,42.6435],"pop":3954,"state":"WI"}
+{"_id":"53115","city":"DELAVAN","loc":[-88.627717,42.622715],"pop":9967,"state":"WI"}
+{"_id":"53118","city":"DOUSMAN","loc":[-88.456754,42.98506],"pop":5699,"state":"WI"}
+{"_id":"53119","city":"EAGLE","loc":[-88.46742,42.880942],"pop":3129,"state":"WI"}
+{"_id":"53120","city":"EAST TROY","loc":[-88.409215,42.803531],"pop":8712,"state":"WI"}
+{"_id":"53121","city":"ELKHORN","loc":[-88.546209,42.700928],"pop":11680,"state":"WI"}
+{"_id":"53122","city":"ELM GROVE","loc":[-88.085374,43.047943],"pop":6394,"state":"WI"}
+{"_id":"53125","city":"FONTANA","loc":[-88.568424,42.542928],"pop":1697,"state":"WI"}
+{"_id":"53126","city":"FRANKSVILLE","loc":[-87.987273,42.785892],"pop":6685,"state":"WI"}
+{"_id":"53128","city":"GENOA CITY","loc":[-88.348456,42.532276],"pop":5027,"state":"WI"}
+{"_id":"53129","city":"GREENDALE","loc":[-87.994277,42.937293],"pop":15109,"state":"WI"}
+{"_id":"53130","city":"HALES CORNERS","loc":[-88.0503,42.941034],"pop":7643,"state":"WI"}
+{"_id":"53132","city":"FRANKLIN","loc":[-88.008582,42.901728],"pop":21840,"state":"WI"}
+{"_id":"53137","city":"HELENVILLE","loc":[-88.726887,43.01007],"pop":1440,"state":"WI"}
+{"_id":"53139","city":"KANSASVILLE","loc":[-88.118037,42.701246],"pop":2911,"state":"WI"}
+{"_id":"53140","city":"KENOSHA","loc":[-87.829945,42.605228],"pop":28062,"state":"WI"}
+{"_id":"53142","city":"KENOSHA","loc":[-87.870526,42.556038],"pop":28495,"state":"WI"}
+{"_id":"53143","city":"KENOSHA","loc":[-87.830053,42.561726],"pop":26551,"state":"WI"}
+{"_id":"53144","city":"KENOSHA","loc":[-87.876171,42.605788],"pop":18824,"state":"WI"}
+{"_id":"53146","city":"NEW BERLIN","loc":[-88.155274,42.97397],"pop":8149,"state":"WI"}
+{"_id":"53147","city":"LAKE GENEVA","loc":[-88.455379,42.588111],"pop":11183,"state":"WI"}
+{"_id":"53149","city":"MUKWONAGO","loc":[-88.345116,42.882054],"pop":12846,"state":"WI"}
+{"_id":"53150","city":"MUSKEGO","loc":[-88.121411,42.904651],"pop":17098,"state":"WI"}
+{"_id":"53151","city":"NEW BERLIN","loc":[-88.094642,42.982151],"pop":25731,"state":"WI"}
+{"_id":"53153","city":"NORTH PRAIRIE","loc":[-88.394988,42.938501],"pop":1732,"state":"WI"}
+{"_id":"53154","city":"OAK CREEK","loc":[-87.902661,42.88916],"pop":19513,"state":"WI"}
+{"_id":"53156","city":"PALMYRA","loc":[-88.590255,42.879263],"pop":2748,"state":"WI"}
+{"_id":"53168","city":"SALEM","loc":[-88.128731,42.570922],"pop":8746,"state":"WI"}
+{"_id":"53172","city":"SOUTH MILWAUKEE","loc":[-87.864626,42.910468],"pop":20958,"state":"WI"}
+{"_id":"53177","city":"STURTEVANT","loc":[-87.903082,42.69673],"pop":4774,"state":"WI"}
+{"_id":"53178","city":"SULLIVAN","loc":[-88.602569,42.99825],"pop":3381,"state":"WI"}
+{"_id":"53179","city":"TREVOR","loc":[-88.13869,42.520112],"pop":3527,"state":"WI"}
+{"_id":"53181","city":"TWIN LAKES","loc":[-88.257318,42.523173],"pop":6103,"state":"WI"}
+{"_id":"53182","city":"UNION GROVE","loc":[-88.039004,42.689643],"pop":6233,"state":"WI"}
+{"_id":"53183","city":"WALES","loc":[-88.378742,43.008787],"pop":3171,"state":"WI"}
+{"_id":"53184","city":"WALWORTH","loc":[-88.602738,42.535005],"pop":2831,"state":"WI"}
+{"_id":"53185","city":"WIND LAKE","loc":[-88.19335,42.796882],"pop":11362,"state":"WI"}
+{"_id":"53186","city":"WAUKESHA","loc":[-88.219559,42.999304],"pop":46445,"state":"WI"}
+{"_id":"53188","city":"WAUKESHA","loc":[-88.27048,43.012848],"pop":33794,"state":"WI"}
+{"_id":"53190","city":"WHITEWATER","loc":[-88.742864,42.827174],"pop":16723,"state":"WI"}
+{"_id":"53191","city":"WILLIAMS BAY","loc":[-88.543089,42.576678],"pop":2208,"state":"WI"}
+{"_id":"53202","city":"MILWAUKEE","loc":[-87.896792,43.050601],"pop":20178,"state":"WI"}
+{"_id":"53203","city":"MILWAUKEE","loc":[-87.915375,43.040299],"pop":456,"state":"WI"}
+{"_id":"53204","city":"MILWAUKEE","loc":[-87.931685,43.015778],"pop":41978,"state":"WI"}
+{"_id":"53205","city":"MILWAUKEE","loc":[-87.935332,43.052841],"pop":14708,"state":"WI"}
+{"_id":"53206","city":"MILWAUKEE","loc":[-87.934714,43.075324],"pop":42009,"state":"WI"}
+{"_id":"53207","city":"BAY VIEW","loc":[-87.894598,42.981405],"pop":49199,"state":"WI"}
+{"_id":"53208","city":"MILWAUKEE","loc":[-87.962454,43.048775],"pop":42238,"state":"WI"}
+{"_id":"53209","city":"MILWAUKEE","loc":[-87.947834,43.118765],"pop":51008,"state":"WI"}
+{"_id":"53210","city":"MILWAUKEE","loc":[-87.971466,43.068545],"pop":32111,"state":"WI"}
+{"_id":"53211","city":"SHOREWOOD","loc":[-87.885078,43.080517],"pop":37036,"state":"WI"}
+{"_id":"53212","city":"MILWAUKEE","loc":[-87.908415,43.071195],"pop":37237,"state":"WI"}
+{"_id":"53213","city":"WAUWATOSA","loc":[-88.000757,43.051316],"pop":27606,"state":"WI"}
+{"_id":"53214","city":"WEST ALLIS","loc":[-88.010757,43.019113],"pop":38491,"state":"WI"}
+{"_id":"53215","city":"WEST MILWAUKEE","loc":[-87.94174,43.000411],"pop":48228,"state":"WI"}
+{"_id":"53216","city":"MILWAUKEE","loc":[-87.974218,43.085868],"pop":34881,"state":"WI"}
+{"_id":"53217","city":"MILWAUKEE","loc":[-87.907261,43.14086],"pop":30065,"state":"WI"}
+{"_id":"53218","city":"MILWAUKEE","loc":[-87.993161,43.11218],"pop":40443,"state":"WI"}
+{"_id":"53219","city":"MILWAUKEE","loc":[-87.994368,42.995909],"pop":35271,"state":"WI"}
+{"_id":"53220","city":"GREENFIELD","loc":[-87.992209,42.968186],"pop":25819,"state":"WI"}
+{"_id":"53221","city":"MILWAUKEE","loc":[-87.944734,42.954864],"pop":35767,"state":"WI"}
+{"_id":"53222","city":"MILWAUKEE","loc":[-88.02687,43.08283],"pop":25406,"state":"WI"}
+{"_id":"53223","city":"MILWAUKEE","loc":[-87.989818,43.162374],"pop":30272,"state":"WI"}
+{"_id":"53224","city":"MILWAUKEE","loc":[-88.032744,43.159415],"pop":18182,"state":"WI"}
+{"_id":"53225","city":"MILWAUKEE","loc":[-88.03464,43.115416],"pop":25395,"state":"WI"}
+{"_id":"53226","city":"WAUWATOSA","loc":[-88.041386,43.050006],"pop":19216,"state":"WI"}
+{"_id":"53227","city":"MILWAUKEE","loc":[-88.036384,42.994919],"pop":23150,"state":"WI"}
+{"_id":"53228","city":"GREENFIELD","loc":[-88.034638,42.970251],"pop":12634,"state":"WI"}
+{"_id":"53233","city":"MILWAUKEE","loc":[-87.93566,43.040738],"pop":16569,"state":"WI"}
+{"_id":"53402","city":"RACINE","loc":[-87.795985,42.772596],"pop":31959,"state":"WI"}
+{"_id":"53403","city":"RACINE","loc":[-87.801375,42.706015],"pop":26329,"state":"WI"}
+{"_id":"53404","city":"RACINE","loc":[-87.8053,42.743348],"pop":17129,"state":"WI"}
+{"_id":"53405","city":"RACINE","loc":[-87.823329,42.716112],"pop":26652,"state":"WI"}
+{"_id":"53406","city":"RACINE","loc":[-87.855104,42.724162],"pop":20925,"state":"WI"}
+{"_id":"53502","city":"ALBANY","loc":[-89.435695,42.715535],"pop":1886,"state":"WI"}
+{"_id":"53503","city":"ARENA","loc":[-89.938614,43.152111],"pop":1554,"state":"WI"}
+{"_id":"53504","city":"ARGYLE","loc":[-89.859834,42.695532],"pop":2048,"state":"WI"}
+{"_id":"53505","city":"AVALON","loc":[-88.837142,42.65979],"pop":373,"state":"WI"}
+{"_id":"53506","city":"AVOCA","loc":[-90.288859,43.157137],"pop":1072,"state":"WI"}
+{"_id":"53507","city":"BARNEVELD","loc":[-89.904229,43.015797],"pop":1301,"state":"WI"}
+{"_id":"53508","city":"BELLEVILLE","loc":[-89.53773,42.866906],"pop":3500,"state":"WI"}
+{"_id":"53510","city":"BELMONT","loc":[-90.335881,42.730784],"pop":1477,"state":"WI"}
+{"_id":"53511","city":"SHOPIERE","loc":[-89.039897,42.522871],"pop":46738,"state":"WI"}
+{"_id":"53515","city":"BLACK EARTH","loc":[-89.738974,43.132213],"pop":1824,"state":"WI"}
+{"_id":"53516","city":"BLANCHARDVILLE","loc":[-89.855511,42.806186],"pop":1810,"state":"WI"}
+{"_id":"53517","city":"BLUE MOUNDS","loc":[-89.834455,43.004964],"pop":639,"state":"WI"}
+{"_id":"53518","city":"BLUE RIVER","loc":[-90.587312,43.236567],"pop":1520,"state":"WI"}
+{"_id":"53520","city":"BRODHEAD","loc":[-89.371409,42.611074],"pop":5825,"state":"WI"}
+{"_id":"53521","city":"BROOKLYN","loc":[-89.381814,42.842327],"pop":2329,"state":"WI"}
+{"_id":"53522","city":"BROWNTOWN","loc":[-89.78158,42.557872],"pop":1146,"state":"WI"}
+{"_id":"53523","city":"CAMBRIDGE","loc":[-89.020901,42.99176],"pop":4102,"state":"WI"}
+{"_id":"53525","city":"CLINTON","loc":[-88.870477,42.553481],"pop":3627,"state":"WI"}
+{"_id":"53526","city":"COBB","loc":[-90.332408,42.966009],"pop":542,"state":"WI"}
+{"_id":"53527","city":"COTTAGE GROVE","loc":[-89.201692,43.078405],"pop":4349,"state":"WI"}
+{"_id":"53528","city":"CROSS PLAINS","loc":[-89.639665,43.113214],"pop":3622,"state":"WI"}
+{"_id":"53529","city":"DANE","loc":[-89.51174,43.242414],"pop":1572,"state":"WI"}
+{"_id":"53530","city":"DARLINGTON","loc":[-90.110648,42.687816],"pop":4224,"state":"WI"}
+{"_id":"53531","city":"DEERFIELD","loc":[-89.086199,43.057106],"pop":2668,"state":"WI"}
+{"_id":"53532","city":"DE FOREST","loc":[-89.329652,43.235748],"pop":9321,"state":"WI"}
+{"_id":"53533","city":"DODGEVILLE","loc":[-90.140433,42.969779],"pop":5663,"state":"WI"}
+{"_id":"53534","city":"EDGERTON","loc":[-89.064157,42.838605],"pop":9749,"state":"WI"}
+{"_id":"53536","city":"EVANSVILLE","loc":[-89.287712,42.773216],"pop":5986,"state":"WI"}
+{"_id":"53538","city":"FORT ATKINSON","loc":[-88.846689,42.922902],"pop":15624,"state":"WI"}
+{"_id":"53541","city":"GRATIOT","loc":[-90.024344,42.575852],"pop":1129,"state":"WI"}
+{"_id":"53543","city":"HIGHLAND","loc":[-90.36501,43.052368],"pop":1586,"state":"WI"}
+{"_id":"53544","city":"HOLLANDALE","loc":[-89.912973,42.877321],"pop":591,"state":"WI"}
+{"_id":"53545","city":"JANESVILLE","loc":[-89.033124,42.691542],"pop":40339,"state":"WI"}
+{"_id":"53546","city":"JANESVILLE","loc":[-89.002534,42.668254],"pop":22324,"state":"WI"}
+{"_id":"53549","city":"JEFFERSON","loc":[-88.807765,43.000557],"pop":8540,"state":"WI"}
+{"_id":"53550","city":"JUDA","loc":[-89.502608,42.567874],"pop":1177,"state":"WI"}
+{"_id":"53551","city":"LAKE MILLS","loc":[-88.913335,43.081576],"pop":6196,"state":"WI"}
+{"_id":"53553","city":"LINDEN","loc":[-90.279726,42.918419],"pop":522,"state":"WI"}
+{"_id":"53554","city":"LIVINGSTON","loc":[-90.441986,42.904432],"pop":964,"state":"WI"}
+{"_id":"53555","city":"LODI","loc":[-89.555421,43.326964],"pop":5765,"state":"WI"}
+{"_id":"53556","city":"LONE ROCK","loc":[-90.235229,43.220773],"pop":2367,"state":"WI"}
+{"_id":"53557","city":"LOWELL","loc":[-88.787263,43.342018],"pop":231,"state":"WI"}
+{"_id":"53558","city":"MC FARLAND","loc":[-89.294773,43.010651],"pop":8040,"state":"WI"}
+{"_id":"53559","city":"MARSHALL","loc":[-89.075331,43.163639],"pop":4175,"state":"WI"}
+{"_id":"53560","city":"MAZOMANIE","loc":[-89.763616,43.184746],"pop":3176,"state":"WI"}
+{"_id":"53561","city":"MERRIMAC","loc":[-89.632254,43.385527],"pop":1366,"state":"WI"}
+{"_id":"53562","city":"MIDDLETON","loc":[-89.507258,43.105196],"pop":16575,"state":"WI"}
+{"_id":"53563","city":"MILTON","loc":[-88.953087,42.779087],"pop":7309,"state":"WI"}
+{"_id":"53565","city":"MINERAL POINT","loc":[-90.164556,42.854696],"pop":4566,"state":"WI"}
+{"_id":"53566","city":"MONROE","loc":[-89.6403,42.599076],"pop":13720,"state":"WI"}
+{"_id":"53569","city":"MONTFORT","loc":[-90.44473,42.975745],"pop":1129,"state":"WI"}
+{"_id":"53570","city":"MONTICELLO","loc":[-89.608069,42.741482],"pop":2315,"state":"WI"}
+{"_id":"53572","city":"MOUNT HOREB","loc":[-89.741448,43.002022],"pop":7193,"state":"WI"}
+{"_id":"53573","city":"MUSCODA","loc":[-90.456998,43.207375],"pop":3774,"state":"WI"}
+{"_id":"53574","city":"NEW GLARUS","loc":[-89.643666,42.814344],"pop":2540,"state":"WI"}
+{"_id":"53575","city":"OREGON","loc":[-89.387002,42.929485],"pop":9719,"state":"WI"}
+{"_id":"53576","city":"ORFORDVILLE","loc":[-89.253292,42.627766],"pop":1923,"state":"WI"}
+{"_id":"53577","city":"PLAIN","loc":[-90.055825,43.292693],"pop":1292,"state":"WI"}
+{"_id":"53578","city":"PRAIRIE DU SAC","loc":[-89.745233,43.295631],"pop":4060,"state":"WI"}
+{"_id":"53579","city":"REESEVILLE","loc":[-88.857117,43.301278],"pop":2027,"state":"WI"}
+{"_id":"53580","city":"REWEY","loc":[-90.380361,42.859393],"pop":601,"state":"WI"}
+{"_id":"53581","city":"GILLINGHAM","loc":[-90.391378,43.362714],"pop":10306,"state":"WI"}
+{"_id":"53582","city":"RIDGEWAY","loc":[-89.988946,43.007654],"pop":924,"state":"WI"}
+{"_id":"53583","city":"SAUK CITY","loc":[-89.741777,43.268558],"pop":5186,"state":"WI"}
+{"_id":"53585","city":"SHARON","loc":[-88.726522,42.519367],"pop":2297,"state":"WI"}
+{"_id":"53586","city":"SHULLSBURG","loc":[-90.226619,42.57856],"pop":2124,"state":"WI"}
+{"_id":"53587","city":"SOUTH WAYNE","loc":[-89.888844,42.582199],"pop":1444,"state":"WI"}
+{"_id":"53588","city":"SPRING GREEN","loc":[-90.067608,43.18835],"pop":3439,"state":"WI"}
+{"_id":"53589","city":"STOUGHTON","loc":[-89.223989,42.929007],"pop":15469,"state":"WI"}
+{"_id":"53590","city":"SUN PRAIRIE","loc":[-89.222662,43.186901],"pop":18776,"state":"WI"}
+{"_id":"53593","city":"VERONA","loc":[-89.552247,42.999913],"pop":9932,"state":"WI"}
+{"_id":"53594","city":"WATERLOO","loc":[-88.983835,43.183171],"pop":4106,"state":"WI"}
+{"_id":"53597","city":"WAUNAKEE","loc":[-89.45317,43.181828],"pop":9691,"state":"WI"}
+{"_id":"53598","city":"WINDSOR","loc":[-89.341469,43.214121],"pop":1825,"state":"WI"}
+{"_id":"53703","city":"MADISON","loc":[-89.383068,43.077535],"pop":25721,"state":"WI"}
+{"_id":"53704","city":"MADISON","loc":[-89.352295,43.120526],"pop":40639,"state":"WI"}
+{"_id":"53705","city":"MADISON","loc":[-89.452823,43.072999],"pop":29114,"state":"WI"}
+{"_id":"53706","city":"MADISON","loc":[-89.409362,43.076929],"pop":3587,"state":"WI"}
+{"_id":"53711","city":"MADISON","loc":[-89.452558,43.035644],"pop":42198,"state":"WI"}
+{"_id":"53713","city":"FITCHBURG","loc":[-89.390008,43.037381],"pop":18082,"state":"WI"}
+{"_id":"53714","city":"MADISON","loc":[-89.311758,43.097735],"pop":17978,"state":"WI"}
+{"_id":"53715","city":"MADISON","loc":[-89.400045,43.065287],"pop":13545,"state":"WI"}
+{"_id":"53716","city":"MONONA","loc":[-89.315921,43.067413],"pop":20296,"state":"WI"}
+{"_id":"53717","city":"MADISON","loc":[-89.507984,43.073587],"pop":7675,"state":"WI"}
+{"_id":"53718","city":"MADISON","loc":[-89.407339,43.152143],"pop":63,"state":"WI"}
+{"_id":"53719","city":"MADISON","loc":[-89.499324,43.03207],"pop":9669,"state":"WI"}
+{"_id":"53801","city":"BAGLEY","loc":[-91.068502,42.920734],"pop":879,"state":"WI"}
+{"_id":"53803","city":"BENTON","loc":[-90.338045,42.534901],"pop":153,"state":"WI"}
+{"_id":"53804","city":"BLOOMINGTON","loc":[-90.909905,42.872598],"pop":1485,"state":"WI"}
+{"_id":"53805","city":"BOSCOBEL","loc":[-90.706101,43.139327],"pop":4755,"state":"WI"}
+{"_id":"53806","city":"CASSVILLE","loc":[-90.960751,42.728791],"pop":2134,"state":"WI"}
+{"_id":"53807","city":"CUBA CITY","loc":[-90.474907,42.599073],"pop":6856,"state":"WI"}
+{"_id":"53809","city":"FENNIMORE","loc":[-90.655009,42.988558],"pop":3668,"state":"WI"}
+{"_id":"53810","city":"GLEN HAVEN","loc":[-91.000451,42.820372],"pop":614,"state":"WI"}
+{"_id":"53811","city":"HAZEL GREEN","loc":[-90.511782,42.535913],"pop":3228,"state":"WI"}
+{"_id":"53813","city":"LANCASTER","loc":[-90.710906,42.844469],"pop":6537,"state":"WI"}
+{"_id":"53816","city":"MOUNT HOPE","loc":[-90.86648,42.968862],"pop":737,"state":"WI"}
+{"_id":"53818","city":"PLATTEVILLE","loc":[-90.485406,42.73932],"pop":13067,"state":"WI"}
+{"_id":"53820","city":"POTOSI","loc":[-90.700153,42.6884],"pop":2845,"state":"WI"}
+{"_id":"53821","city":"PRAIRIE DU CHIEN","loc":[-91.119305,43.042649],"pop":7950,"state":"WI"}
+{"_id":"53825","city":"STITZER","loc":[-90.607924,42.92142],"pop":469,"state":"WI"}
+{"_id":"53826","city":"WAUZEKA","loc":[-90.923885,43.114264],"pop":1455,"state":"WI"}
+{"_id":"53827","city":"WOODMAN","loc":[-90.824539,43.057697],"pop":412,"state":"WI"}
+{"_id":"53901","city":"PORTAGE","loc":[-89.47139,43.550145],"pop":11280,"state":"WI"}
+{"_id":"53910","city":"ADAMS","loc":[-89.821869,43.896688],"pop":2342,"state":"WI"}
+{"_id":"53911","city":"ARLINGTON","loc":[-89.363082,43.326868],"pop":1329,"state":"WI"}
+{"_id":"53913","city":"BARABOO","loc":[-89.746168,43.482531],"pop":14955,"state":"WI"}
+{"_id":"53916","city":"BEAVER DAM","loc":[-88.840681,43.461574],"pop":19539,"state":"WI"}
+{"_id":"53919","city":"BRANDON","loc":[-88.784099,43.72579],"pop":2953,"state":"WI"}
+{"_id":"53920","city":"BRIGGSVILLE","loc":[-89.580259,43.675865],"pop":951,"state":"WI"}
+{"_id":"53922","city":"BURNETT","loc":[-88.717606,43.511609],"pop":909,"state":"WI"}
+{"_id":"53923","city":"CAMBRIA","loc":[-89.115614,43.57239],"pop":2566,"state":"WI"}
+{"_id":"53924","city":"CAZENOVIA","loc":[-90.279572,43.498715],"pop":717,"state":"WI"}
+{"_id":"53925","city":"COLUMBUS","loc":[-89.027089,43.331494],"pop":6847,"state":"WI"}
+{"_id":"53926","city":"DALTON","loc":[-89.191768,43.67178],"pop":685,"state":"WI"}
+{"_id":"53929","city":"ELROY","loc":[-90.288857,43.751616],"pop":3270,"state":"WI"}
+{"_id":"53930","city":"ENDEAVOR","loc":[-89.461699,43.696305],"pop":773,"state":"WI"}
+{"_id":"53932","city":"FALL RIVER","loc":[-89.062513,43.400838],"pop":1996,"state":"WI"}
+{"_id":"53933","city":"FOX LAKE","loc":[-88.904081,43.581507],"pop":3233,"state":"WI"}
+{"_id":"53934","city":"FRIENDSHIP","loc":[-89.814875,43.989629],"pop":4859,"state":"WI"}
+{"_id":"53936","city":"GRAND MARSH","loc":[-89.655663,43.856789],"pop":1907,"state":"WI"}
+{"_id":"53937","city":"HILLPOINT","loc":[-90.158792,43.395129],"pop":980,"state":"WI"}
+{"_id":"53939","city":"KINGSTON","loc":[-89.131997,43.69236],"pop":346,"state":"WI"}
+{"_id":"53941","city":"LA VALLE","loc":[-90.127966,43.569874],"pop":2383,"state":"WI"}
+{"_id":"53943","city":"LOGANVILLE","loc":[-90.033688,43.405046],"pop":877,"state":"WI"}
+{"_id":"53944","city":"LYNDON STATION","loc":[-89.891543,43.689875],"pop":2010,"state":"WI"}
+{"_id":"53946","city":"MARKESAN","loc":[-89.006971,43.714015],"pop":4015,"state":"WI"}
+{"_id":"53947","city":"MARQUETTE","loc":[-89.139654,43.745886],"pop":183,"state":"WI"}
+{"_id":"53948","city":"MAUSTON","loc":[-90.064085,43.793383],"pop":7325,"state":"WI"}
+{"_id":"53949","city":"MONTELLO","loc":[-89.358641,43.768984],"pop":4392,"state":"WI"}
+{"_id":"53950","city":"NEW LISBON","loc":[-90.152407,43.88775],"pop":3320,"state":"WI"}
+{"_id":"53951","city":"NORTH FREEDOM","loc":[-89.849019,43.410562],"pop":1858,"state":"WI"}
+{"_id":"53952","city":"OXFORD","loc":[-89.563175,43.779914],"pop":1217,"state":"WI"}
+{"_id":"53954","city":"PARDEEVILLE","loc":[-89.326514,43.533975],"pop":6321,"state":"WI"}
+{"_id":"53955","city":"POYNETTE","loc":[-89.418857,43.401342],"pop":4264,"state":"WI"}
+{"_id":"53956","city":"RANDOLPH","loc":[-89.002992,43.539696],"pop":3206,"state":"WI"}
+{"_id":"53959","city":"REEDSBURG","loc":[-89.995948,43.531581],"pop":9118,"state":"WI"}
+{"_id":"53960","city":"RIO","loc":[-89.235362,43.423053],"pop":2766,"state":"WI"}
+{"_id":"53961","city":"ROCK SPRINGS","loc":[-89.921834,43.468098],"pop":735,"state":"WI"}
+{"_id":"53963","city":"WAUPUN","loc":[-88.737253,43.632441],"pop":11222,"state":"WI"}
+{"_id":"53964","city":"WESTFIELD","loc":[-89.502015,43.896788],"pop":3309,"state":"WI"}
+{"_id":"53965","city":"WISCONSIN DELLS","loc":[-89.76652,43.650789],"pop":7650,"state":"WI"}
+{"_id":"53968","city":"WONEWOC","loc":[-90.239357,43.62848],"pop":3180,"state":"WI"}
+{"_id":"54001","city":"DERONDA","loc":[-92.361527,45.325238],"pop":4929,"state":"WI"}
+{"_id":"54002","city":"BALDWIN","loc":[-92.365498,44.9657],"pop":4214,"state":"WI"}
+{"_id":"54003","city":"BELDENVILLE","loc":[-92.437202,44.7721],"pop":1442,"state":"WI"}
+{"_id":"54004","city":"CLAYTON","loc":[-92.139462,45.306297],"pop":2414,"state":"WI"}
+{"_id":"54005","city":"CLEAR LAKE","loc":[-92.27488,45.236481],"pop":3254,"state":"WI"}
+{"_id":"54006","city":"CUSHING","loc":[-92.624136,45.560359],"pop":2750,"state":"WI"}
+{"_id":"54007","city":"DEER PARK","loc":[-92.358464,45.169046],"pop":876,"state":"WI"}
+{"_id":"54009","city":"DRESSER","loc":[-92.5623,45.354585],"pop":4019,"state":"WI"}
+{"_id":"54011","city":"ELLSWORTH","loc":[-92.489038,44.730191],"pop":4293,"state":"WI"}
+{"_id":"54012","city":"EMERALD","loc":[-92.312786,45.078578],"pop":630,"state":"WI"}
+{"_id":"54013","city":"GLENWOOD CITY","loc":[-92.181588,45.062339],"pop":1835,"state":"WI"}
+{"_id":"54014","city":"HAGER CITY","loc":[-92.550146,44.626969],"pop":2075,"state":"WI"}
+{"_id":"54015","city":"HAMMOND","loc":[-92.447215,44.967004],"pop":1921,"state":"WI"}
+{"_id":"54016","city":"HUDSON","loc":[-92.727062,44.984187],"pop":16136,"state":"WI"}
+{"_id":"54017","city":"NEW RICHMOND","loc":[-92.551333,45.159819],"pop":14190,"state":"WI"}
+{"_id":"54020","city":"OSCEOLA","loc":[-92.697108,45.321757],"pop":2062,"state":"WI"}
+{"_id":"54021","city":"PRESCOTT","loc":[-92.753528,44.747648],"pop":4807,"state":"WI"}
+{"_id":"54022","city":"RIVER FALLS","loc":[-92.631275,44.85501],"pop":16037,"state":"WI"}
+{"_id":"54023","city":"ROBERTS","loc":[-92.559773,44.987356],"pop":2063,"state":"WI"}
+{"_id":"54024","city":"SAINT CROIX FALL","loc":[-92.638371,45.413215],"pop":1640,"state":"WI"}
+{"_id":"54025","city":"SOMERSET","loc":[-92.686466,45.133064],"pop":2937,"state":"WI"}
+{"_id":"54026","city":"STAR PRAIRIE","loc":[-92.551353,45.2013],"pop":40,"state":"WI"}
+{"_id":"54027","city":"WILSON","loc":[-92.196538,44.94658],"pop":1415,"state":"WI"}
+{"_id":"54028","city":"WOODVILLE","loc":[-92.284803,44.940806],"pop":1326,"state":"WI"}
+{"_id":"54082","city":"SAINT JOSEPH","loc":[-92.760803,45.070123],"pop":987,"state":"WI"}
+{"_id":"54101","city":"ABRAMS","loc":[-88.057101,44.78693],"pop":1712,"state":"WI"}
+{"_id":"54102","city":"AMBERG","loc":[-87.964256,45.498878],"pop":917,"state":"WI"}
+{"_id":"54103","city":"ARMSTRONG CREEK","loc":[-88.490847,45.67261],"pop":460,"state":"WI"}
+{"_id":"54104","city":"ATHELSTANE","loc":[-88.175282,45.422819],"pop":696,"state":"WI"}
+{"_id":"54106","city":"CENTER VALLEY","loc":[-88.444776,44.485595],"pop":4859,"state":"WI"}
+{"_id":"54107","city":"NAVARINO","loc":[-88.439026,44.73794],"pop":2148,"state":"WI"}
+{"_id":"54110","city":"BRILLION","loc":[-88.083337,44.17792],"pop":4618,"state":"WI"}
+{"_id":"54111","city":"CECIL","loc":[-88.418253,44.811027],"pop":2966,"state":"WI"}
+{"_id":"54112","city":"COLEMAN","loc":[-88.058667,45.072157],"pop":2828,"state":"WI"}
+{"_id":"54113","city":"COMBINED LOCKS","loc":[-88.313271,44.266581],"pop":2190,"state":"WI"}
+{"_id":"54114","city":"BEAVER","loc":[-88.061265,45.254053],"pop":3395,"state":"WI"}
+{"_id":"54115","city":"DE PERE","loc":[-88.080613,44.438779],"pop":22430,"state":"WI"}
+{"_id":"54119","city":"DUNBAR","loc":[-88.106669,45.600944],"pop":838,"state":"WI"}
+{"_id":"54120","city":"FENCE","loc":[-88.364873,45.759652],"pop":362,"state":"WI"}
+{"_id":"54121","city":"FLORENCE","loc":[-88.228921,45.902724],"pop":2616,"state":"WI"}
+{"_id":"54123","city":"FOREST JUNCTION","loc":[-88.151716,44.20613],"pop":395,"state":"WI"}
+{"_id":"54124","city":"GILLETT","loc":[-88.324221,44.901753],"pop":3317,"state":"WI"}
+{"_id":"54125","city":"GOODMAN","loc":[-88.362901,45.646895],"pop":758,"state":"WI"}
+{"_id":"54126","city":"GREENLEAF","loc":[-88.027519,44.29373],"pop":3443,"state":"WI"}
+{"_id":"54128","city":"GRESHAM","loc":[-88.78873,44.852963],"pop":1689,"state":"WI"}
+{"_id":"54129","city":"HILBERT","loc":[-88.206961,44.127129],"pop":3938,"state":"WI"}
+{"_id":"54130","city":"KAUKAUNA","loc":[-88.271692,44.29561],"pop":19823,"state":"WI"}
+{"_id":"54135","city":"KESHENA","loc":[-88.635686,44.914635],"pop":3588,"state":"WI"}
+{"_id":"54136","city":"KIMBERLY","loc":[-88.338374,44.27008],"pop":5406,"state":"WI"}
+{"_id":"54137","city":"KRAKOW","loc":[-88.25933,44.763457],"pop":883,"state":"WI"}
+{"_id":"54138","city":"LAKEWOOD","loc":[-88.503189,45.316285],"pop":626,"state":"WI"}
+{"_id":"54139","city":"STILES","loc":[-88.054308,44.940494],"pop":2684,"state":"WI"}
+{"_id":"54140","city":"LITTLE CHUTE","loc":[-88.311989,44.284248],"pop":7769,"state":"WI"}
+{"_id":"54141","city":"LITTLE SUAMICO","loc":[-88.027245,44.67751],"pop":3506,"state":"WI"}
+{"_id":"54143","city":"MARINETTE","loc":[-87.669684,45.087403],"pop":16297,"state":"WI"}
+{"_id":"54149","city":"MOUNTAIN","loc":[-88.45828,45.199127],"pop":1261,"state":"WI"}
+{"_id":"54150","city":"NEOPIT","loc":[-88.861116,44.987323],"pop":14,"state":"WI"}
+{"_id":"54151","city":"NIAGARA","loc":[-88.030927,45.765343],"pop":4123,"state":"WI"}
+{"_id":"54153","city":"OCONTO","loc":[-87.891728,44.891359],"pop":6710,"state":"WI"}
+{"_id":"54154","city":"OCONTO FALLS","loc":[-88.155528,44.875499],"pop":4481,"state":"WI"}
+{"_id":"54155","city":"ONEIDA","loc":[-88.185851,44.516641],"pop":3674,"state":"WI"}
+{"_id":"54156","city":"PEMBINE","loc":[-87.970363,45.607398],"pop":1443,"state":"WI"}
+{"_id":"54157","city":"PESHTIGO","loc":[-87.729795,45.045778],"pop":4956,"state":"WI"}
+{"_id":"54159","city":"PORTERFIELD","loc":[-87.806243,45.193399],"pop":1974,"state":"WI"}
+{"_id":"54161","city":"POUND","loc":[-88.139621,45.127317],"pop":2084,"state":"WI"}
+{"_id":"54162","city":"PULASKI","loc":[-88.263447,44.66112],"pop":6933,"state":"WI"}
+{"_id":"54165","city":"SEYMOUR","loc":[-88.317243,44.509096],"pop":5744,"state":"WI"}
+{"_id":"54166","city":"SHAWANO","loc":[-88.603599,44.785133],"pop":13367,"state":"WI"}
+{"_id":"54170","city":"SHIOCTON","loc":[-88.556236,44.497202],"pop":3708,"state":"WI"}
+{"_id":"54171","city":"SOBIESKI","loc":[-88.107605,44.710495],"pop":1644,"state":"WI"}
+{"_id":"54174","city":"SURING","loc":[-88.362767,45.018551],"pop":2591,"state":"WI"}
+{"_id":"54175","city":"TOWNSEND","loc":[-88.610743,45.314819],"pop":729,"state":"WI"}
+{"_id":"54176","city":"UNDERHILL","loc":[-88.168898,44.731836],"pop":69,"state":"WI"}
+{"_id":"54177","city":"WAUSAUKEE","loc":[-87.909877,45.349507],"pop":2875,"state":"WI"}
+{"_id":"54180","city":"WRIGHTSTOWN","loc":[-88.121769,44.338377],"pop":2359,"state":"WI"}
+{"_id":"54201","city":"ALGOMA","loc":[-87.457792,44.610051],"pop":5387,"state":"WI"}
+{"_id":"54202","city":"BAILEYS HARBOR","loc":[-87.167626,45.056549],"pop":1167,"state":"WI"}
+{"_id":"54204","city":"BRUSSELS","loc":[-87.62252,44.747558],"pop":1785,"state":"WI"}
+{"_id":"54205","city":"CASCO","loc":[-87.623122,44.58328],"pop":2066,"state":"WI"}
+{"_id":"54206","city":"CATO","loc":[-87.864688,44.148521],"pop":1097,"state":"WI"}
+{"_id":"54208","city":"DENMARK","loc":[-87.827036,44.359392],"pop":3968,"state":"WI"}
+{"_id":"54209","city":"EGG HARBOR","loc":[-87.280521,45.010039],"pop":738,"state":"WI"}
+{"_id":"54210","city":"ELLISON BAY","loc":[-87.051209,45.257206],"pop":804,"state":"WI"}
+{"_id":"54212","city":"FISH CREEK","loc":[-87.206432,45.11554],"pop":1200,"state":"WI"}
+{"_id":"54213","city":"FORESTVILLE","loc":[-87.492832,44.696863],"pop":1680,"state":"WI"}
+{"_id":"54214","city":"FRANCIS CREEK","loc":[-87.720007,44.199964],"pop":562,"state":"WI"}
+{"_id":"54215","city":"KELLNERSVILLE","loc":[-87.803596,44.22493],"pop":350,"state":"WI"}
+{"_id":"54216","city":"KEWAUNEE","loc":[-87.559442,44.440143],"pop":6262,"state":"WI"}
+{"_id":"54217","city":"LUXEMBURG","loc":[-87.715606,44.550612],"pop":5188,"state":"WI"}
+{"_id":"54220","city":"MANITOWOC","loc":[-87.682303,44.097122],"pop":39178,"state":"WI"}
+{"_id":"54227","city":"MARIBEL","loc":[-87.805482,44.285151],"pop":2251,"state":"WI"}
+{"_id":"54228","city":"MISHICOT","loc":[-87.644703,44.260942],"pop":3245,"state":"WI"}
+{"_id":"54229","city":"NEW FRANKEN","loc":[-87.823482,44.559193],"pop":2640,"state":"WI"}
+{"_id":"54230","city":"REEDSVILLE","loc":[-87.966028,44.157566],"pop":3073,"state":"WI"}
+{"_id":"54232","city":"SAINT NAZIANZ","loc":[-87.922906,44.006425],"pop":680,"state":"WI"}
+{"_id":"54234","city":"SISTER BAY","loc":[-87.113865,45.187544],"pop":1376,"state":"WI"}
+{"_id":"54235","city":"STURGEON BAY","loc":[-87.375311,44.84384],"pop":16149,"state":"WI"}
+{"_id":"54241","city":"TWO RIVERS","loc":[-87.585504,44.166008],"pop":16768,"state":"WI"}
+{"_id":"54245","city":"VALDERS","loc":[-87.881183,44.041977],"pop":2056,"state":"WI"}
+{"_id":"54246","city":"WASHINGTON ISLAN","loc":[-86.913664,45.374042],"pop":623,"state":"WI"}
+{"_id":"54247","city":"WHITELAW","loc":[-87.826698,44.157269],"pop":1402,"state":"WI"}
+{"_id":"54301","city":"ALLOUEZ","loc":[-88.016868,44.485313],"pop":25108,"state":"WI"}
+{"_id":"54302","city":"GREEN BAY","loc":[-87.977136,44.502508],"pop":27273,"state":"WI"}
+{"_id":"54303","city":"HOWARD","loc":[-88.045262,44.530146],"pop":27046,"state":"WI"}
+{"_id":"54304","city":"ASHWAUBENON","loc":[-88.066799,44.505525],"pop":31339,"state":"WI"}
+{"_id":"54311","city":"GREEN BAY","loc":[-87.926685,44.491405],"pop":19373,"state":"WI"}
+{"_id":"54313","city":"GREEN BAY","loc":[-88.102054,44.546289],"pop":23360,"state":"WI"}
+{"_id":"54401","city":"WAUSAU","loc":[-89.633955,44.963433],"pop":51083,"state":"WI"}
+{"_id":"54405","city":"ABBOTSFORD","loc":[-90.299438,44.964057],"pop":2480,"state":"WI"}
+{"_id":"54406","city":"AMHERST","loc":[-89.303482,44.423052],"pop":2885,"state":"WI"}
+{"_id":"54407","city":"AMHERST JUNCTION","loc":[-89.303754,44.506458],"pop":1448,"state":"WI"}
+{"_id":"54408","city":"ANIWA","loc":[-89.268254,45.01039],"pop":1510,"state":"WI"}
+{"_id":"54409","city":"ANTIGO","loc":[-89.141871,45.131362],"pop":13087,"state":"WI"}
+{"_id":"54410","city":"ARPIN","loc":[-90.037049,44.54194],"pop":2301,"state":"WI"}
+{"_id":"54411","city":"HAMBURG","loc":[-90.062612,45.032037],"pop":4263,"state":"WI"}
+{"_id":"54412","city":"AUBURNDALE","loc":[-90.013577,44.637836],"pop":1667,"state":"WI"}
+{"_id":"54413","city":"BABCOCK","loc":[-90.098574,44.303064],"pop":409,"state":"WI"}
+{"_id":"54414","city":"BIRNAMWOOD","loc":[-89.212433,44.926896],"pop":2464,"state":"WI"}
+{"_id":"54416","city":"BOWLER","loc":[-88.976071,44.933667],"pop":2777,"state":"WI"}
+{"_id":"54418","city":"BRYANT","loc":[-88.998325,45.202962],"pop":1029,"state":"WI"}
+{"_id":"54419","city":"CHELSEA","loc":[-90.303685,45.288166],"pop":122,"state":"WI"}
+{"_id":"54420","city":"CHILI","loc":[-90.359952,44.630135],"pop":728,"state":"WI"}
+{"_id":"54421","city":"COLBY","loc":[-90.314432,44.911651],"pop":3621,"state":"WI"}
+{"_id":"54422","city":"CURTISS","loc":[-90.459223,44.960186],"pop":1111,"state":"WI"}
+{"_id":"54423","city":"CUSTER","loc":[-89.415275,44.56622],"pop":2010,"state":"WI"}
+{"_id":"54424","city":"DEERBROOK","loc":[-89.187257,45.236791],"pop":902,"state":"WI"}
+{"_id":"54425","city":"DORCHESTER","loc":[-90.359648,45.004192],"pop":1860,"state":"WI"}
+{"_id":"54426","city":"FENWOOD","loc":[-89.998029,44.903831],"pop":3810,"state":"WI"}
+{"_id":"54427","city":"ELAND","loc":[-89.246117,44.830888],"pop":1278,"state":"WI"}
+{"_id":"54428","city":"ELCHO","loc":[-89.15157,45.440906],"pop":988,"state":"WI"}
+{"_id":"54430","city":"ELTON","loc":[-88.883743,45.156216],"pop":135,"state":"WI"}
+{"_id":"54433","city":"GILMAN","loc":[-90.825672,45.18906],"pop":1780,"state":"WI"}
+{"_id":"54435","city":"GLEASON","loc":[-89.475264,45.338428],"pop":2347,"state":"WI"}
+{"_id":"54436","city":"GRANTON","loc":[-90.448383,44.560558],"pop":2072,"state":"WI"}
+{"_id":"54437","city":"GREENWOOD","loc":[-90.622913,44.740373],"pop":3029,"state":"WI"}
+{"_id":"54440","city":"HATLEY","loc":[-89.377728,44.825638],"pop":2129,"state":"WI"}
+{"_id":"54441","city":"HEWITT","loc":[-90.103054,44.643651],"pop":595,"state":"WI"}
+{"_id":"54442","city":"IRMA","loc":[-89.661138,45.348483],"pop":1006,"state":"WI"}
+{"_id":"54443","city":"JUNCTION CITY","loc":[-89.743758,44.59634],"pop":2396,"state":"WI"}
+{"_id":"54445","city":"LILY","loc":[-88.838451,45.318723],"pop":196,"state":"WI"}
+{"_id":"54446","city":"LOYAL","loc":[-90.492238,44.727243],"pop":3809,"state":"WI"}
+{"_id":"54447","city":"LUBLIN","loc":[-90.733678,45.073933],"pop":564,"state":"WI"}
+{"_id":"54448","city":"MARATHON","loc":[-89.829948,44.965664],"pop":5202,"state":"WI"}
+{"_id":"54449","city":"MARSHFIELD","loc":[-90.17845,44.661453],"pop":25791,"state":"WI"}
+{"_id":"54451","city":"MEDFORD","loc":[-90.350306,45.151185],"pop":10388,"state":"WI"}
+{"_id":"54452","city":"MERRILL","loc":[-89.690696,45.180924],"pop":17891,"state":"WI"}
+{"_id":"54454","city":"MILLADORE","loc":[-89.887532,44.604416],"pop":1347,"state":"WI"}
+{"_id":"54455","city":"MOSINEE","loc":[-89.684491,44.799736],"pop":13664,"state":"WI"}
+{"_id":"54456","city":"NEILLSVILLE","loc":[-90.611197,44.549429],"pop":4904,"state":"WI"}
+{"_id":"54457","city":"NEKOOSA","loc":[-89.881394,44.281979],"pop":7312,"state":"WI"}
+{"_id":"54459","city":"OGEMA","loc":[-90.256513,45.439187],"pop":1459,"state":"WI"}
+{"_id":"54460","city":"OWEN","loc":[-90.5469,44.957817],"pop":1759,"state":"WI"}
+{"_id":"54462","city":"PEARSON","loc":[-89.075824,45.388119],"pop":679,"state":"WI"}
+{"_id":"54463","city":"PELICAN LAKE","loc":[-89.181707,45.504886],"pop":635,"state":"WI"}
+{"_id":"54465","city":"PICKEREL","loc":[-88.91365,45.356658],"pop":269,"state":"WI"}
+{"_id":"54466","city":"PITTSVILLE","loc":[-90.189174,44.43747],"pop":2754,"state":"WI"}
+{"_id":"54467","city":"PLOVER","loc":[-89.542805,44.450673],"pop":6142,"state":"WI"}
+{"_id":"54469","city":"PORT EDWARDS","loc":[-89.865246,44.349705],"pop":1828,"state":"WI"}
+{"_id":"54470","city":"RIB LAKE","loc":[-90.176322,45.298376],"pop":2002,"state":"WI"}
+{"_id":"54471","city":"RINGLE","loc":[-89.432845,44.92383],"pop":1370,"state":"WI"}
+{"_id":"54473","city":"ROSHOLT","loc":[-89.335637,44.662224],"pop":3147,"state":"WI"}
+{"_id":"54474","city":"ROTHSCHILD","loc":[-89.619262,44.88429],"pop":3867,"state":"WI"}
+{"_id":"54475","city":"RUDOLPH","loc":[-89.800252,44.474061],"pop":1648,"state":"WI"}
+{"_id":"54476","city":"SCHOFIELD","loc":[-89.581789,44.906407],"pop":12583,"state":"WI"}
+{"_id":"54479","city":"SPENCER","loc":[-90.311406,44.739148],"pop":2997,"state":"WI"}
+{"_id":"54480","city":"STETSONVILLE","loc":[-90.282931,45.07923],"pop":1241,"state":"WI"}
+{"_id":"54481","city":"STEVENS POINT","loc":[-89.558764,44.521221],"pop":38950,"state":"WI"}
+{"_id":"54484","city":"STRATFORD","loc":[-90.058317,44.789878],"pop":4201,"state":"WI"}
+{"_id":"54485","city":"SUMMIT LAKE","loc":[-89.180743,45.320414],"pop":616,"state":"WI"}
+{"_id":"54486","city":"TIGERTON","loc":[-89.056893,44.729938],"pop":3310,"state":"WI"}
+{"_id":"54487","city":"TOMAHAWK","loc":[-89.727269,45.496308],"pop":8130,"state":"WI"}
+{"_id":"54488","city":"UNITY","loc":[-90.322074,44.822676],"pop":1797,"state":"WI"}
+{"_id":"54489","city":"VESPER","loc":[-89.982553,44.467656],"pop":1616,"state":"WI"}
+{"_id":"54490","city":"WESTBORO","loc":[-90.307194,45.344539],"pop":766,"state":"WI"}
+{"_id":"54491","city":"WHITE LAKE","loc":[-88.755489,45.171465],"pop":1324,"state":"WI"}
+{"_id":"54493","city":"WILLARD","loc":[-90.749897,44.727378],"pop":682,"state":"WI"}
+{"_id":"54494","city":"WISCONSIN RAPIDS","loc":[-89.806229,44.375803],"pop":33296,"state":"WI"}
+{"_id":"54498","city":"WITHEE","loc":[-90.604862,44.975726],"pop":2286,"state":"WI"}
+{"_id":"54499","city":"WITTENBERG","loc":[-89.166479,44.823247],"pop":1850,"state":"WI"}
+{"_id":"54501","city":"MONICO","loc":[-89.409285,45.646718],"pop":19039,"state":"WI"}
+{"_id":"54511","city":"CAVOUR","loc":[-88.888566,45.658309],"pop":1533,"state":"WI"}
+{"_id":"54512","city":"BOULDER JUNCTION","loc":[-89.632454,46.111183],"pop":563,"state":"WI"}
+{"_id":"54513","city":"BRANTWOOD","loc":[-90.115952,45.551413],"pop":540,"state":"WI"}
+{"_id":"54514","city":"BUTTERNUT","loc":[-90.482114,46.018358],"pop":2054,"state":"WI"}
+{"_id":"54515","city":"CATAWBA","loc":[-90.514564,45.508123],"pop":616,"state":"WI"}
+{"_id":"54517","city":"CLAM LAKE","loc":[-90.884107,46.245675],"pop":2,"state":"WI"}
+{"_id":"54519","city":"CONOVER","loc":[-89.238919,46.043968],"pop":1039,"state":"WI"}
+{"_id":"54520","city":"CRANDON","loc":[-88.911619,45.541553],"pop":3419,"state":"WI"}
+{"_id":"54521","city":"EAGLE RIVER","loc":[-89.253058,45.916084],"pop":6726,"state":"WI"}
+{"_id":"54524","city":"FIFIELD","loc":[-90.4246,45.862148],"pop":496,"state":"WI"}
+{"_id":"54526","city":"INGRAM","loc":[-90.855183,45.488807],"pop":949,"state":"WI"}
+{"_id":"54527","city":"GLIDDEN","loc":[-90.588856,46.133668],"pop":1061,"state":"WI"}
+{"_id":"54529","city":"HARSHAW","loc":[-89.650346,45.676244],"pop":854,"state":"WI"}
+{"_id":"54530","city":"HAWKINS","loc":[-90.711373,45.524129],"pop":747,"state":"WI"}
+{"_id":"54531","city":"HAZELHURST","loc":[-89.747836,45.77446],"pop":1057,"state":"WI"}
+{"_id":"54534","city":"HURLEY","loc":[-90.1975,46.44482],"pop":2658,"state":"WI"}
+{"_id":"54536","city":"IRON BELT","loc":[-90.324528,46.395545],"pop":265,"state":"WI"}
+{"_id":"54537","city":"KENNAN","loc":[-90.590987,45.53497],"pop":628,"state":"WI"}
+{"_id":"54538","city":"LAC DU FLAMBEAU","loc":[-89.890078,45.97175],"pop":2085,"state":"WI"}
+{"_id":"54539","city":"LAKE TOMAHAWK","loc":[-89.585609,45.803455],"pop":1223,"state":"WI"}
+{"_id":"54540","city":"LAND O LAKES","loc":[-89.321787,46.156305],"pop":742,"state":"WI"}
+{"_id":"54541","city":"LAONA","loc":[-88.671525,45.553416],"pop":1823,"state":"WI"}
+{"_id":"54542","city":"ALVIN","loc":[-88.695308,45.921841],"pop":550,"state":"WI"}
+{"_id":"54545","city":"MANITOWISH WATER","loc":[-89.830767,46.123909],"pop":901,"state":"WI"}
+{"_id":"54546","city":"MELLEN","loc":[-90.655233,46.300659],"pop":1752,"state":"WI"}
+{"_id":"54547","city":"MERCER","loc":[-90.067914,46.169594],"pop":1321,"state":"WI"}
+{"_id":"54548","city":"MINOCQUA","loc":[-89.757954,45.871909],"pop":3793,"state":"WI"}
+{"_id":"54550","city":"PENCE","loc":[-90.244195,46.425736],"pop":1019,"state":"WI"}
+{"_id":"54552","city":"PARK FALLS","loc":[-90.424648,45.936345],"pop":5316,"state":"WI"}
+{"_id":"54554","city":"PHELPS","loc":[-89.081547,46.064481],"pop":1183,"state":"WI"}
+{"_id":"54555","city":"PHILLIPS","loc":[-90.404131,45.697463],"pop":5155,"state":"WI"}
+{"_id":"54556","city":"PRENTICE","loc":[-90.294217,45.548201],"pop":1177,"state":"WI"}
+{"_id":"54557","city":"WINCHESTER","loc":[-89.772795,46.221735],"pop":735,"state":"WI"}
+{"_id":"54558","city":"SAINT GERMAIN","loc":[-89.486556,45.918315],"pop":1201,"state":"WI"}
+{"_id":"54559","city":"SAXON","loc":[-90.438273,46.495855],"pop":478,"state":"WI"}
+{"_id":"54560","city":"SAYNER","loc":[-89.519437,45.986664],"pop":559,"state":"WI"}
+{"_id":"54562","city":"THREE LAKES","loc":[-89.132792,45.804633],"pop":1755,"state":"WI"}
+{"_id":"54563","city":"TONY","loc":[-90.986938,45.474082],"pop":814,"state":"WI"}
+{"_id":"54564","city":"TRIPOLI","loc":[-89.985218,45.581387],"pop":374,"state":"WI"}
+{"_id":"54565","city":"UPSON","loc":[-90.405135,46.376124],"pop":69,"state":"WI"}
+{"_id":"54566","city":"WABENO","loc":[-88.662456,45.433172],"pop":1308,"state":"WI"}
+{"_id":"54568","city":"WOODRUFF","loc":[-89.69545,45.918583],"pop":4088,"state":"WI"}
+{"_id":"54601","city":"LA CROSSE","loc":[-91.217494,43.798938],"pop":48348,"state":"WI"}
+{"_id":"54603","city":"LA CROSSE","loc":[-91.248439,43.848675],"pop":15292,"state":"WI"}
+{"_id":"54610","city":"ALMA","loc":[-91.807931,44.429437],"pop":3824,"state":"WI"}
+{"_id":"54611","city":"ALMA CENTER","loc":[-90.935602,44.445218],"pop":989,"state":"WI"}
+{"_id":"54612","city":"ARCADIA","loc":[-91.480453,44.253937],"pop":4707,"state":"WI"}
+{"_id":"54613","city":"ARKDALE","loc":[-89.896215,44.052886],"pop":1582,"state":"WI"}
+{"_id":"54614","city":"BANGOR","loc":[-90.980888,43.868697],"pop":1952,"state":"WI"}
+{"_id":"54615","city":"BLACK RIVER FALL","loc":[-90.847952,44.292101],"pop":8248,"state":"WI"}
+{"_id":"54616","city":"BLAIR","loc":[-91.223501,44.296843],"pop":2347,"state":"WI"}
+{"_id":"54617","city":"BLOOM CITY","loc":[-90.666458,43.509034],"pop":437,"state":"WI"}
+{"_id":"54618","city":"CUTLER","loc":[-90.268861,43.936705],"pop":1613,"state":"WI"}
+{"_id":"54619","city":"CASHTON","loc":[-90.761197,43.745649],"pop":1547,"state":"WI"}
+{"_id":"54621","city":"CHASEBURG","loc":[-91.079934,43.679372],"pop":550,"state":"WI"}
+{"_id":"54622","city":"WAUMANDEE","loc":[-91.858677,44.251591],"pop":2271,"state":"WI"}
+{"_id":"54623","city":"COON VALLEY","loc":[-91.014338,43.721783],"pop":1402,"state":"WI"}
+{"_id":"54624","city":"VICTORY","loc":[-91.193015,43.494707],"pop":1422,"state":"WI"}
+{"_id":"54625","city":"DODGE","loc":[-91.524341,44.12886],"pop":397,"state":"WI"}
+{"_id":"54626","city":"EASTMAN","loc":[-91.01927,43.19592],"pop":1064,"state":"WI"}
+{"_id":"54627","city":"ETTRICK","loc":[-91.263546,44.172428],"pop":1644,"state":"WI"}
+{"_id":"54628","city":"FERRYVILLE","loc":[-91.044578,43.395857],"pop":1411,"state":"WI"}
+{"_id":"54629","city":"FOUNTAIN CITY","loc":[-91.677861,44.136436],"pop":2481,"state":"WI"}
+{"_id":"54630","city":"GALESVILLE","loc":[-91.358789,44.088848],"pop":3111,"state":"WI"}
+{"_id":"54631","city":"GAYS MILLS","loc":[-90.867636,43.293639],"pop":2577,"state":"WI"}
+{"_id":"54632","city":"GENOA","loc":[-91.134999,43.605134],"pop":1432,"state":"WI"}
+{"_id":"54634","city":"YUBA","loc":[-90.370595,43.635009],"pop":2309,"state":"WI"}
+{"_id":"54635","city":"NORTHFIELD","loc":[-91.039086,44.397778],"pop":1513,"state":"WI"}
+{"_id":"54636","city":"HOLMEN","loc":[-91.2497,43.976125],"pop":7098,"state":"WI"}
+{"_id":"54638","city":"KENDALL","loc":[-90.410691,43.81614],"pop":1848,"state":"WI"}
+{"_id":"54639","city":"WEST LIMA","loc":[-90.648257,43.616955],"pop":3280,"state":"WI"}
+{"_id":"54641","city":"MATHER","loc":[-90.295264,44.147706],"pop":57,"state":"WI"}
+{"_id":"54642","city":"MELROSE","loc":[-91.044463,44.138156],"pop":1806,"state":"WI"}
+{"_id":"54644","city":"MINDORO","loc":[-91.064181,44.02873],"pop":1157,"state":"WI"}
+{"_id":"54646","city":"NECEDAH","loc":[-90.059976,44.034481],"pop":2741,"state":"WI"}
+{"_id":"54648","city":"NORWALK","loc":[-90.680134,43.812823],"pop":2360,"state":"WI"}
+{"_id":"54650","city":"ONALASKA","loc":[-91.231419,43.897392],"pop":16435,"state":"WI"}
+{"_id":"54651","city":"ONTARIO","loc":[-90.620534,43.717197],"pop":1032,"state":"WI"}
+{"_id":"54652","city":"READSTOWN","loc":[-90.757872,43.450791],"pop":736,"state":"WI"}
+{"_id":"54653","city":"ROCKLAND","loc":[-90.948846,43.938159],"pop":1486,"state":"WI"}
+{"_id":"54655","city":"SOLDIERS GROVE","loc":[-90.766293,43.391857],"pop":1621,"state":"WI"}
+{"_id":"54656","city":"SPARTA","loc":[-90.814566,43.954045],"pop":14151,"state":"WI"}
+{"_id":"54657","city":"STEUBEN","loc":[-90.860878,43.195464],"pop":63,"state":"WI"}
+{"_id":"54658","city":"STODDARD","loc":[-91.19188,43.691227],"pop":2116,"state":"WI"}
+{"_id":"54659","city":"TAYLOR","loc":[-91.112752,44.289855],"pop":1205,"state":"WI"}
+{"_id":"54660","city":"WYEVILLE","loc":[-90.491704,43.994833],"pop":14294,"state":"WI"}
+{"_id":"54661","city":"TREMPEALEAU","loc":[-91.4282,44.021843],"pop":2370,"state":"WI"}
+{"_id":"54664","city":"VIOLA","loc":[-90.655416,43.504758],"pop":718,"state":"WI"}
+{"_id":"54665","city":"VIROQUA","loc":[-90.893865,43.54419],"pop":7071,"state":"WI"}
+{"_id":"54666","city":"WARRENS","loc":[-90.496692,44.15697],"pop":1089,"state":"WI"}
+{"_id":"54667","city":"WESTBY","loc":[-90.87403,43.663123],"pop":4290,"state":"WI"}
+{"_id":"54669","city":"WEST SALEM","loc":[-91.089311,43.906253],"pop":5244,"state":"WI"}
+{"_id":"54670","city":"WILTON","loc":[-90.516185,43.832209],"pop":1188,"state":"WI"}
+{"_id":"54701","city":"EAU CLAIRE","loc":[-91.487686,44.783972],"pop":31593,"state":"WI"}
+{"_id":"54703","city":"EAU CLAIRE","loc":[-91.499701,44.827122],"pop":38400,"state":"WI"}
+{"_id":"54720","city":"ALTOONA","loc":[-91.43825,44.802142],"pop":6065,"state":"WI"}
+{"_id":"54721","city":"ARKANSAW","loc":[-92.056646,44.626659],"pop":1099,"state":"WI"}
+{"_id":"54722","city":"AUGUSTA","loc":[-91.123154,44.694737],"pop":3402,"state":"WI"}
+{"_id":"54723","city":"BAY CITY","loc":[-92.446889,44.6166],"pop":1540,"state":"WI"}
+{"_id":"54724","city":"BLOOMER","loc":[-91.489974,45.102477],"pop":6410,"state":"WI"}
+{"_id":"54725","city":"BOYCEVILLE","loc":[-92.024803,45.064238],"pop":2520,"state":"WI"}
+{"_id":"54726","city":"BOYD","loc":[-91.029355,44.943737],"pop":2549,"state":"WI"}
+{"_id":"54727","city":"CADOTT","loc":[-91.169884,44.963014],"pop":4397,"state":"WI"}
+{"_id":"54728","city":"CHETEK","loc":[-91.654154,45.317046],"pop":5453,"state":"WI"}
+{"_id":"54729","city":"CHIPPEWA FALLS","loc":[-91.384376,44.932202],"pop":25627,"state":"WI"}
+{"_id":"54730","city":"COLFAX","loc":[-91.735737,44.999326],"pop":4073,"state":"WI"}
+{"_id":"54731","city":"CONRATH","loc":[-91.062132,45.353281],"pop":758,"state":"WI"}
+{"_id":"54732","city":"CORNELL","loc":[-91.173252,45.16191],"pop":2799,"state":"WI"}
+{"_id":"54733","city":"DALLAS","loc":[-91.836844,45.254883],"pop":973,"state":"WI"}
+{"_id":"54734","city":"DOWNING","loc":[-92.113384,45.103032],"pop":1029,"state":"WI"}
+{"_id":"54736","city":"DURAND","loc":[-91.929476,44.630042],"pop":3746,"state":"WI"}
+{"_id":"54737","city":"EAU GALLE","loc":[-92.040816,44.721433],"pop":921,"state":"WI"}
+{"_id":"54738","city":"ELEVA","loc":[-91.48037,44.598493],"pop":2291,"state":"WI"}
+{"_id":"54739","city":"ELK MOUND","loc":[-91.675229,44.866973],"pop":3539,"state":"WI"}
+{"_id":"54740","city":"ELMWOOD","loc":[-92.202195,44.756088],"pop":1759,"state":"WI"}
+{"_id":"54741","city":"FAIRCHILD","loc":[-90.990568,44.596253],"pop":1319,"state":"WI"}
+{"_id":"54742","city":"FALL CREEK","loc":[-91.285631,44.768385],"pop":3814,"state":"WI"}
+{"_id":"54744","city":"HILLSDALE","loc":[-91.859857,45.32136],"pop":560,"state":"WI"}
+{"_id":"54745","city":"HOLCOMBE","loc":[-91.132955,45.251263],"pop":1752,"state":"WI"}
+{"_id":"54746","city":"HUMBIRD","loc":[-90.888257,44.536676],"pop":633,"state":"WI"}
+{"_id":"54747","city":"INDEPENDENCE","loc":[-91.453511,44.395926],"pop":2826,"state":"WI"}
+{"_id":"54748","city":"JIM FALLS","loc":[-91.264909,45.064439],"pop":974,"state":"WI"}
+{"_id":"54749","city":"KNAPP","loc":[-92.075201,44.954495],"pop":935,"state":"WI"}
+{"_id":"54750","city":"MAIDEN ROCK","loc":[-92.278212,44.608599],"pop":1503,"state":"WI"}
+{"_id":"54751","city":"MENOMONIE","loc":[-91.92651,44.87182],"pop":21211,"state":"WI"}
+{"_id":"54754","city":"MERRILLAN","loc":[-90.810496,44.436938],"pop":1317,"state":"WI"}
+{"_id":"54755","city":"MODENA","loc":[-91.669576,44.609853],"pop":4907,"state":"WI"}
+{"_id":"54756","city":"NELSON","loc":[-92.000742,44.42947],"pop":652,"state":"WI"}
+{"_id":"54757","city":"NEW AUBURN","loc":[-91.519747,45.23562],"pop":2101,"state":"WI"}
+{"_id":"54758","city":"OSSEO","loc":[-91.219148,44.559923],"pop":4347,"state":"WI"}
+{"_id":"54759","city":"PEPIN","loc":[-92.139353,44.458687],"pop":1504,"state":"WI"}
+{"_id":"54761","city":"PLUM CITY","loc":[-92.183725,44.635979],"pop":1050,"state":"WI"}
+{"_id":"54762","city":"PRAIRIE FARM","loc":[-91.974205,45.246183],"pop":1061,"state":"WI"}
+{"_id":"54763","city":"RIDGELAND","loc":[-91.879024,45.186773],"pop":863,"state":"WI"}
+{"_id":"54765","city":"SAND CREEK","loc":[-91.701446,45.170513],"pop":501,"state":"WI"}
+{"_id":"54766","city":"SHELDON","loc":[-90.914148,45.318171],"pop":1711,"state":"WI"}
+{"_id":"54767","city":"SPRING VALLEY","loc":[-92.290599,44.835569],"pop":2746,"state":"WI"}
+{"_id":"54768","city":"STANLEY","loc":[-90.938935,44.968872],"pop":3157,"state":"WI"}
+{"_id":"54769","city":"STOCKHOLM","loc":[-92.228429,44.500441],"pop":434,"state":"WI"}
+{"_id":"54770","city":"STRUM","loc":[-91.383271,44.567356],"pop":1560,"state":"WI"}
+{"_id":"54771","city":"THORP","loc":[-90.802861,44.957319],"pop":4803,"state":"WI"}
+{"_id":"54772","city":"WHEELER","loc":[-91.887055,45.071856],"pop":1094,"state":"WI"}
+{"_id":"54773","city":"WHITEHALL","loc":[-91.302953,44.382683],"pop":3330,"state":"WI"}
+{"_id":"54801","city":"SPOONER","loc":[-91.91555,45.850468],"pop":5384,"state":"WI"}
+{"_id":"54805","city":"ALMENA","loc":[-92.002691,45.419507],"pop":3180,"state":"WI"}
+{"_id":"54806","city":"MOQUAH","loc":[-90.876712,46.577948],"pop":12254,"state":"WI"}
+{"_id":"54810","city":"BALSAM LAKE","loc":[-92.414954,45.458845],"pop":1765,"state":"WI"}
+{"_id":"54812","city":"BARRON","loc":[-91.84996,45.400535],"pop":4049,"state":"WI"}
+{"_id":"54813","city":"BARRONETT","loc":[-92.019595,45.618995],"pop":804,"state":"WI"}
+{"_id":"54814","city":"BAYFIELD","loc":[-90.821681,46.835359],"pop":2375,"state":"WI"}
+{"_id":"54817","city":"BIRCHWOOD","loc":[-91.577564,45.640296],"pop":1962,"state":"WI"}
+{"_id":"54819","city":"BRUCE","loc":[-91.290622,45.447923],"pop":2654,"state":"WI"}
+{"_id":"54820","city":"BRULE","loc":[-91.553862,46.576318],"pop":902,"state":"WI"}
+{"_id":"54821","city":"CABLE","loc":[-91.224438,46.217155],"pop":1311,"state":"WI"}
+{"_id":"54822","city":"CAMERON","loc":[-91.730992,45.403836],"pop":3314,"state":"WI"}
+{"_id":"54824","city":"CENTURIA","loc":[-92.547741,45.448369],"pop":1791,"state":"WI"}
+{"_id":"54826","city":"COMSTOCK","loc":[-92.085961,45.491114],"pop":473,"state":"WI"}
+{"_id":"54827","city":"CORNUCOPIA","loc":[-91.097421,46.837171],"pop":242,"state":"WI"}
+{"_id":"54828","city":"NEW POST","loc":[-91.327825,45.809664],"pop":377,"state":"WI"}
+{"_id":"54829","city":"CUMBERLAND","loc":[-92.029709,45.5403],"pop":4229,"state":"WI"}
+{"_id":"54830","city":"DAIRYLAND","loc":[-92.265995,46.029681],"pop":1855,"state":"WI"}
+{"_id":"54832","city":"DRUMMOND","loc":[-91.285569,46.311896],"pop":329,"state":"WI"}
+{"_id":"54835","city":"EXELAND","loc":[-91.223819,45.675298],"pop":939,"state":"WI"}
+{"_id":"54836","city":"FOXBORO","loc":[-92.149254,46.487511],"pop":1528,"state":"WI"}
+{"_id":"54837","city":"CLAM FALLS","loc":[-92.426482,45.665314],"pop":4011,"state":"WI"}
+{"_id":"54838","city":"GORDON","loc":[-91.803301,46.233603],"pop":1088,"state":"WI"}
+{"_id":"54839","city":"GRAND VIEW","loc":[-91.107465,46.357682],"pop":280,"state":"WI"}
+{"_id":"54840","city":"EVERGREEN","loc":[-92.662685,45.761312],"pop":4008,"state":"WI"}
+{"_id":"54843","city":"NORTH WOODS BEAC","loc":[-91.397659,46.001404],"pop":9339,"state":"WI"}
+{"_id":"54844","city":"HERBSTER","loc":[-91.233193,46.82128],"pop":230,"state":"WI"}
+{"_id":"54845","city":"HERTEL","loc":[-92.140419,45.807561],"pop":110,"state":"WI"}
+{"_id":"54846","city":"HIGH BRIDGE","loc":[-90.73826,46.379613],"pop":536,"state":"WI"}
+{"_id":"54847","city":"IRON RIVER","loc":[-91.421056,46.578984],"pop":1777,"state":"WI"}
+{"_id":"54848","city":"LADYSMITH","loc":[-91.108804,45.471941],"pop":6737,"state":"WI"}
+{"_id":"54849","city":"LAKE NEBAGAMON","loc":[-91.740243,46.502347],"pop":1824,"state":"WI"}
+{"_id":"54850","city":"LA POINTE","loc":[-90.603622,46.846675],"pop":17,"state":"WI"}
+{"_id":"54853","city":"LUCK","loc":[-92.416391,45.556799],"pop":2131,"state":"WI"}
+{"_id":"54854","city":"MAPLE","loc":[-91.702015,46.620591],"pop":891,"state":"WI"}
+{"_id":"54855","city":"MARENGO","loc":[-90.839991,46.407112],"pop":592,"state":"WI"}
+{"_id":"54856","city":"DELTA","loc":[-91.057511,46.457285],"pop":1519,"state":"WI"}
+{"_id":"54858","city":"MILLTOWN","loc":[-92.501739,45.527082],"pop":1570,"state":"WI"}
+{"_id":"54859","city":"MINONG","loc":[-91.850628,46.10445],"pop":1451,"state":"WI"}
+{"_id":"54862","city":"OJIBWA","loc":[-91.110922,45.785351],"pop":401,"state":"WI"}
+{"_id":"54864","city":"POPLAR","loc":[-91.825345,46.57708],"pop":1064,"state":"WI"}
+{"_id":"54865","city":"PORT WING","loc":[-91.392016,46.76204],"pop":544,"state":"WI"}
+{"_id":"54867","city":"RADISSON","loc":[-91.22615,45.773359],"pop":509,"state":"WI"}
+{"_id":"54868","city":"CANTON","loc":[-91.733544,45.510466],"pop":13996,"state":"WI"}
+{"_id":"54870","city":"SARONA","loc":[-91.762103,45.708532],"pop":1201,"state":"WI"}
+{"_id":"54871","city":"SHELL LAKE","loc":[-91.960606,45.753598],"pop":3450,"state":"WI"}
+{"_id":"54872","city":"SIREN","loc":[-92.389151,45.78214],"pop":2495,"state":"WI"}
+{"_id":"54873","city":"BARNES","loc":[-91.770154,46.388821],"pop":2443,"state":"WI"}
+{"_id":"54874","city":"WENTWORTH","loc":[-91.945805,46.588659],"pop":3029,"state":"WI"}
+{"_id":"54875","city":"EARL","loc":[-91.677734,45.960384],"pop":970,"state":"WI"}
+{"_id":"54876","city":"STONE LAKE","loc":[-91.509291,45.833733],"pop":1662,"state":"WI"}
+{"_id":"54880","city":"SUPERIOR","loc":[-92.091174,46.701552],"pop":29513,"state":"WI"}
+{"_id":"54888","city":"TREGO","loc":[-91.858051,45.951556],"pop":1037,"state":"WI"}
+{"_id":"54889","city":"TURTLE LAKE","loc":[-92.178142,45.421349],"pop":2048,"state":"WI"}
+{"_id":"54891","city":"WASHBURN","loc":[-90.909516,46.680595],"pop":3177,"state":"WI"}
+{"_id":"54893","city":"WEBSTER","loc":[-92.322722,45.874001],"pop":3012,"state":"WI"}
+{"_id":"54895","city":"WEYERHAEUSER","loc":[-91.428944,45.426347],"pop":858,"state":"WI"}
+{"_id":"54896","city":"LORETTA","loc":[-90.949591,45.841419],"pop":1385,"state":"WI"}
+{"_id":"54901","city":"OSHKOSH","loc":[-88.543635,44.021962],"pop":57187,"state":"WI"}
+{"_id":"54904","city":"OSHKOSH","loc":[-88.607015,44.030356],"pop":12608,"state":"WI"}
+{"_id":"54909","city":"ALMOND","loc":[-89.358364,44.289832],"pop":2002,"state":"WI"}
+{"_id":"54911","city":"APPLETON","loc":[-88.397649,44.277325],"pop":25970,"state":"WI"}
+{"_id":"54914","city":"APPLETON","loc":[-88.432608,44.270992],"pop":23028,"state":"WI"}
+{"_id":"54915","city":"APPLETON","loc":[-88.399902,44.26351],"pop":42119,"state":"WI"}
+{"_id":"54921","city":"BANCROFT","loc":[-89.530438,44.30648],"pop":1368,"state":"WI"}
+{"_id":"54922","city":"BEAR CREEK","loc":[-88.740375,44.5348],"pop":1488,"state":"WI"}
+{"_id":"54923","city":"BERLIN","loc":[-88.949009,43.976936],"pop":8132,"state":"WI"}
+{"_id":"54928","city":"CAROLINE","loc":[-88.888749,44.727574],"pop":293,"state":"WI"}
+{"_id":"54929","city":"CLINTONVILLE","loc":[-88.742999,44.636442],"pop":8902,"state":"WI"}
+{"_id":"54930","city":"COLOMA","loc":[-89.494332,44.027462],"pop":1364,"state":"WI"}
+{"_id":"54932","city":"ELDORADO","loc":[-88.638827,43.841471],"pop":765,"state":"WI"}
+{"_id":"54935","city":"TAYCHEEDAH","loc":[-88.429149,43.770446],"pop":37093,"state":"WI"}
+{"_id":"54937","city":"NORTH FOND DU LA","loc":[-88.481264,43.792633],"pop":14665,"state":"WI"}
+{"_id":"54940","city":"FREMONT","loc":[-88.844852,44.237884],"pop":3211,"state":"WI"}
+{"_id":"54941","city":"GREEN LAKE","loc":[-88.96847,43.844383],"pop":2504,"state":"WI"}
+{"_id":"54942","city":"GREENVILLE","loc":[-88.569579,44.299747],"pop":1722,"state":"WI"}
+{"_id":"54943","city":"HANCOCK","loc":[-89.534448,44.129743],"pop":1214,"state":"WI"}
+{"_id":"54944","city":"HORTONVILLE","loc":[-88.62813,44.327306],"pop":5602,"state":"WI"}
+{"_id":"54945","city":"IOLA","loc":[-89.137311,44.532183],"pop":2589,"state":"WI"}
+{"_id":"54946","city":"KING","loc":[-89.113739,44.267332],"pop":661,"state":"WI"}
+{"_id":"54947","city":"LARSEN","loc":[-88.696305,44.198421],"pop":1863,"state":"WI"}
+{"_id":"54948","city":"LEOPOLIS","loc":[-88.872223,44.781188],"pop":403,"state":"WI"}
+{"_id":"54949","city":"MANAWA","loc":[-88.916444,44.470148],"pop":2749,"state":"WI"}
+{"_id":"54950","city":"MARION","loc":[-88.876706,44.679414],"pop":3071,"state":"WI"}
+{"_id":"54952","city":"MENASHA","loc":[-88.417536,44.211164],"pop":22505,"state":"WI"}
+{"_id":"54956","city":"NEENAH","loc":[-88.479201,44.181094],"pop":34261,"state":"WI"}
+{"_id":"54960","city":"NESHKORO","loc":[-89.233572,43.898943],"pop":2210,"state":"WI"}
+{"_id":"54961","city":"NEW LONDON","loc":[-88.755428,44.392847],"pop":13037,"state":"WI"}
+{"_id":"54962","city":"OGDENSBURG","loc":[-89.011851,44.467803],"pop":1509,"state":"WI"}
+{"_id":"54963","city":"OMRO","loc":[-88.751933,44.035678],"pop":5678,"state":"WI"}
+{"_id":"54964","city":"PICKETT","loc":[-88.713457,43.900917],"pop":518,"state":"WI"}
+{"_id":"54965","city":"PINE RIVER","loc":[-89.040415,44.160393],"pop":2148,"state":"WI"}
+{"_id":"54966","city":"PLAINFIELD","loc":[-89.455896,44.209079],"pop":2336,"state":"WI"}
+{"_id":"54967","city":"POY SIPPI","loc":[-88.926835,44.110069],"pop":232,"state":"WI"}
+{"_id":"54968","city":"PRINCETON","loc":[-89.124913,43.843827],"pop":3101,"state":"WI"}
+{"_id":"54970","city":"REDGRANITE","loc":[-89.098125,44.04381],"pop":2093,"state":"WI"}
+{"_id":"54971","city":"RIPON","loc":[-88.842433,43.845402],"pop":10694,"state":"WI"}
+{"_id":"54974","city":"ROSENDALE","loc":[-88.641704,43.788903],"pop":2012,"state":"WI"}
+{"_id":"54977","city":"SCANDINAVIA","loc":[-89.165042,44.460436],"pop":1097,"state":"WI"}
+{"_id":"54978","city":"TILLEDA","loc":[-88.907498,44.811812],"pop":58,"state":"WI"}
+{"_id":"54979","city":"VAN DYNE","loc":[-88.510008,43.873399],"pop":1403,"state":"WI"}
+{"_id":"54981","city":"WAUPACA","loc":[-89.110143,44.348101],"pop":11716,"state":"WI"}
+{"_id":"54982","city":"WAUTOMA","loc":[-89.266551,44.065576],"pop":6318,"state":"WI"}
+{"_id":"54983","city":"WEYAUWEGA","loc":[-88.941047,44.320973],"pop":3886,"state":"WI"}
+{"_id":"54984","city":"WILD ROSE","loc":[-89.195252,44.183433],"pop":2127,"state":"WI"}
+{"_id":"54986","city":"WINNECONNE","loc":[-88.721384,44.118704],"pop":3887,"state":"WI"}

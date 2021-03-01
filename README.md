@@ -9,8 +9,8 @@ Note: this was developed on macOS.
 As a pre-requisite, you must install Mongo. See the [Installing Mongo](#installing-mongo) section for options.
 
 1. Start the MongoDB server
-1. Load the database with Zip Code test data (this is from the official Mongo site):
-   * `mongoimport data/zips.json`
+1. Load the database with Zip Code test data from the state of Georgia (GA) (this is from the official Mongo site):
+   * `mongoimport --db test --collection zips data/zips_GA.json`
 1. Start a shell session:
    * `mongo`
 1. Switch to the `test` database (this is the database with the Zip Code data)
@@ -28,7 +28,7 @@ There are pre-written queries in the `queries/` directory. They can be executed 
 mongo --quiet queries/zips-size.js
 ```
 
-It should print `29353` in the terminal.
+It should print `635` in the terminal.
 
 ### Installing Mongo
 
