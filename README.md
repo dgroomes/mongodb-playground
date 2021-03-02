@@ -45,13 +45,18 @@ It should print `635` in the terminal.
   incorporated to compute a new average. Ideally, this work should be incremental and not require a full re-computation
   of all the original raw data plus the new data (that would be a bummer design). This is possible but I'm not sure
   exactly how I will design this.
-* Import Rhode Island ZIP areas data:
+* Import Rhode Island ZIP areas data and compute the averages (it should show `"avg_zip_pop_by_state" : 14539...`):
   ```
   mongoimport --db test --collection zips data/zips_RI.json
+  mongo --quiet queries/zips-average.js
   ```
-* Import Rhode Island ZIP areas data by importing the individual "split" files:
+* Import Rhode Island ZIP areas data by importing the individual "split" files and compute the averages (it should show
+  the same `14539` value as the non-split way!):
   ```
-  mongoimport --db test --collection zips <(cat data/zips_RI_split_*.json)
+  mongoimport --db test --collection zips data/zips_RI_split_1.json
+  mongoimport --db test --collection zips data/zips_RI_split_2.json
+  mongoimport --db test --collection zips data/zips_RI_split_3.json
+  mongo --quiet queries/zips-average.js
   ```
 
 ### Installing Mongo
