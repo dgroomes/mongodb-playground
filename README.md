@@ -9,11 +9,11 @@ Note: this was developed on macOS.
 As a pre-requisite, you must install Mongo. See the [Installing Mongo](#installing-mongo) section for options.
 
 1. Start the MongoDB server
-1. Load the database with Zip Code test data from the state of Georgia (GA) (this is from the official Mongo site):
+1. Load the database with ZIP Code test data from the state of Georgia (GA) (this is from the official Mongo site):
    * `mongoimport --db test --collection zips data/zips_GA.json`
 1. Start a shell session:
    * `mongo`
-1. Switch to the `test` database (this is the database with the Zip Code data)
+1. Switch to the `test` database (this is the database with the ZIP Code data)
    * `use test`
 1. Query the size of the `zips` collection:
    * `db.zips.find().size()`
@@ -32,11 +32,27 @@ It should print `635` in the terminal.
 
 ### Notes
 
-Import all of the Zip code data files with this command:
-
-```
-mongoimport --db test --collection zips <(cat data/zips_*)
-```
+* Import all of the ZIP code data files with this command:
+  ```
+  mongoimport --db test --collection zips <(cat data/zips_*)
+  ```
+* The Rhode Island ZIP code data exists in both the `zips_RI.json` file and is duplicated unevenly across three "split"
+  files: `zips_RI_split_1.json`, `zips_RI_split_2.json`, and `zips_RI_split_3.json`. The purpose of these split files is
+  to exercise the use-case of incrementally adding input data to a collection that is aggregated. For example, consider
+  some "origin" ZIP data which populates the collection initially. This is aggregated into "Average population of the
+  ZIP areas for each city" (see `queries/zips-average.js`) which is saved into a collection called "zips_avg_pop_by_city".
+  Later, new ZIP areas are added to the ZIP areas collection. These new ZIP area populations need to be incrementally
+  incorporated to compute a new average. Ideally, this work should be incremental and not require a full re-computation
+  of all the original raw data plus the new data (that would be a bummer design). This is possible but I'm not sure
+  exactly how I will design this.
+* Import Rhode Island ZIP areas data:
+  ```
+  mongoimport --db test --collection zips data/zips_RI.json
+  ```
+* Import Rhode Island ZIP areas data by importing the individual "split" files:
+  ```
+  mongoimport --db test --collection zips <(cat data/zips_RI_split_*.json)
+  ```
 
 ### Installing Mongo
 
@@ -63,7 +79,7 @@ General clean-ups, TODOs and things I wish to implement for this project:
 
 * DONE Create test data and load it into Mongo
 * DONE Create some test queries
-* Do something with "aggregation pipelines"
+* (IN PROGRESS) Incrementally update an aggregation ([see this MongoDB official example](https://docs.mongodb.com/manual/tutorial/perform-incremental-map-reduce/))
 
 ## Referenced materials
 
