@@ -51,13 +51,23 @@ It should print `635` in the terminal.
   mongo --quiet queries/zips-average.js
   ```
 * Import Rhode Island ZIP areas data by importing the individual "split" files and compute the averages (it should show
-  the same `14539` value as the non-split way!):
+  the same `14539` value as the non-split approach!):
   ```
   mongoimport --db test --collection zips data/zips_RI_split_1.json
   mongoimport --db test --collection zips data/zips_RI_split_2.json
   mongoimport --db test --collection zips data/zips_RI_split_3.json
   mongo --quiet queries/zips-average.js
   ```
+* NOT IMPLEMENTED
+  Load a portion of the Rhode Island data, compute the averages, load the remainder and compute the new averages using
+  the *incremental* averaging script (the final average should show the same `14539` value as the non-incremental approach!):
+  ```
+  mongoimport --db test --collection zips data/zips_RI_split_1.json
+  mongo --quiet queries/zips-average.js
+  mongoimport --db test --collection zips data/zips_RI_split_2.json
+  mongoimport --db test --collection zips data/zips_RI_split_3.json
+  mongo --quiet queries/zips-average-incremental.js
+  ```  
 
 ### Installing Mongo
 
