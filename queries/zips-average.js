@@ -7,7 +7,27 @@
 //     with the collection that was created with the result set.
 
 // Average ZIP area population by city
+// First, create the "grouped by city" collection which should later be helpful for de-duplication (for supporting idempotency).
+
 db.zips.aggregate([
+  {
+    $group: {
+      "_id": {city: "$city", state: "$state"},
+      zip_areas: {
+        $addToSet: "$$CURRENT"
+      }
+    }
+  },
+  {
+    $set: {
+      lastModified: "$$NOW"
+    }
+  },
+  {$out: "zips_grouped_by_city"}
+]);
+
+// Next, compute the average.
+db.zips_grouped_by_city.aggregate([
   {
     $group: {
       "_id": {city: "$city", state: "$state"},
