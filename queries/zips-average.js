@@ -6,7 +6,11 @@
 //     where the "Average population of the ZIP areas for each city" computation left off. Specifically, it should start
 //     with the collection that was created with the result set.
 
-// Preparation step. Set the "lastModified" field on records where it is not set.
+// Preparation steps:
+// Initialize an application meta data collection. It should only ever contain exactly one document. We will use it to store
+// custom meta data like the "last loaded time" and "last invocation time for the zip-averages.js script".
+db.app_meta_data.updateOne({_id: 1}, [{$set: {last_invocation_time_zip_averages: "$$NOW"}}], {upsert: true})
+// Set the "lastModified" field on records where it is not set.
 db.zips.updateMany(
   {lastModified: {$exists: false}},
   [
@@ -105,4 +109,7 @@ let cursorAvgByState = db.zips_avg_pop_by_state.find().sort({state_pop: -1})
 print("Average population of the ZIP areas for each state")
 printAFewRecords(cursorAvgByState)
 
-
+// Update the "last loaded time" so that future incremental loads know to skip input documents older than this time.
+// This creates a race condition if ingestion was happening concurrently to the execution of the above averaging operations
+// but for a prototype it's fine. And in fact, we do not have concurrent work.
+db.app_meta_data.updateOne({_id: 1}, [{$set: {last_loaded_time: "$$NOW"}}], {upsert: true})

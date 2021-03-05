@@ -111,6 +111,7 @@ General clean-ups, TODOs and things I wish to implement for this project:
   * DONE Add lastModified field to the raw input documents (the "zips" collection). I'm not sure the best way to do this. One option
     is to do it in the JSON before importing it via `mongoimport`. Another option is to run an update query right before doing
     any other queries to update documents where "lastModified" is unset.
+  * DONE Keep track of "last loaded time"
 
 ## Referenced materials
 
