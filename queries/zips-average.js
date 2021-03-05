@@ -7,22 +7,41 @@
 //     with the collection that was created with the result set.
 
 // Average ZIP area population by city
+// First, create the "grouped by city" collection which should later be helpful for de-duplication (for supporting idempotency).
 db.zips.aggregate([
   {
     $group: {
       "_id": {city: "$city", state: "$state"},
-      city_zip_areas: {$sum: 1},
-      city_population: {$sum: "$pop"}
+      zip_areas: {
+        $addToSet: "$$CURRENT"
+      }
     }
   },
   {
     $set: {
-      avg_zip_pop_by_city: {
-        "$divide": ["$city_population", "$city_zip_areas"]
+      lastModified: "$$NOW"
+    }
+  },
+  {$out: "zips_grouped_by_city"}
+])
+
+// Next, compute the average.
+db.zips_grouped_by_city.aggregate([
+  {
+    $project: {
+      city_zip_areas: {$size: "$zip_areas"},
+      city_pop: {$sum: "$zip_areas.pop"},
+    }
+  },
+  {
+    $addFields: {
+      avg_zip_area_pop: {
+        $trunc: {
+          $divide: ["$city_pop", "$city_zip_areas"]
+        }
       }
     }
   },
-  {$sort: {city_zip_areas: -1}},
   {$out: "zips_avg_pop_by_city"}
 ])
 
@@ -38,20 +57,21 @@ function printAFewRecords(cursor) {
 print("Average population of the ZIP areas for each city")
 printAFewRecords(cursorAvgByCity)
 
-// Work In Progress
 // Average ZIP area population by state
 db.zips_avg_pop_by_city.aggregate([
   {
     "$group": {
       _id: "$_id.state",
       state_zip_areas: {$sum: "$city_zip_areas"},
-      state_population: {$sum: "$city_population"}
+      state_pop: {$sum: "$city_pop"}
     }
   },
   {
     $set: {
       avg_zip_pop_by_state: {
-        $divide: ["$state_population", "$state_zip_areas"]
+        $trunc: {
+          $divide: ["$state_pop", "$state_zip_areas"]
+        }
       }
     }
   },
