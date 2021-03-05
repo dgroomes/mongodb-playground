@@ -58,7 +58,7 @@ It should print `635` in the terminal if you've loaded the Georgia data.
   mongoimport --db test --collection zips data/zips_RI_split_3.json
   mongo --quiet queries/zips-average.js
   ```
-* NOT IMPLEMENTED
+* IN PROGRESS
   Load a portion of the Rhode Island data, compute the averages, load the remainder and compute the new averages using
   the *incremental* averaging script (the final average should show the same `14539` value as the non-incremental approach!):
   ```
