@@ -6,6 +6,14 @@
 //     where the "Average population of the ZIP areas for each city" computation left off. Specifically, it should start
 //     with the collection that was created with the result set.
 
+// Preparation step. Set the "lastModified" field on records where it is not set.
+db.zips.updateMany(
+  {lastModified: {$exists: false}},
+  [
+    {$set: {lastModified: "$$NOW"}}
+  ]
+)
+
 // Average ZIP area population by city
 // First, create the "grouped by city" collection which should later be helpful for de-duplication (for supporting idempotency).
 db.zips.aggregate([
@@ -45,7 +53,7 @@ db.zips_grouped_by_city.aggregate([
   {$out: "zips_avg_pop_by_city"}
 ])
 
-let cursorAvgByCity = db.zips_avg_pop_by_city.find().sort({ city_pop: -1 })
+let cursorAvgByCity = db.zips_avg_pop_by_city.find().sort({city_pop: -1})
 
 function printAFewRecords(cursor) {
   for (let i = 0; cursor.hasNext() && i < 3; i++) {
@@ -92,7 +100,7 @@ db.zips_grouped_by_state.aggregate([
   {$out: "zips_avg_pop_by_state"}
 ])
 
-let cursorAvgByState = db.zips_avg_pop_by_state.find().sort({ state_pop: -1 })
+let cursorAvgByState = db.zips_avg_pop_by_state.find().sort({state_pop: -1})
 
 print("Average population of the ZIP areas for each state")
 printAFewRecords(cursorAvgByState)

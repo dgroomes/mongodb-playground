@@ -108,6 +108,9 @@ General clean-ups, TODOs and things I wish to implement for this project:
     the next level up in the averaging operation pyramid: avg by state. And so on. (That's the theory anyway.)
   * DONE make intermediate Mongo collections that group the ZIP areas by city and another collection to group the
     cities by state. This is the deduping strategy (it sounds a bit algorithmically expensive but it's the best I can do.)
+  * DONE Add lastModified field to the raw input documents (the "zips" collection). I'm not sure the best way to do this. One option
+    is to do it in the JSON before importing it via `mongoimport`. Another option is to run an update query right before doing
+    any other queries to update documents where "lastModified" is unset.
 
 ## Referenced materials
 
