@@ -106,7 +106,7 @@ General clean-ups, TODOs and things I wish to implement for this project:
     as a way to de-duplicate already incorporated documents during a "merge" operation. If there is a change to the document, set the
     "last modified" to now for that document. This has the effect of flagging this document so that it can processed by
     the next level up in the averaging operation pyramid: avg by state. And so on. (That's the theory anyway.)
-  * IN PROGRESS make intermediate Mongo collections that group the ZIP areas by city and another collection to group the
+  * DONE make intermediate Mongo collections that group the ZIP areas by city and another collection to group the
     cities by state. This is the deduping strategy (it sounds a bit algorithmically expensive but it's the best I can do.)
 
 ## Referenced materials

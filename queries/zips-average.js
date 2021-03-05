@@ -35,7 +35,7 @@ db.zips_grouped_by_city.aggregate([
   },
   {
     $addFields: {
-      avg_zip_area_pop: {
+      avg_zip_area_pop_across_city: {
         $trunc: {
           $divide: ["$city_pop", "$city_zip_areas"]
         }
@@ -45,7 +45,7 @@ db.zips_grouped_by_city.aggregate([
   {$out: "zips_avg_pop_by_city"}
 ])
 
-let cursorAvgByCity = db.zips_avg_pop_by_city.find()
+let cursorAvgByCity = db.zips_avg_pop_by_city.find().sort({ city_pop: -1 })
 
 function printAFewRecords(cursor) {
   for (let i = 0; cursor.hasNext() && i < 3; i++) {
@@ -57,33 +57,42 @@ function printAFewRecords(cursor) {
 print("Average population of the ZIP areas for each city")
 printAFewRecords(cursorAvgByCity)
 
-// Average ZIP area population by state
+// Next, group the city-aggregated ZIP area summaries by state into a new collection. Why? Well, I think it will be useful
+// de-duplication.
 db.zips_avg_pop_by_city.aggregate([
   {
     "$group": {
       _id: "$_id.state",
-      state_zip_areas: {$sum: "$city_zip_areas"},
-      state_pop: {$sum: "$city_pop"}
+      city_aggregated_zip_area_summaries: {
+        $addToSet: "$$CURRENT"
+      }
+    }
+  },
+  {$out: "zips_grouped_by_state"}
+])
+
+// Compute state-level ZIP area averages
+db.zips_grouped_by_state.aggregate([
+  {
+    "$project": {
+      _id: "$_id",
+      state_zip_areas: {$sum: "$city_aggregated_zip_area_summaries.city_zip_areas"},
+      state_pop: {$sum: "$city_aggregated_zip_area_summaries.city_pop"}
     }
   },
   {
-    $set: {
-      avg_zip_pop_by_state: {
+    $addFields: {
+      avg_zip_area_pop_across_state: {
         $trunc: {
           $divide: ["$state_pop", "$state_zip_areas"]
         }
       }
     }
   },
-  {
-    $sort: {
-      state_zip_areas: -1
-    }
-  },
   {$out: "zips_avg_pop_by_state"}
 ])
 
-let cursorAvgByState = db.zips_avg_pop_by_state.find()
+let cursorAvgByState = db.zips_avg_pop_by_state.find().sort({ state_pop: -1 })
 
 print("Average population of the ZIP areas for each state")
 printAFewRecords(cursorAvgByState)
