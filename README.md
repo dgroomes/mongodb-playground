@@ -94,7 +94,7 @@ General clean-ups, TODOs and things I wish to implement for this project:
 
 * DONE Create test data and load it into Mongo
 * DONE Create some test queries
-* IN PROGRESS Incrementally update an aggregation ([see this MongoDB official example](https://docs.mongodb.com/manual/tutorial/perform-incremental-map-reduce/))
+* DONE Incrementally update an aggregation ([see this MongoDB official example](https://docs.mongodb.com/manual/tutorial/perform-incremental-map-reduce/))
   * Note: We need a way to make the aggregation pipeline idempotent because there is lack of transaction support
     for aggregation pipelines using the `$merge` operator which I'm assuming we need. To cite the [docs](https://docs.mongodb.com/manual/reference/operator/aggregation/merge/#pipe._S_merge):
     "An aggregation pipeline cannot use $merge inside a transaction." So if there is no transaction support, there is the
@@ -112,6 +112,9 @@ General clean-ups, TODOs and things I wish to implement for this project:
     is to do it in the JSON before importing it via `mongoimport`. Another option is to run an update query right before doing
     any other queries to update documents where "lastModified" is unset.
   * DONE Keep track of "last loaded time"
+* Split into standalone sub-projects. This will free us up for later to increase the cohesion of the sub-projects.
+* Make monolithic zips-average query instead of using the intermediate collections. This is a more approachable, minimal
+  example
 
 ## Referenced materials
 

@@ -1,10 +1,7 @@
-// IN PROGRESS The incremental approach requires a way to keep track of already loaded input data so that we can omit
-// it and instead only load new data. If we did not have this mechanism, we would load old data in duplicate.
-//
 // This is a companion script to "zips-average.js". It does an incremental load of ZIP areas data and incrementally computes
 // the averages data.
 //
-//   * IN PROGRESS Incremental updates for "Average population of the ZIP areas for each city" when new ZIP areas
+//   * DONE Incremental updates for "Average population of the ZIP areas for each city" when new ZIP areas
 //     are added
 //   * NOT IMPLEMENTED Incremental updates for "Average population of the ZIP areas for each city" when new ZIP area
 //     data points are added. The new ZIP area data means that the old data point should completely replaced. For example,
