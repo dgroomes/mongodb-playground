@@ -16,8 +16,11 @@ Follow these instructions to execute the example:
 1. Start the MongoDB server:
     * The start command depends on whether you are using Docker or not. Follow the [Installing MongoDB](#installing-mongo)
       section as a pre-requisite to this step and learn how to run a MongoDB server. 
-1. Load the database with ZIP Code test data from the state of Georgia (GA):
-    * `mongoimport --db test --collection zips zips-GA.json`
+1. Load the database with ZIP Code test data from the states of Georgia (GA) and Montana (MT):
+    * ```
+      mongoimport --db test --collection zips zips-GA.json
+      mongoimport --db test --collection zips zips-MT.json
+      ```
 1. Start a shell session:
     * `mongo`
 1. Switch to the `test` database (this is the database with the ZIP Code data):
@@ -63,5 +66,5 @@ accomplish that. Using the Docker option, you can do the following:
 
 General clean-ups, TODOs and things I wish to implement for this project:
 
-* Make a monolithic query in `zips-average-population.js` instead of using the intermediate collections. This is a more
+* DONE Make a monolithic query in `zips-average-population.js` instead of using the intermediate collections. This is a more
   approachable, minimal example appropriate for a basic MongoDB example project.
