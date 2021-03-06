@@ -4,48 +4,34 @@ This is an intermediate MongoDB example that showcases how you might incremental
 analytical data set. This is extended from the [*Aggregation with the Zip Code Data Set*](https://docs.mongodb.com/manual/tutorial/aggregation-zip-code-data-set/)
 example on the MongoDB website.
 
+## Design
+
+This project takes raw input data in the form of ZIP Code documents and computes an analytical data set of "average
+population of ZIP areas by state". Specifically, the input data is limited to the ZIP Code data for the state of Rhode Island
+and it is split across three "split" files: `zips-RI-split-1.json`, `zips-RI-split-2.json`, and `zips-RI-split-3.json`.
+The purpose of these split files is to exercise the use-case of incrementally adding input data to an existing analytical
+data set. Specifically, the analytical data set is a MongoDB collection that can be updated incrementally using an [Aggregation Pipeline](https://docs.mongodb.com/manual/core/aggregation-pipeline/)
+with a [`$merge`](https://docs.mongodb.com/manual/reference/operator/aggregation/merge/#pipe._S_merge) stage.
+
+For example, consider some "origin" ZIP data which populates the collection initially. This is aggregated into "Average
+population of the ZIP areas for each city" (see `queries/zips-average.js`) which is saved into a collection called "zips_avg_pop_by_city".
+Later, new ZIP areas are added to the ZIP areas collection. These new ZIP area populations need to be incrementally
+incorporated to compute a new average. Ideally, this work should be incremental and not require a full re-computation
+of all the original raw data plus the new data (that would be a bummer design).
+
 ## Instructions
 
 * Load a portion of the Rhode Island ZIP Code data:
-  * `mongoimport --db test --collection zips data/zips_RI_split_1.json`
+  * `mongoimport --db test --collection zips zips-RI-split-1.json`
 * Compute an initial analytical data set of "averages":
-  * `mongo --quiet queries/zips-average.js`
+  * `mongo --quiet zips-average.js`
 * Load the remainder of the Rhode Island data
   * ```
-    mongoimport --db test --collection zips data/zips_RI_split_2.json
-    mongoimport --db test --collection zips data/zips_RI_split_3.json
+    mongoimport --db test --collection zips zips-RI-split-2.json
+    mongoimport --db test --collection zips zips-RI-split-3.json
     ```
 * *Incrementally* incorporate the new data to compute an updated version of the "averages" analytical data set
-  * `mongo --quiet queries/zips-average-incremental.js`
-
-### Notes
-
-* Import all of the ZIP code data files with this command:
-  ```
-  mongoimport --db test --collection zips <(cat data/zips_*)
-  ```
-* The Rhode Island ZIP code data exists in both the `zips_RI.json` file and is duplicated unevenly across three "split"
-  files: `zips_RI_split_1.json`, `zips_RI_split_2.json`, and `zips_RI_split_3.json`. The purpose of these split files is
-  to exercise the use-case of incrementally adding input data to a collection that is aggregated. For example, consider
-  some "origin" ZIP data which populates the collection initially. This is aggregated into "Average population of the
-  ZIP areas for each city" (see `queries/zips-average.js`) which is saved into a collection called "zips_avg_pop_by_city".
-  Later, new ZIP areas are added to the ZIP areas collection. These new ZIP area populations need to be incrementally
-  incorporated to compute a new average. Ideally, this work should be incremental and not require a full re-computation
-  of all the original raw data plus the new data (that would be a bummer design). This is possible but I'm not sure
-  exactly how I will design this.
-* Import Rhode Island ZIP areas data and compute the averages (it should show `"avg_zip_pop_by_state" : 14539`):
-  ```
-  mongoimport --db test --collection zips data/zips_RI.json
-  mongo --quiet queries/zips-average.js
-  ```
-* Import Rhode Island ZIP areas data by importing the individual "split" files and compute the averages (it should show
-  the same `14539` value as the non-split approach!):
-  ```
-  mongoimport --db test --collection zips data/zips_RI_split_1.json
-  mongoimport --db test --collection zips data/zips_RI_split_2.json
-  mongoimport --db test --collection zips data/zips_RI_split_3.json
-  mongo --quiet queries/zips-average.js
-  ```
+  * `mongo --quiet zips-average-incremental.js`
 
 ## Referenced materials
 

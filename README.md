@@ -39,6 +39,12 @@ example on the MongoDB website.
 
 See the README in [incremental/](incremental/).
 
+### `misc/`
+
+Miscellaneous notes, data and scripts. This is *not* a cohesive sub-project.
+
+See the README in [misc/](misc/).
+
 ## Wish List
 
 General clean-ups, TODOs and things I wish to implement for this project:
