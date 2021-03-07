@@ -1,4 +1,4 @@
-let {lastModified, runWithDb, printAFewRecords} = require('./functions')
+let {lastModified, runWithDb, upsertAppMetaData, getAppMetaData, printAFewRecords} = require('./functions')
 
 // This is a companion script to "zips-average.js". It does an incremental load of ZIP areas data and incrementally computes
 // the averages data.
@@ -7,7 +7,7 @@ runWithDb(async db => {
   // Preparation step. Set the "lastModified" field on records where it is not set.
   await lastModified(db)
 
-  const lastLoadedTime = (await db.collection("app_meta_data").findOne()).last_loaded_time
+  const { last_loaded_time: lastLoadedTime } = await getAppMetaData(db)
   console.log(`Last loaded time: ${lastLoadedTime}`)
 
   // Incorporate the new ZIP records into the collection of ZIP areas grouped by city.
@@ -52,7 +52,7 @@ runWithDb(async db => {
   ).next()
 
   // Commit completed work using "last loaded time" field.
-  await db.collection("app_meta_data").updateOne({_id: 1}, [{$set: {last_loaded_time: "$$NOW"}}], {upsert: true})
+  await upsertAppMetaData(db,{last_loaded_time: "$$NOW"})
 
   // COPIED FROM zip-average.js
   // Next, compute the average.

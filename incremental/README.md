@@ -57,7 +57,7 @@ General clean-ups, TODOs and things I wish to implement for this project:
   scripting in the individual JS files which get executed by the mongo shell. I could get some code re-use with the `printAFewRecords`
   function for example.
   * DONE. Upgrade to a NodeJS project to better organize the code.
-  * Consolidate common code between `zips-average.js` and `zips-average-incremental.js`
+  * IN PROGRESS Consolidate common code between `zips-average.js` and `zips-average-incremental.js`
 * Support incremental updates for "Average population of the ZIP areas for each city" when replacement ZIP area
   data points are added. For example, the population for ZIP code 01001 (Agawam, MA) was 15,338 but at a later date increased
   to 15,776. Why is this interesting? Well, the existing map-reduce and "aggregation pipeline" examples I've seen are only

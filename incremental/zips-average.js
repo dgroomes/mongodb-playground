@@ -1,4 +1,4 @@
-let {lastModified, runWithDb, printAFewRecords} = require('./functions')
+let {lastModified, runWithDb, upsertAppMetaData, printAFewRecords} = require('./functions')
 
 // Compute multiple averages across the ZIP code data. Features of this include:
 //
@@ -12,7 +12,7 @@ let {lastModified, runWithDb, printAFewRecords} = require('./functions')
 // Initialize an application meta data collection. It should only ever contain exactly one document. We will use it to store
 // custom meta data like the "last loaded time" and "last invocation time for the zip-averages.js script".
 runWithDb(async db => {
-  await db.collection("app_meta_data").updateOne({_id: 1}, [{$set: {last_invocation_time_zip_averages: "$$NOW"}}], {upsert: true})
+  await upsertAppMetaData(db,{last_invocation_time_zip_averages: "$$NOW"})
 
   await lastModified(db)
 
@@ -103,5 +103,5 @@ runWithDb(async db => {
   // Update the "last loaded time" so that future incremental loads know to skip input documents older than this time.
   // This creates a race condition if ingestion was happening concurrently to the execution of the above averaging operations
   // but for a prototype it's fine. And in fact, we do not have concurrent work.
-  await db.collection("app_meta_data").updateOne({_id: 1}, [{$set: {last_loaded_time: "$$NOW"}}], {upsert: true})
+  await upsertAppMetaData(db, {last_loaded_time: "$$NOW"})
 })
