@@ -1,4 +1,5 @@
-let {lastModified, runWithDb, upsertAppMetaData, printAFewRecords} = require('./functions')
+const {runWithDb, upsertAppMetaData, printAFewRecords} = require('./db')
+const {lastModified} = require('./zips')
 
 // Compute multiple averages across the ZIP code data. Features of this include:
 //

@@ -1,4 +1,5 @@
-let {lastModified, runWithDb, upsertAppMetaData, getAppMetaData, printAFewRecords} = require('./functions')
+const {runWithDb, upsertAppMetaData, getAppMetaData, printAFewRecords} = require('./db')
+const {lastModified} = require('./zips')
 
 // This is a companion script to "zips-average.js". It does an incremental load of ZIP areas data and incrementally computes
 // the averages data.

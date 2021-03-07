@@ -1,18 +1,6 @@
-// Common functions
+// MongoDB utility functions
 
-/**
- * Pretty format JSON.
- */
-function prettyJson(obj) {
-  return JSON.stringify(obj, null, 2);
-}
-
-/**
- * Pretty format JSON and print it to the console
- */
-function printPrettyJson(obj) {
-  console.log(prettyJson(obj))
-}
+const { printPrettyJson } = require("./util")
 
 /**
  * Run the given function and pass it a MongoDB database connection.
@@ -37,18 +25,6 @@ async function runWithDb(fn) {
     console.log("Closing the client connection.")
     await client.close();
   }
-}
-
-/**
- * Set the "lastModified" field on records where it is not set.
- */
-async function lastModified(db) {
-  return await db.collection("zips").updateMany(
-    {lastModified: {$exists: false}},
-    [
-      {$set: {lastModified: "$$NOW"}}
-    ]
-  )
 }
 
 // The app_meta_data collection will contain only one element. This is its ID.
@@ -87,7 +63,6 @@ async function printAFewRecords(cursor) {
 
 module.exports = {
   runWithDb,
-  lastModified,
   upsertAppMetaData,
   getAppMetaData,
   printAFewRecords
