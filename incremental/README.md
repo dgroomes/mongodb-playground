@@ -21,17 +21,23 @@ of all the original raw data plus the new data (that would be a bummer design).
 
 ## Instructions
 
+Pre-requisites: you must have NodeJS and MongoDB installed. 
+
+* Start a MongoDB server
+* Install project dependencies
+  * `npm install`
 * Load a portion of the Rhode Island ZIP Code data:
   * `mongoimport --db test --collection zips zips-RI-split-1.json`
 * Compute an initial analytical data set of "averages":
-  * `mongo --quiet zips-average.js`
+  * `node zips-average.js`
 * Load the remainder of the Rhode Island data
   * ```
     mongoimport --db test --collection zips zips-RI-split-2.json
     mongoimport --db test --collection zips zips-RI-split-3.json
     ```
 * *Incrementally* incorporate the new data to compute an updated version of the "averages" analytical data set
-  * `mongo --quiet zips-average-incremental.js`
+  * `node zips-average-incremental.js`
+  * Success!
 
 ## Referenced materials
 
@@ -47,9 +53,11 @@ of all the original raw data plus the new data (that would be a bummer design).
 
 General clean-ups, TODOs and things I wish to implement for this project:
 
-* Clean this up. I'm not sure exactly how. Maybe I need to upgrade to a proper NodeJS project instead of having so much
+* IN PROGRESS Clean this up. I'm not sure exactly how. Maybe I need to upgrade to a proper NodeJS project instead of having so much
   scripting in the individual JS files which get executed by the mongo shell. I could get some code re-use with the `printAFewRecords`
   function for example.
+  * DONE. Upgrade to a NodeJS project to better organize the code.
+  * Consolidate common code between `zips-average.js` and `zips-average-incremental.js`
 * Support incremental updates for "Average population of the ZIP areas for each city" when replacement ZIP area
   data points are added. For example, the population for ZIP code 01001 (Agawam, MA) was 15,338 but at a later date increased
   to 15,776. Why is this interesting? Well, the existing map-reduce and "aggregation pipeline" examples I've seen are only

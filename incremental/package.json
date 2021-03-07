@@ -1,0 +1,9 @@
+{
+  "name": "mongodb-playground-incremental",
+  "version": "1.0.0",
+  "repository": "https://github.com/dgroomes/mongodb-playground",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "mongodb": "3.6.3"
+  }
+}
