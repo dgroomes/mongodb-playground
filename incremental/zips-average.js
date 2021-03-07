@@ -1,5 +1,5 @@
 const {runWithDb, upsertAppMetaData, printAFewRecords} = require('./db')
-const {lastModified} = require('./zips')
+const {lastModified, refreshAvgPopByCityAggregation, sampleAvgPopByCityAggregation} = require('./zips')
 
 // Compute multiple averages across the ZIP code data. Features of this include:
 //
@@ -38,28 +38,8 @@ runWithDb(async db => {
   ]).next()
 
   // Next, compute the average.
-  await db.collection("zips_grouped_by_city").aggregate([
-    {
-      $project: {
-        city_zip_areas: {$size: "$zip_areas"},
-        city_pop: {$sum: "$zip_areas.pop"},
-      }
-    },
-    {
-      $addFields: {
-        avg_zip_area_pop_across_city: {
-          $trunc: {
-            $divide: ["$city_pop", "$city_zip_areas"]
-          }
-        }
-      }
-    },
-    {$out: "zips_avg_pop_by_city"}
-  ]).next()
-
-  let cursorAvgByCity = await db.collection("zips_avg_pop_by_city").find().sort({city_pop: -1})
-  console.log("Average population of the ZIP areas for each city")
-  await printAFewRecords(cursorAvgByCity)
+  await refreshAvgPopByCityAggregation(db)
+  await sampleAvgPopByCityAggregation(db)
 
   // Next, group the city-aggregated ZIP area summaries by state into a new collection. Why? Well, I think it will be useful
   // de-duplication.
