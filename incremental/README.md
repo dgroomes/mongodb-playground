@@ -50,3 +50,10 @@ General clean-ups, TODOs and things I wish to implement for this project:
 * Clean this up. I'm not sure exactly how. Maybe I need to upgrade to a proper NodeJS project instead of having so much
   scripting in the individual JS files which get executed by the mongo shell. I could get some code re-use with the `printAFewRecords`
   function for example.
+* Support incremental updates for "Average population of the ZIP areas for each city" when replacement ZIP area
+  data points are added. For example, the population for ZIP code 01001 (Agawam, MA) was 15,338 but at a later date increased
+  to 15,776. Why is this interesting? Well, the existing map-reduce and "aggregation pipeline" examples I've seen are only
+  additive, they don't actually replace old data. So, I think this will be an interesting example to see how it can actually
+  be implemented. Will it require an awkward implementation? Note: this could be considered a de-duplication example because we have
+  to de-duplicate the two data points for 01001: we have to toss the old population data and use the new data. Note: this
+  will require re-thinking the "_id" used for the documents because Mongo will reject documents with the same ID. 
