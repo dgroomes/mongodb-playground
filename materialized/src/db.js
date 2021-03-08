@@ -55,10 +55,17 @@ async function getAppMetaData(db) {
   return await db.collection("app_meta_data").findOne()
 }
 
+/**
+ * Iterate over a few records given by a cursor and print each document in a table format.
+ * @param cursor
+ * @return {Promise<void>}
+ */
 async function printAFewRecords(cursor) {
+  const found = []
   for (let i = 0; await cursor.hasNext() && i < 3; i++) {
-    printPrettyJson(await cursor.next())
+    found.push(await cursor.next())
   }
+  console.table(found)
 }
 
 module.exports = {

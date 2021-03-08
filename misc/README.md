@@ -22,3 +22,5 @@ General clean-ups, TODOs and things I wish to implement for this project:
   effectively. Technically, the sub-projects still adhere to the "standalone" constraint because there is no runtime or
   build time dependency between those projects and this projects. A reader can read an individual project and in fact
   delete the `misc/` sub-project and the other sub-project will still work.
+* DONE make the sampling code print a consolidate output instead of the bulky JSON. The bulkiness is especially
+  annoying when doing the multiple invocations of the refresh and query and timing the execution time in `materialized/`  
