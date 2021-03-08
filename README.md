@@ -31,6 +31,14 @@ JavaScript.
 
 See the README in [basic/](basic/).
 
+### `materialized/`
+
+An intermediate MongoDB example using NodeJS that showcases how to create a materialized view using the `$out` stage of
+an aggregation pipeline. This is extended from the [*Aggregation with the Zip Code Data Set*](https://docs.mongodb.com/manual/tutorial/aggregation-zip-code-data-set/)
+example on the MongoDB website.
+
+See the README in [materialized/](materialized/).
+
 ### `incremental/`
 
 This is an intermediate MongoDB example that showcases how you might incrementally load input data into an existing
@@ -70,7 +78,7 @@ General clean-ups, TODOs and things I wish to implement for this project:
     any other queries to update documents where "lastModified" is unset.
   * DONE Keep track of "last loaded time"
 * DONE Split into standalone sub-projects. This will free us up for later to increase the cohesion of the sub-projects.
-* Split the 'incremental/' sub-project into two: 1) a 'materialized/' sub-project that implements a materialized view of
+* IN PROGRESS Split the 'incremental/' sub-project into two: 1) a 'materialized/' sub-project that implements a materialized view of
   the ZIP averages data but without incremental support. And 2) the 'incremental/' sub-project which is also an implementation
   of a materialized view of the data but which also supports incremental load. I realize I was conflating these two concepts
   in the existing 'incremental/' sub-project.

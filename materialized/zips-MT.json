@@ -1,0 +1,314 @@
+{"_id":"59001","city":"ABSAROKEE","loc":[-109.469171,45.515356],"pop":1330,"state":"MT"}
+{"_id":"59002","city":"ACTON","loc":[-108.680975,45.936997],"pop":55,"state":"MT"}
+{"_id":"59003","city":"ASHLAND","loc":[-106.279722,45.58275],"pop":353,"state":"MT"}
+{"_id":"59006","city":"BALLANTINE","loc":[-108.123133,45.954699],"pop":730,"state":"MT"}
+{"_id":"59007","city":"BEARCREEK","loc":[-109.044704,45.15226],"pop":312,"state":"MT"}
+{"_id":"59008","city":"BELFRY","loc":[-109.078777,45.049827],"pop":64,"state":"MT"}
+{"_id":"59010","city":"BIGHORN","loc":[-107.205942,46.238286],"pop":573,"state":"MT"}
+{"_id":"59011","city":"BIG TIMBER","loc":[-109.963094,45.82827],"pop":2296,"state":"MT"}
+{"_id":"59012","city":"BIRNEY","loc":[-106.509496,45.286204],"pop":138,"state":"MT"}
+{"_id":"59014","city":"BRIDGER","loc":[-108.908217,45.285682],"pop":1524,"state":"MT"}
+{"_id":"59015","city":"BROADVIEW","loc":[-108.809062,46.082101],"pop":303,"state":"MT"}
+{"_id":"59016","city":"BUSBY","loc":[-106.872311,45.554139],"pop":1077,"state":"MT"}
+{"_id":"59017","city":"CAT CREEK","loc":[-108.259094,47.154789],"pop":155,"state":"MT"}
+{"_id":"59019","city":"COLUMBUS","loc":[-109.257126,45.626171],"pop":2438,"state":"MT"}
+{"_id":"59022","city":"CROW AGENCY","loc":[-107.497251,45.629594],"pop":2267,"state":"MT"}
+{"_id":"59024","city":"CUSTER","loc":[-107.59585,46.13019],"pop":304,"state":"MT"}
+{"_id":"59025","city":"DECKER","loc":[-106.87206,45.179698],"pop":164,"state":"MT"}
+{"_id":"59027","city":"EMIGRANT","loc":[-110.798928,45.127557],"pop":2058,"state":"MT"}
+{"_id":"59028","city":"FISHTAIL","loc":[-109.582078,45.400217],"pop":348,"state":"MT"}
+{"_id":"59029","city":"FROMBERG","loc":[-108.905658,45.40269],"pop":627,"state":"MT"}
+{"_id":"59030","city":"GARDINER","loc":[-110.196258,45.0493],"pop":168,"state":"MT"}
+{"_id":"59031","city":"GARRYOWEN","loc":[-107.364925,45.508557],"pop":428,"state":"MT"}
+{"_id":"59032","city":"GRASS RANGE","loc":[-108.827059,47.025894],"pop":494,"state":"MT"}
+{"_id":"59033","city":"GREYCLIFF","loc":[-109.674601,45.792631],"pop":216,"state":"MT"}
+{"_id":"59034","city":"HARDIN","loc":[-107.607457,45.749843],"pop":3889,"state":"MT"}
+{"_id":"59037","city":"HUNTLEY","loc":[-108.284981,45.89049],"pop":1006,"state":"MT"}
+{"_id":"59038","city":"HYSHAM","loc":[-107.307196,46.276483],"pop":301,"state":"MT"}
+{"_id":"59039","city":"INGOMAR","loc":[-107.551749,46.654196],"pop":118,"state":"MT"}
+{"_id":"59041","city":"SILESIA","loc":[-108.94804,45.498763],"pop":1739,"state":"MT"}
+{"_id":"59043","city":"LAME DEER","loc":[-106.565424,45.603167],"pop":2846,"state":"MT"}
+{"_id":"59044","city":"LAUREL","loc":[-108.769008,45.67451],"pop":8328,"state":"MT"}
+{"_id":"59046","city":"LAVINA","loc":[-108.995853,46.329058],"pop":410,"state":"MT"}
+{"_id":"59047","city":"LIVINGSTON","loc":[-110.560907,45.654587],"pop":9980,"state":"MT"}
+{"_id":"59050","city":"LODGE GRASS","loc":[-107.734105,45.33218],"pop":2938,"state":"MT"}
+{"_id":"59051","city":"LUTHER","loc":[-109.475326,45.279485],"pop":11,"state":"MT"}
+{"_id":"59052","city":"MC LEOD","loc":[-109.935698,45.596334],"pop":226,"state":"MT"}
+{"_id":"59053","city":"MARTINSDALE","loc":[-110.432397,46.458149],"pop":246,"state":"MT"}
+{"_id":"59055","city":"MELVILLE","loc":[-109.880885,46.036446],"pop":416,"state":"MT"}
+{"_id":"59057","city":"MOLT","loc":[-108.973073,45.861503],"pop":524,"state":"MT"}
+{"_id":"59058","city":"MOSBY","loc":[-107.789149,46.900453],"pop":7,"state":"MT"}
+{"_id":"59059","city":"MUSSELSHELL","loc":[-108.003122,46.517125],"pop":584,"state":"MT"}
+{"_id":"59061","city":"NYE","loc":[-109.827137,45.441022],"pop":236,"state":"MT"}
+{"_id":"59062","city":"OTTER","loc":[-106.008667,45.445803],"pop":404,"state":"MT"}
+{"_id":"59063","city":"PARK CITY","loc":[-108.929279,45.632864],"pop":1398,"state":"MT"}
+{"_id":"59064","city":"POMPEYS PILLAR","loc":[-107.915406,45.983847],"pop":207,"state":"MT"}
+{"_id":"59065","city":"PRAY","loc":[-110.686399,45.419315],"pop":1094,"state":"MT"}
+{"_id":"59067","city":"RAPELJE","loc":[-109.276093,45.97948],"pop":219,"state":"MT"}
+{"_id":"59068","city":"RED LODGE","loc":[-109.268812,45.196522],"pop":2875,"state":"MT"}
+{"_id":"59069","city":"REEDPOINT","loc":[-109.468889,45.648462],"pop":301,"state":"MT"}
+{"_id":"59070","city":"ROBERTS","loc":[-109.176888,45.367235],"pop":652,"state":"MT"}
+{"_id":"59071","city":"ROSCOE","loc":[-109.44644,45.377232],"pop":159,"state":"MT"}
+{"_id":"59072","city":"ROUNDUP","loc":[-108.543846,46.422487],"pop":3522,"state":"MT"}
+{"_id":"59074","city":"RYEGATE","loc":[-109.276121,46.272367],"pop":502,"state":"MT"}
+{"_id":"59075","city":"SAINT XAVIER","loc":[-107.709242,45.488996],"pop":199,"state":"MT"}
+{"_id":"59077","city":"SAND SPRINGS","loc":[-107.288623,47.032287],"pop":95,"state":"MT"}
+{"_id":"59078","city":"SHAWMUT","loc":[-109.597361,46.386921],"pop":249,"state":"MT"}
+{"_id":"59079","city":"SHEPHERD","loc":[-108.342634,45.94608],"pop":2078,"state":"MT"}
+{"_id":"59085","city":"TWODOT","loc":[-109.899483,46.446513],"pop":1694,"state":"MT"}
+{"_id":"59086","city":"WILSALL","loc":[-110.606147,45.948351],"pop":1293,"state":"MT"}
+{"_id":"59087","city":"WINNETT","loc":[-108.318373,46.943788],"pop":364,"state":"MT"}
+{"_id":"59088","city":"WORDEN","loc":[-108.153284,45.977937],"pop":1025,"state":"MT"}
+{"_id":"59089","city":"WYOLA","loc":[-107.430258,45.108904],"pop":375,"state":"MT"}
+{"_id":"59101","city":"BILLINGS","loc":[-108.500452,45.774489],"pop":33061,"state":"MT"}
+{"_id":"59102","city":"BILLINGS","loc":[-108.572662,45.781265],"pop":40121,"state":"MT"}
+{"_id":"59105","city":"BILLINGS HEIGHTS","loc":[-108.474726,45.828443],"pop":20320,"state":"MT"}
+{"_id":"59106","city":"BILLINGS","loc":[-108.65191,45.775306],"pop":5623,"state":"MT"}
+{"_id":"59201","city":"WOLF POINT","loc":[-105.629318,48.111879],"pop":4845,"state":"MT"}
+{"_id":"59211","city":"ANTELOPE","loc":[-104.452883,48.696813],"pop":152,"state":"MT"}
+{"_id":"59212","city":"BAINVILLE","loc":[-104.199532,48.157989],"pop":354,"state":"MT"}
+{"_id":"59213","city":"BROCKTON","loc":[-104.85479,48.210063],"pop":959,"state":"MT"}
+{"_id":"59214","city":"BROCKWAY","loc":[-105.777649,47.248497],"pop":233,"state":"MT"}
+{"_id":"59215","city":"CIRCLE","loc":[-105.614771,47.426389],"pop":1271,"state":"MT"}
+{"_id":"59218","city":"CULBERTSON","loc":[-104.513212,48.149536],"pop":949,"state":"MT"}
+{"_id":"59219","city":"DAGMAR","loc":[-104.240123,48.609337],"pop":317,"state":"MT"}
+{"_id":"59221","city":"FAIRVIEW","loc":[-104.230194,47.891598],"pop":1668,"state":"MT"}
+{"_id":"59222","city":"FLAXVILLE","loc":[-105.163746,48.747222],"pop":312,"state":"MT"}
+{"_id":"59223","city":"FORT PECK","loc":[-106.516646,48.053844],"pop":714,"state":"MT"}
+{"_id":"59225","city":"LUSTRE","loc":[-105.991929,48.161166],"pop":819,"state":"MT"}
+{"_id":"59226","city":"FROID","loc":[-104.451765,48.320113],"pop":479,"state":"MT"}
+{"_id":"59230","city":"GLASGOW","loc":[-106.609419,48.203385],"pop":5192,"state":"MT"}
+{"_id":"59241","city":"HINSDALE","loc":[-107.009836,48.400705],"pop":704,"state":"MT"}
+{"_id":"59242","city":"HOMESTEAD","loc":[-104.591805,48.429616],"pop":7,"state":"MT"}
+{"_id":"59243","city":"LAMBERT","loc":[-104.598746,47.745908],"pop":655,"state":"MT"}
+{"_id":"59244","city":"LARSLAN","loc":[-106.283503,48.58218],"pop":120,"state":"MT"}
+{"_id":"59247","city":"MEDICINE LAKE","loc":[-104.437545,48.485179],"pop":629,"state":"MT"}
+{"_id":"59248","city":"NASHUA","loc":[-106.24407,48.18653],"pop":206,"state":"MT"}
+{"_id":"59250","city":"OPHEIM","loc":[-106.365832,48.87016],"pop":322,"state":"MT"}
+{"_id":"59252","city":"OUTLOOK","loc":[-104.741526,48.881673],"pop":241,"state":"MT"}
+{"_id":"59253","city":"PEERLESS","loc":[-105.800567,48.780767],"pop":395,"state":"MT"}
+{"_id":"59254","city":"PLENTYWOOD","loc":[-104.560032,48.778825],"pop":2557,"state":"MT"}
+{"_id":"59255","city":"POPLAR","loc":[-105.187021,48.130713],"pop":3407,"state":"MT"}
+{"_id":"59256","city":"RAYMOND","loc":[-104.629763,48.968612],"pop":29,"state":"MT"}
+{"_id":"59257","city":"REDSTONE","loc":[-104.935259,48.835511],"pop":158,"state":"MT"}
+{"_id":"59258","city":"RESERVE","loc":[-104.627875,48.590519],"pop":127,"state":"MT"}
+{"_id":"59259","city":"RICHEY","loc":[-105.017017,47.622874],"pop":462,"state":"MT"}
+{"_id":"59260","city":"RICHLAND","loc":[-106.223696,48.727326],"pop":162,"state":"MT"}
+{"_id":"59261","city":"SACO","loc":[-107.429324,48.638938],"pop":178,"state":"MT"}
+{"_id":"59262","city":"SAVAGE","loc":[-104.284487,47.519375],"pop":1170,"state":"MT"}
+{"_id":"59263","city":"SCOBEY","loc":[-105.417016,48.785356],"pop":1415,"state":"MT"}
+{"_id":"59270","city":"SIDNEY","loc":[-104.163445,47.713017],"pop":7229,"state":"MT"}
+{"_id":"59274","city":"VIDA","loc":[-105.599595,47.894727],"pop":772,"state":"MT"}
+{"_id":"59275","city":"WESTBY","loc":[-104.124708,48.858695],"pop":515,"state":"MT"}
+{"_id":"59276","city":"WHITETAIL","loc":[-105.297667,48.924968],"pop":144,"state":"MT"}
+{"_id":"59301","city":"MILES CITY","loc":[-105.833193,46.407459],"pop":10604,"state":"MT"}
+{"_id":"59311","city":"ALZADA","loc":[-104.261747,45.156244],"pop":101,"state":"MT"}
+{"_id":"59312","city":"ANGELA","loc":[-106.315732,46.771929],"pop":35,"state":"MT"}
+{"_id":"59313","city":"BAKER","loc":[-104.266707,46.355219],"pop":2631,"state":"MT"}
+{"_id":"59314","city":"BIDDLE","loc":[-105.290138,45.256977],"pop":606,"state":"MT"}
+{"_id":"59315","city":"BLOOMFIELD","loc":[-104.878235,47.340813],"pop":569,"state":"MT"}
+{"_id":"59316","city":"BOYES","loc":[-104.884118,45.490003],"pop":90,"state":"MT"}
+{"_id":"59317","city":"BELLE CREEK","loc":[-105.424968,45.46057],"pop":946,"state":"MT"}
+{"_id":"59318","city":"BRUSETT","loc":[-107.599864,47.342341],"pop":229,"state":"MT"}
+{"_id":"59319","city":"CAPITOL","loc":[-104.146212,45.473162],"pop":73,"state":"MT"}
+{"_id":"59322","city":"COHAGEN","loc":[-106.498065,47.126296],"pop":372,"state":"MT"}
+{"_id":"59324","city":"EKALAKA","loc":[-104.503958,45.88054],"pop":881,"state":"MT"}
+{"_id":"59326","city":"FALLON","loc":[-105.116055,46.786632],"pop":388,"state":"MT"}
+{"_id":"59327","city":"FORSYTH","loc":[-106.699086,46.2819],"pop":3148,"state":"MT"}
+{"_id":"59330","city":"GLENDIVE","loc":[-104.728716,47.100813],"pop":8364,"state":"MT"}
+{"_id":"59332","city":"HAMMOND","loc":[-104.615444,45.291872],"pop":358,"state":"MT"}
+{"_id":"59336","city":"ISMAY","loc":[-105.209064,46.413223],"pop":317,"state":"MT"}
+{"_id":"59337","city":"JORDAN","loc":[-106.922076,47.369419],"pop":886,"state":"MT"}
+{"_id":"59338","city":"KINSEY","loc":[-105.74458,46.577008],"pop":346,"state":"MT"}
+{"_id":"59339","city":"LINDSAY","loc":[-105.208878,47.202383],"pop":110,"state":"MT"}
+{"_id":"59341","city":"MILDRED","loc":[-104.7891,46.751671],"pop":83,"state":"MT"}
+{"_id":"59343","city":"OLIVE","loc":[-105.668741,45.546641],"pop":59,"state":"MT"}
+{"_id":"59344","city":"PLEVNA","loc":[-104.571289,46.411225],"pop":433,"state":"MT"}
+{"_id":"59345","city":"POWDERVILLE","loc":[-105.276098,45.739183],"pop":24,"state":"MT"}
+{"_id":"59347","city":"ROSEBUD","loc":[-106.598123,45.935826],"pop":3867,"state":"MT"}
+{"_id":"59349","city":"TERRY","loc":[-105.37059,46.828972],"pop":912,"state":"MT"}
+{"_id":"59351","city":"VOLBORG","loc":[-105.721444,46.073609],"pop":481,"state":"MT"}
+{"_id":"59353","city":"WIBAUX","loc":[-104.189715,46.964596],"pop":1191,"state":"MT"}
+{"_id":"59354","city":"WILLARD","loc":[-104.446662,46.114064],"pop":39,"state":"MT"}
+{"_id":"59401","city":"GREAT FALLS","loc":[-111.273397,47.509812],"pop":13361,"state":"MT"}
+{"_id":"59404","city":"GREAT FALLS","loc":[-111.340496,47.509755],"pop":23133,"state":"MT"}
+{"_id":"59405","city":"GREAT FALLS","loc":[-111.250227,47.495016],"pop":32774,"state":"MT"}
+{"_id":"59410","city":"AUGUSTA","loc":[-112.388304,47.453739],"pop":839,"state":"MT"}
+{"_id":"59411","city":"BABB","loc":[-113.368132,48.878781],"pop":224,"state":"MT"}
+{"_id":"59412","city":"BELT","loc":[-110.908099,47.38211],"pop":1383,"state":"MT"}
+{"_id":"59414","city":"BLACK EAGLE","loc":[-111.276366,47.526197],"pop":927,"state":"MT"}
+{"_id":"59416","city":"BRADY","loc":[-111.755013,48.031244],"pop":334,"state":"MT"}
+{"_id":"59417","city":"SAINT MARY","loc":[-113.019697,48.54926],"pop":6712,"state":"MT"}
+{"_id":"59418","city":"BUFFALO","loc":[-109.723122,46.805593],"pop":105,"state":"MT"}
+{"_id":"59419","city":"BYNUM","loc":[-112.276177,47.990017],"pop":130,"state":"MT"}
+{"_id":"59420","city":"CARTER","loc":[-110.978593,47.780964],"pop":99,"state":"MT"}
+{"_id":"59421","city":"CASCADE","loc":[-111.722321,47.29117],"pop":2050,"state":"MT"}
+{"_id":"59422","city":"CHOTEAU","loc":[-112.202136,47.837951],"pop":2846,"state":"MT"}
+{"_id":"59424","city":"COFFEE CREEK","loc":[-110.052784,47.339642],"pop":175,"state":"MT"}
+{"_id":"59425","city":"CONRAD","loc":[-111.939665,48.178346],"pop":3843,"state":"MT"}
+{"_id":"59427","city":"CUT BANK","loc":[-112.365354,48.660284],"pop":5249,"state":"MT"}
+{"_id":"59430","city":"DENTON","loc":[-109.878877,47.319081],"pop":604,"state":"MT"}
+{"_id":"59433","city":"DUTTON","loc":[-111.689967,47.860082],"pop":710,"state":"MT"}
+{"_id":"59434","city":"EAST GLACIER PAR","loc":[-113.317304,48.45998],"pop":35,"state":"MT"}
+{"_id":"59436","city":"FAIRFIELD","loc":[-112.001502,47.614255],"pop":1598,"state":"MT"}
+{"_id":"59440","city":"FLOWEREE","loc":[-111.121384,47.658441],"pop":188,"state":"MT"}
+{"_id":"59441","city":"FORESTGROVE","loc":[-109.023294,46.913727],"pop":143,"state":"MT"}
+{"_id":"59442","city":"FORT BENTON","loc":[-110.671487,47.809406],"pop":2795,"state":"MT"}
+{"_id":"59443","city":"FORT SHAW","loc":[-111.805655,47.563862],"pop":531,"state":"MT"}
+{"_id":"59444","city":"GALATA","loc":[-111.419772,48.458657],"pop":156,"state":"MT"}
+{"_id":"59446","city":"GERALDINE","loc":[-110.276537,47.602365],"pop":369,"state":"MT"}
+{"_id":"59447","city":"GEYSER","loc":[-110.483877,47.259816],"pop":289,"state":"MT"}
+{"_id":"59448","city":"HEART BUTTE","loc":[-112.845591,48.277743],"pop":642,"state":"MT"}
+{"_id":"59450","city":"HIGHWOOD","loc":[-110.788656,47.581587],"pop":387,"state":"MT"}
+{"_id":"59451","city":"HILGER","loc":[-109.456246,47.269546],"pop":719,"state":"MT"}
+{"_id":"59452","city":"UTICA","loc":[-109.951824,46.947633],"pop":632,"state":"MT"}
+{"_id":"59453","city":"JUDITH GAP","loc":[-109.675475,46.662301],"pop":303,"state":"MT"}
+{"_id":"59454","city":"KEVIN","loc":[-111.970829,48.750786],"pop":254,"state":"MT"}
+{"_id":"59456","city":"LEDGER","loc":[-111.756384,48.277569],"pop":42,"state":"MT"}
+{"_id":"59457","city":"LEWISTOWN","loc":[-109.420297,47.056324],"pop":8545,"state":"MT"}
+{"_id":"59460","city":"LOMA","loc":[-110.499487,47.954576],"pop":201,"state":"MT"}
+{"_id":"59462","city":"MOCCASIN","loc":[-109.890066,47.09164],"pop":187,"state":"MT"}
+{"_id":"59463","city":"MONARCH","loc":[-110.871027,47.07223],"pop":150,"state":"MT"}
+{"_id":"59464","city":"MOORE","loc":[-109.653838,46.989811],"pop":569,"state":"MT"}
+{"_id":"59465","city":"NEIHART","loc":[-110.732827,46.939086],"pop":58,"state":"MT"}
+{"_id":"59467","city":"PENDROY","loc":[-112.326082,48.087892],"pop":214,"state":"MT"}
+{"_id":"59468","city":"POWER","loc":[-111.716898,47.679846],"pop":862,"state":"MT"}
+{"_id":"59469","city":"RAYNESFORD","loc":[-110.704747,47.260425],"pop":208,"state":"MT"}
+{"_id":"59471","city":"ROY","loc":[-108.863422,47.367821],"pop":353,"state":"MT"}
+{"_id":"59472","city":"SAND COULEE","loc":[-111.16606,47.402117],"pop":583,"state":"MT"}
+{"_id":"59474","city":"SHELBY","loc":[-111.839122,48.503666],"pop":3375,"state":"MT"}
+{"_id":"59479","city":"STANFORD","loc":[-110.196111,47.14886],"pop":966,"state":"MT"}
+{"_id":"59480","city":"STOCKETT","loc":[-111.12868,47.321712],"pop":554,"state":"MT"}
+{"_id":"59482","city":"SUNBURST","loc":[-111.744195,48.851585],"pop":912,"state":"MT"}
+{"_id":"59483","city":"SUN RIVER","loc":[-111.724214,47.480975],"pop":1083,"state":"MT"}
+{"_id":"59484","city":"SWEETGRASS","loc":[-112.020436,48.971305],"pop":349,"state":"MT"}
+{"_id":"59486","city":"VALIER","loc":[-112.303275,48.279504],"pop":1473,"state":"MT"}
+{"_id":"59487","city":"VAUGHN","loc":[-111.576955,47.562445],"pop":869,"state":"MT"}
+{"_id":"59489","city":"WINIFRED","loc":[-109.340931,47.589903],"pop":376,"state":"MT"}
+{"_id":"59501","city":"HAVRE","loc":[-109.687974,48.556121],"pop":13961,"state":"MT"}
+{"_id":"59520","city":"BIG SANDY","loc":[-110.07762,48.149677],"pop":1554,"state":"MT"}
+{"_id":"59521","city":"BOX ELDER","loc":[-109.820548,48.284066],"pop":2012,"state":"MT"}
+{"_id":"59522","city":"CHESTER","loc":[-110.97982,48.454125],"pop":1530,"state":"MT"}
+{"_id":"59523","city":"CHINOOK","loc":[-109.22246,48.57985],"pop":2607,"state":"MT"}
+{"_id":"59524","city":"DODSON","loc":[-108.629967,48.207526],"pop":1870,"state":"MT"}
+{"_id":"59525","city":"GILDFORD","loc":[-110.283633,48.592716],"pop":330,"state":"MT"}
+{"_id":"59526","city":"HARLEM","loc":[-108.769253,48.539802],"pop":1177,"state":"MT"}
+{"_id":"59527","city":"HAYS","loc":[-108.768422,48.380374],"pop":638,"state":"MT"}
+{"_id":"59528","city":"HINGHAM","loc":[-110.427548,48.587029],"pop":333,"state":"MT"}
+{"_id":"59529","city":"HOGELAND","loc":[-108.667704,48.857071],"pop":143,"state":"MT"}
+{"_id":"59530","city":"INVERNESS","loc":[-110.68796,48.593009],"pop":231,"state":"MT"}
+{"_id":"59531","city":"JOPLIN","loc":[-110.79145,48.649795],"pop":496,"state":"MT"}
+{"_id":"59532","city":"KREMLIN","loc":[-110.051315,48.559955],"pop":311,"state":"MT"}
+{"_id":"59535","city":"LLOYD","loc":[-109.294264,48.148632],"pop":212,"state":"MT"}
+{"_id":"59537","city":"LORING","loc":[-107.868603,48.798333],"pop":243,"state":"MT"}
+{"_id":"59538","city":"MALTA","loc":[-107.840784,48.369167],"pop":4049,"state":"MT"}
+{"_id":"59540","city":"RUDYARD","loc":[-110.555235,48.586001],"pop":476,"state":"MT"}
+{"_id":"59542","city":"TURNER","loc":[-108.396079,48.832766],"pop":270,"state":"MT"}
+{"_id":"59544","city":"WHITEWATER","loc":[-107.40543,48.834909],"pop":110,"state":"MT"}
+{"_id":"59545","city":"WHITLASH","loc":[-111.107512,48.911037],"pop":269,"state":"MT"}
+{"_id":"59546","city":"ZORTMAN","loc":[-108.349523,47.874326],"pop":394,"state":"MT"}
+{"_id":"59601","city":"HELENA","loc":[-112.021283,46.613066],"pop":40102,"state":"MT"}
+{"_id":"59632","city":"BOULDER","loc":[-112.113757,46.230647],"pop":1737,"state":"MT"}
+{"_id":"59633","city":"CANYON CREEK","loc":[-112.279496,46.762662],"pop":648,"state":"MT"}
+{"_id":"59634","city":"MONTANA CITY","loc":[-111.992565,46.474492],"pop":3496,"state":"MT"}
+{"_id":"59635","city":"EAST HELENA","loc":[-111.905089,46.597324],"pop":3901,"state":"MT"}
+{"_id":"59639","city":"LINCOLN","loc":[-112.66514,46.957458],"pop":1015,"state":"MT"}
+{"_id":"59641","city":"RADERSBURG","loc":[-111.572186,46.079317],"pop":391,"state":"MT"}
+{"_id":"59642","city":"RINGLING","loc":[-110.824214,46.285468],"pop":97,"state":"MT"}
+{"_id":"59643","city":"TOSTON","loc":[-111.425974,46.20437],"pop":168,"state":"MT"}
+{"_id":"59644","city":"TOWNSEND","loc":[-111.491906,46.334571],"pop":2343,"state":"MT"}
+{"_id":"59645","city":"WHITE SULPHUR SP","loc":[-110.934413,46.566323],"pop":1476,"state":"MT"}
+{"_id":"59647","city":"WINSTON","loc":[-111.644671,46.431485],"pop":416,"state":"MT"}
+{"_id":"59648","city":"WOLF CREEK","loc":[-111.883316,46.839567],"pop":995,"state":"MT"}
+{"_id":"59701","city":"WALKERVILLE","loc":[-112.517807,45.991579],"pop":33096,"state":"MT"}
+{"_id":"59711","city":"ANACONDA","loc":[-112.97388,46.129863],"pop":8611,"state":"MT"}
+{"_id":"59714","city":"BELGRADE","loc":[-111.143927,45.780126],"pop":9060,"state":"MT"}
+{"_id":"59715","city":"BOZEMAN","loc":[-111.043057,45.669269],"pop":31218,"state":"MT"}
+{"_id":"59720","city":"CAMERON","loc":[-111.650778,45.139021],"pop":269,"state":"MT"}
+{"_id":"59721","city":"CARDWELL","loc":[-111.780946,45.894071],"pop":109,"state":"MT"}
+{"_id":"59722","city":"DEER LODGE","loc":[-112.747589,46.38807],"pop":5220,"state":"MT"}
+{"_id":"59724","city":"DELL","loc":[-112.950401,44.95877],"pop":387,"state":"MT"}
+{"_id":"59725","city":"DILLON","loc":[-112.640452,45.23394],"pop":6972,"state":"MT"}
+{"_id":"59727","city":"DIVIDE","loc":[-112.719551,45.716055],"pop":316,"state":"MT"}
+{"_id":"59729","city":"ENNIS","loc":[-111.687033,45.354456],"pop":1749,"state":"MT"}
+{"_id":"59730","city":"GALLATIN GATEWAY","loc":[-111.173407,45.609963],"pop":2807,"state":"MT"}
+{"_id":"59731","city":"GARRISON","loc":[-112.617322,46.572363],"pop":817,"state":"MT"}
+{"_id":"59733","city":"GOLD CREEK","loc":[-112.97057,46.590025],"pop":66,"state":"MT"}
+{"_id":"59735","city":"HARRISON","loc":[-111.846135,45.742333],"pop":434,"state":"MT"}
+{"_id":"59736","city":"JACKSON","loc":[-113.465862,45.430725],"pop":208,"state":"MT"}
+{"_id":"59739","city":"LIMA","loc":[-112.562492,44.644057],"pop":434,"state":"MT"}
+{"_id":"59741","city":"MANHATTAN","loc":[-111.314577,45.79799],"pop":3461,"state":"MT"}
+{"_id":"59745","city":"NORRIS","loc":[-111.694284,45.532271],"pop":148,"state":"MT"}
+{"_id":"59747","city":"PONY","loc":[-111.961859,45.574502],"pop":252,"state":"MT"}
+{"_id":"59748","city":"RAMSAY","loc":[-112.619628,46.119573],"pop":89,"state":"MT"}
+{"_id":"59749","city":"SHERIDAN","loc":[-112.173543,45.422968],"pop":1524,"state":"MT"}
+{"_id":"59750","city":"BUTTE","loc":[-112.71586,46.003281],"pop":440,"state":"MT"}
+{"_id":"59751","city":"SILVER STAR","loc":[-112.177604,45.757105],"pop":310,"state":"MT"}
+{"_id":"59752","city":"THREE FORKS","loc":[-111.543643,45.881068],"pop":1951,"state":"MT"}
+{"_id":"59754","city":"TWIN BRIDGES","loc":[-112.349461,45.531055],"pop":1041,"state":"MT"}
+{"_id":"59755","city":"VIRGINIA CITY","loc":[-112.002619,45.247216],"pop":268,"state":"MT"}
+{"_id":"59756","city":"WARMSPRINGS","loc":[-112.820041,46.162593],"pop":1667,"state":"MT"}
+{"_id":"59758","city":"WEST YELLOWSTONE","loc":[-111.18595,44.912502],"pop":1987,"state":"MT"}
+{"_id":"59759","city":"WHITEHALL","loc":[-112.124535,45.877146],"pop":2591,"state":"MT"}
+{"_id":"59761","city":"WISDOM","loc":[-113.472926,45.651915],"pop":224,"state":"MT"}
+{"_id":"59762","city":"WISE RIVER","loc":[-112.996285,45.742397],"pop":199,"state":"MT"}
+{"_id":"59801","city":"MISSOULA","loc":[-114.025207,46.856274],"pop":33811,"state":"MT"}
+{"_id":"59802","city":"MISSOULA","loc":[-114.002732,46.900615],"pop":22650,"state":"MT"}
+{"_id":"59803","city":"MISSOULA","loc":[-114.026528,46.822362],"pop":10444,"state":"MT"}
+{"_id":"59820","city":"ALBERTON","loc":[-114.492139,46.98061],"pop":885,"state":"MT"}
+{"_id":"59821","city":"ARLEE","loc":[-114.075978,47.186035],"pop":1432,"state":"MT"}
+{"_id":"59823","city":"BONNER","loc":[-113.746254,46.860138],"pop":1625,"state":"MT"}
+{"_id":"59824","city":"MOIESE","loc":[-114.15931,47.433449],"pop":1638,"state":"MT"}
+{"_id":"59825","city":"CLINTON","loc":[-113.703764,46.767281],"pop":829,"state":"MT"}
+{"_id":"59826","city":"CONDON","loc":[-113.707477,47.509696],"pop":534,"state":"MT"}
+{"_id":"59827","city":"CONNER","loc":[-114.179966,45.912762],"pop":579,"state":"MT"}
+{"_id":"59828","city":"CORVALLIS","loc":[-114.095995,46.314193],"pop":2987,"state":"MT"}
+{"_id":"59829","city":"DARBY","loc":[-114.193784,46.028033],"pop":1657,"state":"MT"}
+{"_id":"59831","city":"DIXON","loc":[-114.30557,47.31313],"pop":454,"state":"MT"}
+{"_id":"59832","city":"DRUMMOND","loc":[-113.242649,46.664676],"pop":800,"state":"MT"}
+{"_id":"59833","city":"FLORENCE","loc":[-114.094487,46.63102],"pop":3184,"state":"MT"}
+{"_id":"59834","city":"FRENCHTOWN","loc":[-114.268308,47.047112],"pop":1679,"state":"MT"}
+{"_id":"59836","city":"GREENOUGH","loc":[-113.427017,46.943361],"pop":372,"state":"MT"}
+{"_id":"59837","city":"HALL","loc":[-113.208725,46.582539],"pop":276,"state":"MT"}
+{"_id":"59840","city":"HAMILTON","loc":[-114.167869,46.23953],"pop":9548,"state":"MT"}
+{"_id":"59843","city":"HELMVILLE","loc":[-112.941296,46.829968],"pop":155,"state":"MT"}
+{"_id":"59844","city":"HERON","loc":[-115.940668,48.053668],"pop":559,"state":"MT"}
+{"_id":"59845","city":"HOT SPRINGS","loc":[-114.659712,47.591408],"pop":858,"state":"MT"}
+{"_id":"59846","city":"HUSON","loc":[-114.421939,47.065953],"pop":562,"state":"MT"}
+{"_id":"59847","city":"LOLO","loc":[-114.109732,46.7585],"pop":3783,"state":"MT"}
+{"_id":"59848","city":"LONEPINE","loc":[-114.63718,47.711209],"pop":236,"state":"MT"}
+{"_id":"59852","city":"NIARADA","loc":[-114.656218,47.8031],"pop":58,"state":"MT"}
+{"_id":"59853","city":"NOXON","loc":[-115.780658,48.030166],"pop":530,"state":"MT"}
+{"_id":"59854","city":"OVANDO","loc":[-113.090528,47.006719],"pop":362,"state":"MT"}
+{"_id":"59858","city":"PHILIPSBURG","loc":[-113.3126,46.318899],"pop":1445,"state":"MT"}
+{"_id":"59859","city":"PLAINS","loc":[-114.893014,47.473448],"pop":2590,"state":"MT"}
+{"_id":"59860","city":"POLSON","loc":[-114.140444,47.687574],"pop":6294,"state":"MT"}
+{"_id":"59864","city":"RONAN","loc":[-114.105385,47.552457],"pop":5682,"state":"MT"}
+{"_id":"59865","city":"SAINT IGNATIUS","loc":[-114.075822,47.330014],"pop":2283,"state":"MT"}
+{"_id":"59866","city":"SAINT REGIS","loc":[-115.170323,47.336899],"pop":962,"state":"MT"}
+{"_id":"59868","city":"SEELEY LAKE","loc":[-113.481019,47.178928],"pop":1240,"state":"MT"}
+{"_id":"59870","city":"STEVENSVILLE","loc":[-114.047846,46.526723],"pop":5250,"state":"MT"}
+{"_id":"59871","city":"SULA","loc":[-114.042968,45.827701],"pop":422,"state":"MT"}
+{"_id":"59872","city":"SUPERIOR","loc":[-114.888483,47.172103],"pop":1825,"state":"MT"}
+{"_id":"59873","city":"THOMPSON FALLS","loc":[-115.360236,47.601572],"pop":2311,"state":"MT"}
+{"_id":"59874","city":"TROUT CREEK","loc":[-115.559185,47.811138],"pop":1095,"state":"MT"}
+{"_id":"59875","city":"VICTOR","loc":[-114.166534,46.400489],"pop":2211,"state":"MT"}
+{"_id":"59901","city":"EVERGREEN","loc":[-114.289163,48.220939],"pop":33469,"state":"MT"}
+{"_id":"59910","city":"BIG ARM","loc":[-114.207049,47.758514],"pop":1089,"state":"MT"}
+{"_id":"59911","city":"SWAN LAKE","loc":[-114.01993,48.039725],"pop":5119,"state":"MT"}
+{"_id":"59912","city":"COLUMBIA FALLS","loc":[-114.178394,48.353394],"pop":9275,"state":"MT"}
+{"_id":"59914","city":"DAYTON","loc":[-114.280918,47.860749],"pop":226,"state":"MT"}
+{"_id":"59915","city":"ELMO","loc":[-114.343938,47.818541],"pop":243,"state":"MT"}
+{"_id":"59916","city":"ESSEX","loc":[-113.946678,48.494028],"pop":98,"state":"MT"}
+{"_id":"59917","city":"EUREKA","loc":[-115.004938,48.842766],"pop":3747,"state":"MT"}
+{"_id":"59920","city":"KILA","loc":[-114.510402,48.074437],"pop":578,"state":"MT"}
+{"_id":"59922","city":"LAKESIDE","loc":[-114.226562,48.021469],"pop":1027,"state":"MT"}
+{"_id":"59923","city":"LIBBY","loc":[-115.539101,48.377311],"pop":10148,"state":"MT"}
+{"_id":"59925","city":"MARION","loc":[-114.744625,48.083596],"pop":475,"state":"MT"}
+{"_id":"59928","city":"POLEBRIDGE","loc":[-114.383558,48.820585],"pop":97,"state":"MT"}
+{"_id":"59929","city":"PROCTOR","loc":[-114.383193,47.940371],"pop":66,"state":"MT"}
+{"_id":"59930","city":"REXFORD","loc":[-115.212859,48.917947],"pop":440,"state":"MT"}
+{"_id":"59931","city":"ROLLINS","loc":[-114.224986,47.918207],"pop":205,"state":"MT"}
+{"_id":"59932","city":"SOMERS","loc":[-114.23548,48.079329],"pop":1104,"state":"MT"}
+{"_id":"59935","city":"TROY","loc":[-115.881684,48.479119],"pop":3146,"state":"MT"}
+{"_id":"59937","city":"WHITEFISH","loc":[-114.350859,48.403999],"pop":9837,"state":"MT"}

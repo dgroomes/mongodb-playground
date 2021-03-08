@@ -1,0 +1,635 @@
+{"_id":"30001","city":"AUSTELL","loc":[-84.605026,33.807226],"pop":25021,"state":"GA"}
+{"_id":"30002","city":"AVONDALE ESTATES","loc":[-84.260691,33.771727],"pop":4459,"state":"GA"}
+{"_id":"30021","city":"CLARKSTON","loc":[-84.238825,33.810107],"pop":17325,"state":"GA"}
+{"_id":"30027","city":"CONLEY","loc":[-84.327571,33.645104],"pop":6815,"state":"GA"}
+{"_id":"30030","city":"DECATUR","loc":[-84.295044,33.769883],"pop":23185,"state":"GA"}
+{"_id":"30032","city":"DECATUR","loc":[-84.263165,33.740825],"pop":56056,"state":"GA"}
+{"_id":"30033","city":"DECATUR","loc":[-84.281918,33.812305],"pop":22071,"state":"GA"}
+{"_id":"30034","city":"DECATUR","loc":[-84.248939,33.695385],"pop":32312,"state":"GA"}
+{"_id":"30035","city":"DECATUR","loc":[-84.2143,33.72784],"pop":15062,"state":"GA"}
+{"_id":"30038","city":"LITHONIA","loc":[-84.160997,33.682311],"pop":15583,"state":"GA"}
+{"_id":"30049","city":"ELLENWOOD","loc":[-84.264333,33.635376],"pop":16742,"state":"GA"}
+{"_id":"30050","city":"FOREST PARK","loc":[-84.367075,33.609737],"pop":26825,"state":"GA"}
+{"_id":"30057","city":"LITHIA SPRINGS","loc":[-84.66081,33.772999],"pop":14533,"state":"GA"}
+{"_id":"30058","city":"CENTERVILLE GWIN","loc":[-84.099291,33.746412],"pop":37322,"state":"GA"}
+{"_id":"30059","city":"MABLETON","loc":[-84.565062,33.816572],"pop":22519,"state":"GA"}
+{"_id":"30060","city":"MARIETTA","loc":[-84.564881,33.909199],"pop":52530,"state":"GA"}
+{"_id":"30062","city":"MARIETTA","loc":[-84.463291,34.002521],"pop":52642,"state":"GA"}
+{"_id":"30064","city":"MARIETTA","loc":[-84.607584,33.934285],"pop":30260,"state":"GA"}
+{"_id":"30066","city":"MARIETTA","loc":[-84.503817,34.037807],"pop":41948,"state":"GA"}
+{"_id":"30067","city":"MARIETTA","loc":[-84.473251,33.928198],"pop":40460,"state":"GA"}
+{"_id":"30068","city":"MARIETTA","loc":[-84.438549,33.967861],"pop":29488,"state":"GA"}
+{"_id":"30071","city":"NORCROSS","loc":[-84.197158,33.938145],"pop":16266,"state":"GA"}
+{"_id":"30073","city":"POWDER SPRINGS","loc":[-84.685645,33.875377],"pop":27767,"state":"GA"}
+{"_id":"30075","city":"ROSWELL","loc":[-84.385901,34.040832],"pop":32144,"state":"GA"}
+{"_id":"30076","city":"ROSWELL","loc":[-84.310408,34.021324],"pop":34027,"state":"GA"}
+{"_id":"30079","city":"SCOTTDALE","loc":[-84.258521,33.793396],"pop":3288,"state":"GA"}
+{"_id":"30080","city":"SMYRNA","loc":[-84.502284,33.879602],"pop":36899,"state":"GA"}
+{"_id":"30082","city":"SMYRNA","loc":[-84.538234,33.863051],"pop":17917,"state":"GA"}
+{"_id":"30083","city":"STONE MOUNTAIN","loc":[-84.201754,33.794233],"pop":48785,"state":"GA"}
+{"_id":"30084","city":"TUCKER","loc":[-84.21602,33.856986],"pop":29307,"state":"GA"}
+{"_id":"30087","city":"STONE MOUNTAIN","loc":[-84.128829,33.811511],"pop":27251,"state":"GA"}
+{"_id":"30088","city":"STONE MOUNTAIN","loc":[-84.18022,33.75798],"pop":24029,"state":"GA"}
+{"_id":"30092","city":"NORCROSS","loc":[-84.243787,33.967688],"pop":19901,"state":"GA"}
+{"_id":"30093","city":"NORCROSS","loc":[-84.183953,33.905964],"pop":32345,"state":"GA"}
+{"_id":"30101","city":"ACWORTH","loc":[-84.647741,34.075627],"pop":37976,"state":"GA"}
+{"_id":"30103","city":"ADAIRSVILLE","loc":[-84.917634,34.359527],"pop":7273,"state":"GA"}
+{"_id":"30104","city":"ARAGON","loc":[-85.069559,34.066556],"pop":4692,"state":"GA"}
+{"_id":"30105","city":"ARMUCHEE","loc":[-85.184298,34.441082],"pop":2131,"state":"GA"}
+{"_id":"30107","city":"BALL GROUND","loc":[-84.375756,34.339262],"pop":4064,"state":"GA"}
+{"_id":"30108","city":"BOWDON","loc":[-85.25329,33.537259],"pop":7318,"state":"GA"}
+{"_id":"30110","city":"BREMEN","loc":[-85.128638,33.730872],"pop":8495,"state":"GA"}
+{"_id":"30113","city":"BUCHANAN","loc":[-85.150551,33.82828],"pop":5931,"state":"GA"}
+{"_id":"30114","city":"CANTON","loc":[-84.457756,34.205874],"pop":35773,"state":"GA"}
+{"_id":"30117","city":"CARROLLTON","loc":[-85.081211,33.579751],"pop":40344,"state":"GA"}
+{"_id":"30120","city":"CARTERSVILLE","loc":[-84.820401,34.186975],"pop":33846,"state":"GA"}
+{"_id":"30124","city":"CAVE SPRING","loc":[-85.337906,34.116683],"pop":2650,"state":"GA"}
+{"_id":"30125","city":"CEDARTOWN","loc":[-85.2459,34.011196],"pop":20720,"state":"GA"}
+{"_id":"30130","city":"CUMMING","loc":[-84.146762,34.220197],"pop":35496,"state":"GA"}
+{"_id":"30132","city":"DALLAS","loc":[-84.827791,33.916315],"pop":28118,"state":"GA"}
+{"_id":"30134","city":"DOUGLASVILLE","loc":[-84.747719,33.760645],"pop":17182,"state":"GA"}
+{"_id":"30135","city":"DOUGLASVILLE","loc":[-84.745441,33.698936],"pop":32887,"state":"GA"}
+{"_id":"30136","city":"DULUTH","loc":[-84.157936,33.98619],"pop":30932,"state":"GA"}
+{"_id":"30137","city":"EMERSON","loc":[-84.757045,34.119969],"pop":1353,"state":"GA"}
+{"_id":"30139","city":"FAIRMOUNT","loc":[-84.766878,34.465241],"pop":3405,"state":"GA"}
+{"_id":"30140","city":"FELTON","loc":[-85.220781,33.887066],"pop":489,"state":"GA"}
+{"_id":"30141","city":"HIRAM","loc":[-84.769875,33.867286],"pop":6613,"state":"GA"}
+{"_id":"30143","city":"JASPER","loc":[-84.475881,34.461965],"pop":8256,"state":"GA"}
+{"_id":"30144","city":"KENNESAW","loc":[-84.60466,34.028656],"pop":37120,"state":"GA"}
+{"_id":"30145","city":"KINGSTON","loc":[-84.997299,34.250053],"pop":2534,"state":"GA"}
+{"_id":"30147","city":"LINDALE","loc":[-85.182491,34.170741],"pop":3502,"state":"GA"}
+{"_id":"30148","city":"MARBLE HILL","loc":[-84.337151,34.415353],"pop":98,"state":"GA"}
+{"_id":"30153","city":"ROCKMART","loc":[-85.05937,33.997912],"pop":8946,"state":"GA"}
+{"_id":"30161","city":"ROME","loc":[-85.146501,34.250726],"pop":33058,"state":"GA"}
+{"_id":"30165","city":"ROME","loc":[-85.223122,34.283679],"pop":32739,"state":"GA"}
+{"_id":"30170","city":"ROOPVILLE","loc":[-85.167148,33.432226],"pop":2952,"state":"GA"}
+{"_id":"30171","city":"PINE LOG","loc":[-84.780315,34.392732],"pop":2257,"state":"GA"}
+{"_id":"30173","city":"SILVER CREEK","loc":[-85.142933,34.159272],"pop":5968,"state":"GA"}
+{"_id":"30174","city":"SUWANEE","loc":[-84.082391,34.057245],"pop":5965,"state":"GA"}
+{"_id":"30175","city":"TALKING ROCK","loc":[-84.491154,34.539356],"pop":3037,"state":"GA"}
+{"_id":"30176","city":"TALLAPOOSA","loc":[-85.300047,33.760174],"pop":6172,"state":"GA"}
+{"_id":"30177","city":"TATE","loc":[-84.365299,34.42387],"pop":4286,"state":"GA"}
+{"_id":"30178","city":"TAYLORSVILLE","loc":[-84.973859,34.122941],"pop":2360,"state":"GA"}
+{"_id":"30179","city":"TEMPLE","loc":[-85.013315,33.767687],"pop":7111,"state":"GA"}
+{"_id":"30180","city":"VILLA RICA","loc":[-84.929697,33.71729],"pop":12063,"state":"GA"}
+{"_id":"30182","city":"WACO","loc":[-85.219674,33.683986],"pop":2297,"state":"GA"}
+{"_id":"30183","city":"WALESKA","loc":[-84.561981,34.321662],"pop":3576,"state":"GA"}
+{"_id":"30184","city":"WHITE","loc":[-84.738327,34.271683],"pop":3231,"state":"GA"}
+{"_id":"30185","city":"WHITESBURG","loc":[-84.925426,33.511093],"pop":3115,"state":"GA"}
+{"_id":"30187","city":"WINSTON","loc":[-84.863915,33.663419],"pop":6850,"state":"GA"}
+{"_id":"30188","city":"WOODSTOCK","loc":[-84.511683,34.106005],"pop":33172,"state":"GA"}
+{"_id":"30201","city":"ALPHARETTA","loc":[-84.295167,34.107677],"pop":19393,"state":"GA"}
+{"_id":"30202","city":"ALPHARETTA","loc":[-84.238972,34.035487],"pop":24814,"state":"GA"}
+{"_id":"30203","city":"AUBURN","loc":[-83.824128,34.007758],"pop":6457,"state":"GA"}
+{"_id":"30204","city":"BARNESVILLE","loc":[-84.15147,33.045713],"pop":9595,"state":"GA"}
+{"_id":"30205","city":"BROOKS","loc":[-84.476941,33.298433],"pop":1662,"state":"GA"}
+{"_id":"30206","city":"CONCORD","loc":[-84.447025,33.099836],"pop":1591,"state":"GA"}
+{"_id":"30207","city":"CONYERS","loc":[-84.019818,33.682932],"pop":24526,"state":"GA"}
+{"_id":"30208","city":"CONYERS","loc":[-84.012689,33.607711],"pop":24236,"state":"GA"}
+{"_id":"30209","city":"STARRSVILLE","loc":[-83.890752,33.570328],"pop":35231,"state":"GA"}
+{"_id":"30211","city":"DACULA","loc":[-83.883849,33.988234],"pop":7320,"state":"GA"}
+{"_id":"30213","city":"FAIRBURN","loc":[-84.580857,33.56482],"pop":14110,"state":"GA"}
+{"_id":"30214","city":"WOOLSEY","loc":[-84.463586,33.448054],"pop":35007,"state":"GA"}
+{"_id":"30216","city":"FLOVILLA","loc":[-83.907938,33.250012],"pop":2238,"state":"GA"}
+{"_id":"30217","city":"GLENN","loc":[-85.105459,33.291073],"pop":7230,"state":"GA"}
+{"_id":"30218","city":"ALVATON","loc":[-84.580576,33.149902],"pop":2327,"state":"GA"}
+{"_id":"30220","city":"GRANTVILLE","loc":[-84.834977,33.247253],"pop":1825,"state":"GA"}
+{"_id":"30221","city":"GRAYSON","loc":[-83.979846,33.898344],"pop":5528,"state":"GA"}
+{"_id":"30222","city":"STOVALL","loc":[-84.742173,33.037169],"pop":4507,"state":"GA"}
+{"_id":"30223","city":"GRIFFIN","loc":[-84.272759,33.2549],"pop":53247,"state":"GA"}
+{"_id":"30228","city":"HAMPTON","loc":[-84.294744,33.412398],"pop":10969,"state":"GA"}
+{"_id":"30230","city":"HOGANSVILLE","loc":[-84.930856,33.164382],"pop":6378,"state":"GA"}
+{"_id":"30233","city":"JACKSON","loc":[-83.978391,33.282006],"pop":13206,"state":"GA"}
+{"_id":"30234","city":"JENKINSBURG","loc":[-84.026122,33.318619],"pop":1242,"state":"GA"}
+{"_id":"30236","city":"JONESBORO","loc":[-84.358968,33.524236],"pop":55409,"state":"GA"}
+{"_id":"30240","city":"LA GRANGE","loc":[-85.039511,33.034025],"pop":43081,"state":"GA"}
+{"_id":"30243","city":"LAWRENCEVILLE","loc":[-84.014944,34.005049],"pop":24119,"state":"GA"}
+{"_id":"30244","city":"LAWRENCEVILLE","loc":[-84.081652,33.923781],"pop":37778,"state":"GA"}
+{"_id":"30245","city":"LAWRENCEVILLE","loc":[-83.996413,33.944293],"pop":30171,"state":"GA"}
+{"_id":"30247","city":"LILBURN","loc":[-84.119595,33.873182],"pop":46637,"state":"GA"}
+{"_id":"30248","city":"LOCUST GROVE","loc":[-84.09825,33.344936],"pop":5812,"state":"GA"}
+{"_id":"30249","city":"LOGANVILLE","loc":[-83.903631,33.83366],"pop":14843,"state":"GA"}
+{"_id":"30251","city":"LUTHERSVILLE","loc":[-84.757707,33.179817],"pop":3389,"state":"GA"}
+{"_id":"30253","city":"MC DONOUGH","loc":[-84.135751,33.46466],"pop":18550,"state":"GA"}
+{"_id":"30255","city":"MANSFIELD","loc":[-83.727638,33.540373],"pop":1438,"state":"GA"}
+{"_id":"30256","city":"MEANSVILLE","loc":[-84.316938,33.013387],"pop":1668,"state":"GA"}
+{"_id":"30257","city":"MILNER","loc":[-84.175909,33.141023],"pop":3789,"state":"GA"}
+{"_id":"30258","city":"MOLENA","loc":[-84.45578,32.997845],"pop":2055,"state":"GA"}
+{"_id":"30259","city":"MORELAND","loc":[-84.75656,33.273437],"pop":2056,"state":"GA"}
+{"_id":"30260","city":"MORROW","loc":[-84.324695,33.584934],"pop":20584,"state":"GA"}
+{"_id":"30262","city":"NEWBORN","loc":[-83.668396,33.494923],"pop":1491,"state":"GA"}
+{"_id":"30263","city":"RAYMOND","loc":[-84.816952,33.389404],"pop":32379,"state":"GA"}
+{"_id":"30265","city":"NEWNAN","loc":[-84.712062,33.39576],"pop":5345,"state":"GA"}
+{"_id":"30267","city":"OXFORD","loc":[-83.863517,33.686474],"pop":10601,"state":"GA"}
+{"_id":"30268","city":"PALMETTO","loc":[-84.678999,33.524195],"pop":5838,"state":"GA"}
+{"_id":"30269","city":"PEACHTREE CITY","loc":[-84.563478,33.391467],"pop":18724,"state":"GA"}
+{"_id":"30273","city":"REX","loc":[-84.278228,33.580805],"pop":7218,"state":"GA"}
+{"_id":"30274","city":"RIVERDALE","loc":[-84.400348,33.553126],"pop":23621,"state":"GA"}
+{"_id":"30276","city":"SENOIA","loc":[-84.591779,33.284459],"pop":4653,"state":"GA"}
+{"_id":"30277","city":"SHARPSBURG","loc":[-84.654027,33.401287],"pop":5956,"state":"GA"}
+{"_id":"30278","city":"SNELLVILLE","loc":[-84.028011,33.848607],"pop":34314,"state":"GA"}
+{"_id":"30279","city":"SOCIAL CIRCLE","loc":[-83.706149,33.656386],"pop":4598,"state":"GA"}
+{"_id":"30281","city":"STOCKBRIDGE","loc":[-84.21649,33.563343],"pop":25401,"state":"GA"}
+{"_id":"30285","city":"THE ROCK","loc":[-84.242359,32.971734],"pop":333,"state":"GA"}
+{"_id":"30286","city":"THOMASTON","loc":[-84.3324,32.901534],"pop":22925,"state":"GA"}
+{"_id":"30290","city":"TYRONE","loc":[-84.591357,33.471948],"pop":3555,"state":"GA"}
+{"_id":"30291","city":"UNION CITY","loc":[-84.549853,33.583155],"pop":7411,"state":"GA"}
+{"_id":"30292","city":"WILLIAMSON","loc":[-84.379493,33.159838],"pop":2940,"state":"GA"}
+{"_id":"30293","city":"WOODBURY","loc":[-84.598632,32.981318],"pop":3648,"state":"GA"}
+{"_id":"30295","city":"ZEBULON","loc":[-84.310827,33.100235],"pop":2470,"state":"GA"}
+{"_id":"30296","city":"RIVERDALE","loc":[-84.43645,33.566716],"pop":18577,"state":"GA"}
+{"_id":"30303","city":"ATLANTA","loc":[-84.388846,33.752504],"pop":1845,"state":"GA"}
+{"_id":"30305","city":"ATLANTA","loc":[-84.385145,33.831963],"pop":19122,"state":"GA"}
+{"_id":"30306","city":"ATLANTA","loc":[-84.351418,33.786027],"pop":20081,"state":"GA"}
+{"_id":"30307","city":"ATLANTA","loc":[-84.335957,33.769138],"pop":16330,"state":"GA"}
+{"_id":"30308","city":"ATLANTA","loc":[-84.375744,33.771839],"pop":8549,"state":"GA"}
+{"_id":"30309","city":"ATLANTA","loc":[-84.388338,33.798407],"pop":14766,"state":"GA"}
+{"_id":"30310","city":"ATLANTA","loc":[-84.423173,33.727849],"pop":34017,"state":"GA"}
+{"_id":"30311","city":"ATLANTA","loc":[-84.470219,33.722957],"pop":34880,"state":"GA"}
+{"_id":"30312","city":"ATLANTA","loc":[-84.378125,33.746749],"pop":17683,"state":"GA"}
+{"_id":"30313","city":"ATLANTA","loc":[-84.39352,33.76825],"pop":8038,"state":"GA"}
+{"_id":"30314","city":"ATLANTA","loc":[-84.425546,33.756103],"pop":26649,"state":"GA"}
+{"_id":"30315","city":"ATLANTA","loc":[-84.380771,33.705062],"pop":41061,"state":"GA"}
+{"_id":"30316","city":"ATLANTA","loc":[-84.333913,33.721686],"pop":34668,"state":"GA"}
+{"_id":"30317","city":"ATLANTA","loc":[-84.31685,33.749788],"pop":16395,"state":"GA"}
+{"_id":"30318","city":"ATLANTA","loc":[-84.445432,33.786454],"pop":53894,"state":"GA"}
+{"_id":"30319","city":"ATLANTA","loc":[-84.335091,33.868728],"pop":32138,"state":"GA"}
+{"_id":"30324","city":"ATLANTA","loc":[-84.354867,33.820609],"pop":15044,"state":"GA"}
+{"_id":"30326","city":"ATLANTA","loc":[-84.358232,33.848168],"pop":125,"state":"GA"}
+{"_id":"30327","city":"ATLANTA","loc":[-84.419966,33.862723],"pop":18467,"state":"GA"}
+{"_id":"30328","city":"SANDY SPRINGS","loc":[-84.381143,33.936295],"pop":24238,"state":"GA"}
+{"_id":"30329","city":"ATLANTA","loc":[-84.321402,33.823555],"pop":17013,"state":"GA"}
+{"_id":"30330","city":"ATLANTA","loc":[-84.434735,33.70645],"pop":643,"state":"GA"}
+{"_id":"30331","city":"ATLANTA","loc":[-84.520468,33.72241],"pop":38185,"state":"GA"}
+{"_id":"30334","city":"ATLANTA","loc":[-84.388188,33.74715],"pop":0,"state":"GA"}
+{"_id":"30336","city":"ATLANTA","loc":[-84.510028,33.78534],"pop":1228,"state":"GA"}
+{"_id":"30337","city":"COLLEGE PARK","loc":[-84.460849,33.644227],"pop":18106,"state":"GA"}
+{"_id":"30338","city":"DUNWOODY","loc":[-84.316529,33.944313],"pop":23565,"state":"GA"}
+{"_id":"30339","city":"ATLANTA","loc":[-84.462879,33.87125],"pop":11158,"state":"GA"}
+{"_id":"30340","city":"DORAVILLE","loc":[-84.248265,33.896377],"pop":22862,"state":"GA"}
+{"_id":"30341","city":"CHAMBLEE","loc":[-84.286969,33.886727],"pop":26846,"state":"GA"}
+{"_id":"30342","city":"ATLANTA","loc":[-84.376091,33.884245],"pop":19057,"state":"GA"}
+{"_id":"30344","city":"EAST POINT","loc":[-84.457292,33.676214],"pop":33489,"state":"GA"}
+{"_id":"30345","city":"ATLANTA","loc":[-84.286961,33.851347],"pop":19825,"state":"GA"}
+{"_id":"30346","city":"ATLANTA","loc":[-84.333354,33.926717],"pop":18,"state":"GA"}
+{"_id":"30349","city":"ATLANTA","loc":[-84.481258,33.605331],"pop":48116,"state":"GA"}
+{"_id":"30350","city":"ATLANTA","loc":[-84.341146,33.979471],"pop":24573,"state":"GA"}
+{"_id":"30354","city":"HAPEVILLE","loc":[-84.387025,33.66546],"pop":16349,"state":"GA"}
+{"_id":"30360","city":"ATLANTA","loc":[-84.271645,33.937772],"pop":16023,"state":"GA"}
+{"_id":"30401","city":"OAK PARK","loc":[-82.338668,32.581938],"pop":12918,"state":"GA"}
+{"_id":"30410","city":"AILEY","loc":[-82.47619,32.214262],"pop":1004,"state":"GA"}
+{"_id":"30411","city":"ALAMO","loc":[-82.794445,32.13298],"pop":2584,"state":"GA"}
+{"_id":"30413","city":"BARTOW","loc":[-82.470788,32.863186],"pop":945,"state":"GA"}
+{"_id":"30415","city":"BROOKLET","loc":[-81.628003,32.294046],"pop":4850,"state":"GA"}
+{"_id":"30417","city":"CLAXTON","loc":[-81.908032,32.165009],"pop":8724,"state":"GA"}
+{"_id":"30420","city":"COBBTOWN","loc":[-82.133274,32.264237],"pop":1482,"state":"GA"}
+{"_id":"30421","city":"COLLINS","loc":[-82.10948,32.185228],"pop":1298,"state":"GA"}
+{"_id":"30425","city":"GARFIELD","loc":[-82.085599,32.600776],"pop":593,"state":"GA"}
+{"_id":"30426","city":"GIRARD","loc":[-81.710581,33.043689],"pop":1074,"state":"GA"}
+{"_id":"30427","city":"GLENNVILLE","loc":[-81.948313,31.946708],"pop":7702,"state":"GA"}
+{"_id":"30428","city":"GLENWOOD","loc":[-82.675881,32.157243],"pop":2319,"state":"GA"}
+{"_id":"30434","city":"LOUISVILLE","loc":[-82.383616,33.016342],"pop":7089,"state":"GA"}
+{"_id":"30436","city":"LYONS","loc":[-82.307783,32.171148],"pop":8675,"state":"GA"}
+{"_id":"30438","city":"MANASSAS","loc":[-82.052925,32.096551],"pop":955,"state":"GA"}
+{"_id":"30439","city":"METTER","loc":[-82.060722,32.401034],"pop":7744,"state":"GA"}
+{"_id":"30441","city":"MIDVILLE","loc":[-82.204181,32.863794],"pop":1533,"state":"GA"}
+{"_id":"30442","city":"MILLEN","loc":[-81.961807,32.787739],"pop":7700,"state":"GA"}
+{"_id":"30445","city":"MOUNT VERNON","loc":[-82.58672,32.18398],"pop":3097,"state":"GA"}
+{"_id":"30446","city":"NEWINGTON","loc":[-81.532686,32.588385],"pop":2296,"state":"GA"}
+{"_id":"30450","city":"PORTAL","loc":[-81.912257,32.55504],"pop":3160,"state":"GA"}
+{"_id":"30452","city":"REGISTER","loc":[-81.872828,32.338235],"pop":1655,"state":"GA"}
+{"_id":"30453","city":"REIDSVILLE","loc":[-82.147809,32.054759],"pop":6286,"state":"GA"}
+{"_id":"30454","city":"ROCKLEDGE","loc":[-82.747939,32.391507],"pop":160,"state":"GA"}
+{"_id":"30455","city":"ROCKY FORD","loc":[-81.741749,32.656863],"pop":1554,"state":"GA"}
+{"_id":"30456","city":"SARDIS","loc":[-81.773039,32.980946],"pop":1901,"state":"GA"}
+{"_id":"30457","city":"SOPERTON","loc":[-82.587098,32.386861],"pop":5996,"state":"GA"}
+{"_id":"30458","city":"STATESBORO","loc":[-81.773956,32.440841],"pop":33469,"state":"GA"}
+{"_id":"30467","city":"HILTONIA","loc":[-81.633394,32.77627],"pop":9991,"state":"GA"}
+{"_id":"30470","city":"TARRYTOWN","loc":[-82.516933,32.290623],"pop":1181,"state":"GA"}
+{"_id":"30471","city":"TWIN CITY","loc":[-82.197856,32.612926],"pop":5531,"state":"GA"}
+{"_id":"30473","city":"UVALDA","loc":[-82.508879,32.048271],"pop":1881,"state":"GA"}
+{"_id":"30474","city":"VIDALIA","loc":[-82.406724,32.193408],"pop":15396,"state":"GA"}
+{"_id":"30477","city":"WADLEY","loc":[-82.402459,32.874742],"pop":3376,"state":"GA"}
+{"_id":"30501","city":"GAINESVILLE","loc":[-83.825596,34.307269],"pop":22334,"state":"GA"}
+{"_id":"30504","city":"GAINESVILLE","loc":[-83.879311,34.272281],"pop":10061,"state":"GA"}
+{"_id":"30506","city":"GAINESVILLE","loc":[-83.888211,34.356227],"pop":22232,"state":"GA"}
+{"_id":"30507","city":"GAINESVILLE","loc":[-83.771625,34.25915],"pop":13327,"state":"GA"}
+{"_id":"30510","city":"ALTO","loc":[-83.601996,34.459079],"pop":4701,"state":"GA"}
+{"_id":"30511","city":"BALDWIN","loc":[-83.529781,34.456411],"pop":3969,"state":"GA"}
+{"_id":"30512","city":"BLAIRSVILLE","loc":[-83.992027,34.876253],"pop":11360,"state":"GA"}
+{"_id":"30513","city":"BLUE RIDGE","loc":[-84.328087,34.855523],"pop":4844,"state":"GA"}
+{"_id":"30516","city":"BOWERSVILLE","loc":[-83.048364,34.399592],"pop":2082,"state":"GA"}
+{"_id":"30517","city":"BRASELTON","loc":[-83.781162,34.138941],"pop":3142,"state":"GA"}
+{"_id":"30518","city":"BUFORD","loc":[-83.996459,34.112373],"pop":24810,"state":"GA"}
+{"_id":"30520","city":"CANON","loc":[-83.126693,34.347766],"pop":1393,"state":"GA"}
+{"_id":"30521","city":"CARNESVILLE","loc":[-83.279209,34.394723],"pop":4135,"state":"GA"}
+{"_id":"30522","city":"CHERRYLOG","loc":[-84.443136,34.773711],"pop":2150,"state":"GA"}
+{"_id":"30523","city":"CLARKESVILLE","loc":[-83.524304,34.644993],"pop":8931,"state":"GA"}
+{"_id":"30525","city":"CLAYTON","loc":[-83.40655,34.882569],"pop":6700,"state":"GA"}
+{"_id":"30527","city":"CLERMONT","loc":[-83.785311,34.476091],"pop":2336,"state":"GA"}
+{"_id":"30528","city":"CLEVELAND","loc":[-83.749985,34.583949],"pop":11036,"state":"GA"}
+{"_id":"30529","city":"COMMERCE","loc":[-83.448011,34.213413],"pop":8792,"state":"GA"}
+{"_id":"30531","city":"CORNELIA","loc":[-83.54527,34.520882],"pop":7597,"state":"GA"}
+{"_id":"30533","city":"DAHLONEGA","loc":[-83.979838,34.529949],"pop":15003,"state":"GA"}
+{"_id":"30534","city":"JUNO","loc":[-84.103705,34.394331],"pop":10196,"state":"GA"}
+{"_id":"30535","city":"DEMOREST","loc":[-83.569625,34.575564],"pop":3521,"state":"GA"}
+{"_id":"30537","city":"SKY VALLEY","loc":[-83.380113,34.979659],"pop":328,"state":"GA"}
+{"_id":"30538","city":"EASTANOLLEE","loc":[-83.258685,34.50366],"pop":1478,"state":"GA"}
+{"_id":"30539","city":"EAST ELLIJAY","loc":[-84.473062,34.682636],"pop":314,"state":"GA"}
+{"_id":"30540","city":"ELLIJAY","loc":[-84.481226,34.677514],"pop":9672,"state":"GA"}
+{"_id":"30541","city":"EPWORTH","loc":[-84.441593,34.944249],"pop":1523,"state":"GA"}
+{"_id":"30542","city":"FLOWERY BRANCH","loc":[-83.902407,34.181893],"pop":9361,"state":"GA"}
+{"_id":"30543","city":"GILLSVILLE","loc":[-83.675681,34.300148],"pop":1585,"state":"GA"}
+{"_id":"30545","city":"HELEN","loc":[-83.739936,34.686601],"pop":469,"state":"GA"}
+{"_id":"30546","city":"HIAWASSEE","loc":[-83.7478,34.937667],"pop":5067,"state":"GA"}
+{"_id":"30547","city":"HOMER","loc":[-83.497432,34.356312],"pop":2949,"state":"GA"}
+{"_id":"30548","city":"HOSCHTON","loc":[-83.780253,34.086578],"pop":3444,"state":"GA"}
+{"_id":"30549","city":"JEFFERSON","loc":[-83.570813,34.106197],"pop":8795,"state":"GA"}
+{"_id":"30552","city":"LAKEMONT","loc":[-83.403763,34.761697],"pop":338,"state":"GA"}
+{"_id":"30553","city":"LAVONIA","loc":[-83.112992,34.452758],"pop":5797,"state":"GA"}
+{"_id":"30554","city":"LULA","loc":[-83.694459,34.398513],"pop":3365,"state":"GA"}
+{"_id":"30555","city":"MC CAYSVILLE","loc":[-84.368294,34.952212],"pop":4720,"state":"GA"}
+{"_id":"30557","city":"MARTIN","loc":[-83.168553,34.515482],"pop":1601,"state":"GA"}
+{"_id":"30558","city":"MAYSVILLE","loc":[-83.584019,34.273627],"pop":4456,"state":"GA"}
+{"_id":"30559","city":"MINERAL BLUFF","loc":[-84.254066,34.934112],"pop":2180,"state":"GA"}
+{"_id":"30560","city":"MORGANTON","loc":[-84.211479,34.871382],"pop":2558,"state":"GA"}
+{"_id":"30563","city":"MOUNT AIRY","loc":[-83.471272,34.567825],"pop":2813,"state":"GA"}
+{"_id":"30564","city":"MURRAYVILLE","loc":[-83.894919,34.434167],"pop":2126,"state":"GA"}
+{"_id":"30565","city":"NICHOLSON","loc":[-83.421031,34.097016],"pop":3352,"state":"GA"}
+{"_id":"30566","city":"OAKWOOD","loc":[-83.894013,34.237196],"pop":6584,"state":"GA"}
+{"_id":"30567","city":"PENDERGRASS","loc":[-83.663356,34.179634],"pop":1956,"state":"GA"}
+{"_id":"30568","city":"RABUN GAP","loc":[-83.390122,34.957552],"pop":1828,"state":"GA"}
+{"_id":"30571","city":"SAUTEE NACOOCHEE","loc":[-83.693116,34.716245],"pop":1504,"state":"GA"}
+{"_id":"30572","city":"SUCHES","loc":[-84.049582,34.72529],"pop":800,"state":"GA"}
+{"_id":"30575","city":"TALMO","loc":[-83.71872,34.19506],"pop":1153,"state":"GA"}
+{"_id":"30576","city":"TIGER","loc":[-83.433317,34.81741],"pop":2454,"state":"GA"}
+{"_id":"30577","city":"TOCCOA","loc":[-83.31144,34.566474],"pop":20324,"state":"GA"}
+{"_id":"30582","city":"YOUNG HARRIS","loc":[-83.86882,34.958791],"pop":1687,"state":"GA"}
+{"_id":"30601","city":"ATHENS","loc":[-83.363174,33.976097],"pop":15661,"state":"GA"}
+{"_id":"30605","city":"ATHENS","loc":[-83.352508,33.932097],"pop":33299,"state":"GA"}
+{"_id":"30606","city":"ATHENS","loc":[-83.418019,33.946085],"pop":29839,"state":"GA"}
+{"_id":"30607","city":"ATHENS","loc":[-83.427761,34.006978],"pop":7056,"state":"GA"}
+{"_id":"30619","city":"ARNOLDSVILLE","loc":[-83.234137,33.880338],"pop":648,"state":"GA"}
+{"_id":"30620","city":"BETHLEHEM","loc":[-83.728227,33.926116],"pop":2181,"state":"GA"}
+{"_id":"30621","city":"BISHOP","loc":[-83.477655,33.808091],"pop":3620,"state":"GA"}
+{"_id":"30622","city":"BOGART","loc":[-83.50546,33.934038],"pop":7245,"state":"GA"}
+{"_id":"30624","city":"BOWMAN","loc":[-83.028437,34.19193],"pop":2315,"state":"GA"}
+{"_id":"30625","city":"BUCKHEAD","loc":[-83.343484,33.536842],"pop":1222,"state":"GA"}
+{"_id":"30627","city":"CARLTON","loc":[-83.003827,33.985217],"pop":2046,"state":"GA"}
+{"_id":"30628","city":"COLBERT","loc":[-83.21906,34.038246],"pop":5943,"state":"GA"}
+{"_id":"30629","city":"COMER","loc":[-83.121978,34.088776],"pop":3134,"state":"GA"}
+{"_id":"30630","city":"CRAWFORD","loc":[-83.189319,33.909533],"pop":2883,"state":"GA"}
+{"_id":"30631","city":"CRAWFORDVILLE","loc":[-82.887234,33.570801],"pop":1915,"state":"GA"}
+{"_id":"30633","city":"DANIELSVILLE","loc":[-83.275841,34.170799],"pop":7119,"state":"GA"}
+{"_id":"30634","city":"DEWY ROSE","loc":[-82.940894,34.172052],"pop":1138,"state":"GA"}
+{"_id":"30635","city":"ELBERTON","loc":[-82.844765,34.108202],"pop":15503,"state":"GA"}
+{"_id":"30641","city":"GOOD HOPE","loc":[-83.594952,33.761346],"pop":1031,"state":"GA"}
+{"_id":"30642","city":"GREENSBORO","loc":[-83.170192,33.563682],"pop":6206,"state":"GA"}
+{"_id":"30643","city":"HARTWELL","loc":[-82.929576,34.357124],"pop":14886,"state":"GA"}
+{"_id":"30646","city":"HULL","loc":[-83.311029,34.04781],"pop":5142,"state":"GA"}
+{"_id":"30648","city":"LEXINGTON","loc":[-83.085809,33.879913],"pop":1712,"state":"GA"}
+{"_id":"30650","city":"MADISON","loc":[-83.461781,33.594681],"pop":8855,"state":"GA"}
+{"_id":"30655","city":"MONROE","loc":[-83.707221,33.808141],"pop":18405,"state":"GA"}
+{"_id":"30660","city":"PHILOMATH","loc":[-82.909975,33.783593],"pop":1137,"state":"GA"}
+{"_id":"30662","city":"ROYSTON","loc":[-83.140614,34.277793],"pop":8836,"state":"GA"}
+{"_id":"30663","city":"RUTLEDGE","loc":[-83.602302,33.616316],"pop":2161,"state":"GA"}
+{"_id":"30666","city":"STATHAM","loc":[-83.5893,33.960233],"pop":3758,"state":"GA"}
+{"_id":"30667","city":"STEPHENS","loc":[-83.115902,33.771471],"pop":1069,"state":"GA"}
+{"_id":"30668","city":"DANBURG","loc":[-82.695558,33.883294],"pop":2293,"state":"GA"}
+{"_id":"30669","city":"UNION POINT","loc":[-83.087913,33.634544],"pop":3561,"state":"GA"}
+{"_id":"30673","city":"WASHINGTON","loc":[-82.742912,33.726541],"pop":7699,"state":"GA"}
+{"_id":"30677","city":"WATKINSVILLE","loc":[-83.408043,33.854247],"pop":7723,"state":"GA"}
+{"_id":"30678","city":"WHITE PLAINS","loc":[-83.090845,33.484338],"pop":1596,"state":"GA"}
+{"_id":"30680","city":"WINDER","loc":[-83.711473,33.998544],"pop":16981,"state":"GA"}
+{"_id":"30683","city":"WINTERVILLE","loc":[-83.290645,33.954253],"pop":3056,"state":"GA"}
+{"_id":"30701","city":"CALHOUN","loc":[-84.934545,34.496456],"pop":22017,"state":"GA"}
+{"_id":"30705","city":"CHATSWORTH","loc":[-84.794293,34.758929],"pop":22271,"state":"GA"}
+{"_id":"30707","city":"CHICKAMAUGA","loc":[-85.322136,34.857963],"pop":13545,"state":"GA"}
+{"_id":"30708","city":"CISCO","loc":[-84.717382,34.847405],"pop":978,"state":"GA"}
+{"_id":"30710","city":"COHUTTA","loc":[-84.945801,34.932635],"pop":5052,"state":"GA"}
+{"_id":"30711","city":"CRANDALL","loc":[-84.764533,34.941225],"pop":2901,"state":"GA"}
+{"_id":"30720","city":"DALTON","loc":[-84.987477,34.76352],"pop":20680,"state":"GA"}
+{"_id":"30721","city":"DALTON","loc":[-84.933871,34.77922],"pop":36051,"state":"GA"}
+{"_id":"30725","city":"FLINTSTONE","loc":[-85.352443,34.925162],"pop":2775,"state":"GA"}
+{"_id":"30728","city":"LA FAYETTE","loc":[-85.260212,34.692008],"pop":16287,"state":"GA"}
+{"_id":"30730","city":"LYERLY","loc":[-85.403826,34.402958],"pop":2585,"state":"GA"}
+{"_id":"30731","city":"CLOUDLAND","loc":[-85.459723,34.570909],"pop":3222,"state":"GA"}
+{"_id":"30733","city":"PLAINVILLE","loc":[-85.031204,34.41447],"pop":1589,"state":"GA"}
+{"_id":"30734","city":"RANGER","loc":[-84.727018,34.540361],"pop":2015,"state":"GA"}
+{"_id":"30735","city":"HILL CITY","loc":[-84.916251,34.591996],"pop":2926,"state":"GA"}
+{"_id":"30736","city":"RINGGOLD","loc":[-85.154908,34.92052],"pop":25360,"state":"GA"}
+{"_id":"30738","city":"RISING FAWN","loc":[-85.471078,34.853491],"pop":4036,"state":"GA"}
+{"_id":"30739","city":"ROCK SPRING","loc":[-85.241481,34.806534],"pop":4181,"state":"GA"}
+{"_id":"30740","city":"ROCKY FACE","loc":[-85.056143,34.774456],"pop":6029,"state":"GA"}
+{"_id":"30741","city":"ROSSVILLE","loc":[-85.296785,34.953481],"pop":18436,"state":"GA"}
+{"_id":"30742","city":"FORT OGLETHORPE","loc":[-85.242812,34.964082],"pop":14807,"state":"GA"}
+{"_id":"30746","city":"SUGAR VALLEY","loc":[-85.026048,34.551929],"pop":1340,"state":"GA"}
+{"_id":"30747","city":"SUMMERVILLE","loc":[-85.336224,34.485899],"pop":10748,"state":"GA"}
+{"_id":"30750","city":"LOOKOUT MOUNTAIN","loc":[-85.379384,34.933512],"pop":2818,"state":"GA"}
+{"_id":"30752","city":"TRENTON","loc":[-85.517118,34.901681],"pop":7930,"state":"GA"}
+{"_id":"30753","city":"TRION","loc":[-85.311156,34.54679],"pop":5963,"state":"GA"}
+{"_id":"30755","city":"TUNNEL HILL","loc":[-85.046815,34.854129],"pop":6947,"state":"GA"}
+{"_id":"30757","city":"WILDWOOD","loc":[-85.430456,34.977911],"pop":586,"state":"GA"}
+{"_id":"30802","city":"APPLING","loc":[-82.285631,33.627088],"pop":2255,"state":"GA"}
+{"_id":"30803","city":"AVERA","loc":[-82.514965,33.140997],"pop":836,"state":"GA"}
+{"_id":"30805","city":"BLYTHE","loc":[-82.203044,33.294088],"pop":297,"state":"GA"}
+{"_id":"30808","city":"DEARING","loc":[-82.395512,33.40702],"pop":4632,"state":"GA"}
+{"_id":"30809","city":"EVANS","loc":[-82.139775,33.541194],"pop":12788,"state":"GA"}
+{"_id":"30810","city":"GIBSON","loc":[-82.576591,33.247097],"pop":1649,"state":"GA"}
+{"_id":"30813","city":"GROVETOWN","loc":[-82.240937,33.476622],"pop":13283,"state":"GA"}
+{"_id":"30814","city":"HARLEM","loc":[-82.309659,33.417007],"pop":4318,"state":"GA"}
+{"_id":"30815","city":"HEPHZIBAH","loc":[-82.088689,33.343328],"pop":27838,"state":"GA"}
+{"_id":"30816","city":"KEYSVILLE","loc":[-82.183368,33.17191],"pop":135,"state":"GA"}
+{"_id":"30817","city":"LINCOLNTON","loc":[-82.443481,33.777335],"pop":7028,"state":"GA"}
+{"_id":"30818","city":"MATTHEWS","loc":[-82.286747,33.217582],"pop":607,"state":"GA"}
+{"_id":"30820","city":"MITCHELL","loc":[-82.681654,33.20515],"pop":708,"state":"GA"}
+{"_id":"30821","city":"NORWOOD","loc":[-82.735575,33.478921],"pop":882,"state":"GA"}
+{"_id":"30822","city":"PERKINS","loc":[-81.869573,32.905747],"pop":549,"state":"GA"}
+{"_id":"30823","city":"STAPLETON","loc":[-82.459704,33.189423],"pop":884,"state":"GA"}
+{"_id":"30824","city":"THOMSON","loc":[-82.494204,33.477363],"pop":15487,"state":"GA"}
+{"_id":"30828","city":"WARRENTON","loc":[-82.63568,33.40914],"pop":4091,"state":"GA"}
+{"_id":"30830","city":"WAYNESBORO","loc":[-81.990797,33.101254],"pop":12213,"state":"GA"}
+{"_id":"30833","city":"WRENS","loc":[-82.380962,33.210397],"pop":4782,"state":"GA"}
+{"_id":"30901","city":"AUGUSTA","loc":[-81.972959,33.460084],"pop":24496,"state":"GA"}
+{"_id":"30904","city":"AUGUSTA","loc":[-82.013078,33.47374],"pop":30408,"state":"GA"}
+{"_id":"30905","city":"FORT GORDON","loc":[-82.139179,33.419032],"pop":9260,"state":"GA"}
+{"_id":"30906","city":"PEACH ORCHARD","loc":[-82.038358,33.402024],"pop":58646,"state":"GA"}
+{"_id":"30907","city":"MARTINEZ","loc":[-82.099505,33.511692],"pop":42573,"state":"GA"}
+{"_id":"30909","city":"FOREST HILLS","loc":[-82.060439,33.480932],"pop":32202,"state":"GA"}
+{"_id":"31001","city":"ABBEVILLE","loc":[-83.306845,31.96484],"pop":1991,"state":"GA"}
+{"_id":"31002","city":"ADRIAN","loc":[-82.569508,32.563505],"pop":2880,"state":"GA"}
+{"_id":"31003","city":"ALLENTOWN","loc":[-83.189796,32.653829],"pop":1099,"state":"GA"}
+{"_id":"31005","city":"BONAIRE","loc":[-83.604736,32.546037],"pop":5095,"state":"GA"}
+{"_id":"31006","city":"BUTLER","loc":[-84.234308,32.572597],"pop":4731,"state":"GA"}
+{"_id":"31007","city":"BYROMVILLE","loc":[-83.899128,32.185192],"pop":1672,"state":"GA"}
+{"_id":"31008","city":"POWERSVILLE","loc":[-83.762244,32.647384],"pop":8205,"state":"GA"}
+{"_id":"31009","city":"CADWELL","loc":[-83.026767,32.317395],"pop":1501,"state":"GA"}
+{"_id":"31011","city":"CHAUNCEY","loc":[-83.050804,32.083532],"pop":1954,"state":"GA"}
+{"_id":"31012","city":"CHESTER","loc":[-83.174029,32.398152],"pop":1517,"state":"GA"}
+{"_id":"31014","city":"COCHRAN","loc":[-83.322886,32.398066],"pop":11373,"state":"GA"}
+{"_id":"31015","city":"CORDELE","loc":[-83.783507,31.956625],"pop":18662,"state":"GA"}
+{"_id":"31016","city":"CULLODEN","loc":[-84.045628,32.830078],"pop":2501,"state":"GA"}
+{"_id":"31017","city":"DANVILLE","loc":[-83.303298,32.593017],"pop":2221,"state":"GA"}
+{"_id":"31018","city":"DAVISBORO","loc":[-82.622738,32.944296],"pop":2032,"state":"GA"}
+{"_id":"31019","city":"DEXTER","loc":[-83.052771,32.435639],"pop":1705,"state":"GA"}
+{"_id":"31020","city":"DRY BRANCH","loc":[-83.495105,32.70499],"pop":3702,"state":"GA"}
+{"_id":"31021","city":"EAST DUBLIN","loc":[-82.90368,32.547794],"pop":32030,"state":"GA"}
+{"_id":"31022","city":"DUDLEY","loc":[-83.089918,32.525879],"pop":966,"state":"GA"}
+{"_id":"31023","city":"EASTMAN","loc":[-83.185959,32.208425],"pop":11744,"state":"GA"}
+{"_id":"31024","city":"EATONTON","loc":[-83.36277,33.312723],"pop":13086,"state":"GA"}
+{"_id":"31025","city":"ELKO","loc":[-83.730388,32.333648],"pop":934,"state":"GA"}
+{"_id":"31028","city":"CENTERVILLE","loc":[-83.676773,32.634375],"pop":2764,"state":"GA"}
+{"_id":"31029","city":"FORSYTH","loc":[-83.936209,33.050764],"pop":8959,"state":"GA"}
+{"_id":"31030","city":"FORT VALLEY","loc":[-83.888727,32.54956],"pop":14027,"state":"GA"}
+{"_id":"31031","city":"STEVENS POTTERY","loc":[-83.320416,32.909212],"pop":5415,"state":"GA"}
+{"_id":"31032","city":"GRAY","loc":[-83.539951,33.017177],"pop":8781,"state":"GA"}
+{"_id":"31033","city":"HADDOCK","loc":[-83.431219,33.051888],"pop":1193,"state":"GA"}
+{"_id":"31035","city":"HARRISON","loc":[-82.71593,32.842007],"pop":1737,"state":"GA"}
+{"_id":"31036","city":"HAWKINSVILLE","loc":[-83.494763,32.277834],"pop":9154,"state":"GA"}
+{"_id":"31037","city":"HELENA","loc":[-82.91782,32.078093],"pop":1526,"state":"GA"}
+{"_id":"31038","city":"ROUND OAK","loc":[-83.687092,33.179994],"pop":811,"state":"GA"}
+{"_id":"31041","city":"IDEAL","loc":[-84.148149,32.393022],"pop":1924,"state":"GA"}
+{"_id":"31042","city":"IRWINTON","loc":[-83.173963,32.808849],"pop":447,"state":"GA"}
+{"_id":"31044","city":"JEFFERSONVILLE","loc":[-83.385896,32.741096],"pop":3953,"state":"GA"}
+{"_id":"31045","city":"JEWELL","loc":[-82.732803,33.328754],"pop":1105,"state":"GA"}
+{"_id":"31046","city":"JULIETTE","loc":[-83.823529,33.119412],"pop":687,"state":"GA"}
+{"_id":"31047","city":"KATHLEEN","loc":[-83.61284,32.467218],"pop":563,"state":"GA"}
+{"_id":"31049","city":"KITE","loc":[-82.527361,32.707833],"pop":1196,"state":"GA"}
+{"_id":"31050","city":"KNOXVILLE","loc":[-83.943011,32.64724],"pop":2134,"state":"GA"}
+{"_id":"31052","city":"LIZELLA","loc":[-83.825009,32.777316],"pop":6992,"state":"GA"}
+{"_id":"31054","city":"MC INTYRE","loc":[-83.203953,32.84679],"pop":3295,"state":"GA"}
+{"_id":"31055","city":"MC RAE","loc":[-82.887665,32.043529],"pop":4906,"state":"GA"}
+{"_id":"31057","city":"MARSHALLVILLE","loc":[-83.943478,32.452003],"pop":2008,"state":"GA"}
+{"_id":"31058","city":"MAUK","loc":[-84.399906,32.509016],"pop":319,"state":"GA"}
+{"_id":"31060","city":"MILAN","loc":[-83.058845,31.961797],"pop":1627,"state":"GA"}
+{"_id":"31061","city":"MILLEDGEVILLE","loc":[-83.237943,33.079958],"pop":39173,"state":"GA"}
+{"_id":"31063","city":"MONTEZUMA","loc":[-84.004139,32.302615],"pop":6160,"state":"GA"}
+{"_id":"31064","city":"MONTICELLO","loc":[-83.714049,33.311797],"pop":5328,"state":"GA"}
+{"_id":"31065","city":"MONTROSE","loc":[-83.160119,32.561867],"pop":587,"state":"GA"}
+{"_id":"31066","city":"MUSELLA","loc":[-84.045591,32.820228],"pop":121,"state":"GA"}
+{"_id":"31068","city":"OGLETHORPE","loc":[-84.082991,32.284186],"pop":2951,"state":"GA"}
+{"_id":"31069","city":"PERRY","loc":[-83.728258,32.46051],"pop":13945,"state":"GA"}
+{"_id":"31070","city":"PINEHURST","loc":[-83.720853,32.196692],"pop":917,"state":"GA"}
+{"_id":"31071","city":"PINEVIEW","loc":[-83.515835,32.090728],"pop":1154,"state":"GA"}
+{"_id":"31072","city":"PITTS","loc":[-83.55788,31.942533],"pop":1278,"state":"GA"}
+{"_id":"31075","city":"RENTZ","loc":[-82.913987,32.363834],"pop":3037,"state":"GA"}
+{"_id":"31076","city":"REYNOLDS","loc":[-84.101134,32.55411],"pop":2455,"state":"GA"}
+{"_id":"31077","city":"RHINE","loc":[-83.19831,32.011303],"pop":1449,"state":"GA"}
+{"_id":"31078","city":"ROBERTA","loc":[-84.045114,32.722152],"pop":2803,"state":"GA"}
+{"_id":"31079","city":"ROCHELLE","loc":[-83.444978,31.949119],"pop":2585,"state":"GA"}
+{"_id":"31081","city":"RUPERT","loc":[-84.273753,32.432524],"pop":208,"state":"GA"}
+{"_id":"31082","city":"DEEPSTEP","loc":[-82.816934,32.986972],"pop":10459,"state":"GA"}
+{"_id":"31085","city":"SHADY DALE","loc":[-83.704031,33.401353],"pop":1606,"state":"GA"}
+{"_id":"31087","city":"DEVEREUX","loc":[-82.985948,33.265516],"pop":8908,"state":"GA"}
+{"_id":"31088","city":"WARNER ROBINS","loc":[-83.641578,32.593365],"pop":34526,"state":"GA"}
+{"_id":"31089","city":"TENNILLE","loc":[-82.840024,32.9063],"pop":3696,"state":"GA"}
+{"_id":"31090","city":"TOOMSBORO","loc":[-83.084427,32.821895],"pop":1129,"state":"GA"}
+{"_id":"31091","city":"UNADILLA","loc":[-83.74467,32.255766],"pop":2623,"state":"GA"}
+{"_id":"31092","city":"VIENNA","loc":[-83.792198,32.091291],"pop":4689,"state":"GA"}
+{"_id":"31093","city":"WARNER ROBINS","loc":[-83.639466,32.636839],"pop":27107,"state":"GA"}
+{"_id":"31094","city":"WARTHEN","loc":[-82.803899,33.125455],"pop":1188,"state":"GA"}
+{"_id":"31096","city":"WRIGHTSVILLE","loc":[-82.726206,32.721866],"pop":5755,"state":"GA"}
+{"_id":"31097","city":"YATESVILLE","loc":[-84.159253,32.915592],"pop":1188,"state":"GA"}
+{"_id":"31098","city":"ROBINS A F B","loc":[-83.58775,32.60958],"pop":3228,"state":"GA"}
+{"_id":"31201","city":"HUBER","loc":[-83.598686,32.84386],"pop":31882,"state":"GA"}
+{"_id":"31204","city":"MACON","loc":[-83.676634,32.842393],"pop":38186,"state":"GA"}
+{"_id":"31206","city":"WILSON AIRPORT","loc":[-83.682303,32.780758],"pop":42528,"state":"GA"}
+{"_id":"31210","city":"MACON","loc":[-83.745537,32.892565],"pop":31255,"state":"GA"}
+{"_id":"31211","city":"MACON","loc":[-83.602062,32.886905],"pop":16668,"state":"GA"}
+{"_id":"31301","city":"ALLENHURST","loc":[-81.618577,31.774059],"pop":3075,"state":"GA"}
+{"_id":"31302","city":"BLOOMINGDALE","loc":[-81.308465,32.117654],"pop":3297,"state":"GA"}
+{"_id":"31303","city":"CLYO","loc":[-81.30857,32.512646],"pop":400,"state":"GA"}
+{"_id":"31304","city":"CRESCENT","loc":[-81.389219,31.49675],"pop":2362,"state":"GA"}
+{"_id":"31305","city":"DARIEN","loc":[-81.431175,31.382574],"pop":3067,"state":"GA"}
+{"_id":"31308","city":"ELLABELL","loc":[-81.498302,32.127304],"pop":1309,"state":"GA"}
+{"_id":"31309","city":"FLEMING","loc":[-81.423165,31.864477],"pop":548,"state":"GA"}
+{"_id":"31312","city":"GUYTON","loc":[-81.389593,32.31399],"pop":4025,"state":"GA"}
+{"_id":"31313","city":"HINESVILLE","loc":[-81.607214,31.851296],"pop":42962,"state":"GA"}
+{"_id":"31314","city":"FORT STEWART","loc":[-81.440489,31.979085],"pop":0,"state":"GA"}
+{"_id":"31316","city":"LUDOWICI","loc":[-81.745315,31.770477],"pop":6139,"state":"GA"}
+{"_id":"31319","city":"MERIDIAN","loc":[-81.423915,31.411068],"pop":672,"state":"GA"}
+{"_id":"31320","city":"MIDWAY","loc":[-81.390897,31.801803],"pop":4486,"state":"GA"}
+{"_id":"31321","city":"PEMBROKE","loc":[-81.553341,32.157088],"pop":6571,"state":"GA"}
+{"_id":"31322","city":"POOLER","loc":[-81.251958,32.114931],"pop":4036,"state":"GA"}
+{"_id":"31323","city":"RICEBORO","loc":[-81.467134,31.735696],"pop":1737,"state":"GA"}
+{"_id":"31324","city":"RICHMOND HILL","loc":[-81.294026,31.896152],"pop":7455,"state":"GA"}
+{"_id":"31326","city":"RINCON","loc":[-81.287777,32.235632],"pop":14502,"state":"GA"}
+{"_id":"31327","city":"SAPELO ISLAND","loc":[-81.267933,31.421948],"pop":120,"state":"GA"}
+{"_id":"31328","city":"TYBEE ISLAND","loc":[-80.850938,32.006797],"pop":3106,"state":"GA"}
+{"_id":"31329","city":"STILLWELL","loc":[-81.326435,32.4121],"pop":6761,"state":"GA"}
+{"_id":"31331","city":"TOWNSEND","loc":[-81.418204,31.567339],"pop":2413,"state":"GA"}
+{"_id":"31401","city":"SAVANNAH","loc":[-81.102394,32.067631],"pop":37544,"state":"GA"}
+{"_id":"31404","city":"STATE COLLEGE","loc":[-81.068704,32.044178],"pop":33927,"state":"GA"}
+{"_id":"31405","city":"SAVANNAH","loc":[-81.124192,32.039119],"pop":28739,"state":"GA"}
+{"_id":"31406","city":"SAVANNAH","loc":[-81.097893,31.988993],"pop":34024,"state":"GA"}
+{"_id":"31407","city":"PORT WENTWORTH","loc":[-81.162891,32.148075],"pop":2883,"state":"GA"}
+{"_id":"31408","city":"GARDEN CITY","loc":[-81.168181,32.109245],"pop":12548,"state":"GA"}
+{"_id":"31409","city":"SAVANNAH","loc":[-81.158371,32.002104],"pop":3509,"state":"GA"}
+{"_id":"31410","city":"SAVANNAH","loc":[-80.983859,32.016188],"pop":15808,"state":"GA"}
+{"_id":"31411","city":"SAVANNAH","loc":[-81.038074,31.926801],"pop":4707,"state":"GA"}
+{"_id":"31419","city":"M M","loc":[-81.177387,31.985149],"pop":32901,"state":"GA"}
+{"_id":"31501","city":"OKEFENOKEE","loc":[-82.364512,31.219686],"pop":33068,"state":"GA"}
+{"_id":"31510","city":"ALMA","loc":[-82.4633,31.546525],"pop":9566,"state":"GA"}
+{"_id":"31512","city":"AMBROSE","loc":[-82.997637,31.536712],"pop":2853,"state":"GA"}
+{"_id":"31513","city":"BAXLEY","loc":[-82.348643,31.783663],"pop":14099,"state":"GA"}
+{"_id":"31516","city":"BLACKSHEAR","loc":[-82.261708,31.293063],"pop":9612,"state":"GA"}
+{"_id":"31518","city":"BRISTOL","loc":[-82.249594,31.40278],"pop":996,"state":"GA"}
+{"_id":"31519","city":"BROXTON","loc":[-82.904954,31.648426],"pop":2915,"state":"GA"}
+{"_id":"31520","city":"GLYNCO","loc":[-81.493045,31.169652],"pop":21343,"state":"GA"}
+{"_id":"31522","city":"SAINT SIMONS ISL","loc":[-81.382421,31.16916],"pop":12924,"state":"GA"}
+{"_id":"31525","city":"BRUNSWICK","loc":[-81.511365,31.230411],"pop":27079,"state":"GA"}
+{"_id":"31527","city":"JEKYLL ISLAND","loc":[-81.41281,31.074049],"pop":1150,"state":"GA"}
+{"_id":"31532","city":"DENTON","loc":[-82.720146,31.745842],"pop":1457,"state":"GA"}
+{"_id":"31533","city":"DOUGLAS","loc":[-82.846468,31.497287],"pop":19607,"state":"GA"}
+{"_id":"31537","city":"FOLKSTON","loc":[-82.011617,30.850838],"pop":6486,"state":"GA"}
+{"_id":"31539","city":"HAZLEHURST","loc":[-82.590947,31.860569],"pop":10577,"state":"GA"}
+{"_id":"31542","city":"HOBOKEN","loc":[-82.183847,31.183777],"pop":3481,"state":"GA"}
+{"_id":"31543","city":"HORTENSE","loc":[-81.959561,31.319949],"pop":968,"state":"GA"}
+{"_id":"31544","city":"JACKSONVILLE","loc":[-82.975003,31.848079],"pop":905,"state":"GA"}
+{"_id":"31545","city":"JESUP","loc":[-81.88706,31.604326],"pop":17180,"state":"GA"}
+{"_id":"31548","city":"KINGSLAND","loc":[-81.707483,30.797681],"pop":8781,"state":"GA"}
+{"_id":"31549","city":"LUMBER CITY","loc":[-82.707312,31.925124],"pop":2036,"state":"GA"}
+{"_id":"31550","city":"MANOR","loc":[-82.574173,31.108829],"pop":794,"state":"GA"}
+{"_id":"31551","city":"MERSHON","loc":[-82.216995,31.478279],"pop":365,"state":"GA"}
+{"_id":"31552","city":"MILLWOOD","loc":[-82.644148,31.250566],"pop":500,"state":"GA"}
+{"_id":"31553","city":"NAHUNTA","loc":[-81.972212,31.182652],"pop":3158,"state":"GA"}
+{"_id":"31554","city":"NICHOLLS","loc":[-82.603207,31.449812],"pop":3615,"state":"GA"}
+{"_id":"31555","city":"ODUM","loc":[-81.994301,31.699916],"pop":2851,"state":"GA"}
+{"_id":"31557","city":"PATTERSON","loc":[-82.127444,31.390338],"pop":2355,"state":"GA"}
+{"_id":"31558","city":"SAINT MARYS","loc":[-81.565211,30.773467],"pop":15655,"state":"GA"}
+{"_id":"31560","city":"SCREVEN","loc":[-82.039742,31.516846],"pop":2325,"state":"GA"}
+{"_id":"31563","city":"SURRENCY","loc":[-82.198218,31.648931],"pop":1643,"state":"GA"}
+{"_id":"31565","city":"WAVERLY","loc":[-81.56967,31.042672],"pop":331,"state":"GA"}
+{"_id":"31566","city":"WAYNESVILLE","loc":[-81.803928,31.244792],"pop":3248,"state":"GA"}
+{"_id":"31567","city":"WEST GREEN","loc":[-82.756417,31.592271],"pop":1940,"state":"GA"}
+{"_id":"31568","city":"WHITE OAK","loc":[-81.808237,31.034037],"pop":892,"state":"GA"}
+{"_id":"31569","city":"WOODBINE","loc":[-81.678313,30.943692],"pop":4508,"state":"GA"}
+{"_id":"31601","city":"CLYATTVILLE","loc":[-83.277166,30.810578],"pop":32232,"state":"GA"}
+{"_id":"31602","city":"BEMISS","loc":[-83.273299,30.890268],"pop":32292,"state":"GA"}
+{"_id":"31620","city":"ADEL","loc":[-83.421346,31.125143],"pop":9661,"state":"GA"}
+{"_id":"31622","city":"ALAPAHA","loc":[-83.21321,31.394027],"pop":1675,"state":"GA"}
+{"_id":"31624","city":"AXSON","loc":[-82.731945,31.303455],"pop":912,"state":"GA"}
+{"_id":"31625","city":"BARNEY","loc":[-83.521934,31.007424],"pop":895,"state":"GA"}
+{"_id":"31626","city":"BOSTON","loc":[-83.797085,30.785547],"pop":2808,"state":"GA"}
+{"_id":"31629","city":"DIXIE","loc":[-83.67918,30.772213],"pop":1462,"state":"GA"}
+{"_id":"31630","city":"DU PONT","loc":[-82.855518,30.999996],"pop":502,"state":"GA"}
+{"_id":"31631","city":"FARGO","loc":[-82.580056,30.716587],"pop":560,"state":"GA"}
+{"_id":"31632","city":"HAHIRA","loc":[-83.357366,30.941593],"pop":6921,"state":"GA"}
+{"_id":"31634","city":"COGDELL","loc":[-82.743103,31.044991],"pop":5098,"state":"GA"}
+{"_id":"31635","city":"LAKELAND","loc":[-83.088859,31.038107],"pop":4289,"state":"GA"}
+{"_id":"31636","city":"LAKE PARK","loc":[-83.175293,30.690615],"pop":4491,"state":"GA"}
+{"_id":"31637","city":"LENOX","loc":[-83.448135,31.266405],"pop":1993,"state":"GA"}
+{"_id":"31638","city":"MORVEN","loc":[-83.449796,30.893733],"pop":3416,"state":"GA"}
+{"_id":"31639","city":"NASHVILLE","loc":[-83.231946,31.207379],"pop":8396,"state":"GA"}
+{"_id":"31641","city":"NAYLOR","loc":[-83.122368,30.89846],"pop":1110,"state":"GA"}
+{"_id":"31642","city":"PEARSON","loc":[-82.859096,31.310583],"pop":3590,"state":"GA"}
+{"_id":"31643","city":"QUITMAN","loc":[-83.556748,30.779699],"pop":8028,"state":"GA"}
+{"_id":"31645","city":"RAY CITY","loc":[-83.214283,31.08247],"pop":1859,"state":"GA"}
+{"_id":"31646","city":"SAINT GEORGE","loc":[-82.083367,30.559161],"pop":2010,"state":"GA"}
+{"_id":"31647","city":"SPARKS","loc":[-83.447586,31.178984],"pop":1772,"state":"GA"}
+{"_id":"31648","city":"STATENVILLE","loc":[-82.979863,30.725503],"pop":1269,"state":"GA"}
+{"_id":"31649","city":"STOCKTON","loc":[-83.013944,31.022865],"pop":1242,"state":"GA"}
+{"_id":"31650","city":"WILLACOOCHEE","loc":[-83.044931,31.345481],"pop":1704,"state":"GA"}
+{"_id":"31701","city":"ALBANY","loc":[-84.161923,31.567783],"pop":25698,"state":"GA"}
+{"_id":"31704","city":"MARINE CORPS LOG","loc":[-84.050812,31.550099],"pop":1306,"state":"GA"}
+{"_id":"31705","city":"BRIDGEBORO","loc":[-84.090089,31.550851],"pop":35997,"state":"GA"}
+{"_id":"31707","city":"ALBANY","loc":[-84.211834,31.578908],"pop":36439,"state":"GA"}
+{"_id":"31709","city":"GEORGIA SOUTHWES","loc":[-84.224729,32.07077],"pop":23590,"state":"GA"}
+{"_id":"31711","city":"ANDERSONVILLE","loc":[-84.10101,32.129907],"pop":984,"state":"GA"}
+{"_id":"31712","city":"ARABI","loc":[-83.72856,31.862923],"pop":1349,"state":"GA"}
+{"_id":"31713","city":"ARLINGTON","loc":[-84.72572,31.445597],"pop":1402,"state":"GA"}
+{"_id":"31714","city":"ASHBURN","loc":[-83.660775,31.705877],"pop":6047,"state":"GA"}
+{"_id":"31715","city":"ATTAPULGUS","loc":[-84.486008,30.750639],"pop":3131,"state":"GA"}
+{"_id":"31716","city":"BACONTON","loc":[-84.11345,31.387804],"pop":2566,"state":"GA"}
+{"_id":"31717","city":"BAINBRIDGE","loc":[-84.573975,30.897865],"pop":17739,"state":"GA"}
+{"_id":"31723","city":"BLAKELY","loc":[-84.935285,31.371854],"pop":8405,"state":"GA"}
+{"_id":"31724","city":"BLUFFTON","loc":[-84.877175,31.556189],"pop":799,"state":"GA"}
+{"_id":"31725","city":"BRINSON","loc":[-84.667112,30.960957],"pop":2877,"state":"GA"}
+{"_id":"31726","city":"BRONWOOD","loc":[-84.359389,31.821591],"pop":1075,"state":"GA"}
+{"_id":"31728","city":"CAIRO","loc":[-84.196246,30.892462],"pop":15393,"state":"GA"}
+{"_id":"31729","city":"CALVARY","loc":[-84.32267,30.747036],"pop":1442,"state":"GA"}
+{"_id":"31730","city":"CAMILLA","loc":[-84.229683,31.219915],"pop":9207,"state":"GA"}
+{"_id":"31733","city":"CHULA","loc":[-83.550864,31.543855],"pop":2425,"state":"GA"}
+{"_id":"31734","city":"CLIMAX","loc":[-84.443217,30.85731],"pop":1764,"state":"GA"}
+{"_id":"31735","city":"COBB","loc":[-83.958087,31.961708],"pop":881,"state":"GA"}
+{"_id":"31736","city":"COLEMAN","loc":[-84.874471,31.656831],"pop":359,"state":"GA"}
+{"_id":"31737","city":"COLQUITT","loc":[-84.730896,31.161871],"pop":6277,"state":"GA"}
+{"_id":"31738","city":"COOLIDGE","loc":[-83.875245,30.985908],"pop":1970,"state":"GA"}
+{"_id":"31740","city":"CUTHBERT","loc":[-84.788874,31.769073],"pop":5708,"state":"GA"}
+{"_id":"31741","city":"DAMASCUS","loc":[-84.720047,31.341528],"pop":1534,"state":"GA"}
+{"_id":"31742","city":"GRAVES","loc":[-84.430782,31.759846],"pop":8731,"state":"GA"}
+{"_id":"31743","city":"DE SOTO","loc":[-84.027101,31.950186],"pop":112,"state":"GA"}
+{"_id":"31744","city":"DOERUN","loc":[-83.925316,31.313647],"pop":1738,"state":"GA"}
+{"_id":"31745","city":"DONALSONVILLE","loc":[-84.887024,30.981801],"pop":7468,"state":"GA"}
+{"_id":"31746","city":"EDISON","loc":[-84.745626,31.564979],"pop":1711,"state":"GA"}
+{"_id":"31749","city":"ENIGMA","loc":[-83.355157,31.373599],"pop":2223,"state":"GA"}
+{"_id":"31750","city":"FITZGERALD","loc":[-83.249534,31.724769],"pop":16245,"state":"GA"}
+{"_id":"31751","city":"FORT GAINES","loc":[-85.039375,31.646353],"pop":2565,"state":"GA"}
+{"_id":"31754","city":"GEORGETOWN","loc":[-85.071137,31.884763],"pop":1415,"state":"GA"}
+{"_id":"31756","city":"HARTSFIELD","loc":[-83.970364,31.217316],"pop":285,"state":"GA"}
+{"_id":"31759","city":"IRON CITY","loc":[-84.796632,30.994728],"pop":1542,"state":"GA"}
+{"_id":"31760","city":"IRWINVILLE","loc":[-83.401708,31.654238],"pop":1887,"state":"GA"}
+{"_id":"31761","city":"JAKIN","loc":[-84.994845,31.175064],"pop":1918,"state":"GA"}
+{"_id":"31762","city":"LEARY","loc":[-84.509486,31.505924],"pop":1017,"state":"GA"}
+{"_id":"31763","city":"LEESBURG","loc":[-84.159263,31.681161],"pop":14641,"state":"GA"}
+{"_id":"31764","city":"LESLIE","loc":[-84.07834,31.953952],"pop":1273,"state":"GA"}
+{"_id":"31765","city":"MEIGS","loc":[-84.082375,31.062536],"pop":1705,"state":"GA"}
+{"_id":"31766","city":"MORGAN","loc":[-84.617798,31.556557],"pop":883,"state":"GA"}
+{"_id":"31767","city":"SPRINGVALE","loc":[-85.057251,31.823432],"pop":850,"state":"GA"}
+{"_id":"31768","city":"MOULTRIE","loc":[-83.764089,31.179244],"pop":34351,"state":"GA"}
+{"_id":"31770","city":"NEWTON","loc":[-84.441107,31.313426],"pop":3615,"state":"GA"}
+{"_id":"31771","city":"NORMAN PARK","loc":[-83.94044,31.069128],"pop":301,"state":"GA"}
+{"_id":"31772","city":"OAKFIELD","loc":[-83.97059,31.779768],"pop":149,"state":"GA"}
+{"_id":"31773","city":"OCHLOCKNEE","loc":[-84.0326,30.959407],"pop":2665,"state":"GA"}
+{"_id":"31774","city":"OCILLA","loc":[-83.256542,31.592944],"pop":5784,"state":"GA"}
+{"_id":"31775","city":"OMEGA","loc":[-83.593936,31.360432],"pop":2154,"state":"GA"}
+{"_id":"31777","city":"PARROTT","loc":[-84.501152,31.872016],"pop":886,"state":"GA"}
+{"_id":"31778","city":"PAVO","loc":[-83.740856,30.940142],"pop":3573,"state":"GA"}
+{"_id":"31779","city":"PELHAM","loc":[-84.156367,31.127233],"pop":7123,"state":"GA"}
+{"_id":"31780","city":"PLAINS","loc":[-84.358638,32.033908],"pop":3377,"state":"GA"}
+{"_id":"31781","city":"POULAN","loc":[-83.761554,31.467206],"pop":3119,"state":"GA"}
+{"_id":"31783","city":"REBECCA","loc":[-83.523478,31.797921],"pop":630,"state":"GA"}
+{"_id":"31784","city":"SALE CITY","loc":[-84.042195,31.260004],"pop":1379,"state":"GA"}
+{"_id":"31786","city":"SHELLMAN","loc":[-84.616616,31.743407],"pop":1900,"state":"GA"}
+{"_id":"31787","city":"SMITHVILLE","loc":[-84.227066,31.884692],"pop":1570,"state":"GA"}
+{"_id":"31789","city":"SUMNER","loc":[-83.724463,31.53925],"pop":1125,"state":"GA"}
+{"_id":"31790","city":"SYCAMORE","loc":[-83.606363,31.655329],"pop":2026,"state":"GA"}
+{"_id":"31791","city":"SYLVESTER","loc":[-83.860731,31.539268],"pop":9573,"state":"GA"}
+{"_id":"31792","city":"THOMASVILLE","loc":[-83.969616,30.838543],"pop":28319,"state":"GA"}
+{"_id":"31794","city":"ABAC","loc":[-83.498867,31.451722],"pop":27906,"state":"GA"}
+{"_id":"31795","city":"TY TY","loc":[-83.621989,31.45595],"pop":2513,"state":"GA"}
+{"_id":"31796","city":"WARWICK","loc":[-83.920092,31.734495],"pop":2650,"state":"GA"}
+{"_id":"31797","city":"WHIGHAM","loc":[-84.315771,30.90701],"pop":2987,"state":"GA"}
+{"_id":"31798","city":"WRAY","loc":[-83.107484,31.595229],"pop":978,"state":"GA"}
+{"_id":"31801","city":"JUNIPER","loc":[-84.612951,32.565562],"pop":1407,"state":"GA"}
+{"_id":"31803","city":"TAZEWELL","loc":[-84.527347,32.354198],"pop":5590,"state":"GA"}
+{"_id":"31804","city":"CATAULA","loc":[-84.920691,32.624246],"pop":1108,"state":"GA"}
+{"_id":"31805","city":"CUSSETA","loc":[-84.764537,32.299026],"pop":2290,"state":"GA"}
+{"_id":"31806","city":"ELLAVILLE","loc":[-84.303868,32.23901],"pop":3599,"state":"GA"}
+{"_id":"31807","city":"ELLERSLIE","loc":[-84.877197,32.661718],"pop":2153,"state":"GA"}
+{"_id":"31808","city":"FORTSON","loc":[-85.001654,32.628841],"pop":1780,"state":"GA"}
+{"_id":"31811","city":"HAMILTON","loc":[-84.884753,32.741795],"pop":1587,"state":"GA"}
+{"_id":"31812","city":"JUNCTION CITY","loc":[-84.45741,32.608046],"pop":472,"state":"GA"}
+{"_id":"31815","city":"LUMPKIN","loc":[-84.802227,32.043465],"pop":2144,"state":"GA"}
+{"_id":"31816","city":"MANCHESTER","loc":[-84.631166,32.8721],"pop":7721,"state":"GA"}
+{"_id":"31820","city":"MIDLAND","loc":[-84.855851,32.561587],"pop":4725,"state":"GA"}
+{"_id":"31821","city":"OMAHA","loc":[-84.900792,32.165234],"pop":884,"state":"GA"}
+{"_id":"31822","city":"PINE MOUNTAIN","loc":[-84.895953,32.873488],"pop":3548,"state":"GA"}
+{"_id":"31823","city":"PINE MOUNTAIN VA","loc":[-84.823874,32.791849],"pop":887,"state":"GA"}
+{"_id":"31824","city":"PRESTON","loc":[-84.548918,32.074031],"pop":1690,"state":"GA"}
+{"_id":"31825","city":"RICHLAND","loc":[-84.666724,32.084578],"pop":2626,"state":"GA"}
+{"_id":"31826","city":"SHILOH","loc":[-84.741171,32.806678],"pop":1478,"state":"GA"}
+{"_id":"31827","city":"TALBOTTON","loc":[-84.546206,32.679702],"pop":2324,"state":"GA"}
+{"_id":"31829","city":"UPATOI","loc":[-84.744819,32.560057],"pop":725,"state":"GA"}
+{"_id":"31830","city":"WARM SPRINGS","loc":[-84.821728,32.895558],"pop":819,"state":"GA"}
+{"_id":"31831","city":"WAVERLY HALL","loc":[-84.742463,32.679326],"pop":2323,"state":"GA"}
+{"_id":"31832","city":"WESTON","loc":[-84.575579,31.963665],"pop":573,"state":"GA"}
+{"_id":"31833","city":"WEST POINT","loc":[-85.119714,32.833683],"pop":8499,"state":"GA"}
+{"_id":"31836","city":"WOODLAND","loc":[-84.595187,32.806066],"pop":2377,"state":"GA"}
+{"_id":"31901","city":"COLUMBUS","loc":[-84.979456,32.473035],"pop":9694,"state":"GA"}
+{"_id":"31903","city":"COLUMBUS","loc":[-84.948127,32.424513],"pop":25362,"state":"GA"}
+{"_id":"31904","city":"COLUMBUS","loc":[-84.978475,32.516091],"pop":29254,"state":"GA"}
+{"_id":"31905","city":"CUSTER TERRACE","loc":[-84.945264,32.369728],"pop":22869,"state":"GA"}
+{"_id":"31906","city":"COLUMBUS","loc":[-84.948422,32.463819],"pop":26061,"state":"GA"}
+{"_id":"31907","city":"COLUMBUS","loc":[-84.89799,32.477909],"pop":54915,"state":"GA"}
+{"_id":"31909","city":"COLUMBUS","loc":[-84.927404,32.536913],"pop":20880,"state":"GA"}
