@@ -1,4 +1,4 @@
-// This is a companion script to "zips-average.js". It does an incremental load of ZIP areas data and incrementally
+// This is a companion script to "zips-averages.js". It does an incremental load of ZIP areas data and incrementally
 // computes the averages data.
 
 const {runWithDb, upsertAppMetaData, getAppMetaData, printAFewRecords} = require('./db')

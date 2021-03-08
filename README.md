@@ -78,10 +78,12 @@ General clean-ups, TODOs and things I wish to implement for this project:
     any other queries to update documents where "lastModified" is unset.
   * DONE Keep track of "last loaded time"
 * DONE Split into standalone sub-projects. This will free us up for later to increase the cohesion of the sub-projects.
-* IN PROGRESS Split the 'incremental/' sub-project into two: 1) a 'materialized/' sub-project that implements a materialized view of
+* DONE Split the 'incremental/' sub-project into two: 1) a 'materialized/' sub-project that implements a materialized view of
   the ZIP averages data but without incremental support. And 2) the 'incremental/' sub-project which is also an implementation
   of a materialized view of the data but which also supports incremental load. I realize I was conflating these two concepts
   in the existing 'incremental/' sub-project.
-* Create a new sub-project that performance tests the incremental approach vs. the non-incremental approach. This should be a simple
-  timed test like: 1) start a Node program and initialize the database 2) load slice 1 of the data 3) Compute the averages (either incrementally
-  or non-incrementally depending on what is being tests) and then 4) repeat steps 2 and 3 until all slices are loaded 5) print timing results 
+* Compute "Overall ZIP area population average" in addition to "by city" and "by state". This will make the advantage
+  of the "materialized view" use case clearer because the number of analytical data sets are increased by 50% while the
+  backing source data is unchanged. In other words, the disparity between cached and uncached (materialized vs non-materialized)
+  is even more pronounced. (Aside: wow, ZIP codes, containing states, and "overall" (i.e. containing country) makes for
+  a really nice example data set for toy projects like this!)
