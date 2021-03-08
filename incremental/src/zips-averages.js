@@ -10,11 +10,10 @@ const {runWithDb, upsertAppMetaData} = require('./db')
 const {
   lastModified,
   refreshAvgPopByCityAggregation,
-  sampleAvgPopByCityAggregation,
   refreshGroupedByStateAggregation,
   refreshAvgPopByStateAggregation,
-  sampleAvgPopByStateAggregation
 } = require('./zips')
+const {sampleAvgPopByCityAggregation, sampleAvgPopByStateAggregation} = require('./zips-sample')
 
 runWithDb(async db => {
 

@@ -5,7 +5,7 @@
 // source data
 
 const {runWithDb} = require('./db')
-const {sampleAvgPopByCityAggregation, sampleAvgPopByStateAggregation} = require('./zips')
+const {sampleAvgPopByCityAggregation, sampleAvgPopByStateAggregation} = require('./zips-sample')
 
 runWithDb(async db => {
 
