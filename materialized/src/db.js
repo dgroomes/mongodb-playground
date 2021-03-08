@@ -1,7 +1,5 @@
 // MongoDB utility functions
 
-const { printPrettyJson } = require("./util")
-
 /**
  * Run the given function and pass it a MongoDB database connection.
  * Handles connection set up and tear down. Exits if an error occurs.
@@ -9,15 +7,15 @@ const { printPrettyJson } = require("./util")
  * @param fn the given function to run.
  */
 async function runWithDb(fn) {
-  const { MongoClient } = require("mongodb");
+  const {MongoClient} = require("mongodb");
   const URI = "mongodb://localhost:27017";
-  const client = new MongoClient(URI, { useUnifiedTopology: true });
+  const client = new MongoClient(URI, {useUnifiedTopology: true});
   try {
     await client.connect();
     const database = client.db('test');
 
     await fn(database)
-  } catch(e) {
+  } catch (e) {
     console.log(`Unexpected error while executing a function against the database. Will terminate.`)
     console.log(e)
     process.exit(1)
