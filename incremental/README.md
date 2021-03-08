@@ -43,14 +43,14 @@ Pre-requisites: you must have NodeJS and MongoDB installed.
 * Load a portion of the Rhode Island ZIP Code data:
   * `mongoimport --db test --collection zips zips-RI-split-1.json`
 * Compute an initial analytical data set of "averages":
-  * `node zips-averages.js`
+  * `node src/zips-averages.js`
 * Load the remainder of the Rhode Island data
   * ```
     mongoimport --db test --collection zips zips-RI-split-2.json
     mongoimport --db test --collection zips zips-RI-split-3.json
     ```
 * *Incrementally* incorporate the new data to compute an updated version of the "averages" analytical data set
-  * `node zips-averages-incremental.js`
+  * `node src/zips-averages-incremental.js`
   * Success!
 
 ## Referenced materials

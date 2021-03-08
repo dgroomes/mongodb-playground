@@ -9,5 +9,5 @@ subProjects=(
 )
 
 for i in "${subProjects[@]}"; do
-    cp common/* "../$i"
+    cp common/* "../$i/src"
 done
