@@ -59,5 +59,6 @@ Pre-requisites: you must have NodeJS and MongoDB installed.
 
 General clean-ups, TODOs and things I wish to implement for this project:
 
-* Remove the "lastModified" stuff from this project. Remove all traces of "incremental" stuff because that stuff belongs
-  only in the `incremental/` sub-project.
+* DONE Remove the "lastModified" stuff from this project.
+* Consolidate the "refresh" code. I don't think the "grouped by city" intermediate aggregation is useful here. I think that
+  is more useful for the `incremental/` sub-project

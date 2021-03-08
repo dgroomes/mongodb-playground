@@ -10,7 +10,6 @@
 
 const {runWithDb, upsertAppMetaData} = require('./db')
 const {
-  lastModified,
   refreshAvgPopByCityAggregation,
   refreshGroupedByStateAggregation,
   refreshAvgPopByStateAggregation,
@@ -18,9 +17,6 @@ const {
 const {sampleAvgPopByCityAggregation, sampleAvgPopByStateAggregation} = require('./zips-sample')
 
 runWithDb(async db => {
-
-  // Preparation step. Set the "lastModified" field on records where it is not set.
-  await lastModified(db)
 
   // The first step in our journey to find the average ZIP area population "by city" is to create a "grouped by city"
   // collection. This is useful pre-work which will make the averaging computation simple and this grouping should help us
@@ -35,11 +31,6 @@ runWithDb(async db => {
         zip_areas: {
           $addToSet: "$$CURRENT"
         }
-      }
-    },
-    {
-      $set: {
-        lastModified: "$$NOW"
       }
     },
     {$out: "zips_grouped_by_city"}

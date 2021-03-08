@@ -1,20 +1,6 @@
 // Functions for computing data with the ZIP Code data.
 // These functions are the **core** (read: the interesting parts!) of the project.
 
-const {printAFewRecords} = require("./db")
-
-/**
- * Set the "lastModified" field on records where it is not set.
- */
-async function lastModified(db) {
-  return await db.collection("zips").updateMany(
-    {lastModified: {$exists: false}},
-    [
-      {$set: {lastModified: "$$NOW"}}
-    ]
-  )
-}
-
 /**
  * Refresh the "zips_avg_pop_by_city" aggregation collection
  * @param db the database to use
@@ -89,7 +75,6 @@ async function refreshAvgPopByStateAggregation(db) {
 }
 
 module.exports = {
-  lastModified,
   refreshAvgPopByCityAggregation,
   refreshGroupedByStateAggregation,
   refreshAvgPopByStateAggregation,
