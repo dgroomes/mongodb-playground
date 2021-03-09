@@ -7,11 +7,12 @@
  * @return {Promise<void>}
  */
 async function refreshAvgPopByCityAggregation(db) {
-  return await db.collection("zips_grouped_by_city").aggregate([
+  return await db.collection("zips").aggregate([
     {
-      $project: {
-        city_zip_areas: {$size: "$zip_areas"},
-        city_pop: {$sum: "$zip_areas.pop"},
+      $group: {
+        "_id": {city: "$city", state: "$state"},
+        city_zip_areas: {$sum: 1},
+        city_pop: {$sum: "$pop"},
       }
     },
     {
@@ -28,37 +29,17 @@ async function refreshAvgPopByCityAggregation(db) {
 }
 
 /**
- * Refresh the "zips_grouped_by_state" collection
- *
- * @param db the database to use
- * @return {Promise<*>}
- */
-async function refreshGroupedByStateAggregation(db) {
-  return await db.collection("zips_avg_pop_by_city").aggregate([
-    {
-      "$group": {
-        _id: "$_id.state",
-        city_aggregated_zip_area_summaries: {
-          $addToSet: "$$CURRENT"
-        }
-      }
-    },
-    {$out: "zips_grouped_by_state"}
-  ]).next()
-}
-
-/**
  * Refresh the "zips_avg_pop_by_state" collection
  * @param db
  * @return {Promise<void>}
  */
 async function refreshAvgPopByStateAggregation(db) {
-  await db.collection("zips_grouped_by_state").aggregate([
+  await db.collection("zips_avg_pop_by_city").aggregate([
     {
-      "$project": {
-        _id: "$_id",
-        state_zip_areas: {$sum: "$city_aggregated_zip_area_summaries.city_zip_areas"},
-        state_pop: {$sum: "$city_aggregated_zip_area_summaries.city_pop"}
+      "$group": {
+        _id: "$_id.state",
+        state_zip_areas: {$sum: "$city_zip_areas"},
+        state_pop: {$sum: "$city_pop"}
       }
     },
     {
@@ -76,6 +57,5 @@ async function refreshAvgPopByStateAggregation(db) {
 
 module.exports = {
   refreshAvgPopByCityAggregation,
-  refreshGroupedByStateAggregation,
   refreshAvgPopByStateAggregation,
 }
