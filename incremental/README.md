@@ -40,18 +40,32 @@ Pre-requisites: you must have NodeJS and MongoDB installed.
 * Start a MongoDB server
 * Install project dependencies
   * `npm install`
+* Load project-specific shell commands (see [`commands.sh`](#commandssh)):
+  * `source commands.sh`
 * Load a portion of the Rhode Island ZIP Code data:
-  * `mongoimport --db test --collection zips zips-RI-split-1.json`
+  * `doImport1`
 * Compute an initial analytical data set of "averages":
-  * `node src/zips-averages.js`
+  * `doAvg`
 * Load the remainder of the Rhode Island data
   * ```
-    mongoimport --db test --collection zips zips-RI-split-2.json
-    mongoimport --db test --collection zips zips-RI-split-3.json
+    doImport2
+    doImport3
     ```
 * *Incrementally* incorporate the new data to compute an updated version of the "averages" analytical data set
-  * `node src/zips-averages-incremental.js`
+  * `doAvgInc`
   * Success!
+
+## `commands.sh`
+
+Source the `commands.sh` file using `source commands.sh` which will load your shell with useful
+commands. Commands include:
+
+* `doImport1` to import slice 1 of the Rhode Island data
+* `doImport2` to import slice 2 of the Rhode Island data
+* `doImport3` to import slice 3 of the Rhode Island data
+* `doAvg` execute the `zips-averages.js` script
+* `doAvgInc` execute the `zips-averages-incremental.js` script
+* `doDropAll` drop all collections
 
 ## Referenced materials
 
