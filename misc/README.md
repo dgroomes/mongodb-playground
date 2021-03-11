@@ -4,9 +4,17 @@ Miscellaneous notes, data and scripts. This is *not* a cohesive sub-project.
 
 ## Notes
 
-* Import all of the ZIP code data files with this command:
+* Import the individual state-level ZIP code data files with this command:
   ```
   mongoimport --db test --collection zips <(cat data/zips_*)
+  ```
+* Import the monolithic ZIP code data file with this command:
+  ```
+  mongoimport --db test --collection zips data/zips.json
+  ```
+* Export a single state's ZIP code data
+  ```
+  mongoexport --db test --collection zips --query '{ "state": "NY" }' --out data/zips_NY.json
   ```
 
 ## Common Source Code
@@ -24,3 +32,4 @@ General clean-ups, TODOs and things I wish to implement for this project:
   delete the `misc/` sub-project and the other sub-project will still work.
 * DONE make the sampling code print a consolidate output instead of the bulky JSON. The bulkiness is especially
   annoying when doing the multiple invocations of the refresh and query and timing the execution time in `materialized/`  
+* DONE Make utility Mongo scripts to load the zips data into Mongo. This is to easily extract state-specific zip code data.
