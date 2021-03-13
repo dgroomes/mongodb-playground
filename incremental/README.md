@@ -44,16 +44,25 @@ Pre-requisites: you must have NodeJS and MongoDB installed.
   * `source commands.sh`
 * Load a portion of the Rhode Island ZIP Code data:
   * `doImport1`
-* Compute an initial analytical data set of "averages":
+* Compute the "averages" data using the non-incremental script:
   * `doAvg`
+* Compute the "averages" data using the incremental script:
+  * `doAvgInc`
+  * The results printed to the console should be the same between the non-incremental and the incremental approach.
 * Load the remainder of the Rhode Island data
   * ```
     doImport2
     doImport3
     ```
-* *Incrementally* incorporate the new data to compute an updated version of the "averages" analytical data set
+* Again, compute the "averages" data using the non-incremental script:
+  * `doAvg`
+* *Incrementally* incorporate the new data to compute an updated version of the "averages" analytical data set that was
+  earlier initialized when you first used the incremental script:
   * `doAvgInc`
-  * Success!
+  * Again, you should notice that the results printed to the console should be the same between the non-incremental and
+    the incremental approach, but the distinction is what happened under the scenes: the incremental approach re-used the
+    existing materialized view and incorporated the new raw input data incrementally! By contrast, the non-incremental
+    script did a full re-computation of the averages data.
 
 ## `commands.sh`
 
@@ -104,7 +113,7 @@ General clean-ups, TODOs and things I wish to implement for this project:
   and initialize the database 2) load slice #1 of the data 3) Compute the averages (either incrementally
   or non-incrementally depending on what is being tests) and then 4) repeat steps #2 and #3 until all slices are loaded
   5) print timing results.
-* IN PROGRESS De-couple the "incremental average" script (`zips-averages-incremental.js`) from the "bare average" script (`zips-averages.js`).
+* DONE De-couple the "incremental average" script (`zips-averages-incremental.js`) from the "bare average" script (`zips-averages.js`).
   The "bare average" script only exists to create a performance baseline of "how long does it take to compute an average
   across the set of raw input data" whereas the "incremental average" script is a wholesale replacement for the "bare average"
   script. In theory it should execute more quickly for averages computations when incremental input data is added. Currently

@@ -9,23 +9,23 @@ runWithDb(async db => {
   let cityAvgCursor = db.collection("zips").aggregate([
     {
       $group: {
-        "_id": "$city",
-        zip_areas: {$sum: 1},
-        total_pop: {$sum: "$pop"}
+        "_id": {city: "$city", state: "$state"},
+        city_zip_areas: {$sum: 1},
+        city_pop: {$sum: "$pop"}
       }
     },
     {
-      $project: {
+      $addFields: {
         avg_zip_area_pop: {
           $trunc: {
-            $divide: ["$total_pop", "$zip_areas"]
+            $divide: ["$city_pop", "$city_zip_areas"]
           }
         }
       }
     },
     {
       $sort: {
-        avg_zip_area_pop: -1
+        city_pop: -1
       }
     }
   ])
@@ -37,22 +37,22 @@ runWithDb(async db => {
     {
       $group: {
         "_id": "$state",
-        zip_areas: {$sum: 1},
-        total_pop: {$sum: "$pop"}
+        state_zip_areas: {$sum: 1},
+        state_pop: {$sum: "$pop"}
       }
     },
     {
-      $project: {
+      $addFields: {
         avg_zip_area_pop: {
           $trunc: {
-            $divide: ["$total_pop", "$zip_areas"]
+            $divide: ["$state_pop", "$state_zip_areas"]
           }
         }
       }
     },
     {
       $sort: {
-        avg_zip_area_pop: -1
+        state_pop: -1
       }
     }
   ])

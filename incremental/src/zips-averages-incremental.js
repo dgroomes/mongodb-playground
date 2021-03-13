@@ -1,5 +1,8 @@
-// This is a companion script to "zips-averages.js". It does an incremental load of ZIP areas data and incrementally
-// computes the averages data.
+// Compute multiple averages across the ZIP Code data. "Averaging" computations include:
+//   * Average population of the ZIP areas for each *city*.
+//   * Average population of the ZIP areas for each *state*.
+//
+// The averages data is computed using materialized views which can be incrementally updated as new raw input data arrives.
 
 const {runWithDb, upsertAppMetaData, getAppMetaData, printAFewRecords} = require('./db')
 const {
