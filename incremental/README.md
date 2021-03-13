@@ -104,3 +104,9 @@ General clean-ups, TODOs and things I wish to implement for this project:
   and initialize the database 2) load slice #1 of the data 3) Compute the averages (either incrementally
   or non-incrementally depending on what is being tests) and then 4) repeat steps #2 and #3 until all slices are loaded
   5) print timing results.
+* IN PROGRESS De-couple the "incremental average" script (`zips-averages-incremental.js`) from the "bare average" script (`zips-averages.js`).
+  The "bare average" script only exists to create a performance baseline of "how long does it take to compute an average
+  across the set of raw input data" whereas the "incremental average" script is a wholesale replacement for the "bare average"
+  script. In theory it should execute more quickly for averages computations when incremental input data is added. Currently
+  the "bare average" script saves into an indermediate collection. It shouldn't. It should just be a simple query to compute
+  the averages.

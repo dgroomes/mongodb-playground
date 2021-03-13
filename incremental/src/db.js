@@ -50,7 +50,7 @@ async function upsertAppMetaData(db, data) {
  * @return {Promise<*>}
  */
 async function getAppMetaData(db) {
-  return await db.collection("app_meta_data").findOne()
+  return await db.collection("app_meta_data").findOne() ?? {}
 }
 
 /**
