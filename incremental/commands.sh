@@ -1,15 +1,15 @@
 #!/usr/bin/env bash
 
 doImport1() {
-  mongoimport --db test --collection zips zips-RI-split-1.json
+  mongoimport --db test --collection zips <(sed -n '1,10000p;10001q' zips.json)
 }
 
 doImport2() {
-  mongoimport --db test --collection zips zips-RI-split-2.json
+  mongoimport --db test --collection zips <(sed -n '10001,20000p;20001q' zips.json)
 }
 
 doImport3() {
-  mongoimport --db test --collection zips zips-RI-split-3.json
+  mongoimport --db test --collection zips <(sed -n '20001,29353p' zips.json)
 }
 
 doAvg() {

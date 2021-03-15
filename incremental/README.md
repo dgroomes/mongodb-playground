@@ -11,12 +11,13 @@ This project takes raw input data in the form of JSON ZIP Code documents and com
 1. Average population of ZIP areas by city
 1. Average population of ZIP areas by state
 
-Specifically, the input data is limited to the ZIP Code data for the state of Rhode Island and it is split across three
-"split" files: `zips-RI-split-1.json`, `zips-RI-split-2.json`, and `zips-RI-split-3.json`. The purpose of these split files
+Specifically, the input data is the ZIP Code data for all of the US and is taken from the previously linked example on
+the MongoDB website. The process of loading the data into the database is split into a multiple phases. These "splits"
+are defined by shell functions in the `commands.sh` file (see [`commands.sh`](#commandssh)). The purpose of these splits
 is to exercise the use-case of incrementally adding input data to existing materialized views. The materialized views are
 just MongoDB collections and they are updated incrementally using an [Aggregation Pipeline](https://docs.mongodb.com/manual/core/aggregation-pipeline/)
 with a [`$merge`](https://docs.mongodb.com/manual/reference/operator/aggregation/merge/#pipe._S_merge) stage as each "split"
-file is loaded.
+is loaded.
 
 For example, consider some "origin" ZIP Code data which makes up the initial input data. This input data is then aggregated
 into "Average population of the ZIP areas by city" which is saved into a collection called "zips_avg_pop_by_city".
@@ -42,14 +43,14 @@ Pre-requisites: you must have NodeJS and MongoDB installed.
   * `npm install`
 * Load project-specific shell commands (see [`commands.sh`](#commandssh)):
   * `source commands.sh`
-* Load a portion of the Rhode Island ZIP Code data:
+* Load a portion of the ZIP Code data:
   * `doImport1`
 * Compute the "averages" data using the non-incremental script:
   * `doAvg`
 * Compute the "averages" data using the incremental script:
   * `doAvgInc`
   * The results printed to the console should be the same between the non-incremental and the incremental approach.
-* Load the remainder of the Rhode Island data
+* Load the remainder of the ZIP Code data
   * ```
     doImport2
     doImport3
@@ -69,9 +70,9 @@ Pre-requisites: you must have NodeJS and MongoDB installed.
 Source the `commands.sh` file using `source commands.sh` which will load your shell with useful
 commands. Commands include:
 
-* `doImport1` to import slice 1 of the Rhode Island data
-* `doImport2` to import slice 2 of the Rhode Island data
-* `doImport3` to import slice 3 of the Rhode Island data
+* `doImport1` to import slice 1 of the ZIP Code data
+* `doImport2` to import slice 2 of the ZIP Code data
+* `doImport3` to import slice 3 of the ZIP Code data
 * `doAvg` execute the `zips-averages.js` script
 * `doAvgInc` execute the `zips-averages-incremental.js` script
 * `doDropAll` drop all collections
