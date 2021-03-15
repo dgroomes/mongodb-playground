@@ -1,8 +1,6 @@
 // Functions for computing data with the ZIP Code data.
 // These functions are the **core** (read: the interesting parts!) of the project.
 
-const {printAFewRecords} = require("./db")
-
 /**
  * Set the "lastModified" field on records where it is not set.
  */
@@ -13,6 +11,69 @@ async function lastModified(db) {
       {$set: {lastModified: "$$NOW"}}
     ]
   )
+}
+
+/**
+ * Compute the "by city" average: average ZIP area population by city in descending order.
+ * @param db
+ * @return promise
+ */
+function avgByCity(db) {
+  return db.collection("zips").aggregate([
+    {
+      $group: {
+        "_id": {city: "$city", state: "$state"},
+        city_zip_areas: {$sum: 1},
+        city_pop: {$sum: "$pop"}
+      }
+    },
+    {
+      $addFields: {
+        avg_zip_area_pop: {
+          $trunc: {
+            $divide: ["$city_pop", "$city_zip_areas"]
+          }
+        }
+      }
+    },
+    {
+      $sort: {
+        city_pop: -1
+      }
+    }
+  ])
+}
+
+/**
+ * Compute the "by state" average: average ZIP area population by state in descending order.
+ * @param db
+ * @return promise
+ */
+
+function avgByState(db) {
+  return db.collection("zips").aggregate([
+    {
+      $group: {
+        "_id": "$state",
+        state_zip_areas: {$sum: 1},
+        state_pop: {$sum: "$pop"}
+      }
+    },
+    {
+      $addFields: {
+        avg_zip_area_pop: {
+          $trunc: {
+            $divide: ["$state_pop", "$state_zip_areas"]
+          }
+        }
+      }
+    },
+    {
+      $sort: {
+        state_pop: -1
+      }
+    }
+  ])
 }
 
 /**
@@ -90,6 +151,8 @@ async function refreshAvgPopByStateAggregation(db) {
 
 module.exports = {
   lastModified,
+  avgByCity,
+  avgByState,
   refreshAvgPopByCityAggregation,
   refreshGroupedByStateAggregation,
   refreshAvgPopByStateAggregation,
