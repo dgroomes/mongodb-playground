@@ -129,9 +129,8 @@ async function incorporateNewZips(db) {
   const appMetaData = await getAppMetaData(db)
   const lastLoadedTime = appMetaData.last_loaded_time
   if (lastLoadedTime === undefined) {
-    console.log("The 'last loaded time' is undefined. This must be the first execution of the load.")
+    // The 'last loaded time' is undefined. This must be the first execution of the load.
   } else {
-    console.log(`The 'last loaded time' was ${lastLoadedTime}`)
     incorporatePipeline.unshift({
       $match: {
         "lastModified": {

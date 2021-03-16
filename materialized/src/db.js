@@ -20,7 +20,6 @@ async function runWithDb(fn) {
     console.log(e)
     process.exit(1)
   } finally {
-    console.log("Closing the client connection.")
     await client.close();
   }
 }
@@ -50,7 +49,7 @@ async function upsertAppMetaData(db, data) {
  * @return {Promise<*>}
  */
 async function getAppMetaData(db) {
-  return await db.collection("app_meta_data").findOne()
+  return await db.collection("app_meta_data").findOne() ?? {}
 }
 
 /**

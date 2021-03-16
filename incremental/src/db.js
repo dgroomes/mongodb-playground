@@ -20,7 +20,6 @@ async function runWithDb(fn) {
     console.log(e)
     process.exit(1)
   } finally {
-    console.log("Closing the client connection.")
     await client.close();
   }
 }
