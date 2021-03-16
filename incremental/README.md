@@ -70,9 +70,9 @@ Pre-requisites: you must have NodeJS and MongoDB installed.
 Source the `commands.sh` file using `source commands.sh` which will load your shell with useful
 commands. Commands include:
 
-* `doImport1` to import slice 1 of the ZIP Code data
-* `doImport2` to import slice 2 of the ZIP Code data
-* `doImport3` to import slice 3 of the ZIP Code data
+* `doImport1` to import split 1 of the ZIP Code data
+* `doImport2` to import split 2 of the ZIP Code data
+* `doImport3` to import split 3 of the ZIP Code data
 * `doAvg` execute the `zips-averages.js` script
 * `doAvgInc` execute the `zips-averages-incremental.js` script
 * `doDropAll` drop all collections
@@ -103,7 +103,7 @@ General clean-ups, TODOs and things I wish to implement for this project:
   be implemented. Will it require an awkward implementation? Note: this could be considered a de-duplication example because we have
   to de-duplicate the two data points for 01001: we have to toss the old population data and use the new data. Note: this
   will require re-thinking the "_id" used for the documents because Mongo will reject documents with the same ID. 
-* Illustrate the performance advantage between incremental and non-incremental. This will require quite a bit of code especially
+* IN PROGRESS Illustrate the performance advantage between incremental and non-incremental. This will require quite a bit of code especially
   around generating test data. I think a lot of test data will be needed. If there is too little test data, I think the
   execution times between incremental and non-incremental will be negligible because a lot of time is spent in the "fixed costs"
   of NodeJS startup and MongoDB query parsing and data fetching. These fixed costs should instead be amortized across a
@@ -111,8 +111,8 @@ General clean-ups, TODOs and things I wish to implement for this project:
   cost amortized, the execution times should better reflect the nature of the data access and data update process instead
   of illustrating stuff that is not germane to this experiment; rather, uninteresting stuff like NodeJS start up time and
   MongoDB query parsing etc. Note: the actual perf script part should be a simple timed test like: 1) start a Node program
-  and initialize the database 2) load slice #1 of the data 3) Compute the averages (either incrementally
-  or non-incrementally depending on what is being tests) and then 4) repeat steps #2 and #3 until all slices are loaded
+  and initialize the database 2) load split #1 of the data 3) Compute the averages (either incrementally
+  or non-incrementally depending on what is being tests) and then 4) repeat steps #2 and #3 until all splits are loaded
   5) print timing results.
 * DONE De-couple the "incremental average" script (`zips-averages-incremental.js`) from the "bare average" script (`zips-averages.js`).
   The "bare average" script only exists to create a performance baseline of "how long does it take to compute an average

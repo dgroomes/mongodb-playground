@@ -20,6 +20,10 @@ doAvgInc() {
   node src/zips-averages-incremental.js
 }
 
+doBenchmarkAvg() {
+  node src/zips-averages-benchmark.js
+}
+
 doDropAll() {
   mongo --quiet --eval '
     db.app_meta_data.drop()
