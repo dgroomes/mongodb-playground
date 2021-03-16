@@ -15,20 +15,41 @@
 // 3) Repeat the previous two steps until all splits are loaded
 // 4) Print timing results of the splits as a table (console.table)
 
-const { lines } = require("./util")
+const {runWithDb} = require('./db')
+const {avgByCity, avgByState} = require('./zips')
+const {lines} = require("./util")
 
-async function benchmark() {
+async function benchmark(db) {
   const zipAreas = lines("zips.json")
+  const zips = db.collection("zips");
 
   let idx = 0
-  const LIMIT = 3
+  const LIMIT = 5 // artificially limit the input file just for fast iterative development
+  const SPLIT_SIZE = 2
+  let zipAreasBuffer = []
   for await (const zipArea of zipAreas) {
     idx++
-    console.log(zipArea)
+    zipAreasBuffer.push(JSON.parse(zipArea))
+
+    if (idx % 2 === 0) {
+      console.log(`Chomped off a split at idx=${idx}. Inserting the data.`)
+      await zips.insertMany(zipAreasBuffer)
+
+      console.log(`${Date.now()}: Executing averages...`)
+      await avgByCity(db).next()
+      await avgByState(db).next()
+      console.log(`${Date.now()}: Done.`)
+
+      // Clear the buffer
+      zipAreasBuffer = []
+    }
+
     if (idx === LIMIT) {
-      return
+      break
     }
   }
+
+  console.log("All ZIP areas loaded!")
 }
 
-benchmark()
+runWithDb(benchmark)
