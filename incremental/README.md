@@ -64,6 +64,13 @@ Pre-requisites: you must have NodeJS and MongoDB installed.
     the incremental approach, but the distinction is what happened under the scenes: the incremental approach re-used the
     existing materialized view and incorporated the new raw input data incrementally! By contrast, the non-incremental
     script did a full re-computation of the averages data.
+* Now let's move on to executing a formal benchmark over the non-incremental vs. the incremental script. The first step
+  is to clear the existing data:
+  * `doDropAll`
+* Benchmark the non-incremental script:
+  * `doBenchmarkAvg`
+* Clear the data again and then execute the incremental script:
+  * `doDropAll && doBenchmarkAvgInc`
 
 ## `commands.sh`
 
@@ -76,6 +83,7 @@ commands. Commands include:
 * `doAvg` execute the `zips-averages.js` script
 * `doAvgInc` execute the `zips-averages-incremental.js` script
 * `doBenchmarkAvg` benchmark the "bare" averages script over multiple phases of loading the splits 
+* `doBenchmarkAvgInc` benchmark the incremental approach over multiple phases of loading the splits 
 * `doDropAll` drop all collections
 
 ## Referenced materials
@@ -104,7 +112,7 @@ General clean-ups, TODOs and things I wish to implement for this project:
   be implemented. Will it require an awkward implementation? Note: this could be considered a de-duplication example because we have
   to de-duplicate the two data points for 01001: we have to toss the old population data and use the new data. Note: this
   will require re-thinking the "_id" used for the documents because Mongo will reject documents with the same ID. 
-* IN PROGRESS Illustrate the performance advantage between incremental and non-incremental. This will require quite a bit of code especially
+* DONE Illustrate the performance advantage between incremental and non-incremental. This will require quite a bit of code especially
   around generating test data. I think a lot of test data will be needed. If there is too little test data, I think the
   execution times between incremental and non-incremental will be negligible because a lot of time is spent in the "fixed costs"
   of NodeJS startup and MongoDB query parsing and data fetching. These fixed costs should instead be amortized across a
@@ -124,3 +132,12 @@ General clean-ups, TODOs and things I wish to implement for this project:
 * DONE push functions into `zips.js` and have thin scripts for actually running the functions. I.e. the `zips-averages.js`
   script should import the averaging functions from `zips.js`. This paves the way for creating the performance test runner
   scripts which will also import the averaging functiosn from `zips.js`.
+* Speed up the incremental script. It is really slow compared to the non-incremental script, but the whole point of this
+  project is to show how an incremental approach can be faster! There are a lot of options here. First and foremost is
+  to weed out already processed data. This can be done by creating a new field named "loaded". It will store a boolean
+  to indicate if the data has been loaded or not. This should be indexed. In fact, if possible, it should use a partial
+  index so that only documents with this field set to "false" are indexed. All documents that are already loaded should
+  be ignored. Alternatively, maybe a "capped" (I think is what it's called?) collection can be used as a landing zone for
+  new ZIP area records that need to be incorporated. After an incremental load, this can be blow away. This should be faster
+  than an index. Moving on from this, the averaging computation across the cities and states should use use a "needs updating"
+  flag approach to reduce computation of already computed data.

@@ -1,5 +1,3 @@
-// WORK IN PROGRESS
-//
 // Benchmark the "bare" average computation script, "zips-averages.js", over multiple phases of loading "splits" of data and
 // computing the average for each split.
 //
