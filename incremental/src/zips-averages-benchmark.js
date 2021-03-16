@@ -19,37 +19,38 @@ const {runWithDb} = require('./db')
 const {avgByCity, avgByState} = require('./zips')
 const {lines} = require("./util")
 
+
 async function benchmark(db) {
+  const SPLIT_SIZE = 1000
+  const timings = []
   const zipAreas = lines("zips.json")
   const zips = db.collection("zips");
 
-  let idx = 0
-  const LIMIT = 5 // artificially limit the input file just for fast iterative development
-  const SPLIT_SIZE = 2
+  let docIdx = 0
+  let splitIdx = 0
   let zipAreasBuffer = []
   for await (const zipArea of zipAreas) {
-    idx++
+    docIdx++
     zipAreasBuffer.push(JSON.parse(zipArea))
 
-    if (idx % 2 === 0) {
-      console.log(`Chomped off a split at idx=${idx}. Inserting the data.`)
+    if (docIdx % SPLIT_SIZE === 0) {
+      splitIdx++
       await zips.insertMany(zipAreasBuffer)
 
-      console.log(`${Date.now()}: Executing averages...`)
+      const start = Date.now();
       await avgByCity(db).next()
       await avgByState(db).next()
-      console.log(`${Date.now()}: Done.`)
+      const end = Date.now();
+      const duration = end - start
 
-      // Clear the buffer
+      // Record the timing results and clear the buffer
+      timings.push({ split: splitIdx, duration:  duration})
       zipAreasBuffer = []
-    }
-
-    if (idx === LIMIT) {
-      break
     }
   }
 
-  console.log("All ZIP areas loaded!")
+  console.log("Benchmark complete.")
+  console.table(timings)
 }
 
 runWithDb(benchmark)

@@ -75,6 +75,7 @@ commands. Commands include:
 * `doImport3` to import split 3 of the ZIP Code data
 * `doAvg` execute the `zips-averages.js` script
 * `doAvgInc` execute the `zips-averages-incremental.js` script
+* `doBenchmarkAvg` benchmark the "bare" averages script over multiple phases of loading the splits 
 * `doDropAll` drop all collections
 
 ## Referenced materials
