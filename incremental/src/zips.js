@@ -1,7 +1,7 @@
 // Functions for computing data with the ZIP Code data.
 // These functions are the **core** (read: the interesting parts!) of the project.
 
-const {getAppMetaData} = require('./db')
+const {getAppMetaData, upsertAppMetaData} = require('./db')
 
 /**
  * Set the "lastModified" field on records where it is not set.
@@ -145,6 +145,29 @@ async function incorporateNewZips(db) {
 }
 
 /**
+ * Refresh the materialized view.
+ * @param db
+ * @return {Promise<void>}
+ */
+async function refreshMaterializedView(db) {
+  await incorporateNewZips(db)
+
+  // Compute the "by city" ZIP area population averages.
+  await refreshAvgPopByCityAggregation(db)
+
+  // Now, we are moving on to computing the "by state" averages. Similar to the "by city" average, we will first perform
+  // the useful pre-work of grouping the data set by state.
+  await refreshGroupedByStateAggregation(db)
+
+  // Compute the "by state" ZIP area population averages.
+  await refreshAvgPopByStateAggregation(db)
+
+  // Commit the completed work by updating the "last loaded time" application meta data field.
+  await upsertAppMetaData(db, {last_loaded_time: "$$NOW"})
+
+}
+
+/**
  * Refresh the "zips_avg_pop_by_city" aggregation collection
  * @param db the database to use
  * @return {Promise<void>}
@@ -220,8 +243,5 @@ async function refreshAvgPopByStateAggregation(db) {
 module.exports = {
   avgByCity,
   avgByState,
-  incorporateNewZips,
-  refreshAvgPopByCityAggregation,
-  refreshGroupedByStateAggregation,
-  refreshAvgPopByStateAggregation,
+  refreshMaterializedView
 }

@@ -120,6 +120,6 @@ General clean-ups, TODOs and things I wish to implement for this project:
   script. In theory it should execute more quickly for averages computations when incremental input data is added. Currently
   the "bare average" script saves into an indermediate collection. It shouldn't. It should just be a simple query to compute
   the averages.
-* IN PROGRESS push functions into `zips.js` and have thin scripts for actually running the functions. I.e. the `zips-averages.js`
+* DONE push functions into `zips.js` and have thin scripts for actually running the functions. I.e. the `zips-averages.js`
   script should import the averaging functions from `zips.js`. This paves the way for creating the performance test runner
   scripts which will also import the averaging functiosn from `zips.js`.
