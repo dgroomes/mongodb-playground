@@ -5,15 +5,17 @@
 // Also, print a sample of the averages data.
 
 const {runWithDb, printAFewRecords} = require('./db')
-const {avgByCity, avgByState} = require('./zips')
+const {refreshAll} = require('./zips')
 
 runWithDb(async db => {
 
-  let cityAvgCursor = avgByCity(db)
+  await refreshAll(db)
+
+  let cityAvgCursor = await db.collection("zips_avg_pop_by_city").find().sort({city_pop: -1})
   console.log("Average population of ZIP areas by city:")
   await printAFewRecords(cityAvgCursor)
 
-  let stateAvgCursor = avgByState(db)
+  let stateAvgCursor = await db.collection("zips_avg_pop_by_state").find().sort({state_pop: -1})
   console.log("Average population of ZIP areas by state:")
   await printAFewRecords(stateAvgCursor)
 })

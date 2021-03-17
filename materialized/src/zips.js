@@ -2,7 +2,7 @@
 // These functions are the **core** (read: the interesting parts!) of the project.
 
 /**
- * Refresh the "zips_avg_pop_by_city" aggregation collection
+ * Refresh the "zips_avg_pop_by_city_inc" aggregation collection
  * @param db the database to use
  * @return {Promise<void>}
  */
@@ -24,17 +24,17 @@ async function refreshAvgPopByCityAggregation(db) {
         }
       }
     },
-    {$out: "zips_avg_pop_by_city"}
+    {$out: "zips_avg_pop_by_city_inc"}
   ]).next()
 }
 
 /**
- * Refresh the "zips_avg_pop_by_state" collection
+ * Refresh the "zips_avg_pop_by_state_inc" collection
  * @param db
  * @return {Promise<void>}
  */
 async function refreshAvgPopByStateAggregation(db) {
-  await db.collection("zips_avg_pop_by_city").aggregate([
+  await db.collection("zips_avg_pop_by_city_inc").aggregate([
     {
       "$group": {
         _id: "$_id.state",
@@ -51,7 +51,7 @@ async function refreshAvgPopByStateAggregation(db) {
         }
       }
     },
-    {$out: "zips_avg_pop_by_state"}
+    {$out: "zips_avg_pop_by_state_inc"}
   ]).next()
 }
 

@@ -20,7 +20,7 @@ with a [`$merge`](https://docs.mongodb.com/manual/reference/operator/aggregation
 is loaded.
 
 For example, consider some "origin" ZIP Code data which makes up the initial input data. This input data is then aggregated
-into "Average population of the ZIP areas by city" which is saved into a collection called "zips_avg_pop_by_city".
+into "Average population of the ZIP areas by city" which is saved into a collection called "zips_avg_pop_by_city_inc".
 Next, the "by city" data is used as an input data source that then gets aggregated into "Average population of the ZIP areas
 by state" and into another collection. Later, new ZIP Code documents arrive and are added to the input data. These new documents need to be
 incorporated to compute a new "by city" ZIP code population average and in turn the new "by city" data set must be
@@ -151,7 +151,7 @@ General clean-ups, TODOs and things I wish to implement for this project:
   new ZIP area records that need to be incorporated. After an incremental load, this can be blow away. This should be faster
   than an index. Moving on from this, the averaging computation across the cities and states should use use a "needs updating"
   flag approach to reduce computation of already computed data.
-* IN PROGRESS Turn the "bare averages" script into a normal materialized view refresh script, or a so-called "nonn-incremental"
+* DONE Turn the "bare averages" script into a normal materialized view refresh script, or a so-called "nonn-incremental"
   approach for refreshing a materialized view. In other words, actually commit the query results into a collection; thus
   it is a materialized view. This will slow down the execution time of the non-incremental approach significantly and make
   for a more like-to-like comparison with the incremental approach.

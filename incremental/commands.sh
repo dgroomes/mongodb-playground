@@ -34,6 +34,8 @@ doDropAll() {
     db.app_meta_data.drop()
     db.zips_avg_pop_by_city.drop()
     db.zips_avg_pop_by_state.drop()
+    db.zips_avg_pop_by_city_inc.drop()
+    db.zips_avg_pop_by_state_inc.drop()
     db.zips_grouped_by_city.drop()
     db.zips_grouped_by_state.drop()'
 }

@@ -16,11 +16,9 @@ async function lastModified(db) {
 }
 
 /**
- * Compute the "by city" average: average ZIP area population by city in descending order.
- * @param db
- * @return promise
+ * Refresh the non-incremental "by city" materialized view.
  */
-function avgByCity(db) {
+function refreshAvgPopByCity(db) {
   return db.collection("zips").aggregate([
     {
       $group: {
@@ -38,21 +36,14 @@ function avgByCity(db) {
         }
       }
     },
-    {
-      $sort: {
-        city_pop: -1
-      }
-    }
-  ])
+    {$out: "zips_avg_pop_by_city"}
+  ]).next()
 }
 
 /**
- * Compute the "by state" average: average ZIP area population by state in descending order.
- * @param db
- * @return promise
+ * Refresh the non-incremental "by state" materialized view.
  */
-
-function avgByState(db) {
+function refreshAvgPopByState(db) {
   return db.collection("zips").aggregate([
     {
       $group: {
@@ -70,12 +61,16 @@ function avgByState(db) {
         }
       }
     },
-    {
-      $sort: {
-        state_pop: -1
-      }
-    }
-  ])
+    {$out: "zips_avg_pop_by_state"}
+  ]).next()
+}
+
+/**
+ * Refresh the non-incremental materialized views.
+ */
+async function refreshAll(db) {
+  await refreshAvgPopByCity(db)
+  await refreshAvgPopByState(db)
 }
 
 /**
@@ -144,9 +139,7 @@ async function incorporateNewZips(db) {
 }
 
 /**
- * Refresh the materialized view using the incremental approach.
- * @param db
- * @return {Promise<void>}
+ * Refresh the incremental materialized views.
  */
 async function refreshAllInc(db) {
   await incorporateNewZips(db)
@@ -163,11 +156,10 @@ async function refreshAllInc(db) {
 
   // Commit the completed work by updating the "last loaded time" application meta data field.
   await upsertAppMetaData(db, {last_loaded_time: "$$NOW"})
-
 }
 
 /**
- * Refresh the "zips_avg_pop_by_city" aggregation collection using the incremental approach
+ * Refresh the incremental "by city" materialized view.
  * @param db the database to use
  * @return {Promise<void>}
  */
@@ -188,7 +180,7 @@ async function refreshAvgPopByCityInc(db) {
         }
       }
     },
-    {$out: "zips_avg_pop_by_city"}
+    {$out: "zips_avg_pop_by_city_inc"}
   ]).next()
 }
 
@@ -199,7 +191,7 @@ async function refreshAvgPopByCityInc(db) {
  * @return {Promise<*>}
  */
 async function refreshGroupedByState(db) {
-  return await db.collection("zips_avg_pop_by_city").aggregate([
+  return await db.collection("zips_avg_pop_by_city_inc").aggregate([
     {
       "$group": {
         _id: "$_id.state",
@@ -213,7 +205,7 @@ async function refreshGroupedByState(db) {
 }
 
 /**
- * Refresh the "zips_avg_pop_by_state" collection using the incremental approach
+ * Refresh the incremental "by state" materialized view.
  * @param db
  * @return {Promise<void>}
  */
@@ -235,12 +227,11 @@ async function refreshAvgPopByStateInc(db) {
         }
       }
     },
-    {$out: "zips_avg_pop_by_state"}
+    {$out: "zips_avg_pop_by_state_inc"}
   ]).next()
 }
 
 module.exports = {
-  avgByCity,
-  avgByState,
+  refreshAll,
   refreshAllInc
 }

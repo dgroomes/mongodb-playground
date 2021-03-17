@@ -5,7 +5,7 @@ const {refreshAllInc} = require('./zips')
 const {benchmark} = require('./zips-benchmark')
 
 runWithDb(db => {
-  console.log("Benchmarking the incremental approach over multiple phases of loading the splits data...")
+  console.log("Benchmarking the 'incremental approach' over multiple phases of loading the splits data...")
   const query = async function() {
     await refreshAllInc(db)
   }
