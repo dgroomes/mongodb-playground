@@ -5,13 +5,13 @@
 // The averages data is computed using materialized views which can be incrementally updated as new raw input data arrives.
 
 const {runWithDb} = require('./db')
-const {refreshMaterializedView} = require('./zips')
+const {refreshAllInc} = require('./zips')
 const {sampleAvgPopByCityAggregation, sampleAvgPopByStateAggregation} = require('./zips-sample')
 
 
 runWithDb(async db => {
 
-  await refreshMaterializedView(db)
+  await refreshAllInc(db)
 
   await sampleAvgPopByCityAggregation(db)
   await sampleAvgPopByStateAggregation(db)

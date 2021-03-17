@@ -141,3 +141,5 @@ General clean-ups, TODOs and things I wish to implement for this project:
   new ZIP area records that need to be incorporated. After an incremental load, this can be blow away. This should be faster
   than an index. Moving on from this, the averaging computation across the cities and states should use use a "needs updating"
   flag approach to reduce computation of already computed data.
+* IN PROGRESS Slow down the "bare" averages script and actually commit the materialized view as a collection. This will make for a more
+  like-to-like comparison with the incremental approach.

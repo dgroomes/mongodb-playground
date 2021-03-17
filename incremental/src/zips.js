@@ -144,22 +144,22 @@ async function incorporateNewZips(db) {
 }
 
 /**
- * Refresh the materialized view.
+ * Refresh the materialized view using the incremental approach.
  * @param db
  * @return {Promise<void>}
  */
-async function refreshMaterializedView(db) {
+async function refreshAllInc(db) {
   await incorporateNewZips(db)
 
   // Compute the "by city" ZIP area population averages.
-  await refreshAvgPopByCityAggregation(db)
+  await refreshAvgPopByCityInc(db)
 
   // Now, we are moving on to computing the "by state" averages. Similar to the "by city" average, we will first perform
   // the useful pre-work of grouping the data set by state.
-  await refreshGroupedByStateAggregation(db)
+  await refreshGroupedByState(db)
 
   // Compute the "by state" ZIP area population averages.
-  await refreshAvgPopByStateAggregation(db)
+  await refreshAvgPopByStateInc(db)
 
   // Commit the completed work by updating the "last loaded time" application meta data field.
   await upsertAppMetaData(db, {last_loaded_time: "$$NOW"})
@@ -167,11 +167,11 @@ async function refreshMaterializedView(db) {
 }
 
 /**
- * Refresh the "zips_avg_pop_by_city" aggregation collection
+ * Refresh the "zips_avg_pop_by_city" aggregation collection using the incremental approach
  * @param db the database to use
  * @return {Promise<void>}
  */
-async function refreshAvgPopByCityAggregation(db) {
+async function refreshAvgPopByCityInc(db) {
   return await db.collection("zips_grouped_by_city").aggregate([
     {
       $project: {
@@ -193,12 +193,12 @@ async function refreshAvgPopByCityAggregation(db) {
 }
 
 /**
- * Refresh the "zips_grouped_by_state" collection
+ * Refresh the intermediate "zips_grouped_by_state" collection
  *
  * @param db the database to use
  * @return {Promise<*>}
  */
-async function refreshGroupedByStateAggregation(db) {
+async function refreshGroupedByState(db) {
   return await db.collection("zips_avg_pop_by_city").aggregate([
     {
       "$group": {
@@ -213,11 +213,11 @@ async function refreshGroupedByStateAggregation(db) {
 }
 
 /**
- * Refresh the "zips_avg_pop_by_state" collection
+ * Refresh the "zips_avg_pop_by_state" collection using the incremental approach
  * @param db
  * @return {Promise<void>}
  */
-async function refreshAvgPopByStateAggregation(db) {
+async function refreshAvgPopByStateInc(db) {
   await db.collection("zips_grouped_by_state").aggregate([
     {
       "$project": {
@@ -242,5 +242,5 @@ async function refreshAvgPopByStateAggregation(db) {
 module.exports = {
   avgByCity,
   avgByState,
-  refreshMaterializedView
+  refreshAllInc
 }
