@@ -1,6 +1,8 @@
-// Compute multiple averages across the ZIP Code data. "Averaging" computations include:
+// Compute multiple averages across the ZIP Code data into materialized views. "Averaging" computations include:
 //   * Average population of the ZIP areas for each *city*.
 //   * Average population of the ZIP areas for each *state*.
+//
+// Also, print a sample of the averages data.
 
 const {runWithDb, printAFewRecords} = require('./db')
 const {avgByCity, avgByState} = require('./zips')

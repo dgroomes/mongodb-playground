@@ -34,6 +34,17 @@ other hand, a data structure that accommodates incremental updates is inherently
 Just how much complexity do we need to introduce to accommodate incremental updates? And what is the performance advantage
 of the incremental capability? This project aims to find out using an easy-to-follow example!
 
+This project showcases the performance difference (or at least tries to) between two methods:
+
+1. Using an "incremental approach" to refresh the materialized views
+1. Using a "non-incremental approach" to refresh the materialized views
+
+The "incremental approach" is what has already been described. The "non-incremental approach" is what would be considered
+the standard process for refreshing a materialized view. It takes all raw input, executes the query, and saves the results;
+completely ignoring and overwriting the results from previous refreshes. If I implement this correctly, the incremental
+approach should scale well for large data sets while the non-incremental approach should get continually slower as the
+size of the input data grows. 
+
 ## Instructions
 
 Pre-requisites: you must have NodeJS and MongoDB installed. 
@@ -45,31 +56,30 @@ Pre-requisites: you must have NodeJS and MongoDB installed.
   * `source commands.sh`
 * Load a portion of the ZIP Code data:
   * `doImport1`
-* Compute the "averages" data using the non-incremental script:
+* Compute the "averages" data using the non-incremental approach:
   * `doAvg`
-* Compute the "averages" data using the incremental script:
+* Compute the "averages" data using the incremental approach:
   * `doAvgInc`
-  * The results printed to the console should be the same between the non-incremental and the incremental approach.
+  * The results printed to the console should be the same between the non-incremental and the incremental approaches.
 * Load the remainder of the ZIP Code data
   * ```
     doImport2
     doImport3
     ```
-* Again, compute the "averages" data using the non-incremental script:
+* Compute a new version of the "averages" data using the non-incremental approach:
   * `doAvg`
-* *Incrementally* incorporate the new data to compute an updated version of the "averages" analytical data set that was
-  earlier initialized when you first used the incremental script:
+* Compute a new version of the "averages" data using the incremental approach:
   * `doAvgInc`
   * Again, you should notice that the results printed to the console should be the same between the non-incremental and
     the incremental approach, but the distinction is what happened under the scenes: the incremental approach re-used the
     existing materialized view and incorporated the new raw input data incrementally! By contrast, the non-incremental
-    script did a full re-computation of the averages data.
-* Now let's move on to executing a formal benchmark over the non-incremental vs. the incremental script. The first step
+    approach did a full re-computation of the averages data.
+* Now let's move on to executing a formal benchmark over the non-incremental vs. the incremental approaches. The first step
   is to clear the existing data:
   * `doDropAll`
-* Benchmark the non-incremental script:
+* Benchmark the non-incremental approach:
   * `doBenchmarkAvg`
-* Clear the data again and then execute the incremental script:
+* Clear the data again and then execute the incremental approach:
   * `doDropAll && doBenchmarkAvgInc`
 
 ## `commands.sh`
@@ -80,9 +90,9 @@ commands. Commands include:
 * `doImport1` to import split 1 of the ZIP Code data
 * `doImport2` to import split 2 of the ZIP Code data
 * `doImport3` to import split 3 of the ZIP Code data
-* `doAvg` execute the `zips-averages.js` script
-* `doAvgInc` execute the `zips-averages-incremental.js` script
-* `doBenchmarkAvg` benchmark the "bare" averages script over multiple phases of loading the splits 
+* `doAvg` execute the non-incremental approach (`zips-averages.js`) 
+* `doAvgInc` execute the incremental approach (`zips-averages-incremental.js`)
+* `doBenchmarkAvg` benchmark the non-incremental approach over multiple phases of loading the splits 
 * `doBenchmarkAvgInc` benchmark the incremental approach over multiple phases of loading the splits 
 * `doDropAll` drop all collections
 
@@ -141,5 +151,7 @@ General clean-ups, TODOs and things I wish to implement for this project:
   new ZIP area records that need to be incorporated. After an incremental load, this can be blow away. This should be faster
   than an index. Moving on from this, the averaging computation across the cities and states should use use a "needs updating"
   flag approach to reduce computation of already computed data.
-* IN PROGRESS Slow down the "bare" averages script and actually commit the materialized view as a collection. This will make for a more
-  like-to-like comparison with the incremental approach.
+* IN PROGRESS Turn the "bare averages" script into a normal materialized view refresh script, or a so-called "nonn-incremental"
+  approach for refreshing a materialized view. In other words, actually commit the query results into a collection; thus
+  it is a materialized view. This will slow down the execution time of the non-incremental approach significantly and make
+  for a more like-to-like comparison with the incremental approach.
