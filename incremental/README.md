@@ -105,6 +105,7 @@ commands. Commands include:
       In practice, this means "Store your data as embedded data in an existing document. Don't make a new collection!" (at
       least, that's my understanding so far).
 * [MongoDB: *Perform Incremental Map-Reduce*](https://docs.mongodb.com/manual/tutorial/perform-incremental-map-reduce/)
+* [NodeJS: *Easy profiling for Node.js Applications*](https://nodejs.org/en/docs/guides/simple-profiling/)
 
 ## Wish List
 
@@ -141,7 +142,7 @@ General clean-ups, TODOs and things I wish to implement for this project:
   the averages.
 * DONE push functions into `zips.js` and have thin scripts for actually running the functions. I.e. the `zips-averages.js`
   script should import the averaging functions from `zips.js`. This paves the way for creating the performance test runner
-  scripts which will also import the averaging functiosn from `zips.js`.
+  scripts which will also import the averaging functions from `zips.js`.
 * Speed up the incremental script. It is really slow compared to the non-incremental script, but the whole point of this
   project is to show how an incremental approach can be faster! There are a lot of options here. First and foremost is
   to weed out already processed data. This can be done by creating a new field named "loaded". It will store a boolean
@@ -151,7 +152,10 @@ General clean-ups, TODOs and things I wish to implement for this project:
   new ZIP area records that need to be incorporated. After an incremental load, this can be blow away. This should be faster
   than an index. Moving on from this, the averaging computation across the cities and states should use use a "needs updating"
   flag approach to reduce computation of already computed data.
-* DONE Turn the "bare averages" script into a normal materialized view refresh script, or a so-called "nonn-incremental"
+* DONE ("Speed up") Spread actual incrementalism into "refreshAvgPopByCityInc". Currently, "refreshAvgPopByCityInc"
+  is not actually incremental. To make it incremental, only visit those entries that were recently modified in the "zips_grouped_by_city"
+  collection and then compute the new city average and merge the results into "zips_avg_pop_by_city_inc"
+* DONE Turn the "bare averages" script into a normal materialized view refresh script, or a so-called "non-incremental"
   approach for refreshing a materialized view. In other words, actually commit the query results into a collection; thus
   it is a materialized view. This will slow down the execution time of the non-incremental approach significantly and make
   for a more like-to-like comparison with the incremental approach.

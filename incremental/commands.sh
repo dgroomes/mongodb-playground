@@ -12,6 +12,18 @@ doImport3() {
   mongoimport --db test --collection zips <(sed -n '20001,29353p' zips.json)
 }
 
+# Import two ZIP areas for the city Springfield, MA
+# This function, in combination with doImportSpringfield2() is useful as I test the incremental
+# merge functionality.
+doImportSpringfield1() {
+  mongoimport --db test --collection zips <(sed -n '48,49p' zips.json)
+}
+
+# Import one more ZIP code for Springfield. See doImportSpringfield1.
+doImportSpringfield2() {
+  mongoimport --db test --collection zips <(sed -n '50p' zips.json)
+}
+
 doAvg() {
   node src/zips-averages.js
 }

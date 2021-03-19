@@ -159,12 +159,12 @@ async function refreshAllInc(db) {
 }
 
 /**
- * Refresh the incremental "by city" materialized view.
+ * Incrementally refresh the "by city" materialized view.
  * @param db the database to use
  * @return {Promise<void>}
  */
 async function refreshAvgPopByCityInc(db) {
-  return await db.collection("zips_grouped_by_city").aggregate([
+  const incorporatePipeline = [
     {
       $project: {
         city_zip_areas: {$size: "$zip_areas"},
@@ -180,8 +180,28 @@ async function refreshAvgPopByCityInc(db) {
         }
       }
     },
-    {$out: "zips_avg_pop_by_city_inc"}
-  ]).next()
+    {
+      $merge: {
+        into: "zips_avg_pop_by_city_inc"
+      }
+    }
+  ]
+
+  const appMetaData = await getAppMetaData(db)
+  const lastLoadedTime = appMetaData.last_loaded_time
+  if (lastLoadedTime === undefined) {
+    // The 'last loaded time' is undefined. This must be the first execution of the load.
+  } else {
+    incorporatePipeline.unshift({
+      $match: {
+        "lastModified": {
+          $gt: lastLoadedTime
+        }
+      }
+    })
+  }
+
+  return await db.collection("zips_grouped_by_city").aggregate(incorporatePipeline).next()
 }
 
 /**
