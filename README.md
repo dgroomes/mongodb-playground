@@ -42,7 +42,7 @@ See the README in [materialized/](materialized/).
 ### `incremental/`
 
 This is an intermediate MongoDB example that showcases how you might incrementally load input data into an existing
-analytical data set. This is extended from the [*Aggregation with the Zip Code Data Set*](https://docs.mongodb.com/manual/tutorial/aggregation-zip-code-data-set/)
+materialized view. This is extended from the [*Aggregation with the Zip Code Data Set*](https://docs.mongodb.com/manual/tutorial/aggregation-zip-code-data-set/)
 example on the MongoDB website.
 
 See the README in [incremental/](incremental/).
