@@ -251,7 +251,8 @@ async function refreshAvgPopByCityInc(db) {
           $trunc: {
             $divide: ["$city_pop", "$city_zip_areas"]
           }
-        }
+        },
+        last_modified: "$$NOW"
       }
     },
     {
@@ -267,13 +268,13 @@ async function refreshAvgPopByCityInc(db) {
 }
 
 /**
- * Refresh the intermediate "zips_grouped_by_state" collection
+ * Incrementally refresh the "zips_grouped_by_state" intermediate collection
  *
  * @param db the database to use
  * @return {Promise<*>}
  */
 async function refreshGroupedByState(db) {
-  return await db.collection("zips_avg_pop_by_city_inc").aggregate([
+  const incorporatePipeline = [
     {
       "$group": {
         _id: "$_id.state",
@@ -282,8 +283,33 @@ async function refreshGroupedByState(db) {
         }
       }
     },
-    {$out: "zips_grouped_by_state"}
-  ]).next()
+    {
+      "$set": {
+        last_modified: "$$NOW"
+      }
+    },
+    {
+      // THIS DOES NOT WORK. IT IS NOT IDEMPOTENT. As you run the incremental average computation more and more, the
+      // state populations keep going up.
+      $merge: {
+        into: "zips_grouped_by_state",
+        whenMatched: [
+          {
+            $set: {
+              city_aggregated_zip_area_summaries: {
+                $setUnion: ["$city_aggregated_zip_area_summaries", "$$new.city_aggregated_zip_area_summaries"]
+              },
+              last_modified: "$$new.last_modified"
+            }
+          }
+        ]
+      }
+    }
+  ]
+
+  matchUnprocessed(db, incorporatePipeline)
+
+  return await db.collection("zips_avg_pop_by_city_inc").aggregate(incorporatePipeline).next()
 }
 
 /**
