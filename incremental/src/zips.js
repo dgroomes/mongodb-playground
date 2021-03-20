@@ -4,13 +4,13 @@
 const {getAppMetaData, upsertAppMetaData} = require('./db')
 
 /**
- * Set the "lastModified" field on records where it is not set.
+ * Set the "last_modified" field on records where it is not set.
  */
 async function lastModified(db) {
   return await db.collection("zips").updateMany(
-    {lastModified: {$exists: false}},
+    {last_modified: {$exists: false}},
     [
-      {$set: {lastModified: "$$NOW"}}
+      {$set: {last_modified: "$$NOW"}}
     ]
   )
 }
@@ -89,7 +89,7 @@ async function matchUnprocessed(db, incorporatePipeline) {
   } else {
     incorporatePipeline.unshift({
       $match: {
-        "lastModified": {
+        "last_modified": {
           $gt: lastLoadedTime
         }
       }
@@ -104,14 +104,14 @@ async function matchUnprocessed(db, incorporatePipeline) {
  * ZIP areas grouped by city.
  *
  * For the very first execution of the load, all records are new. For all subsequent executions of the load, new records
- * are identified as those that have a "lastModified" date greater than the last load time. These records
+ * are identified as those that have a "last_modified" date greater than the last load time. These records
  * have not been incorporated yet into the aggregations.
  *
  * Importantly, this operation is idempotent. Any records that have already been incorporated will be discarded because
  * a "set" data structure is used to group the ZIP area records together. Specifically, the "addToSet" operation is used.
  */
 async function incorporateNewZips(db) {
-  // Preparation step. Set the "lastModified" field on records where it is not set.
+  // Preparation step. Set the "last_modified" field on records where it is not set.
   await lastModified(db)
 
   const incorporatePipeline = [
@@ -125,7 +125,7 @@ async function incorporateNewZips(db) {
     },
     {
       "$set": {
-        lastModified: "$$NOW"
+        last_modified: "$$NOW"
       }
     },
     {
@@ -137,7 +137,7 @@ async function incorporateNewZips(db) {
               zip_areas: {
                 $setUnion: ["$zip_areas", "$$new.zip_areas"]
               },
-              lastModified: "$$new.lastModified"
+              last_modified: "$$new.last_modified"
             }
           }
         ]
