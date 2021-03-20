@@ -163,12 +163,12 @@ General clean-ups, TODOs and things I wish to implement for this project:
   I have a challenge with the timestamps that is making the query not idempotent. For example, the "Springfield, MA"
   aggregation is counted twice in the "zips_grouped_by_state" aggregation:
   ```
-    'zips_grouped_by_state.city_aggregated_zip_area_summaries' for "MA":
+  'zips_grouped_by_state.city_aggregated_zip_area_summaries' for "MA":
   ┌─────────┬──────────────────────────────────────┬──────────────────────────────┬──────────┬────────────────┬──────────────────────────┐
-  │ (index) │                 _id                  │ avg_zip_area_pop_across_city │ city_pop │ city_zip_areas │       last_modified       │
+  │ (index) │                 _id                  │ avg_zip_area_pop_across_city │ city_pop │ city_zip_areas │      last_modified       │
   ├─────────┼──────────────────────────────────────┼──────────────────────────────┼──────────┼────────────────┼──────────────────────────┤
-  │    0    │ { city: 'SPRINGFIELD', state: 'MA' } │            12219             │  24438   │       2        │ 2021-03-20T19:16:54.384Z │
-  │    1    │ { city: 'SPRINGFIELD', state: 'MA' } │            12219             │  24438   │       2        │ 2021-03-20T19:32:27.376Z │
+  │    0    │ { city: 'SPRINGFIELD', state: 'MA' } │            12219             │  24438   │       2        │ 2021-03-20T20:37:53.177Z │
+  │    1    │ { city: 'SPRINGFIELD', state: 'MA' } │            13136             │  39408   │       3        │ 2021-03-20T20:38:22.166Z │
   └─────────┴──────────────────────────────────────┴──────────────────────────────┴──────────┴────────────────┴──────────────────────────┘
   ```
   
