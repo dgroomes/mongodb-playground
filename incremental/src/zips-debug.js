@@ -14,11 +14,14 @@ const {getAppMetaData, runWithDb} = require('./db')
  * keys redundantly on each line.
  */
 async function printAllData() {
-// TODO print app meta data
+  await runWithDb(async (db) => {
+    const metaData = await getAppMetaData(db);
+    console.log(`App meta data:\n${JSON.stringify(metaData)}\n`)
+  })
   await findAndPrint("zips")
   await findAndPrint("zips_grouped_by_city")
-// TODO print city
-// TODO print cities aggregated by state
+  await findAndPrint("zips_avg_pop_by_city_inc")
+  await findAndPrint("zips_grouped_by_state")
 // TODO print state
 }
 
