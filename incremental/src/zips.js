@@ -74,6 +74,30 @@ async function refreshAll(db) {
 }
 
 /**
+ * Adorn the aggregation pipeline with a "$match" stage to match only documents that have recently been modified and
+ * need to be processed. The purpose of this check is to filter out documents that have already been incorporated into
+ * the "$into" collection. This check is a core part of an incremental update strategy.
+ * @param db
+ * @param incorporatePipeline
+ * @return {Promise<void>}
+ */
+async function matchUnprocessed(db, incorporatePipeline) {
+  const appMetaData = await getAppMetaData(db)
+  const lastLoadedTime = appMetaData.last_loaded_time
+  if (lastLoadedTime === undefined) {
+    // The 'last loaded time' is undefined. This must be the first execution of the load.
+  } else {
+    incorporatePipeline.unshift({
+      $match: {
+        "lastModified": {
+          $gt: lastLoadedTime
+        }
+      }
+    })
+  }
+}
+
+/**
  * Incorporate new ZIP records incrementally into the "zips_grouped_by_city" aggregation.
  *
  * This is the basis of the "incremental load" aggregation pipeline to incorporate new ZIP records into the collection of
@@ -121,19 +145,7 @@ async function incorporateNewZips(db) {
     }
   ]
 
-  const appMetaData = await getAppMetaData(db)
-  const lastLoadedTime = appMetaData.last_loaded_time
-  if (lastLoadedTime === undefined) {
-    // The 'last loaded time' is undefined. This must be the first execution of the load.
-  } else {
-    incorporatePipeline.unshift({
-      $match: {
-        "lastModified": {
-          $gt: lastLoadedTime
-        }
-      }
-    })
-  }
+  await matchUnprocessed(db, incorporatePipeline);
 
   return await db.collection("zips").aggregate(incorporatePipeline).next()
 }
@@ -187,19 +199,7 @@ async function refreshAvgPopByCityInc(db) {
     }
   ]
 
-  const appMetaData = await getAppMetaData(db)
-  const lastLoadedTime = appMetaData.last_loaded_time
-  if (lastLoadedTime === undefined) {
-    // The 'last loaded time' is undefined. This must be the first execution of the load.
-  } else {
-    incorporatePipeline.unshift({
-      $match: {
-        "lastModified": {
-          $gt: lastLoadedTime
-        }
-      }
-    })
-  }
+  matchUnprocessed(db, incorporatePipeline)
 
   return await db.collection("zips_grouped_by_city").aggregate(incorporatePipeline).next()
 }

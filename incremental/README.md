@@ -155,6 +155,7 @@ General clean-ups, TODOs and things I wish to implement for this project:
 * DONE ("Speed up") Spread actual incrementalism into "refreshAvgPopByCityInc". Currently, "refreshAvgPopByCityInc"
   is not actually incremental. To make it incremental, only visit those entries that were recently modified in the "zips_grouped_by_city"
   collection and then compute the new city average and merge the results into "zips_avg_pop_by_city_inc"
+* ("Speed up") Spread actual incrementalism into "refreshGroupedByState" step.
 * DONE Turn the "bare averages" script into a normal materialized view refresh script, or a so-called "non-incremental"
   approach for refreshing a materialized view. In other words, actually commit the query results into a collection; thus
   it is a materialized view. This will slow down the execution time of the non-incremental approach significantly and make
