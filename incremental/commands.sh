@@ -51,3 +51,7 @@ doDropAll() {
     db.zips_grouped_by_city.drop()
     db.zips_grouped_by_state.drop()'
 }
+
+doDebug() {
+  node src/zips-debug.js
+}
