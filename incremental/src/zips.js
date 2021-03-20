@@ -199,7 +199,7 @@ async function refreshAvgPopByCityInc(db) {
     }
   ]
 
-  matchUnprocessed(db, incorporatePipeline)
+  await matchUnprocessed(db, incorporatePipeline)
 
   return await db.collection("zips_grouped_by_city").aggregate(incorporatePipeline).next()
 }
