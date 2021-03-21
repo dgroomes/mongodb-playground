@@ -171,7 +171,15 @@ General clean-ups, TODOs and things I wish to implement for this project:
   │    1    │ { city: 'SPRINGFIELD', state: 'MA' } │            13136             │  39408   │       3        │ 2021-03-20T20:38:22.166Z │
   └─────────┴──────────────────────────────────────┴──────────────────────────────┴──────────┴────────────────┴──────────────────────────┘
   ```
-  
+  Idea: I'm finding it hard (impossible?) to use the "setUnion" operator to merge incoming "city_aggregated_zip_area_summary"
+  documents into the "zips_grouped_by_state" collection because the incoming documents have timestamps that cause them to
+  be different from the other documents. I would really prefer to do something like "mergeObjects" operation which would
+  replace the old fields with the new, but I want this for arrays... Anyway, I think I will experiment with the "incorporateNewZips"
+  function to see if there is a simpler way to merge in new records. If not simpler, then at least I can always go and use
+  server-side JavaScript inside Mongo using [`$accumulator`](https://docs.mongodb.com/manual/reference/operator/aggregation/accumulator/#grp._S_accumulator)
+  and write the merge in JavaScript code. Of course this is not idiomatic, if there is a normal Mongo query then that would
+  be better, but it's getting awkward because I'm looking into "$let" and other conditionals so it's like writing function body
+  in JSON, reminds me of if/else in JSP or XML elements. I will do this work in a new branch "incorporate-alternative".
 * DONE Turn the "bare averages" script into a normal materialized view refresh script, or a so-called "non-incremental"
   approach for refreshing a materialized view. In other words, actually commit the query results into a collection; thus
   it is a materialized view. This will slow down the execution time of the non-incremental approach significantly and make
