@@ -100,8 +100,7 @@ async function matchUnprocessed(db, incorporatePipeline) {
 /**
  * Incorporate new ZIP records incrementally into the "zips_grouped_by_city" aggregation.
  *
- * This is the basis of the "incremental load" aggregation pipeline to incorporate new ZIP records into the collection of
- * ZIP areas grouped by city.
+ * This is the basis of the "incremental approach" to incorporate new ZIP records into the existing materialized views.
  *
  * For the very first execution of the load, all records are new. For all subsequent executions of the load, new records
  * are identified as those that have a "last_modified" date greater than the last load time. These records
@@ -135,9 +134,34 @@ async function incorporateNewZips(db) {
           {
             $set: {
               zip_areas: {
-                $setUnion: ["$zip_areas", "$$new.zip_areas"]
+                // EXPERIMENTAL SCRATCH NOTES. The below code is just scratch code I get when trying to get custom functions
+                // to execute in the MongoDB server. The functions execute! The main learning was that the functions must be
+                // in a string even though the MongoDB docs use normal function declarations. I could not get that to work.
+                // It would error with a generic message. Also notice how I'm using additioal "$function" blocks as a hack
+                // to print out information I would normall get from a debugger, like finding what an object's constructor is.
+                // Why do I need this? Because there are no docs on the API of server-side MongoDB JavaScript. There are only
+                // docs telling you that you can use it in "$accumulator" or "$function" and that there is a flag to disable it
+                // and that you probably shouldn't use it. Also, you can't console.log. Also I don't think you can attach a debugger.
+                // Also I could find little Google-ability on server-side MongoDB JavaScript. So all in all, you are going
+                // significantly off of the "paved road" to use this feature. I'm committing this just so I have a working example,
+                // but I don't want to use it.
+                // $setUnion: ["$zip_areas", "$$new.zip_areas"]
+                $function: {
+                  // body: function(_id, [oldZips, newZips]) {
+                  body: `function(zip_areas, new_zip_areas) {
+                    return zip_areas.concat(new_zip_areas)
+                  }`,
+                  args: [
+                    "$zip_areas",
+                    "$$new.zip_areas"
+                  ],
+                  lang: "js"
+                },
               },
-              last_modified: "$$new.last_modified"
+              last_modified: "$$new.last_modified",
+              zips_constructor: { $function: { lang: "js", args: ["$zip_areas"], body: `function(arg) { return arg.constructor.name }`}},
+              zip_constructor: { $function: { lang: "js", args: ["$zip_areas"], body: `function(arg) { return arg[0].constructor.name }`}},
+              zip_prototype: { $function: { lang: "js", args: ["$zip_areas"], body: `function(arg) { return arg[0].constructor.prototype }`}}
             }
           }
         ]
