@@ -33,3 +33,5 @@ General clean-ups, TODOs and things I wish to implement for this project:
 * DONE make the sampling code print a consolidate output instead of the bulky JSON. The bulkiness is especially
   annoying when doing the multiple invocations of the refresh and query and timing the execution time in `materialized/`  
 * DONE Make utility Mongo scripts to load the zips data into Mongo. This is to easily extract state-specific zip code data.
+* Maybe undo the common code stuff? The 'incremental/' sub-project has really diverged from the 'materialized/' sub-project
+  and the common code is not as common.

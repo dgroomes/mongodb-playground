@@ -164,3 +164,9 @@ General clean-ups, TODOs and things I wish to implement for this project:
   approach for refreshing a materialized view. In other words, actually commit the query results into a collection; thus
   it is a materialized view. This will slow down the execution time of the non-incremental approach significantly and make
   for a more like-to-like comparison with the incremental approach.
+* Starker performance view. Make the visual difference greater between the time it takes to execute the materialized view refresh
+  at lower volumes of data (the first few levels of the "splits" loads) and larger data (when most of the "splits" data
+  is loaded). Right now it's kind of flat; it starts at 200ms and goes to 300 and 400 but it's quite gradual. I think if
+  we just run 2, 3 or 4 refreshes for each split, then it will have the effect of magnifying the results (but of course
+  that's not a realistic workload). Or, maybe do more splits, compute a rolling average as splits are loaded, and show exactly
+  10 windows of this data (after all 29, which is what shows now, is too much for the screen)

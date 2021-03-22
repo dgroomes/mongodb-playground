@@ -17,7 +17,7 @@ async function refreshAvgPopByCityAggregation(db) {
     },
     {
       $addFields: {
-        avg_zip_area_pop_across_city: {
+        avg_zip_area_pop: {
           $trunc: {
             $divide: ["$city_pop", "$city_zip_areas"]
           }
@@ -44,7 +44,7 @@ async function refreshAvgPopByStateAggregation(db) {
     },
     {
       $addFields: {
-        avg_zip_area_pop_across_state: {
+        avg_zip_area_pop: {
           $trunc: {
             $divide: ["$state_pop", "$state_zip_areas"]
           }

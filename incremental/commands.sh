@@ -12,6 +12,10 @@ doImport3() {
   mongoimport --db test --collection zips <(sed -n '20001,29353p' zips.json)
 }
 
+doImportAll() {
+  mongoimport --db test --collection zips zips.json
+}
+
 # Import two ZIP areas for the city Springfield, MA
 # This function, in combination with doImportSpringfield2() is useful as I test the incremental
 # merge functionality.

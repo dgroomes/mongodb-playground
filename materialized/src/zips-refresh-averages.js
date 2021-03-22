@@ -6,15 +6,15 @@
 
 const {runWithDb} = require('./db')
 const {refreshAvgPopByCityAggregation, refreshAvgPopByStateAggregation} = require('./zips')
-const {sampleAvgPopByCityAggregation, sampleAvgPopByStateAggregation} = require('./zips-sample')
+const {sampleAvgPopByCityInc, sampleAvgPopByStateInc} = require('./zips-sample')
 
 runWithDb(async db => {
 
   // Compute the "by city" ZIP area population averages.
   await refreshAvgPopByCityAggregation(db)
-  await sampleAvgPopByCityAggregation(db)
+  await sampleAvgPopByCityInc(db)
 
   // Compute the "by state" ZIP area population averages.
   await refreshAvgPopByStateAggregation(db)
-  await sampleAvgPopByStateAggregation(db)
+  await sampleAvgPopByStateInc(db)
 })

@@ -10,8 +10,13 @@ const {printAFewRecords} = require("./db")
  * @param db the database to use
  * @return {Promise<void>}
  */
-async function sampleAvgPopByCityAggregation(db) {
-  let cursor = await db.collection("zips_avg_pop_by_city_inc").find().sort({city_pop: -1})
+async function sampleAvgPopByCityInc(db) {
+  let cursor = await db.collection("zips_avg_pop_by_city_inc").find().project({
+    _id: "$_id",
+    "city_pop": "$city_pop",
+    "city_zip_areas": "$city_zip_areas",
+    "avg_zip_area_pop": "$avg_zip_area_pop"
+  }).sort({city_pop: -1})
   console.log("Average population of the ZIP areas for each city")
   await printAFewRecords(cursor)
 }
@@ -24,13 +29,18 @@ async function sampleAvgPopByCityAggregation(db) {
  * @param db the database to use
  * @return {Promise<void>}
  */
-async function sampleAvgPopByStateAggregation(db) {
-  let cursor = await db.collection("zips_avg_pop_by_state_inc").find().sort({state_pop: -1})
+async function sampleAvgPopByStateInc(db) {
+  let cursor = await db.collection("zips_avg_pop_by_state_inc").find().project({
+    _id: "$_id",
+    "state_pop": "$state_pop",
+    "state_zip_areas": "$state_zip_areas",
+    "avg_zip_area_pop": "$avg_zip_area_pop"
+  }).sort({state_pop: -1})
   console.log("Average population of the ZIP areas for each state")
   await printAFewRecords(cursor)
 }
 
 module.exports = {
-  sampleAvgPopByCityAggregation,
-  sampleAvgPopByStateAggregation
+  sampleAvgPopByCityInc,
+  sampleAvgPopByStateInc
 }
