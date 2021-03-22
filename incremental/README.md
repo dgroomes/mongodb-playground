@@ -159,7 +159,30 @@ General clean-ups, TODOs and things I wish to implement for this project:
 * DONE ("Speed up") Spread actual incrementalism into "refreshAvgPopByCityInc". Currently, "refreshAvgPopByCityInc"
   is not actually incremental. To make it incremental, only visit those entries that were recently modified in the "zips_grouped_by_city"
   collection and then compute the new city average and merge the results into "zips_avg_pop_by_city_inc"
-* ("Speed up") Spread actual incrementalism into "refreshGroupedByState" step.
+* DONE ("Speed up") Spread actual incrementalism into "refreshGroupedByState" step. Note: while implementing this
+  I have a challenge with the timestamps that is making the query not idempotent. For example, the "Springfield, MA"
+  aggregation is counted twice in the "zips_grouped_by_state" aggregation:
+  ```
+  'zips_grouped_by_state.city_aggregated_zip_area_summaries' for "MA":
+  ┌─────────┬──────────────────────────────────────┬──────────────────────────────┬──────────┬────────────────┬──────────────────────────┐
+  │ (index) │                 _id                  │ avg_zip_area_pop_across_city │ city_pop │ city_zip_areas │      last_modified       │
+  ├─────────┼──────────────────────────────────────┼──────────────────────────────┼──────────┼────────────────┼──────────────────────────┤
+  │    0    │ { city: 'SPRINGFIELD', state: 'MA' } │            12219             │  24438   │       2        │ 2021-03-20T20:37:53.177Z │
+  │    1    │ { city: 'SPRINGFIELD', state: 'MA' } │            13136             │  39408   │       3        │ 2021-03-20T20:38:22.166Z │
+  └─────────┴──────────────────────────────────────┴──────────────────────────────┴──────────┴────────────────┴──────────────────────────┘
+  ```
+  Idea: I'm finding it hard (impossible?) to use the "setUnion" operator to merge incoming "city_aggregated_zip_area_summary"
+  documents into the "zips_grouped_by_state" collection because the incoming documents have timestamps that cause them to
+  be different from the other documents. I would really prefer to do something like "mergeObjects" operation which would
+  replace the old fields with the new, but I want this for arrays... Anyway, I think I will experiment with the "incorporateNewZips"
+  function to see if there is a simpler way to merge in new records. If not simpler, then at least I can always go and use
+  server-side JavaScript inside Mongo using [`$accumulator`](https://docs.mongodb.com/manual/reference/operator/aggregation/accumulator/#grp._S_accumulator)
+  and write the merge in JavaScript code. Of course this is not idiomatic, if there is a normal Mongo query then that would
+  be better, but it's getting awkward because I'm looking into "$let" and other conditionals so it's like writing function body
+  in JSON, reminds me of if/else in JSP or XML elements. I will do this work in a new branch "incorporate-alternative".
+  UPDATE: I figured out the right operators to use in an aggregation pipeline to upsert sub-documents that are stored in
+  an array in a "$merge" stage! I will apply that to the refresh state function.
+* ("Speed up") Spread actual incrementalism into the "refreshAvgPopByStateInc" step.
 * DONE Turn the "bare averages" script into a normal materialized view refresh script, or a so-called "non-incremental"
   approach for refreshing a materialized view. In other words, actually commit the query results into a collection; thus
   it is a materialized view. This will slow down the execution time of the non-incremental approach significantly and make

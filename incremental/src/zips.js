@@ -223,7 +223,7 @@ async function refreshAllInc(db) {
 
   // Now, we are moving on to computing the "by state" averages. Similar to the "by city" average, we will first perform
   // the useful pre-work of grouping the data set by state.
-  await refreshGroupedByState(db)
+  await incorporateIntoGroupedByState(db)
 
   // Compute the "by state" ZIP area population averages.
   await refreshAvgPopByStateInc(db)
@@ -251,7 +251,8 @@ async function refreshAvgPopByCityInc(db) {
           $trunc: {
             $divide: ["$city_pop", "$city_zip_areas"]
           }
-        }
+        },
+        last_modified: "$$NOW"
       }
     },
     {
@@ -267,23 +268,85 @@ async function refreshAvgPopByCityInc(db) {
 }
 
 /**
- * Refresh the intermediate "zips_grouped_by_state" collection
+ * Incrementally incorporate new and updated "by city" ZIP area summaries into the "zips_grouped_by_state" intermediate
+ * collection
  *
  * @param db the database to use
  * @return {Promise<*>}
  */
-async function refreshGroupedByState(db) {
-  return await db.collection("zips_avg_pop_by_city_inc").aggregate([
+async function incorporateIntoGroupedByState(db) {
+  const incorporatePipeline = [
     {
       "$group": {
         _id: "$_id.state",
-        city_aggregated_zip_area_summaries: {
+        by_city_zip_summaries: {
           $addToSet: "$$CURRENT"
         }
       }
     },
-    {$out: "zips_grouped_by_state"}
-  ]).next()
+    {
+      "$set": {
+        last_modified: "$$NOW"
+      }
+    },
+    {
+      $merge: {
+        into: "zips_grouped_by_state",
+        whenMatched: [
+          {
+            $set: {
+              zip_areas: {
+                $let: {
+                  vars: {
+                    incoming: {
+                      $arrayToObject: {
+                        $map: {
+                          input: "$$new.by_city_zip_summaries",
+                          as: "zip_summary",
+                          in: {
+                            k: "$$zip_summary._id.city",
+                            v: "$$zip_summary"
+                          }
+                        }
+                      }
+                    },
+                    existing: {
+                      $arrayToObject: {
+                        $map: {
+                          input: "$by_city_zip_summaries",
+                          as: "zip_summary",
+                          in: {
+                            k: "$$zip_summary._id.city",
+                            v: "$$zip_summary"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  in: {
+                    $map: {
+                      input: {
+                        $objectToArray: {
+                          $mergeObjects: ["$$existing", "$$incoming"]
+                        }
+                      },
+                      as: "kv",
+                      in: "$$kv.v"
+                    }
+                  }
+                }
+              },
+              last_modified: "$$new.last_modified"
+            }
+          }
+        ]
+      }
+    }
+  ]
+
+  matchUnprocessed(db, incorporatePipeline)
+
+  return await db.collection("zips_avg_pop_by_city_inc").aggregate(incorporatePipeline).next()
 }
 
 /**
@@ -296,8 +359,8 @@ async function refreshAvgPopByStateInc(db) {
     {
       "$project": {
         _id: "$_id",
-        state_zip_areas: {$sum: "$city_aggregated_zip_area_summaries.city_zip_areas"},
-        state_pop: {$sum: "$city_aggregated_zip_area_summaries.city_pop"}
+        state_zip_areas: {$sum: "$by_city_zip_summaries.city_zip_areas"},
+        state_pop: {$sum: "$by_city_zip_summaries.city_pop"}
       }
     },
     {
