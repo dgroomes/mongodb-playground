@@ -107,8 +107,32 @@ async function matchUnprocessed(db, incorporatePipeline) {
  * are identified as those that have a "last_modified" date greater than the last load time. These records
  * have not been incorporated yet into the aggregations.
  *
- * Importantly, this operation is idempotent. Any records that have already been incorporated will be discarded because
- * a "set" data structure is used to group the ZIP area records together. Specifically, the "addToSet" operation is used.
+ * Importantly, this operation is idempotent. Any incoming ZIP area documents that had previously already been incorporated
+ * will be re-incorporated without "double counting" thanks to the use of a "map" data structure. Specifically, the "$mergeObjects"
+ * MongoDB operator is used in the query to merge the data which means that documents for the same ZIP area will be reduced
+ * down to just a single instance (the newest document).
+ *
+ * Commentary: this is quite a verbose MongoDB query (maybe it's not so complex really compared to an equivalent SQL example,
+ * but it is verbose). The number of stages in the aggregation pipeline is average. There are only three: "$group", "$set",
+ * "$merge". The complexity lies inside the "$merge" stage where it is necessary to re-mold the ZIP area document data
+ * into an object then back into an array. This "molding" part of the query is duplicated in the query because it
+ * must be done for both incoming ZIP area documents and the existing ZIP area documents.
+ *    Why do all of this "molding"? It's the only way I could figure out how to upsert sub-documents that are contained in
+ * an array. Is there a more idiomatic way? I think this is pretty close to idiomatic because I've carefully learned and
+ * referenced the official docs as I've learned and explored MongoDB. In fact, the fact that this "incremental ZIP area
+ * merge" operation is done without custom server-side JavaScript (executed in the MongoDB server) means that I get bonus
+ * points and that it is automatically more "modern MongoDB" than using a custom function via the "$function"
+ * operator. MongoDB gives clear direction that an aggregation pipeline should be all you need and that the old map-reduce
+ * functionality is not recommended and custom functions are not recommended. BUT the equivalent JavaScript code would have
+ * been concise so I had to really convince myself to not do server-side JavaScript.
+ *    Also, I think there are just limited options for managing sub-documents in arrays. For example, this highly up-voted StackOverflow
+ * answer (https://stackoverflow.com/a/18174132) reads: "MongoDB's support for updating nested arrays is poor." But to be
+ * fair, that answer is old. In any case, while I took the many hours to find "$map", "$arrayToObject", "$objectToArray"
+ * and then additional time to understand "$let" (very convenient, I like it!) beyond the hours I took to look for something
+ * that did not exist (advertised patterns for merging new data into sub-documents in a "$merge") I found that I was yearning
+ * for the ergonomics of the "update" command with the "upsert: true" option. Unfortunately, the inside of an aggregation
+ * pipeline does not offer those kinds of ergonomics or much of the full feature set of Mongo options that you can get in
+ * other contexts.
  */
 async function incorporateNewZips(db) {
   // Preparation step. Set the "last_modified" field on records where it is not set.
@@ -135,7 +159,45 @@ async function incorporateNewZips(db) {
           {
             $set: {
               zip_areas: {
-                $setUnion: ["$zip_areas", "$$new.zip_areas"]
+                $let: {
+                  vars: {
+                    incoming: {
+                      $arrayToObject: {
+                        $map: {
+                          input: "$$new.zip_areas",
+                          as: "zip_area",
+                          in: {
+                            k: "$$zip_area._id",
+                            v: "$$zip_area"
+                          }
+                        }
+                      }
+                    },
+                    existing: {
+                      $arrayToObject: {
+                        $map: {
+                          input: "$zip_areas",
+                          as: "zip_area",
+                          in: {
+                            k: "$$zip_area._id",
+                            v: "$$zip_area"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  in: {
+                    $map: {
+                      input: {
+                        $objectToArray: {
+                          $mergeObjects: ["$$existing", "$$incoming"]
+                        }
+                      },
+                      as: "kv",
+                      in: "$$kv.v"
+                    }
+                  }
+                }
               },
               last_modified: "$$new.last_modified"
             }
