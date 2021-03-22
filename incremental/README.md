@@ -159,7 +159,7 @@ General clean-ups, TODOs and things I wish to implement for this project:
 * DONE ("Speed up") Spread actual incrementalism into "refreshAvgPopByCityInc". Currently, "refreshAvgPopByCityInc"
   is not actually incremental. To make it incremental, only visit those entries that were recently modified in the "zips_grouped_by_city"
   collection and then compute the new city average and merge the results into "zips_avg_pop_by_city_inc"
-* IN PROGRESS ("Speed up") Spread actual incrementalism into "refreshGroupedByState" step. Note: while implementing this
+* DONE ("Speed up") Spread actual incrementalism into "refreshGroupedByState" step. Note: while implementing this
   I have a challenge with the timestamps that is making the query not idempotent. For example, the "Springfield, MA"
   aggregation is counted twice in the "zips_grouped_by_state" aggregation:
   ```
@@ -180,6 +180,9 @@ General clean-ups, TODOs and things I wish to implement for this project:
   and write the merge in JavaScript code. Of course this is not idiomatic, if there is a normal Mongo query then that would
   be better, but it's getting awkward because I'm looking into "$let" and other conditionals so it's like writing function body
   in JSON, reminds me of if/else in JSP or XML elements. I will do this work in a new branch "incorporate-alternative".
+  UPDATE: I figured out the right operators to use in an aggregation pipeline to upsert sub-documents that are stored in
+  an array in a "$merge" stage! I will apply that to the refresh state function.
+* ("Speed up") Spread actual incrementalism into the "refreshAvgPopByStateInc" step.
 * DONE Turn the "bare averages" script into a normal materialized view refresh script, or a so-called "non-incremental"
   approach for refreshing a materialized view. In other words, actually commit the query results into a collection; thus
   it is a materialized view. This will slow down the execution time of the non-incremental approach significantly and make
