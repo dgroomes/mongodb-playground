@@ -182,7 +182,7 @@ General clean-ups, TODOs and things I wish to implement for this project:
   in JSON, reminds me of if/else in JSP or XML elements. I will do this work in a new branch "incorporate-alternative".
   UPDATE: I figured out the right operators to use in an aggregation pipeline to upsert sub-documents that are stored in
   an array in a "$merge" stage! I will apply that to the refresh state function.
-* ("Speed up") Spread actual incrementalism into the "refreshAvgPopByStateInc" step.
+* DONE ("Speed up") Spread actual incrementalism into the "refreshAvgPopByStateInc" step.
 * DONE Turn the "bare averages" script into a normal materialized view refresh script, or a so-called "non-incremental"
   approach for refreshing a materialized view. In other words, actually commit the query results into a collection; thus
   it is a materialized view. This will slow down the execution time of the non-incremental approach significantly and make

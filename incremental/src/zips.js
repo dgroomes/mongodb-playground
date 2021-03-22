@@ -213,7 +213,7 @@ async function incorporateNewZips(db) {
 }
 
 /**
- * Refresh the incremental materialized views.
+ * Incrementally refresh the incremental materialized views.
  */
 async function refreshAllInc(db) {
   await incorporateNewZips(db)
@@ -350,12 +350,12 @@ async function incorporateIntoGroupedByState(db) {
 }
 
 /**
- * Refresh the incremental "by state" materialized view.
+ * Incrementally refresh the incremental "by state" materialized view.
  * @param db
  * @return {Promise<void>}
  */
 async function refreshAvgPopByStateInc(db) {
-  await db.collection("zips_grouped_by_state").aggregate([
+  const incorporatePipeline = [
     {
       "$project": {
         _id: "$_id",
@@ -372,8 +372,16 @@ async function refreshAvgPopByStateInc(db) {
         }
       }
     },
-    {$out: "zips_avg_pop_by_state_inc"}
-  ]).next()
+    {
+      $merge: {
+        into: "zips_avg_pop_by_state_inc"
+      }
+    }
+  ]
+
+  await matchUnprocessed(db, incorporatePipeline)
+
+  await db.collection("zips_grouped_by_state").aggregate(incorporatePipeline).next()
 }
 
 module.exports = {
