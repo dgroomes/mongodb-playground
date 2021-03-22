@@ -54,6 +54,8 @@ Pre-requisites: you must have NodeJS and MongoDB installed.
   * `npm install`
 * Load project-specific shell commands (see [`commands.sh`](#commandssh)):
   * `source commands.sh`
+* Set up the database:
+  * `doSetup`
 * Load a portion of the ZIP Code data:
   * `doImport1`
 * Compute the "averages" data using the non-incremental approach:
@@ -75,18 +77,19 @@ Pre-requisites: you must have NodeJS and MongoDB installed.
     existing materialized view and incorporated the new raw input data incrementally! By contrast, the non-incremental
     approach did a full re-computation of the averages data.
 * Now let's move on to executing a formal benchmark over the non-incremental vs. the incremental approaches. The first step
-  is to clear the existing data:
-  * `doDropAll`
+  is to clear the existing data and execute the set-up again:
+  * `doDropAll && doSetup`
 * Benchmark the non-incremental approach:
   * `doBenchmarkAvg`
 * Clear the data again and then execute the incremental approach:
-  * `doDropAll && doBenchmarkAvgInc`
+  * `doDropAll && doSetup && doBenchmarkAvgInc`
 
 ## `commands.sh`
 
 Source the `commands.sh` file using `source commands.sh` which will load your shell with useful
 commands. Commands include:
 
+* `doSetup` to set up the database's collections and indexes
 * `doImport1` to import split 1 of the ZIP Code data
 * `doImport2` to import split 2 of the ZIP Code data
 * `doImport3` to import split 3 of the ZIP Code data
@@ -106,6 +109,11 @@ commands. Commands include:
       least, that's my understanding so far).
 * [MongoDB: *Perform Incremental Map-Reduce*](https://docs.mongodb.com/manual/tutorial/perform-incremental-map-reduce/)
 * [NodeJS: *Easy profiling for Node.js Applications*](https://nodejs.org/en/docs/guides/simple-profiling/)
+
+## Notes
+
+* A shortcut to execute all setup steps and run the incremental approach:
+  * `doDropAll && doSetup && doImportAll && doAvgInc`
 
 ## Wish List
 
@@ -187,6 +195,10 @@ General clean-ups, TODOs and things I wish to implement for this project:
   approach for refreshing a materialized view. In other words, actually commit the query results into a collection; thus
   it is a materialized view. This will slow down the execution time of the non-incremental approach significantly and make
   for a more like-to-like comparison with the incremental approach.
+* DONE ("Speed up") Create an index on "last_modified" time. Not really sure this will make a big difference because it will only
+  speed up reads, but reads should already be ultra fast on a data set that's only a few megabytes (how do I check the
+  actual on-disk size of a collection in bytes?). UPDATE: it's implemented but not really sure it makes a significant different.
+  I see a 10-40ms improvement anecdotally in the later "splits" compared to without an index.
 * Starker performance view. Make the visual difference greater between the time it takes to execute the materialized view refresh
   at lower volumes of data (the first few levels of the "splits" loads) and larger data (when most of the "splits" data
   is loaded). Right now it's kind of flat; it starts at 200ms and goes to 300 and 400 but it's quite gradual. I think if

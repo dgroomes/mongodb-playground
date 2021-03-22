@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+doSetup() {
+  node src/zips-averages-incremental-setup.js
+}
+
 doImport1() {
   mongoimport --db test --collection zips <(sed -n '1,10000p;10001q' zips.json)
 }
