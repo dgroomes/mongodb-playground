@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 doSetup() {
-  node src/zips-averages-incremental-setup.js
+  node src/zips-setup.js
 }
 
 doImport1() {
