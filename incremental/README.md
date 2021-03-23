@@ -209,3 +209,6 @@ General clean-ups, TODOs and things I wish to implement for this project:
 * DONE Enable database performance profiling
 * Inspect MongoDB for slow queries. I want to know which queries are slow. I don't want to guess and the fruitlessly try
   to optimize something that turns out doesn't matter.
+* In the non-incremental approach, compute the state averages using the city averages. It's so slow to compute the state
+  averages using the raw zips data. It makes the speed comparison unfair when compared to the incremental approach. I want
+  the incremental approach to win on merit.  
