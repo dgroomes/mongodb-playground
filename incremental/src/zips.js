@@ -295,7 +295,7 @@ async function incorporateIntoGroupedByState(db) {
         whenMatched: [
           {
             $set: {
-              zip_areas: {
+              by_city_zip_summaries: {
                 $let: {
                   vars: {
                     incoming: {
