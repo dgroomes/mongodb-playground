@@ -18,34 +18,44 @@ async function benchmark(db, query) {
   const stream = process.stdout
 
   let docIdx = 0
-  let splitIdx = 0
+  let splitIdx = 1
   let zipAreasBuffer = []
+
+  // Insert the split data. This function declaration is unusual. I need to declare the insert code in a function because
+  // I need to be able to call it from inside the loop while and after the loop is done. So because I need to call the code
+  // twice, I need a function. Also I want the closures over "splitIdx" and "zipAreasBuffer" which is why I didn't declare
+  // this function at the top-level, where I would need to pass them as params instead of referencing them as closures.
+  async function insertSplit() {
+    readline.clearLine(stream, 0)
+    readline.cursorTo(stream, 0)
+    stream.write(`Executing split ${splitIdx}`)
+
+    await zips.insertMany(zipAreasBuffer)
+
+    const start = Date.now();
+    await query()
+    const end = Date.now();
+    const duration = end - start
+
+    readline.cursorTo(stream,0)
+    stream.write("")
+
+    // Record the timing results and clear the buffer
+    timings.push({ split: splitIdx, duration:  duration})
+    zipAreasBuffer = []
+  }
+
   for await (const zipArea of zipAreas) {
     docIdx++
     zipAreasBuffer.push(JSON.parse(zipArea))
 
     if (docIdx % SPLIT_SIZE === 0) {
+      await insertSplit()
       splitIdx++
-
-      readline.clearLine(stream, 0)
-      readline.cursorTo(stream, 0)
-      stream.write(`Executing split ${splitIdx}`)
-
-      await zips.insertMany(zipAreasBuffer)
-
-      const start = Date.now();
-      await query()
-      const end = Date.now();
-      const duration = end - start
-
-      readline.cursorTo(stream,0)
-      stream.write("")
-
-      // Record the timing results and clear the buffer
-      timings.push({ split: splitIdx, duration:  duration})
-      zipAreasBuffer = []
     }
   }
+  // Insert the remainder. This split will always be the shortest one.
+  await insertSplit()
 
   console.log("Benchmark complete. Execution timings for each phase:")
   console.table(timings)
