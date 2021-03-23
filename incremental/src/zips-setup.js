@@ -12,6 +12,12 @@ const {runWithDb} = require('./db')
 
 runWithDb(async db => {
 
+  // Enable profiling
+  // See https://docs.mongodb.com/manual/tutorial/manage-the-database-profiler/#enable-and-configure-database-profiling
+  const size = 100000000 // around 100MB
+  db.createCollection( "system.profile", { capped: true, size: size} )
+  await db.setProfilingLevel('slow_only')
+
   const collections = new Set([
     "zips",
     "zips_grouped_by_city",

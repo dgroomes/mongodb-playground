@@ -50,6 +50,8 @@ doBenchmarkAvgInc() {
 
 doDropAll() {
   mongo --quiet --eval '
+    db.setProfilingLevel(0)
+    db.system.profile.drop()
     db.zips.drop()
     db.app_meta_data.drop()
     db.zips_avg_pop_by_city.drop()
