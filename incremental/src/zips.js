@@ -344,7 +344,7 @@ async function incorporateIntoGroupedByState(db) {
     }
   ]
 
-  matchUnprocessed(db, incorporatePipeline)
+  await matchUnprocessed(db, incorporatePipeline)
 
   return await db.collection("zips_avg_pop_by_city_inc").aggregate(incorporatePipeline).next()
 }
