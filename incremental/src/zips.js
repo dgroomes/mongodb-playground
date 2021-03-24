@@ -41,15 +41,16 @@ function refreshAvgPopByCity(db) {
 }
 
 /**
- * Refresh the non-incremental "by state" materialized view.
+ * Refresh the non-incremental "by state" materialized view. This refresh process picks up where the "by city"
+ * materialized view left off and further aggregates the data by state.
  */
 function refreshAvgPopByState(db) {
-  return db.collection("zips").aggregate([
+  return db.collection("zips_avg_pop_by_city").aggregate([
     {
       $group: {
-        "_id": "$state",
-        state_zip_areas: {$sum: 1},
-        state_pop: {$sum: "$pop"}
+        "_id": "$_id.state",
+        state_zip_areas: {$sum: "$city_zip_areas"},
+        state_pop: {$sum: "$city_pop"}
       }
     },
     {
