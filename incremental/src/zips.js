@@ -36,7 +36,7 @@ function refreshAvgPopByCity(db) {
         }
       }
     },
-    {$out: "zips_avg_pop_by_city"}
+    {$merge: "zips_avg_pop_by_city"}
   ]).next()
 }
 
@@ -62,7 +62,7 @@ function refreshAvgPopByState(db) {
         }
       }
     },
-    {$out: "zips_avg_pop_by_state"}
+    {$merge: "zips_avg_pop_by_state"}
   ]).next()
 }
 
