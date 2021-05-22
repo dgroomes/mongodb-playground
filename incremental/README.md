@@ -206,6 +206,9 @@ General clean-ups, TODOs and things I wish to implement for this project:
   we just run 2, 3 or 4 refreshes for each split, then it will have the effect of magnifying the results (but of course
   that's not a realistic workload). Or, maybe do more splits, compute a rolling average as splits are loaded, and show exactly
   10 windows of this data (after all 29, which is what shows now, is too much for the screen)
+* IN PROGRESS Benchmarks should execute at the same time. This will create a racing effect which might be interesting.
+  This requires using two different collections or two different databases otherwise the processed will conflict as they
+  try to insert data into the same collection, resulting in duplicate keys.
 * DONE Enable database performance profiling
 * Inspect MongoDB for slow queries. I want to know which queries are slow. I don't want to guess and the fruitlessly try
   to optimize something that turns out doesn't matter.

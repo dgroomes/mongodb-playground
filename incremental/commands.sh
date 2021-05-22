@@ -40,12 +40,8 @@ doAvgInc() {
   node src/zips-averages-incremental.js
 }
 
-doBenchmarkAvg() {
-  node src/zips-averages-benchmark.js
-}
-
-doBenchmarkAvgInc() {
-  node src/zips-averages-incremental-benchmark.js
+doBenchmark() {
+  node src/zips-benchmark.js
 }
 
 doDropAll() {
