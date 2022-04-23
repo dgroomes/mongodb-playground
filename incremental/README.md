@@ -47,7 +47,7 @@ size of the input data grows.
 
 ## Instructions
 
-Pre-requisites: you must have NodeJS and MongoDB installed. 
+Follow these instructions to execute the example.
 
 1. Start a MongoDB server
 1. Install project dependencies
