@@ -24,33 +24,44 @@ and the accompanying maintenance it takes to refresh the view.
 
 ## Instructions
 
-Pre-requisites: you must have NodeJS and MongoDB installed. 
+Follow these instructions to execute the example. 
 
 1. Start a MongoDB server
 1. Install project dependencies
-   * `npm install`
+   * ```shell
+     npm install
+     ```
 1. Load the database with ZIP Code test data from the states of Georgia (GA) and Montana (MT):
-   * ```
+   * ```shell
      mongoimport --db test --collection zips zips-GA.json
      mongoimport --db test --collection zips zips-MT.json
      ```
 1. Perform an inaugural "refresh" of the materialized views by computing the "averages" data from the backing source data:
-   * `node src/zips-refresh-averages.js`
+   * ```shell
+     node src/zips-refresh-averages.js
+     ```
 1. Query the averages data from the materialized views:
-   * `node src/zips-averages.js`
+   * ```shell
+     node src/zips-averages.js
+     ```
    * The same data was returned, but no "averages" computation was actually done in this command! Rather, the query returned
      a copy of the "averages" data from the materialized view where it was already pre-computed in the earlier invocation
      of `zips-refresh-averages.js`.
 1. Repeat the same steps but this time pay attention to how long it takes to execute the commands. Let's make use of the
    `time` command. Execute the refresh three times and then the query to the materialized view three times:
-   * `time (node src/zips-refresh-averages.js; node src/zips-refresh-averages.js; node src/zips-refresh-averages.js)`
-   * On my computer, the three refreshes take around **2.5 seconds** total.
-   * `time (node src/zips-averages.js; node src/zips-averages.js; node src/zips-averages.js)`
-   * On my computer, the three queries to the materialized views take around **.5 seconds** total! Depending on the use case
-     and the volume of source data the time savings could be even larger. As in all things, experiment with your own data
+   * ```shell
+     time (node src/zips-refresh-averages.js; node src/zips-refresh-averages.js; node src/zips-refresh-averages.js)
+     ```
+   * On my computer, the three refreshes take around **1.5 seconds** total.
+   * ```shell
+     time (node src/zips-averages.js; node src/zips-averages.js; node src/zips-averages.js)
+     ```
+   * On my computer, the three queries to the materialized views take around **.8 seconds** total! Admittedly, this is
+     not very impressive, but imagine the savings for more large data sets. Depending on the use case and the volume of
+     source data the time savings could be even larger. As in all things, experiment with your own data
      to evaluate the time savings of a materialized view strategy and weigh that against the design complexity.
 
-## Referenced materials
+## Reference
 
 * [MongoDB: *MongoDB Node Driver*](https://docs.mongodb.com/drivers/node/)
 * [MongoDB: *Aggregation with the Zip Code Data Set* tutorial](https://docs.mongodb.com/manual/tutorial/aggregation-zip-code-data-set/)
@@ -59,6 +70,6 @@ Pre-requisites: you must have NodeJS and MongoDB installed.
 
 General clean-ups, TODOs and things I wish to implement for this project:
 
-* DONE Remove the "lastModified" stuff from this project.
-* DONE Consolidate the "refresh" code. I don't think the "grouped by city" intermediate aggregation is useful here. I think that
+* [x] DONE Remove the "lastModified" stuff from this project.
+* [x] DONE Consolidate the "refresh" code. I don't think the "grouped by city" intermediate aggregation is useful here. I think that
   is more useful for the `incremental/` sub-project
