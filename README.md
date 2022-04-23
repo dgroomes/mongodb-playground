@@ -9,7 +9,7 @@
 >
 > -- <cite>https://www.mongodb.com/3</cite>
 
-Note: this was developed on macOS.
+**NOTE**: This project was developed on macOS. It is for my own personal use.
 
 ## Standalone sub-projects
 
@@ -57,9 +57,9 @@ See the README in [misc/](misc/).
 
 General clean-ups, TODOs and things I wish to implement for this project:
 
-* DONE Create test data and load it into Mongo
-* DONE Create some test queries
-* DONE Incrementally update an aggregation ([see this MongoDB official example](https://docs.mongodb.com/manual/tutorial/perform-incremental-map-reduce/))
+* [x] DONE Create test data and load it into Mongo
+* [x] DONE Create some test queries
+* [x] DONE Incrementally update an aggregation ([see this MongoDB official example](https://docs.mongodb.com/manual/tutorial/perform-incremental-map-reduce/))
   * Note: We need a way to make the aggregation pipeline idempotent because there is lack of transaction support
     for aggregation pipelines using the `$merge` operator which I'm assuming we need. To cite the [docs](https://docs.mongodb.com/manual/reference/operator/aggregation/merge/#pipe._S_merge):
     "An aggregation pipeline cannot use $merge inside a transaction." So if there is no transaction support, there is the
@@ -77,12 +77,12 @@ General clean-ups, TODOs and things I wish to implement for this project:
     is to do it in the JSON before importing it via `mongoimport`. Another option is to run an update query right before doing
     any other queries to update documents where "lastModified" is unset.
   * DONE Keep track of "last loaded time"
-* DONE Split into standalone sub-projects. This will free us up for later to increase the cohesion of the sub-projects.
-* DONE Split the 'incremental/' sub-project into two: 1) a 'materialized/' sub-project that implements a materialized view of
+* [x] DONE Split into standalone sub-projects. This will free us up for later to increase the cohesion of the sub-projects.
+* [x] DONE Split the 'incremental/' sub-project into two: 1) a 'materialized/' sub-project that implements a materialized view of
   the ZIP averages data but without incremental support. And 2) the 'incremental/' sub-project which is also an implementation
   of a materialized view of the data but which also supports incremental load. I realize I was conflating these two concepts
   in the existing 'incremental/' sub-project.
-* Compute "Overall ZIP area population average" in addition to "by city" and "by state". This will make the advantage
+* [ ] Compute "Overall ZIP area population average" in addition to "by city" and "by state". This will make the advantage
   of the "materialized view" use case clearer because the number of analytical data sets are increased by 50% while the
   backing source data is unchanged. In other words, the disparity between cached and uncached (materialized vs non-materialized)
   is even more pronounced. (Aside: wow, ZIP codes, containing states, and "overall" (i.e. containing country) makes for

@@ -2,6 +2,7 @@ version: "3.9"
 
 services:
   mongo:
-    image: mongo:4.4
+    # Find the latest Mongo version in the release notes: https://www.mongodb.com/docs/manual/release-notes/
+    image: mongo:5.0
     ports:
       - "27017:27017"

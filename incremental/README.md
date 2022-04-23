@@ -49,40 +49,62 @@ size of the input data grows.
 
 Pre-requisites: you must have NodeJS and MongoDB installed. 
 
-* Start a MongoDB server
-* Install project dependencies
-  * `npm install`
-* Load project-specific shell commands (see [`commands.sh`](#commandssh)):
-  * `source commands.sh`
-* Set up the database:
-  * `doSetup`
-* Load a portion of the ZIP Code data:
-  * `doImport1`
-* Compute the "averages" data using the non-incremental approach:
-  * `doAvg`
-* Compute the "averages" data using the incremental approach:
-  * `doAvgInc`
-  * The results printed to the console should be the same between the non-incremental and the incremental approaches.
-* Load the remainder of the ZIP Code data
-  * ```
-    doImport2
-    doImport3
-    ```
-* Compute a new version of the "averages" data using the non-incremental approach:
-  * `doAvg`
-* Compute a new version of the "averages" data using the incremental approach:
-  * `doAvgInc`
-  * Again, you should notice that the results printed to the console should be the same between the non-incremental and
-    the incremental approach, but the distinction is what happened under the scenes: the incremental approach re-used the
-    existing materialized view and incorporated the new raw input data incrementally! By contrast, the non-incremental
-    approach did a full re-computation of the averages data.
-* Now let's move on to executing a formal benchmark over the non-incremental vs. the incremental approaches. The first step
+1. Start a MongoDB server
+1. Install project dependencies
+   * ```shell
+     npm install
+     ```
+1. Load project-specific shell commands (see [`commands.sh`](#commandssh)):
+   * ```shell
+     source commands.sh
+     ```
+1. Set up the database:
+   * ```shell
+     doSetup
+     ```
+1. Load a portion of the ZIP Code data:
+   * ```shell
+     doImport1
+     ```
+1. Compute the "averages" data using the non-incremental approach:
+   * ```shell
+     doAvg
+     ```
+1. Compute the "averages" data using the incremental approach:
+   * ```shell
+     doAvgInc
+     ```
+   * The results printed to the console should be the same between the non-incremental and the incremental approaches.
+1. Load the remainder of the ZIP Code data
+   * ```shell
+     doImport2
+     doImport3
+     ```
+1. Compute a new version of the "averages" data using the non-incremental approach:
+   * ```shell
+     doAvg
+     ```
+1. Compute a new version of the "averages" data using the incremental approach:
+   * ```shell
+     doAvgInc
+     ```
+   * Again, you should notice that the results printed to the console should be the same between the non-incremental and
+     the incremental approach, but the distinction is what happened under the scenes: the incremental approach re-used the
+     existing materialized view and incorporated the new raw input data incrementally! By contrast, the non-incremental
+     approach did a full re-computation of the averages data.
+1. Now let's move on to executing a formal benchmark over the non-incremental vs. the incremental approaches. The first step
   is to clear the existing data and execute the set-up again:
-  * `doDropAll && doSetup`
-* Benchmark the non-incremental approach:
-  * `doBenchmarkAvg`
-* Clear the data again and then execute the incremental approach:
-  * `doDropAll && doSetup && doBenchmarkAvgInc`
+   * ```shell
+     doDropAll && doSetup
+     ```
+1. Benchmark the non-incremental approach:
+   * ```shell
+     doBenchmarkAvg
+     ```
+1. Clear the data again and then execute the incremental approach:
+   * ```shell
+     doDropAll && doSetup && doBenchmarkAvgInc
+     ```
 
 ## `commands.sh`
 
@@ -99,7 +121,7 @@ commands. Commands include:
 * `doBenchmarkAvgInc` benchmark the incremental approach over multiple phases of loading the splits 
 * `doDropAll` drop all collections
 
-## Referenced materials
+## Reference
 
 * [MongoDB: *Aggregation with the Zip Code Data Set* tutorial](https://docs.mongodb.com/manual/tutorial/aggregation-zip-code-data-set/)
 * [MongoDB: *Data Model Design*](https://docs.mongodb.com/manual/core/data-model-design)
@@ -120,12 +142,12 @@ commands. Commands include:
 
 General clean-ups, TODOs and things I wish to implement for this project:
 
-* DONE Clean this up. I'm not sure exactly how. Maybe I need to upgrade to a proper NodeJS project instead of having so much
+* [x] DONE Clean this up. I'm not sure exactly how. Maybe I need to upgrade to a proper NodeJS project instead of having so much
   scripting in the individual JS files which get executed by the mongo shell. I could get some code re-use with the `printAFewRecords`
   function for example.
   * DONE. Upgrade to a NodeJS project to better organize the code.
   * DONE Consolidate common code between `zips-averages.js` and `zips-averages-incremental.js`
-* DONE (but needs testing) Support incremental updates for "Average population of the ZIP areas for each city" when replacement ZIP area
+* [x] DONE (but needs testing) Support incremental updates for "Average population of the ZIP areas for each city" when replacement ZIP area
   data points are added. For example, the population for ZIP code 01001 (Agawam, MA) was 15,338 but at a later date increased
   to 15,776. Why is this interesting? Well, the existing map-reduce and "aggregation pipeline" examples I've seen are only
   additive, they don't actually replace old data. So, I think this will be an interesting example to see how it can actually
@@ -136,7 +158,7 @@ General clean-ups, TODOs and things I wish to implement for this project:
   area documents. But I have not created new "replacement" or "overriding" ZIP Code data to test this out. I would like
   to generate a lot of ZIP code data to do more volume testing, so in general I want to revamp the test data strategy but
   it will be an effort.  
-* DONE Illustrate the performance advantage between incremental and non-incremental. This will require quite a bit of code especially
+* [x] DONE Illustrate the performance advantage between incremental and non-incremental. This will require quite a bit of code especially
   around generating test data. I think a lot of test data will be needed. If there is too little test data, I think the
   execution times between incremental and non-incremental will be negligible because a lot of time is spent in the "fixed costs"
   of NodeJS startup and MongoDB query parsing and data fetching. These fixed costs should instead be amortized across a
@@ -147,16 +169,16 @@ General clean-ups, TODOs and things I wish to implement for this project:
   and initialize the database 2) load split #1 of the data 3) Compute the averages (either incrementally
   or non-incrementally depending on what is being tests) and then 4) repeat steps #2 and #3 until all splits are loaded
   5) print timing results.
-* DONE De-couple the "incremental average" script (`zips-averages-incremental.js`) from the "bare average" script (`zips-averages.js`).
+* [x] DONE De-couple the "incremental average" script (`zips-averages-incremental.js`) from the "bare average" script (`zips-averages.js`).
   The "bare average" script only exists to create a performance baseline of "how long does it take to compute an average
   across the set of raw input data" whereas the "incremental average" script is a wholesale replacement for the "bare average"
   script. In theory it should execute more quickly for averages computations when incremental input data is added. Currently
   the "bare average" script saves into an indermediate collection. It shouldn't. It should just be a simple query to compute
   the averages.
-* DONE push functions into `zips.js` and have thin scripts for actually running the functions. I.e. the `zips-averages.js`
+* [x] DONE push functions into `zips.js` and have thin scripts for actually running the functions. I.e. the `zips-averages.js`
   script should import the averaging functions from `zips.js`. This paves the way for creating the performance test runner
   scripts which will also import the averaging functions from `zips.js`.
-* Speed up the incremental script. It is really slow compared to the non-incremental script, but the whole point of this
+* [ ] Speed up the incremental script. It is really slow compared to the non-incremental script, but the whole point of this
   project is to show how an incremental approach can be faster! There are a lot of options here. First and foremost is
   to weed out already processed data. This can be done by creating a new field named "loaded". It will store a boolean
   to indicate if the data has been loaded or not. This should be indexed. In fact, if possible, it should use a partial
@@ -165,10 +187,10 @@ General clean-ups, TODOs and things I wish to implement for this project:
   new ZIP area records that need to be incorporated. After an incremental load, this can be blow away. This should be faster
   than an index. Moving on from this, the averaging computation across the cities and states should use use a "needs updating"
   flag approach to reduce computation of already computed data.
-* DONE ("Speed up") Spread actual incrementalism into "refreshAvgPopByCityInc". Currently, "refreshAvgPopByCityInc"
+* [x] DONE ("Speed up") Spread actual incrementalism into "refreshAvgPopByCityInc". Currently, "refreshAvgPopByCityInc"
   is not actually incremental. To make it incremental, only visit those entries that were recently modified in the "zips_grouped_by_city"
   collection and then compute the new city average and merge the results into "zips_avg_pop_by_city_inc"
-* DONE ("Speed up") Spread actual incrementalism into "refreshGroupedByState" step. Note: while implementing this
+* [x] DONE ("Speed up") Spread actual incrementalism into "refreshGroupedByState" step. Note: while implementing this
   I have a challenge with the timestamps that is making the query not idempotent. For example, the "Springfield, MA"
   aggregation is counted twice in the "zips_grouped_by_state" aggregation:
   ```
@@ -191,24 +213,24 @@ General clean-ups, TODOs and things I wish to implement for this project:
   in JSON, reminds me of if/else in JSP or XML elements. I will do this work in a new branch "incorporate-alternative".
   UPDATE: I figured out the right operators to use in an aggregation pipeline to upsert sub-documents that are stored in
   an array in a "$merge" stage! I will apply that to the refresh state function.
-* DONE ("Speed up") Spread actual incrementalism into the "refreshAvgPopByStateInc" step.
-* DONE Turn the "bare averages" script into a normal materialized view refresh script, or a so-called "non-incremental"
+* [x] DONE ("Speed up") Spread actual incrementalism into the "refreshAvgPopByStateInc" step.
+* [x] DONE Turn the "bare averages" script into a normal materialized view refresh script, or a so-called "non-incremental"
   approach for refreshing a materialized view. In other words, actually commit the query results into a collection; thus
   it is a materialized view. This will slow down the execution time of the non-incremental approach significantly and make
   for a more like-to-like comparison with the incremental approach.
-* DONE ("Speed up") Create an index on "last_modified" time. Not really sure this will make a big difference because it will only
+* [x] DONE ("Speed up") Create an index on "last_modified" time. Not really sure this will make a big difference because it will only
   speed up reads, but reads should already be ultra fast on a data set that's only a few megabytes (how do I check the
   actual on-disk size of a collection in bytes?). UPDATE: it's implemented but not really sure it makes a significant different.
   I see a 10-40ms improvement anecdotally in the later "splits" compared to without an index.
-* Starker performance view. Make the visual difference greater between the time it takes to execute the materialized view refresh
+* [ ] Starker performance view. Make the visual difference greater between the time it takes to execute the materialized view refresh
   at lower volumes of data (the first few levels of the "splits" loads) and larger data (when most of the "splits" data
   is loaded). Right now it's kind of flat; it starts at 200ms and goes to 300 and 400 but it's quite gradual. I think if
   we just run 2, 3 or 4 refreshes for each split, then it will have the effect of magnifying the results (but of course
   that's not a realistic workload). Or, maybe do more splits, compute a rolling average as splits are loaded, and show exactly
   10 windows of this data (after all 29, which is what shows now, is too much for the screen)
-* DONE Enable database performance profiling
-* Inspect MongoDB for slow queries. I want to know which queries are slow. I don't want to guess and the fruitlessly try
+* [x] DONE Enable database performance profiling
+* [ ] Inspect MongoDB for slow queries. I want to know which queries are slow. I don't want to guess and the fruitlessly try
   to optimize something that turns out doesn't matter.
-* DONE In the non-incremental approach, compute the state averages using the city averages. It's so slow to compute the state
+* [x] DONE In the non-incremental approach, compute the state averages using the city averages. It's so slow to compute the state
   averages using the raw zips data. It makes the speed comparison unfair when compared to the incremental approach. I want
   the incremental approach to win on merit.  
